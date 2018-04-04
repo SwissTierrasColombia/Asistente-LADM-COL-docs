@@ -14,6 +14,7 @@ Bienvenido a la documentation del Asistente de LADM_COL!
       install <ins.rst>
       help <help.rst>
       cadastre <cadas.rst>
+      Codigo <code.rst>
 
 
 Indices and tables

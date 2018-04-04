@@ -41,6 +41,9 @@ release = ''
 extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.todo',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.autodoc',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -158,3 +161,5 @@ texinfo_documents = [
 
 
 # -- Extension configuration -------------------------------------------------
+import sys,os
+sys.path.insert(0, os.path.abspath("."))
