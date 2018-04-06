@@ -6,7 +6,7 @@ env:
     - REMOTE_REPO_OWNER='AgenciaImplementacion'
     - REMOTE_REPO_NAME='Asistente-LADM_COL'
 install:
-  - cat packages.txt | xargs apt-get install 
+  - cat packages.txt | xargs sudo apt-get install 
   - pip install -r requirements.txt
 
 script:
