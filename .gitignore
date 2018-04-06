@@ -1,3 +1,8 @@
 en/_build/
 es/_build/
 .directory
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
