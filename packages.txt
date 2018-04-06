@@ -1,1 +1,1 @@
-qt5-dev-tools
+qttools5-dev-tools
