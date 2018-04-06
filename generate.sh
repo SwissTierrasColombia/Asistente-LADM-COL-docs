@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash -eux
 
 cd en/
 make html

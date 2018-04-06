@@ -1,0 +1,16 @@
+language: python
+python:
+  - 3.6
+env:
+  global:
+    - REMOTE_REPO_OWNER='AgenciaImplementacion'
+    - REMOTE_REPO_NAME='Asistente-LADM_COL'
+install:
+  - cat packages.txt | xargs sudo apt-get install 
+  - pip install -r requirements.txt
+
+script:
+  - ./generate.sh
+
+after_success:
+  - ./deploy.sh

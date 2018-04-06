@@ -1,0 +1,2 @@
+qttools5-dev-tools
+qt5-default
