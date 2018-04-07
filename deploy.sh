@@ -21,6 +21,7 @@ add_repo() {
 
 add_files() {
   pushd ${REMOTE_REPO_NAME}
+  rm -rf en es
   cp -r ../en/_build/ en
   cp -r ../es/_build/ es
   git add .
