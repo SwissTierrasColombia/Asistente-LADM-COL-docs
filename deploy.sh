@@ -24,7 +24,7 @@ add_files() {
   cp -r ../en/_build/ en
   cp -r ../es/_build/ es
   git add .
-  git commit --all --message "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
+  git commit -m "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
   popd
 }
 
