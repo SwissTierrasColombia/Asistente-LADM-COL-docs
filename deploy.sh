@@ -10,7 +10,7 @@
 REMOTE_REPO_SLUG="$REMOTE_REPO_OWNER/$REMOTE_REPO_NAME"
 
 add_repo() {
-  #rm -rf ${REMOTE_REPO_NAME} # repo never exists in travis
+  rm -rf ${REMOTE_REPO_NAME} # repo never exists in travis
   git clone -b gh-pages --depth 10 https://github.com/${REMOTE_REPO_SLUG}
   pushd ${REMOTE_REPO_NAME}
   # GH_ADMINAGENCIAIMPL_ACCESS_TOKEN is stablished in travis interface as private env var
@@ -21,15 +21,18 @@ add_repo() {
 
 add_files() {
   pushd ${REMOTE_REPO_NAME}
+  rm -rf en es
   cp -r ../en/_build/ en
   cp -r ../es/_build/ es
   git add .
-  git commit --all --message "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
+  git commit -m "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
   popd
 }
 
 upload_files() {
-  git push origin-pages gh-pages
+  pushd ${REMOTE_REPO_NAME}
+  git push -u origin-pages gh-pages
+  popd
 }
 
 add_repo
