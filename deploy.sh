@@ -21,9 +21,10 @@ add_repo() {
 
 add_files() {
   pushd ${REMOTE_REPO_NAME}
+  # WARNING: cambie esto si se necesitan agregar más archivo al despliegue
   rm -rf en es
-  cp -r ../en/_build/ en
-  cp -r ../es/_build/ es
+  cp -r ../en/build/html en
+  cp -r ../es/build/html es
   git add .
   git commit -m "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
   popd
