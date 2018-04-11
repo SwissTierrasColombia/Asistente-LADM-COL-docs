@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agencia de Implementación
+# This file is distributed under the same license as the ladm_a_docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ladm_a_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-10 15:18-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../cadas.rst:2
+msgid "Cadastre"
+msgstr ""
+
+#: ../../cadas.rst:5
+msgid "Spatial Unit"
+msgstr ""
+
+#: ../../cadas.rst:7
+msgid ""
+"In this process you define the new spatial objects that you want to add "
+"to the database with the structure of the LADM_COL model."
+msgstr ""
+
+#: ../../cadas.rst:9
+msgid "Use this for your work and be happy!!!"
+msgstr ""
+
+#: ../../cadas.rst:12
+msgid "Add Points"
+msgstr ""
+
+#: ../../cadas.rst:21
+msgid "Define Boundaries"
+msgstr ""
+
+#: ../../cadas.rst:30
+msgid "Create plot"
+msgstr ""
+
+#: ../../cadas.rst:39
+msgid "BA Unit"
+msgstr ""
+
+#: ../../cadas.rst:42
+msgid "Parcel"
+msgstr ""
+
+#: ../../cadas.rst:51 ../../cadas.rst:54
+msgid "Party"
+msgstr ""
+
+#: ../../cadas.rst:57
+msgid "RRR"
+msgstr ""
+
+#: ../../cadas.rst:60
+msgid "Right"
+msgstr ""
+
+#: ../../cadas.rst:63
+msgid "Restriccion"
+msgstr ""
+
+#: ../../cadas.rst:66
+msgid "Risponsibility"
+msgstr ""
+
+#: ../../cadas.rst:69
+msgid "Source"
+msgstr ""
+
+#: ../../cadas.rst:72
+msgid "Quality"
+msgstr ""
+
+#: ../../cadas.rst:75
+msgid "Check Too Long Boundary segments"
+msgstr ""
+
+#~ msgid ""
+#~ "In this process you define the "
+#~ "spatial objects that you want to "
+#~ "add to the database with the "
+#~ "structure of the LADM_COL model."
+#~ msgstr ""
+

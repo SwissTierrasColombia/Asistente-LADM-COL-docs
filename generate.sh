@@ -1,15 +1,11 @@
 #!/bin/bash -eux
 
-cd en/
-make html
-make qthelp
-qcollectiongenerator build/qthelp/*.qhcp
-#assistant -collectionFile build/qthelp/ladm_a_docs.qhc
-cd ..
+make -e SPHINXOPTS="-D language='en'" LANG='en' html
+make -e SPHINXOPTS="-D language='en'" LANG='en' qthelp
+qcollectiongenerator build/en/qthelp/*.qhcp
+#assistant -collectionFile build/en/qthelp/ladm_a_docs.qhc
 
-cd es/
-make html
-make qthelp
-qcollectiongenerator build/qthelp/*.qhcp
-#assistant -collectionFile build/qthelp/ladm_a_docs.qhc
-cd ..
+make -e SPHINXOPTS="-D language='es'" LANG='es' html
+make -e SPHINXOPTS="-D language='es'" LANG='es' qthelp
+qcollectiongenerator build/es/qthelp/*.qhcp
+#assistant -collectionFile build/es/qthelp/ladm_a_docs.qhc

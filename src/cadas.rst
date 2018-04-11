@@ -4,6 +4,10 @@ Cadastre
 Spatial Unit
 =============
 
+In this process you define the new spatial objects that you want to add to the database with the structure of the LADM_COL model.
+
+Only use.
+
 Add Points
 ------------
 
