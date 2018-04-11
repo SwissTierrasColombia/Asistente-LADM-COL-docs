@@ -1,5 +1,6 @@
 #!/bin/bash -eux
 
+cd src
 make -e SPHINXOPTS="-D language='en'" LANG='en' html
 make -e SPHINXOPTS="-D language='en'" LANG='en' qthelp
 qcollectiongenerator build/en/qthelp/*.qhcp

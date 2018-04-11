@@ -15,5 +15,10 @@ sh generate.sh
 Para ver la documentación puede usar assistant si esta instalado ejecutando el siguiente comando:
 
 ```bash
-assistant -collectionFile build/qthelp/*.qhc
+assistant -collectionFile build/en/qthelp/ladm_a_docs.qhc
 ```
+
+```bash
+assistant -collectionFile build/es/qthelp/ladm_a_docs.qhc
+```
+
