@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ladm_a_docs'
+project = 'LADM_COL Assistant'
 copyright = '2018, Agencia de Implementación'
 author = 'Fernando Pineda'
 
@@ -82,10 +82,13 @@ pygments_style = 'sphinx'
 html_theme = 'nature'#'alabaster,classic,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
+# further.  For a lhtml_theme = "classic"
 # documentation.
 #
 # html_theme_options = {}
+html_theme_options = {
+    'fixed_sidebar': 'true',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
