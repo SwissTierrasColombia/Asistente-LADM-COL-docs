@@ -79,16 +79,34 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'nature'#'alabaster,classic,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
+html_theme = 'sphinx_rtd_theme'#'alabaster,classic,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a lhtml_theme = "classic"
 # documentation.
 #
 # html_theme_options = {}
+# for sphinx_rtd_theme
 html_theme_options = {
-    'fixed_sidebar': 'true',
+    'display_version': 'true',
+    'sticky_navigation': 'true'
 }
+
+# for Alabaster
+# html_theme_options = {
+#     'fixed_sidebar': 'true',
+# }
+
+# for Classic
+# html_theme_options = {
+#     'stickysidebar': 'true',
+# }
+
+# for bizstyle
+# html_theme_options = {
+#     'stickysidebar': 'true',
+# }
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
