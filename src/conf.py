@@ -79,7 +79,8 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'#'alabaster,classic,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
+html_theme = 'sphinx_rtd_theme'
+#'alabaster,,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a lhtml_theme = "classic"
@@ -187,3 +188,5 @@ sys.path.insert(0, os.path.abspath(".."))
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False
+gettext_enables = ['index']
+gettext_ignore_index = False

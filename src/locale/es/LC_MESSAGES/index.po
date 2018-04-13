@@ -1,44 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2018, Agencia de Implementación
-# This file is distributed under the same license as the ladm_a_docs
+# This file is distributed under the same license as the LADM_COL Assistant
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ladm_a_docs \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 14:13-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2018-04-13 13:34-0500\n"
+"PO-Revision-Date: 2018-04-13 15:09-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: ../../index.rst:7
-msgid "Bienvenido a la documentation del Asistente de LADM_COL!"
-msgstr ""
+# d00dc9c4f90a4c2891552411f88fceaa
+#: ../../index.rst:8
+msgid "Welcome to the Assistant's documentation LADM_COL!"
+msgstr "Asistente LADM_COL"
 
-#: ../../index.rst:9
+# 6040bb8bd85a47389605074228a750b0
+#: ../../index.rst:11
 msgid "Contents:"
-msgstr ""
-
-#: ../../index.rst:21
-msgid "Indices and tables"
-msgstr ""
-
-#: ../../index.rst:23
-msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../index.rst:24
-msgid ":ref:`modindex`"
-msgstr ""
-
-#: ../../index.rst:25
-msgid ":ref:`search`"
-msgstr ""
-
+msgstr "Contenido:"

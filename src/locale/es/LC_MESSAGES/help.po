@@ -1,75 +1,170 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2018, Agencia de Implementación
-# This file is distributed under the same license as the ladm_a_docs
+# This file is distributed under the same license as the LADM_COL Assistant
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ladm_a_docs \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 14:13-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2018-04-13 15:33-0500\n"
+"PO-Revision-Date: 2018-04-13 16:14-0500\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../../help.rst:2
-msgid "Ayuda del plugin"
-msgstr ""
-
-#: ../../help.rst:3
-msgid ""
-"That has a paragraph about a main subject and is set when the '=' is at "
-"least the same length of the title itself."
-msgstr ""
-
-#: ../../help.rst:7
-msgid "Subject Subtitle"
-msgstr ""
-
-#: ../../help.rst:8
-msgid ""
-"Subtitles are set with '-' and are required to have the same length of "
-"the subtitle itself, just like titles."
-msgstr ""
+msgid "Settings"
+msgstr "Configuración"
 
 #: ../../help.rst:11
-msgid "Lists can be unnumbered like:"
-msgstr ""
+msgid "Database Connection"
+msgstr "Conexión a base de datos"
 
 #: ../../help.rst:13
-msgid "Item Foo"
+msgid ""
+"In this tab, the parameters are defined to connect to the database in "
+"which the physical model of LADM_COL is stored."
 msgstr ""
-
-#: ../../help.rst:14
-msgid "Item Bar"
-msgstr ""
+"En esta pestaña, los parámetros son definidos para conectarse a la base "
+"de datos en la que se almacena el modelo físico de LADM_COL."
 
 #: ../../help.rst:16
-msgid "Or automatically numbered:"
-msgstr ""
+msgid "These parameters are: \\"
+msgstr "Estos parámetros son: \\"
 
 #: ../../help.rst:18
-msgid "Item 1"
-msgstr ""
+msgid "*Common parameters*"
+msgstr "*Parámetros comunes*"
 
-#: ../../help.rst:19
-msgid "Item 2"
+#: ../../help.rst:20
+msgid ""
+"**Source**: define the origin of the data, it can be a spatial database "
+"*PostgreSQL/PostGIS* or *GeoPackage*."
 msgstr ""
-
-#: ../../help.rst:22
-msgid "Inline Markup"
-msgstr ""
+"**Fuente**: define el origen de los datos, estos pueden ser una base de "
+"datos espacial de *PostgreSQL/PostGIS* o *GeoPackage*."
 
 #: ../../help.rst:23
-msgid ""
-"Words can have *emphasis in italics* or be **bold** and you can define "
-"code samples with back quotes, like when you talk about a command: "
-"``sudo`` gives you super user powers!"
-msgstr ""
+msgid "*Only PostgreSQL/PostGIS parameters*"
+msgstr "*Parámetros solo para PostgreSQL/PostGIS*"
 
+#: ../../help.rst:25
+msgid ""
+"**Host**: address where the database is hosted *localhost* is equivalent "
+"to *127.0.0.1*"
+msgstr ""
+"**Host**: dirección donde la base de datos esta alojada *localhost* es "
+"equivalente a *127.0.0.1*"
+
+#: ../../help.rst:28
+msgid "**Port**: listening port number for the database"
+msgstr "**Puerto**: puerto de escucha para la base de datos"
+
+#: ../../help.rst:30
+msgid ""
+"**Database**: Name of the database that contains or will contain the "
+"physical model of LADM_COL"
+msgstr ""
+"**Base de datos**: Nombre de la base de datos que contiene o contendrá "
+"el modelo físico de LADM_COL"
+
+#: ../../help.rst:33
+msgid ""
+"**Schema**: Name of the schema that stores the objects of the physical "
+"model of LADM_COL"
+msgstr ""
+"**Esquema**: Nombre del esquema en el cual se almacenan los objetos del "
+"modelo físico de LADM_COL"
+
+#: ../../help.rst:36
+msgid "**User**: User name that has permission on the database"
+msgstr ""
+"**Usuario**: Nombre de usuario que tiene permisos sobre la base de datos"
+
+#: ../../help.rst:38
+msgid "**Password**: user's password"
+msgstr "**Contraseña**: Contraseña de usuario"
+
+#: ../../help.rst:40
+msgid "*Only GeoPackage parameters*"
+msgstr "*Parámetros solo para GeoPackage*"
+
+#: ../../help.rst:42
+msgid ""
+"**Database File**: Disk location of the GeoPakage file that contains the "
+"database."
+msgstr ""
+"** Archivo de base de datos **: Ubicación del disco del archivo "
+"GeoPakage que contiene la base de datos."
+
+#: ../../help.rst:45
+msgid ""
+"The *Test Connection* button is used to know if the entered parameters "
+"are correct and allow connection to the database"
+msgstr ""
+"El botón *Probar conexión* se usa para saber si los parámetros "
+"ingresados son correctos y permiten la conexión a la base de datos"
+
+#: ../../help.rst:49
+msgid "Quality"
+msgstr "Calidad"
+
+#: ../../help.rst:51
+msgid ""
+"For data quality issues in this tab, the tolerance limit allowed for too "
+"long boundary segments is established, this must be defined in meters."
+msgstr ""
+"Para problemas de calidad de datos en esta pestaña, se establece el "
+"límite de tolerancia permitido para segmentos de límite demasiado "
+"largos, esto debe definirse en metros."
+
+#: ../../help.rst:55
+msgid "Automatic Values"
+msgstr "Valores Automaticos"
+
+#: ../../help.rst:57
+msgid ""
+"Most of the classes in LADM_COL have two attibutes that combined must be "
+"unique in the whole ``schema/database``. They are called **namespace** "
+"and **local_id**. To make it easier to fill those attibutes, the "
+"*LADM_COL assistant* can set automatic values for them."
+msgstr ""
+"La mayoría de las clase en  LADM_COL tienen dos atributos cuya "
+"combinación debe ser única en el ``schema/database``. Estos son llamados "
+"**espacio_de_nombres** y **local_id**. Para facilitar el llenado de "
+"dichos atributos, el *Asistente LADM_COL* puede definir valores "
+"automáticos."
+
+#: ../../help.rst:62
+msgid ""
+"Namely, **namespace** will correspond to an optional pefix (e.g., "
+"MY_ORGANIZATION) plus the class name (e.g., BOUNDARY): "
+"`MY_ORGANIZATION_BOUNDARY`."
+msgstr ""
+"Concretamente, *espacio_de_nombres* corresponderá a un prefijo opcional "
+"(p.e., MI_ORGANIZACION) más el nombre de la clase (p.e., LINDERO): "
+"MI_ORGANIZACION_LINDERO."
+
+#: ../../help.rst:66
+msgid ""
+"On the other hand, **local_id** will correspond to the id of the record "
+"in the database."
+msgstr ""
+"Por otro lado, **local_id** corresponderá al ID del registro en la base "
+"de datos."
+
+#: ../../help.rst:69
+msgid ""
+"If you want to fill those values by youtself, uncheck the check boxes in "
+"this form."
+msgstr ""
+"Si por el contrario quieres llenar los datos manualmente, desmarca las "
+"cajas en el formulario."

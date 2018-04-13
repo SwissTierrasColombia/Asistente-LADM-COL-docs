@@ -1,6 +1,7 @@
 #!/bin/bash -eux
 
 cd src
+sphinx-intl update -p locale
 make -e SPHINXOPTS="-D language='en'" LANG='en' html
 make -e SPHINXOPTS="-D language='en'" LANG='en' qthelp
 qcollectiongenerator build/en/qthelp/*.qhcp
