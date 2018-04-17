@@ -16,6 +16,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# Fix for error "cannot import name 'make_admonition'".
+# https://github.com/spinus/sphinxcontrib-images/issues/41
+from docutils.parsers.rst.directives.admonitions import BaseAdmonition
+from sphinx.util import compat
+compat.make_admonition = BaseAdmonition
+
+
 
 # -- Project information -----------------------------------------------------
 
@@ -42,6 +49,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
+    'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
 ]
@@ -185,6 +193,11 @@ texinfo_documents = [
 # -- Extension configuration -------------------------------------------------
 import sys,os
 sys.path.insert(0, os.path.abspath(".."))
+
+images_config = {
+    'override_image_directive': False,
+    'default_image_width': '50%'
+    }
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False
