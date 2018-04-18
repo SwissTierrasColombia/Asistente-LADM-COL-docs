@@ -88,7 +88,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-#'alabaster,,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
+# 'alabaster,,agogo,sphinxdoc,scrolls,traditional,nature,haiku,pyramid,bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a lhtml_theme = "classic"
@@ -195,8 +195,8 @@ import sys,os
 sys.path.insert(0, os.path.abspath(".."))
 
 images_config = {
-    'override_image_directive': False,
-    'default_image_width': '50%'
+    'override_image_directive': True,
+    'default_image_width': '100%'
     }
 
 locale_dirs = ['locale/']   # path is example but recommended.
