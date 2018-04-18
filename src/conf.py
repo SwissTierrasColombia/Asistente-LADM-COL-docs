@@ -16,12 +16,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-# Fix for error "cannot import name 'make_admonition'".
-# https://github.com/spinus/sphinxcontrib-images/issues/41
-from docutils.parsers.rst.directives.admonitions import BaseAdmonition
-from sphinx.util import compat
-compat.make_admonition = BaseAdmonition
-
 
 
 # -- Project information -----------------------------------------------------
@@ -196,7 +190,9 @@ sys.path.insert(0, os.path.abspath(".."))
 
 images_config = {
     'override_image_directive': True,
-    'default_image_width': '100%'
+    'default_image_width': '100%',
+    'show_caption': True,
+    'download': True
     }
 
 locale_dirs = ['locale/']   # path is example but recommended.
