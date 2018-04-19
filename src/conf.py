@@ -24,6 +24,7 @@ project = 'LADM_COL Assistant'
 copyright = '2018, Agencia de Implementación'
 author = 'Fernando Pineda'
 
+scv_greatest_tag = True
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
@@ -65,7 +66,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'es'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
