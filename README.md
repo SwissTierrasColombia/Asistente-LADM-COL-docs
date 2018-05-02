@@ -2,6 +2,23 @@
 
 Documentación del plugin Asistente de LADM_COL para QGIS
 
+## Instalar Requerimientos
+
+Para instalar los requerimientos de python ejecute el siguiente comando:
+
+```bash
+sudo pip install -r requirements.txt
+```
+
+los requerimientos de QT para la documentación en este formato bajo ubuntu son:
+
+```bash
+apt-get install qttools5-dev-tools qt5-default
+```
+
+Para otros sistemas operativos es necesario instalar software equivalentes
+
+
 ## Generar Documentación
 
 Para generar la documentación ejecute el siguiente comando:
