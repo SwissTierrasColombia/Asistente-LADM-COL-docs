@@ -18,11 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../../index.rst:8
-msgid "Welcome to the Assistant's documentation LADM_COL!"
+#: ../../../cadastre/Quality.rst:2
+msgid "Quality"
 msgstr ""
 
-#: ../../../index.rst:11
-msgid "Contents:"
+#: ../../../cadastre/Quality.rst:5
+msgid "Check Too Long Boundary segments"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:9
+msgid "Check Overlaps in Boundary Points"
 msgstr ""
 

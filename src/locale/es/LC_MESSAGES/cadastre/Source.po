@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/Source.rst:2
+#: ../../../cadastre/Source.rst:2
 msgid "Source"
 msgstr ""
 
-#: ../../cadas/Source.rst:5
+#: ../../../cadastre/Source.rst:5
 msgid "Administrative Source"
 msgstr ""
 
-#: ../../cadas/Source.rst:7 ../../cadas/Source.rst:28
+#: ../../../cadastre/Source.rst:7 ../../../cadastre/Source.rst:28
 msgid "Entering data manually using a form"
 msgstr ""
 
-#: ../../cadas/Source.rst:9
+#: ../../../cadastre/Source.rst:9
 msgid ""
 "Choose this option if you want to create an **Administrative Source** "
 "using a form."
 msgstr ""
 
-#: ../../cadas/Source.rst:12
+#: ../../../cadastre/Source.rst:12
 msgid ""
 "**Administrative Source** is a specialization of the *COL_Fuente* class "
 "to store those sources corresponding to documents (mortgage document, "
@@ -44,33 +44,33 @@ msgid ""
 " relationship between parties and parcels."
 msgstr ""
 
-#: ../../cadas/Source.rst:17 ../../cadas/Source.rst:38
+#: ../../../cadastre/Source.rst:17 ../../../cadastre/Source.rst:38
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr ""
 
-#: ../../cadas/Source.rst:19
+#: ../../../cadastre/Source.rst:19
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **col_fuenteadministrativa** table."
 msgstr ""
 
-#: ../../cadas/Source.rst:22 ../../cadas/Source.rst:43
+#: ../../../cadastre/Source.rst:22 ../../../cadastre/Source.rst:43
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
 
-#: ../../cadas/Source.rst:26
+#: ../../../cadastre/Source.rst:26
 msgid "Spatial Source"
 msgstr ""
 
-#: ../../cadas/Source.rst:30
+#: ../../../cadastre/Source.rst:30
 msgid ""
 "Choose this option if you want to create a **Spatial Source** using a "
 "form."
 msgstr ""
 
-#: ../../cadas/Source.rst:32
+#: ../../../cadastre/Source.rst:32
 msgid ""
 "**Spatial Source** is a specialization of the *COL_Fuente* class to store"
 " those sources corresponding to spatial data (geographic features, "
@@ -79,7 +79,7 @@ msgid ""
 "technically document the relationship between parties and parcels."
 msgstr ""
 
-#: ../../cadas/Source.rst:40
+#: ../../../cadastre/Source.rst:40
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **col_fuenteespacial** table."

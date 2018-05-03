@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 11:49-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-# b548320b8f654e958eeee0ce94801555
-#: ../../load_lay.rst:2
-msgid "Load Layers"
-msgstr ""
-
-# cfa7c351ad84456687c668979551e4d2
-#: ../../load_lay.rst:12
-msgid "Load Spatial layer"
-msgstr ""
-
-# 367ac629c3ea4a83b53abcc11d7539c9
-#: ../../load_lay.rst:14
-msgid "This functionality is currently being developed"
+#: ../../../cadastre/Preprocessing.rst:2
+msgid "Controlled Measurement"
 msgstr ""
 

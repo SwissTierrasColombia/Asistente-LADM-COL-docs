@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/BA_Unit.rst:2
-msgid "BA Unit"
+#: ../../../cadastre/Basic_Administrative_Unit.rst:2
+msgid "Basic Administrative Unit"
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:5
+#: ../../../cadastre/Basic_Administrative_Unit.rst:5
 msgid "Parcel"
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:7
+#: ../../../cadastre/Basic_Administrative_Unit.rst:7
 msgid "Based on existing plot"
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:9
+#: ../../../cadastre/Basic_Administrative_Unit.rst:9
 msgid ""
 "Choose this option if you want to create a **Parcel** based on existing "
 "plots."
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:11
+#: ../../../cadastre/Basic_Administrative_Unit.rst:11
 msgid ""
 "**Parcel** is a specialized *BA Unit* class, which describes the basic "
 "administrative unit of Colombian cadastre. The **Parcel** is the legal "
@@ -44,17 +44,17 @@ msgid ""
 "associated constructions."
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:16
+#: ../../../cadastre/Basic_Administrative_Unit.rst:16
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:18
+#: ../../../cadastre/Basic_Administrative_Unit.rst:18
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **predio** table."
 msgstr ""
 
-#: ../../cadas/BA_Unit.rst:20
+#: ../../../cadastre/Basic_Administrative_Unit.rst:20
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."

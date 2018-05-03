@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,59 +18,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/Party.rst:2
+#: ../../../cadastre/Party.rst:2
 msgid "Party"
 msgstr ""
 
-#: ../../cadas/Party.rst:11
+#: ../../../cadastre/Party.rst:10
 msgid "Natural Party"
 msgstr ""
 
-#: ../../cadas/Party.rst:13 ../../cadas/Party.rst:33
+#: ../../../cadastre/Party.rst:12 ../../../cadastre/Party.rst:32
 msgid "Entering data manually using a form"
 msgstr ""
 
-#: ../../cadas/Party.rst:15
+#: ../../../cadastre/Party.rst:14
 msgid "Choose this option if you want to create a **Natural Party** using a form."
 msgstr ""
 
-#: ../../cadas/Party.rst:17
+#: ../../../cadastre/Party.rst:16
 msgid ""
 "**Natural Party** is a natural person who has rights or who is subject to"
 " restrictions or responsibilities related to one or more *Parcels*."
 msgstr ""
 
-#: ../../cadas/Party.rst:20 ../../cadas/Party.rst:40
+#: ../../../cadastre/Party.rst:19 ../../../cadastre/Party.rst:39
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr ""
 
-#: ../../cadas/Party.rst:22
+#: ../../../cadastre/Party.rst:21
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **interesado_natural** table."
 msgstr ""
 
-#: ../../cadas/Party.rst:25 ../../cadas/Party.rst:45
+#: ../../../cadastre/Party.rst:24 ../../../cadastre/Party.rst:44
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
 
-#: ../../cadas/Party.rst:31
+#: ../../../cadastre/Party.rst:30
 msgid "Legal Party"
 msgstr ""
 
-#: ../../cadas/Party.rst:35
+#: ../../../cadastre/Party.rst:34
 msgid "Choose this option if you want to create a **Legal Party** using a form."
 msgstr ""
 
-#: ../../cadas/Party.rst:37
+#: ../../../cadastre/Party.rst:36
 msgid ""
 "**Legal Party** is a legal entity that has rights, restrictions or "
 "responsibilities related to one or more *Parcels*."
 msgstr ""
 
-#: ../../cadas/Party.rst:42
+#: ../../../cadastre/Party.rst:41
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **interesado_juridico** table."

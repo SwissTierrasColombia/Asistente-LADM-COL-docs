@@ -4,65 +4,52 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:31-0500\n"
-"PO-Revision-Date: 2018-04-13 14:25-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: es\n"
-"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en\n"
 
-# 1d6b6c8a2f1c484f800cd2dece923c38
-#: ../../about.rst:2
+#: ../../../about.rst:2
 msgid "About"
-msgstr "Acerca de"
+msgstr ""
 
-# 5d96180dde7448feafdbf5ce8de1d4a4
-#: ../../about.rst:5
+#: ../../../about.rst:5
 msgid "LADM_COL Assistant"
-msgstr "Asistente LADM_COL"
+msgstr ""
 
-# 285df0f261b54cad9bca78413c3ce550
-#: ../../about.rst:7
+#: ../../../about.rst:7
 msgid ""
 "Plugin of `QGIS <http://www.qgis.org/>`_ that helps capture and maintain "
-"data compliant with `LADM_COL <https://github.com/AgenciaImplementacion/"
-"LADM_COL>`_ and to generate exchange files for `INTERLIS <http://www."
-"interlis.ch/index_e.htm>`_ (.XTF)."
+"data compliant with `LADM_COL "
+"<https://github.com/AgenciaImplementacion/LADM_COL>`_ and to generate "
+"exchange files for `INTERLIS <http://www.interlis.ch/index_e.htm>`_ (.XTF)."
 msgstr ""
-"Plugin of `QGIS <http://www.qgis.org/>`_ que ayuda a capturar y mantener "
-"datos conformes con `LADM_COL <https://github.com/AgenciaImplementacion/"
-"LADM_COL>`_ y a generar archivos de intercambio de `INTERLIS <http://www."
-"interlis.ch/index_e.htm>`_ (.XTF)."
 
-# 42244867404c4d99b2b4c10e56d4473d
-#: ../../about.rst:11
+#: ../../../about.rst:11
 msgid ""
-"License: `GNU General Public License v3.0 <https://github.com/"
-"AgenciaImplementacion/Asistente-LADM_COL/blob/master/LICENSE>`_"
+"License: `GNU General Public License v3.0 "
+"<https://github.com/AgenciaImplementacion/Asistente-LADM_COL/blob/master/LICENSE>`_"
 msgstr ""
-"Licencia: `GNU General Public License v3.0 <https://github.com/"
-"AgenciaImplementacion/Asistente-LADM_COL/blob/master/LICENSE>`_"
 
-# 0aaee3759e104da3b454683f2f371515
-#: ../../about.rst:14
+#: ../../../about.rst:14
 msgid "A Project of:"
-msgstr "Un proyecto de:"
-
-# 4474ab6065e649c785dbb1988d2cabe7
-#: ../../about.rst:16
-msgid ""
-"`Agencia de Implementación <https://www.proadmintierra.info/>`_ (`BSF-"
-"Swissphoto AG <http://bsf-swissphoto.com/>`_ - `INCIGE S.A.S <http://www."
-"incige.com/>`_)"
 msgstr ""
-"`Agencia de Implementación <https://www.proadmintierra.info/>`_ (`BSF-"
-"Swissphoto AG <http://bsf-swissphoto.com/>`_ - `INCIGE S.A.S <http://www."
-"incige.com/>`_)"
+
+#: ../../../about.rst:16
+msgid ""
+"`Agencia de Implementación <https://www.proadmintierra.info/>`_ "
+"(`BSF-Swissphoto AG <http://bsf-swissphoto.com/>`_ - `INCIGE S.A.S "
+"<http://www.incige.com/>`_)"
+msgstr ""

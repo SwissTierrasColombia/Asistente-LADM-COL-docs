@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,117 +18,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/Spatial_Unit.rst:2
-msgid "Spatial Unit"
+#: ../../../cadastre/Surveying_and_Representation.rst:2
+msgid "Create Point"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:4
-msgid ""
-"In this process you define the new spatial objects that you want to add "
-"to the database with the structure of the *LADM_COL* model."
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:9
-msgid "Add Points"
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:17
+#: ../../../cadastre/Surveying_and_Representation.rst:9
 msgid "Boundary Point"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:19
+#: ../../../cadastre/Surveying_and_Representation.rst:11
 msgid ""
 "Choose this option to load points to **Boundary Points** layer from "
 "*LADM_COL* model."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:22
+#: ../../../cadastre/Surveying_and_Representation.rst:14
 msgid ""
 "**Boundary Point** is a specialized class of *LA_Point* which stores "
 "points that define a boundary. Boundary is an instance of "
 "*LA_BoundaryFaceString* class and its specializations."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:26
+#: ../../../cadastre/Surveying_and_Representation.rst:18
 msgid "Survey Point"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:28
+#: ../../../cadastre/Surveying_and_Representation.rst:20
 msgid ""
 "Choose this option to load points to **Survey Points** layer from "
 "*LADM_COL* model."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:31
+#: ../../../cadastre/Surveying_and_Representation.rst:23
 msgid ""
 "**Survey Point** is a specialized class of *LA_Point* which represents a "
 "building, right of way or auxiliary vertex."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:43
-msgid "Define Boundaries"
+#: ../../../cadastre/Surveying_and_Representation.rst:28
+msgid "Create Boundary"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:45
+#: ../../../cadastre/Surveying_and_Representation.rst:30
 msgid "Digitizing"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:47
+#: ../../../cadastre/Surveying_and_Representation.rst:32
 msgid ""
 "Choose this option if you want to create a **Boundary** using QGIS "
 "digitizing tools."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:50
+#: ../../../cadastre/Surveying_and_Representation.rst:35
 msgid ""
 "**Boundary** is a specialization of the *LA_CadenaCarasLindero* class to "
 "store boundaries that define plots. Two boundaries must not cross or "
 "overlap."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:53 ../../cadas/Spatial_Unit.rst:76
+#: ../../../cadastre/Surveying_and_Representation.rst:38
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:55
+#: ../../../cadastre/Surveying_and_Representation.rst:40
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source table into the *LADM_COL* **lindero** table."
 msgstr ""
 
-#: ../../cadas/Spatial_Unit.rst:58
+#: ../../../cadastre/Surveying_and_Representation.rst:43
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
-"field mapping to define field transformations and correspondence."
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:68
-msgid "Create plot"
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:70
-msgid "Selecting existing boundaries"
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:72
-msgid ""
-"Choose this option if you want to create a **Plot** from existing "
-"*Boundaries*."
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:74
-msgid "**Plot** is a portion of land with a defined geographical extension."
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:78
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source layer into the *LADM_COL* **terreno** layer."
-msgstr ""
-
-#: ../../cadas/Spatial_Unit.rst:81
-msgid ""
-"If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
 

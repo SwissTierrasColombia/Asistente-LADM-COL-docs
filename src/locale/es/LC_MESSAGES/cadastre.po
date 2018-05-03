@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/Quality.rst:2
-msgid "Quality"
-msgstr ""
-
-#: ../../cadas/Quality.rst:5
-msgid "Check Too Long Boundary segments"
-msgstr ""
-
-#: ../../cadas/Quality.rst:9
-msgid "Check Overlaps in Boundary Points"
+#: ../../../cadastre.rst:2
+msgid "Cadastre"
 msgstr ""
 

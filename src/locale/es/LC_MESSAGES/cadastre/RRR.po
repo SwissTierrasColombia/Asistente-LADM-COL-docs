@@ -18,11 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../../index.rst:8
-msgid "Welcome to the Assistant's documentation LADM_COL!"
+#: ../../../cadastre/RRR.rst:2
+msgid "RRR"
 msgstr ""
 
-#: ../../../index.rst:11
-msgid "Contents:"
+#: ../../../cadastre/RRR.rst:4 ../../../cadastre/RRR.rst:9
+#: ../../../cadastre/RRR.rst:14 ../../../cadastre/RRR.rst:19
+msgid "This functionality is currently being developed"
+msgstr ""
+
+#: ../../../cadastre/RRR.rst:7
+msgid "Right"
+msgstr ""
+
+#: ../../../cadastre/RRR.rst:12
+msgid "Restriccion"
+msgstr ""
+
+#: ../../../cadastre/RRR.rst:17
+msgid "Responsibility"
 msgstr ""
 

@@ -18,11 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../../index.rst:8
-msgid "Welcome to the Assistant's documentation LADM_COL!"
+#: ../../../installation.rst:2
+msgid "Installation guide for plugin"
 msgstr ""
 
-#: ../../../index.rst:11
-msgid "Contents:"
+#: ../../../installation.rst:4
+msgid ""
+"This section describes the process to perform the installation of the "
+"QGIS plugin assistant LADM_COL."
+msgstr ""
+
+#: ../../../installation.rst:8
+msgid "Installation process"
+msgstr ""
+
+#: ../../../installation.rst:10
+msgid ""
+"It is necessary to have Qgis Software installed, to obtain this go to "
+"`QGIS <https://qgis.org/en/site/forusers/download.html>`_."
+msgstr ""
+
+#: ../../../installation.rst:12
+msgid "The process can be seen graphically in the following gif:"
 msgstr ""
 

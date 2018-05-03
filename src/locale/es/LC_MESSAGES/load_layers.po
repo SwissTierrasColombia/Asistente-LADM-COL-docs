@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 13:55-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,24 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cadas/RRR.rst:2
-msgid "RRR"
+#: ../../../load_layers.rst:2
+msgid "Load Layers"
 msgstr ""
 
-#: ../../cadas/RRR.rst:4 ../../cadas/RRR.rst:9 ../../cadas/RRR.rst:14
-#: ../../cadas/RRR.rst:19
+#: ../../../load_layers.rst:11
+msgid "Load Spatial layer"
+msgstr ""
+
+#: ../../../load_layers.rst:13
 msgid "This functionality is currently being developed"
-msgstr ""
-
-#: ../../cadas/RRR.rst:7
-msgid "Right"
-msgstr ""
-
-#: ../../cadas/RRR.rst:12
-msgid "Restriccion"
-msgstr ""
-
-#: ../../cadas/RRR.rst:17
-msgid "Responsibility"
 msgstr ""
 
