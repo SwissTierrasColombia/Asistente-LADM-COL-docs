@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agencia de Implementación
+# This file is distributed under the same license as the LADM_COL Assistant
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LADM_COL Assistant \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../../about.rst:2
+msgid "About"
+msgstr ""
+
+#: ../../../about.rst:5
+msgid "LADM_COL Assistant"
+msgstr ""
+
+#: ../../../about.rst:7
+msgid ""
+"Plugin of `QGIS <http://www.qgis.org/>`_ that helps capture and maintain "
+"data compliant with `LADM_COL "
+"<https://github.com/AgenciaImplementacion/LADM_COL>`_ and to generate "
+"exchange files for `INTERLIS <http://www.interlis.ch/index_e.htm>`_ "
+"(.XTF)."
+msgstr ""
+
+#: ../../../about.rst:11
+msgid ""
+"License: `GNU General Public License v3.0 "
+"<https://github.com/AgenciaImplementacion/Asistente-"
+"LADM_COL/blob/master/LICENSE>`_"
+msgstr ""
+
+#: ../../../about.rst:14
+msgid "A Project of:"
+msgstr ""
+
+#: ../../../about.rst:16
+msgid ""
+"`Agencia de Implementación <https://www.proadmintierra.info/>`_ (`BSF-"
+"Swissphoto AG <http://bsf-swissphoto.com/>`_ - `INCIGE S.A.S "
+"<http://www.incige.com/>`_)"
+msgstr ""
+

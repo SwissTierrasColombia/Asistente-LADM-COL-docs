@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 12:09-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../../cadastre/Preprocessing.rst:2
-msgid "Preprocessing"
+#: ../../../index.rst:8
+msgid "Welcome to the Assistant's documentation LADM_COL!"
 msgstr ""
 
-#: ../../../cadastre/Preprocessing.rst:5
-msgid "Controlled Measurement"
+#: ../../../index.rst:11
+msgid "Contents:"
 msgstr ""
 

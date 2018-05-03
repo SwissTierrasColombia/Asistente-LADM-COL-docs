@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-02 16:26-0500\n"
+"POT-Creation-Date: 2018-05-03 13:39-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../../cadastre/Quality.rst:2
 msgid "Quality"
-msgstr ""
+msgstr "Calidad"
 
 #: ../../../cadastre/Quality.rst:5
 msgid "Check Too Long Boundary segments"
@@ -28,5 +28,21 @@ msgstr ""
 
 #: ../../../cadastre/Quality.rst:9
 msgid "Check Overlaps in Boundary Points"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:13
+msgid "Check Overlaps in Boundaries"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:17
+msgid "Check Missing Boundary Points in Boundaries"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:21
+msgid "Check Dangles in Boundaries"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:24
+msgid "Check All"
 msgstr ""
 

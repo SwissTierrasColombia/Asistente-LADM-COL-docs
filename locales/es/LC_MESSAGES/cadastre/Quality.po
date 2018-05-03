@@ -18,11 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../../cadastre/Preprocessing.rst:2
-msgid "Preprocessing"
+#: ../../../cadastre/Quality.rst:2
+msgid "Quality"
 msgstr ""
 
-#: ../../../cadastre/Preprocessing.rst:5
-msgid "Controlled Measurement"
+#: ../../../cadastre/Quality.rst:5
+msgid "Check Too Long Boundary segments"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:9
+msgid "Check Overlaps in Boundary Points"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:13
+msgid "Check Overlaps in Boundaries"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:17
+msgid "Check Missing Boundary Points in Boundaries"
+msgstr ""
+
+#: ../../../cadastre/Quality.rst:21
+msgid "Check Dangles in Boundaries"
 msgstr ""
 
