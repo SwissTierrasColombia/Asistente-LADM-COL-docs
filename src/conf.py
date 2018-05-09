@@ -25,7 +25,7 @@ copyright = '2018, Agencia de Implementación'
 author = 'Fernando Pineda'
 
 scv_greatest_tag = True
-scv_banner_greatest_tag = True #tag mas grande
+#scv_banner_greatest_tag = True #tag mas grande
 #scv_banner_recent_tag = True #tag mas reciente
 #scv_banner_main_ref = 'feature_branch' # Tag definida
 # The short X.Y version
