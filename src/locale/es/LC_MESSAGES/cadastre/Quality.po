@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-08 17:57-0500\n"
+"POT-Creation-Date: 2018-05-09 11:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,31 +26,29 @@ msgstr "Calidad"
 msgid "Check Too Long Boundary segments"
 msgstr ""
 
-#: ../../../cadastre/Quality.rst:7
-msgid "With long segments:"
-msgstr ""
-
-#: ../../../cadastre/Quality.rst:14
-msgid "Without long segments"
-msgstr ""
-
-#: ../../../cadastre/Quality.rst:22
+#: ../../../cadastre/Quality.rst:15
 msgid "Check Overlaps in Boundary Points"
 msgstr ""
 
-#: ../../../cadastre/Quality.rst:30
+#: ../../../cadastre/Quality.rst:23
 msgid "Check Overlaps in Boundaries"
 msgstr ""
 
-#: ../../../cadastre/Quality.rst:38
+#: ../../../cadastre/Quality.rst:31
 msgid "Check Missing Boundary Points in Boundaries"
 msgstr ""
 
-#: ../../../cadastre/Quality.rst:46
+#: ../../../cadastre/Quality.rst:39
 msgid "Check Dangles in Boundaries"
 msgstr ""
 
-#: ../../../cadastre/Quality.rst:54
+#: ../../../cadastre/Quality.rst:47
 msgid "Check All"
 msgstr ""
+
+#~ msgid "With long segments:"
+#~ msgstr ""
+
+#~ msgid "Without long segments"
+#~ msgstr ""
 
