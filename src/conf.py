@@ -24,7 +24,7 @@ project = 'LADM_COL Assistant'
 copyright = '2018, Agencia de Implementación'
 author = 'Fernando Pineda'
 
-scv_greatest_tag = True
+#scv_greatest_tag = True
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
