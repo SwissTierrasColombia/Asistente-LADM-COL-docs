@@ -13,6 +13,9 @@ script:
   - ./generate.sh
 
 after_success:
+  echo 'Finished!'
+
+before_deploy:
   - ./deploy.sh
 
 deploy:
