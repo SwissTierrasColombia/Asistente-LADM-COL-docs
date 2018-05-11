@@ -41,7 +41,6 @@ upload_files() {
 
 make_zip() {
   mkdir asistente_ladm_col_docs
-  pushd asistente_ladm_col_docs
   # rationale: scan all available languages
   for lang_path in $(ls -d src/build/*)
   do
@@ -51,7 +50,6 @@ make_zip() {
     cp -r "$lang_path/html/$branch" "$TRAVIS_BUILD_DIR/asistente_ladm_col_docs/$lang"
   done
   zip -r asistente_ladm_col_docs.zip asistente_ladm_col_docs
-  popd
 }
 
 add_repo
