@@ -6,7 +6,7 @@ env:
     - REMOTE_REPO_OWNER='AgenciaImplementacion'
     - REMOTE_REPO_NAME='Asistente-LADM_COL'
 install:
-  - cat packages.txt | xargs sudo apt-get install 
+  - cat packages.txt | xargs sudo apt-get install
   - pip install -r requirements.txt
 
 script:
@@ -14,3 +14,12 @@ script:
 
 after_success:
   - ./deploy.sh
+
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key: ${GH_ADMINAGENCIAIMPL_ACCESS_TOKEN}
+  file: asistente_ladm_col_docs.zip
+  on:
+    repo: AgenciaImplementacion/Asistente-LADM_COL-docs
+    tags: true
