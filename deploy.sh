@@ -25,7 +25,7 @@ add_files() {
   for lang_path in $(ls -d ../src/build/*)
   do
     lang=$(basename $lang_path)
-    rm -rf
+    rm -rf .
     cp -r "$lang_path/html" "$lang"
   done
   git add .
