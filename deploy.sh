@@ -21,10 +21,13 @@ add_repo() {
 
 add_files() {
   pushd ${REMOTE_REPO_NAME}
-  # WARNING: cambie esto si se necesitan agregar más archivo al despliegue
-  rm -rf en es
-  cp -r ../src/build/en/html en
-  cp -r ../src/build/es/html es
+  # rationale: scan all available languages
+  for lang_path in $(ls -d ../src/build/*)
+  do
+    lang=$(basename $lang_path)
+    rm -rf
+    cp -r "$lang_path/html" "$lang"
+  done
   git add .
   git commit -m "Travis build: $TRAVIS_BUILD_NUMBER, Commit: $TRAVIS_COMMIT, Remote Repo: https://github.com/$REMOTE_REPO_SLUG"
   popd
@@ -36,6 +39,20 @@ upload_files() {
   popd
 }
 
+make_zip() {
+  mkdir asistente_ladm_col_docs
+  # rationale: scan all available languages
+  for lang_path in $(ls -d src/build/*)
+  do
+    lang=$(basename $lang_path)
+    # rationale: use only branch 'master' because is the current?
+    branch='master'
+    cp -r "$lang_path/html/$branch" "$TRAVIS_BUILD_DIR/asistente_ladm_col_docs/$lang"
+  done
+  zip -r asistente_ladm_col_docs.zip asistente_ladm_col_docs
+}
+
 add_repo
 add_files
 upload_files
+make_zip
