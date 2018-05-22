@@ -49,7 +49,7 @@ make_zip() {
     branch=${TRAVIS_BRANCH}
     cp -r "$lang_path/html/$branch" "$TRAVIS_BUILD_DIR/asistente_ladm_col_docs/$lang"
   done
-  zip -r asistente_ladm_col_docs.zip asistente_ladm_col_docs
+  zip -r asistente_ladm_col_docs_$lang.zip asistente_ladm_col_docs/$lang
 }
 
 add_repo

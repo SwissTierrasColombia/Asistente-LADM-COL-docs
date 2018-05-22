@@ -22,7 +22,7 @@ deploy:
   skip_cleanup: true
   provider: releases
   api_key: ${GH_ADMINAGENCIAIMPL_ACCESS_TOKEN}
-  file: asistente_ladm_col_docs.zip
+  file: [asistente_ladm_col_docs_es.zip, asistente_ladm_col_docs_en.zip]
   on:
     repo: AgenciaImplementacion/Asistente-LADM_COL-docs
     tags: true
