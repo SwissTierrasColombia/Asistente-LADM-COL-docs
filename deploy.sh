@@ -48,8 +48,8 @@ make_zip() {
     # rationale: use only branch 'master' because is the current?
     branch=${TRAVIS_BRANCH}
     cp -r "$lang_path/html/$branch" "$TRAVIS_BUILD_DIR/asistente_ladm_col_docs/$lang"
+    zip -r asistente_ladm_col_docs_$lang.zip asistente_ladm_col_docs/$lang
   done
-  zip -r asistente_ladm_col_docs_$lang.zip asistente_ladm_col_docs/$lang
 }
 
 add_repo
