@@ -39,7 +39,7 @@ Create Building
 Create Building Unit
 ---------------------
 
-.. image:: static/Create_building_unit.gif
+.. image:: static/create_building_unit.gif
    :height: 500
    :width: 800
-   :alt: Create building unit
+   :alt: Create Building Unit
