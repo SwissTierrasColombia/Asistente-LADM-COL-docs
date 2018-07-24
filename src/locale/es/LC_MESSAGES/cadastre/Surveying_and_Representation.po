@@ -7,92 +7,113 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 12:09-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en_US\n"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:2
 msgid "Surveying and Representation"
-msgstr ""
+msgstr "Topografía y Representación"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:5
 msgid "Create Point"
-msgstr ""
+msgstr "Crear Punto"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:12
 msgid "Boundary Point"
-msgstr ""
+msgstr "Punto de lindero"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:14
 msgid ""
 "Choose this option to load points to **Boundary Points** layer from "
 "*LADM_COL* model."
 msgstr ""
+"Elige esta opción para cargar puntos a la capa **Punto Lindero** del modelo "
+"*LADM_COL*."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:17
 msgid ""
-"**Boundary Point** is a specialized class of *LA_Point* which stores "
-"points that define a boundary. Boundary is an instance of "
-"*LA_BoundaryFaceString* class and its specializations."
+"**Boundary Point** is a specialized class of *LA_Point* which stores points "
+"that define a boundary. Boundary is an instance of *LA_BoundaryFaceString* "
+"class and its specializations."
 msgstr ""
+"**Punto Lindero** es una clase especializada de *LA_Punto* que almacena "
+"puntos que definen un lindero. Lindero es una instancia de la clase "
+"*LA_BoundaryFaceString* y sus especializaciones."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:21
 msgid "Survey Point"
-msgstr ""
+msgstr "Punto Levantamiento"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:23
 msgid ""
-"Choose this option to load points to **Survey Points** layer from "
-"*LADM_COL* model."
+"Choose this option to load points to **Survey Points** layer from *LADM_COL* "
+"model."
 msgstr ""
+"Elige esta opción para cargar puntos a la capa **Punto Levantamiento** del "
+"modelo *LADM_COL*."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:26
 msgid ""
 "**Survey Point** is a specialized class of *LA_Point* which represents a "
 "building, right of way or auxiliary vertex."
 msgstr ""
+"**Punto Levantamiento** es una clase especializada de *LA_Punto* que "
+"representa la posición horizontal de un vértice de construcción, servidumbre "
+"o auxiliares."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:31
 msgid "Create Boundary"
-msgstr ""
+msgstr "Crear Lindero"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:33
 msgid "Digitizing"
-msgstr ""
+msgstr "Digitalizando"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:35
 msgid ""
 "Choose this option if you want to create a **Boundary** using QGIS "
 "digitizing tools."
 msgstr ""
+"Elige esta opción si deseas agregar un **Lindero** usando las herramientas "
+"de digitalización de QGIS. "
 
 #: ../../../cadastre/Surveying_and_Representation.rst:38
 msgid ""
 "**Boundary** is a specialization of the *LA_CadenaCarasLindero* class to "
-"store boundaries that define plots. Two boundaries must not cross or "
-"overlap."
+"store boundaries that define plots. Two boundaries must not cross or overlap."
 msgstr ""
+"**Lindero** es una clase especializada de *LA_CadenaCarasLindero* que "
+"permite registrar los linderos. Dos linderos no pueden cruzarse ni "
+"superponerse."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:41
 msgid "From another QGIS Layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:43
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **lindero** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **lindero** table."
 msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **lindero** de *LADM_COL*."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:46
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
-
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."

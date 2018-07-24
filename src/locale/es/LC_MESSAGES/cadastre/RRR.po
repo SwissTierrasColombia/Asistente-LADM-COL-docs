@@ -7,35 +7,37 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en_US\n"
 
 #: ../../../cadastre/RRR.rst:2
 msgid "RRR"
-msgstr ""
+msgstr "RRR"
 
 #: ../../../cadastre/RRR.rst:4 ../../../cadastre/RRR.rst:9
 #: ../../../cadastre/RRR.rst:14 ../../../cadastre/RRR.rst:19
 msgid "This functionality is currently being developed"
-msgstr ""
+msgstr "Esta funcionalida está siendo desarrollada actualmente"
 
 #: ../../../cadastre/RRR.rst:7
 msgid "Right"
-msgstr ""
+msgstr "Derecho"
 
 #: ../../../cadastre/RRR.rst:12
 msgid "Restriccion"
-msgstr ""
+msgstr "Restricción"
 
 #: ../../../cadastre/RRR.rst:17
 msgid "Responsibility"
-msgstr ""
-
+msgstr "Responsabilidad"

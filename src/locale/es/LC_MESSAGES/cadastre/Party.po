@@ -7,72 +7,91 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en_US\n"
 
 #: ../../../cadastre/Party.rst:2
 msgid "Party"
-msgstr ""
+msgstr "Interesado"
 
 #: ../../../cadastre/Party.rst:10
 msgid "Natural Party"
-msgstr ""
+msgstr "Interesado Natural"
 
 #: ../../../cadastre/Party.rst:12 ../../../cadastre/Party.rst:32
 msgid "Entering data manually using a form"
-msgstr ""
+msgstr "Ingresando datos manualmente en un formulario"
 
 #: ../../../cadastre/Party.rst:14
-msgid "Choose this option if you want to create a **Natural Party** using a form."
+msgid ""
+"Choose this option if you want to create a **Natural Party** using a form."
 msgstr ""
+"Elige esta opción si deseas agregar una **Interesado Natural** con un "
+"formulario."
 
 #: ../../../cadastre/Party.rst:16
 msgid ""
-"**Natural Party** is a natural person who has rights or who is subject to"
-" restrictions or responsibilities related to one or more *Parcels*."
+"**Natural Party** is a natural person who has rights or who is subject to "
+"restrictions or responsibilities related to one or more *Parcels*."
 msgstr ""
+"**Interesado Natural** es una Persona natural que tiene derechos o a la que "
+"le recaen restricciones o responsabilidades referidas a uno o más *predios*."
 
 #: ../../../cadastre/Party.rst:19 ../../../cadastre/Party.rst:39
 msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
 #: ../../../cadastre/Party.rst:21
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **interesado_natural** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **interesado_natural** table."
 msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **interesado_natural** de *LADM_COL*."
 
 #: ../../../cadastre/Party.rst:24 ../../../cadastre/Party.rst:44
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
 
 #: ../../../cadastre/Party.rst:30
 msgid "Legal Party"
-msgstr ""
+msgstr "Interesado Jurídico"
 
 #: ../../../cadastre/Party.rst:34
-msgid "Choose this option if you want to create a **Legal Party** using a form."
+msgid ""
+"Choose this option if you want to create a **Legal Party** using a form."
 msgstr ""
+"Elige esta opción si deseas agregar una **Interesado Jurídico** con un "
+"formulario."
 
 #: ../../../cadastre/Party.rst:36
 msgid ""
 "**Legal Party** is a legal entity that has rights, restrictions or "
 "responsibilities related to one or more *Parcels*."
 msgstr ""
+"**Interesado Jurídico** es una Persona jurídica que tiene derechos, "
+"restricciones o responsabilidades referidas a uno o más *predios*."
 
 #: ../../../cadastre/Party.rst:41
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **interesado_juridico** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **interesado_juridico** table."
 msgstr ""
-
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **interesado_juridico** de *LADM_COL*."

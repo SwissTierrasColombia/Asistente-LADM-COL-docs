@@ -14,9 +14,12 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en_US\n"
 
 #: ../../../cadastre/Quality.rst:2
 msgid "Quality"
@@ -24,31 +27,30 @@ msgstr "Calidad"
 
 #: ../../../cadastre/Quality.rst:5
 msgid "Check Too Long Boundary segments"
-msgstr ""
+msgstr "Revisar segmentos de linderos muy largos"
 
 #: ../../../cadastre/Quality.rst:15
 msgid "Check Overlaps in Boundary Points"
-msgstr ""
+msgstr "Revisar superposición en puntos de lindero"
 
 #: ../../../cadastre/Quality.rst:23
 msgid "Check Overlaps in Boundaries"
-msgstr ""
+msgstr "Revisa superposición en Linderos"
 
 #: ../../../cadastre/Quality.rst:31
 msgid "Check Missing Boundary Points in Boundaries"
-msgstr ""
+msgstr "Revisar puntos de lindero faltantes en linderos"
 
 #: ../../../cadastre/Quality.rst:39
 msgid "Check Dangles in Boundaries"
-msgstr ""
+msgstr "Revisar nodos desconectados en linderos"
 
 #: ../../../cadastre/Quality.rst:47
 msgid "Check All"
-msgstr ""
+msgstr "Revisar Todo"
 
 #~ msgid "With long segments:"
 #~ msgstr ""
 
 #~ msgid "Without long segments"
 #~ msgstr ""
-

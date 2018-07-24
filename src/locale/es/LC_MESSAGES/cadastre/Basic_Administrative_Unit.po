@@ -7,34 +7,39 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en_US\n"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:2
 msgid "Basic Administrative Unit"
-msgstr ""
+msgstr "Unidad Administrativa Básica"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:5
 msgid "Parcel"
-msgstr ""
+msgstr "Predio"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:7
 msgid "Based on existing plot"
-msgstr ""
+msgstr "Basado en un terreno existente"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:9
 msgid ""
 "Choose this option if you want to create a **Parcel** based on existing "
 "plots."
 msgstr ""
+"Escoja esta opción si desea crear un **Predio** basado en terrenos "
+"existentes."
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:11
 msgid ""
@@ -43,20 +48,28 @@ msgid ""
 "territorial unit, which is formed by the plot and may or may not have "
 "associated constructions."
 msgstr ""
+"**Predio** es una clase *BA Unit* especializada, que describe la unidad "
+"administrativa básica del catastro colombiano. El **Predio** es la unidad "
+"jurídica territorial, que está formada por el terreno y puede o no tener "
+"construcciones asociadas."
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:16
 msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra tabla/capa de QGIS (configurando un mapeo de campos)"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:18
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **predio** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **predio** table."
 msgstr ""
+"Escoja esta opción para abrir una ventana que le permita importar datos de "
+"una tabla fuente en la tabla *LADM_COL* **predio**."
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:20
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
-
+"Si la estructura del campo de entrada y el campo de salida difieren, tu "
+"puedes establecer un mapeo de campos para definir las transformaciones y "
+"correspondencias."
