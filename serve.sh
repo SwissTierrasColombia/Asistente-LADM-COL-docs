@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
 then
-  cd $(dirname $0)/src
+  cd $(dirname $0)/src/build
 else
   cd $1
 fi
@@ -13,7 +13,12 @@ function openLink {
   do
     sleep 0.5
   done
-  xdg-open "$link"
+  if xdg-open --version &> /dev/null
+  then
+    xdg-open "$link"
+  else
+    echo "Open $link manually"
+  fi
 }
 openLink&
 python3 -m http.server ${port}
