@@ -1,0 +1,9 @@
+version: '3'
+services:
+  compiler:
+    build:
+      context: ../
+      dockerfile: ./.docker/Dockerfile
+    volumes:
+      #- ./persistence:/var/lib/pgsql/9.6/data
+      - .:/app:ro
