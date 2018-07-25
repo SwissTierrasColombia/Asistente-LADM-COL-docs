@@ -1,5 +1,11 @@
 #!/bin/bash
-cd html
+if [ -z "$1" ]
+then
+  cd $(dirname $0)/src
+else
+  cd $1
+fi
+
 port=5000
 link="http://localhost:$port"
 function openLink {

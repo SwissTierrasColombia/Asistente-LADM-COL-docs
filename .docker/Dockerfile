@@ -12,7 +12,7 @@ RUN apt-get update \
 RUN apt-get update \
     && cat /tmp/packages.txt | xargs apt-get -y install \
     && rm -rf /var/lib/apt/lists/*
-RUN pip install -r /tmp/packages.txt
+RUN pip3 install -r /tmp/packages.txt
 
 WORKDIR /docs
 CMD ["sh", "/docs/generate.sh"]
