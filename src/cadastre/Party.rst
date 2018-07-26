@@ -1,11 +1,6 @@
 Party
 ======
 
-.. image:: ../static/crear_interesado_natural.gif
-   :height: 500
-   :width: 800
-   :alt: Create Natural Party
-
 Natural Party
 --------------
 
@@ -15,6 +10,11 @@ Choose this option if you want to create a **Natural Party** using a form.
 
 **Natural Party** is a natural person who has rights or who is subject to
 restrictions or responsibilities related to one or more *Parcels*.
+
+.. image:: ../static/crear_interesado_natural.gif
+   :height: 500
+   :width: 800
+   :alt: Create Natural Party
 
 2. From another QGIS layer/table (setting a field mapping)
 
