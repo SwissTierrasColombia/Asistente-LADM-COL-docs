@@ -1,7 +1,7 @@
-Quality
-********
-
 Check Quality Rules
+*******************
+
+Rules for Points
 ====================
 
 Boundary Points Should Not Overlap
@@ -24,6 +24,10 @@ Control Points Should not Overlap
    :alt: about plugin
    :download: true
    :title: Control Points Should not Overlap
+
+
+Rules for Lines
+===============
 
 Boundary Segments Should Not Be Longer Than
 -------------------------------------------
@@ -65,6 +69,10 @@ Boundaries Should Not Have Dangles
    :download: true
    :title: Boundaries Should Not Have Dangles
 
+
+Rules for Polygons
+==================
+
 Plots Should Not Overlap
 ------------------------
 
@@ -96,7 +104,7 @@ Right Of Way Should Not Overlap Buildings
    :title: Right Of Way Should Not Overlap Buildings
 
 Check All
-----------
+=========
 
 .. image:: ../static/test_all.gif
    :height: 500
