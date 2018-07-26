@@ -1,6 +1,7 @@
 #!/bin/bash -eux
 
-cd src
+cd $(dirname $0)/src
+
 sphinx-versioning build src build/en/html --show-banner --banner-recent-tag -- -D language='en'
 make -e SPHINXOPTS="-D language='en'" LANG='en' FORMAT='' qthelp
 qcollectiongenerator build/en/qthelp/*.qhcp

@@ -57,12 +57,19 @@ table into the *LADM_COL* **lindero** table.
 If the field structure of input and target tables differs, you can set a field
 mapping to define field transformations and correspondence.
 
-.. image:: ../static/_LLENAR_TOPOLOGIAS.gif
+If you need to merge or explodes boundaries you can use the *merge* and *explode*
+buttons on Toolbar LADM_COL.
+
+.. image:: ../static/_UNIR_PARTIR_LINDERO.gif
    :height: 500
    :width: 800
    :alt: Create Boundary Point
 
-.. image:: ../static/_UNIR_PARTIR_LINDERO.gif
+
+You can fill point bfs topology table using the button *Fill Point BFS* on
+Toolbar LADM_COL which makes automatic and faster this job.
+
+.. image:: ../static/_LLENAR_TOPOLOGIAS.gif
    :height: 500
    :width: 800
    :alt: Create Boundary Point
