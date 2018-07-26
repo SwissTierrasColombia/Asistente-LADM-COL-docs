@@ -4,8 +4,7 @@ RRR
 Right
 -----
 
-1. Entering data manually using a form
-(you need to select Administrative sources before)
+1. Entering data manually using a form (you need to select Administrative sources before)
 
 Choose this option if you have selected at least one *Administrative Source* and
 want to link such selected sources to a new **Right** that you will create using
@@ -25,8 +24,7 @@ mapping to define field transformations and correspondence.
 Restriction
 --------------
 
-1. Entering data manually using a form
-(you need to select Administrative sources before)
+1. Entering data manually using a form (you need to select Administrative sources before)
 
 Choose this option if you have selected at least one *Administrative Source* and
 want to link such selected sources to a new **Restriction** that you will create
@@ -46,8 +44,7 @@ mapping to define field transformations and correspondence.
 Responsibility
 --------------
 
-1. Entering data manually using a form
-(you need to select Administrative sources before)
+1. Entering data manually using a form (you need to select Administrative sources before)
 
 Choose this option if you have selected at least one *Administrative Source* and
 want to link such selected sources to a new **Responsibility** that you will create
