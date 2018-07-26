@@ -4,7 +4,7 @@ services:
     build:
       context: ../
       dockerfile: ./.docker/Dockerfile
-    volumes:
-      - ..:/docs
     ports:
       - 5000:5000
+    volumes:
+      - ..:/docs

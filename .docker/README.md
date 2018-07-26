@@ -1,5 +1,5 @@
 # Execute
 ```sh
 cd .docker
-docker-compose run --rm compiler
+docker-compose run --service-ports --rm compiler
 ```
