@@ -7,86 +7,86 @@ Create Point
 Boundary Point
 --------------
 
-  Choose this option to load points to **Boundary Points** layer from *LADM_COL*
-  model.
+Choose this option to load points to **Boundary Points** layer from *LADM_COL*
+model.
 
-  **Boundary Point** is a specialized class of *LA_Point* which stores points that
-  define a boundary. Boundary is an instance of *LA_BoundaryFaceString* class and
-  its specializations.
+**Boundary Point** is a specialized class of *LA_Point* which stores points that
+define a boundary. Boundary is an instance of *LA_BoundaryFaceString* class and
+its specializations.
 
-    1. From a CSV file with the required structure
+1. From a CSV file with the required structure
 
-    Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
-    contain point coordinates.
+  Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
+  contain point coordinates.
 
-    .. image:: ../static/_CREAR_PUNTO_LINDERO_.gif
-       :height: 500
-       :width: 800
-       :alt: Create Boundary Point
+  .. image:: ../static/_CREAR_PUNTO_LINDERO_.gif
+     :height: 500
+     :width: 800
+     :alt: Create Boundary Point
 
 |
 
-    2. From another QGIS layer/table (setting a field mapping)
+2. From another QGIS layer/table (setting a field mapping)
 
-    Choose this option to open a window that allows you to import data from a source
-    layer into the *LADM_COL* **puntolindero** layer.
+  Choose this option to open a window that allows you to import data from a source
+  layer into the *LADM_COL* **puntolindero** layer.
 
-    If the field structure of input and target layers differs, you can set a field
-    mapping to define field transformations and correspondence.
+  If the field structure of input and target layers differs, you can set a field
+  mapping to define field transformations and correspondence.
 
-    TODO!
+  TODO!
 
 Survey Point
 ------------
 
-  Choose this option to load points to **Survey Points** layer from *LADM_COL*
-  model.
+Choose this option to load points to **Survey Points** layer from *LADM_COL*
+model.
 
-  **Survey Point** is a specialized class of *LA_Point* which represents a
-  building, right of way or auxiliary vertex.
+**Survey Point** is a specialized class of *LA_Point* which represents a
+building, right of way or auxiliary vertex.
 
-    1. From a CSV file with the required structure
+1. From a CSV file with the required structure
 
-    Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
-    contain point coordinates.
+  Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
+  contain point coordinates.
 
-    .. image:: ../static/_CREAR_PUNTO_LINDERO_.gif
-       :height: 500
-       :width: 800
-       :alt: Create Boundary Point
+  .. image:: ../static/_CREAR_PUNTO_LINDERO_.gif
+     :height: 500
+     :width: 800
+     :alt: Create Boundary Point
 
 |
 
-    2. From another QGIS layer/table (setting a field mapping)
+2. From another QGIS layer/table (setting a field mapping)
 
-    Choose this option to open a window that allows you to import data from a source
-    layer into the *LADM_COL* **puntolevantamiento** layer.
+  Choose this option to open a window that allows you to import data from a source
+  layer into the *LADM_COL* **puntolevantamiento** layer.
 
-    If the field structure of input and target layers differs, you can set a field
-    mapping to define field transformations and correspondence.
+  If the field structure of input and target layers differs, you can set a field
+  mapping to define field transformations and correspondence.
 
-      TODO!
+  TODO!
 
 Control Point
 -------------
 
-  Choose this option to load points to **Control Points** layer from *LADM_COL*
-  model.
+Choose this option to load points to **Control Points** layer from *LADM_COL*
+model.
 
-  **Control Point** is a specialized class of *LA_Point* which represents points
-  belonging to the local network, used in cadastre operation for surveying
-  physical information of the territorial objects.
+**Control Point** is a specialized class of *LA_Point* which represents points
+belonging to the local network, used in cadastre operation for surveying
+physical information of the territorial objects.
 
-    1. From a CSV file with the required structure
+1. From a CSV file with the required structure
 
-    Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
-    contain point coordinates.
+  Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
+  contain point coordinates.
 
-      TODO!
+  TODO!
 
-    2. From another QGIS layer/table (setting a field mapping)
+2. From another QGIS layer/table (setting a field mapping)
 
-      TODO!
+  TODO!
 
 Create Boundary
 ================
