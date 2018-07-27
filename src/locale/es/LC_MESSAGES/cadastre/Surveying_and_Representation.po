@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 17:04-0500\n"
+"POT-Creation-Date: 2018-07-27 11:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,8 +30,8 @@ msgid "Create Point"
 msgstr "Crear Punto"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:7
-msgid "Boundary Point"
-msgstr "Punto de lindero"
+msgid "**Boundary Point**"
+msgstr "**Punto lindero**"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:9
 msgid ""
@@ -100,8 +100,8 @@ msgid "TODO!"
 msgstr "POR HACER!"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:36
-msgid "Survey Point"
-msgstr "Punto Levantamiento"
+msgid "**Survey Point**"
+msgstr "**Punto Levantamiento**"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:38
 msgid ""
@@ -129,8 +129,8 @@ msgstr ""
 "una tabla fuente hacia la tabla **lindero** de *LADM_COL*."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:64
-msgid "Control Point"
-msgstr "Punto de Control"
+msgid "**Control Point**"
+msgstr "**Punto de Control**"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:66
 msgid ""
