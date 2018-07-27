@@ -4,7 +4,8 @@ Surveying and Representation
 Create Point
 =============
 
-1. **Boundary Point**
+Boundary Point
+--------------
 
   Choose this option to load points to **Boundary Points** layer from *LADM_COL*
   model.
@@ -13,7 +14,7 @@ Create Point
   define a boundary. Boundary is an instance of *LA_BoundaryFaceString* class and
   its specializations.
 
-    a. From a CSV file with the required structure
+    1. From a CSV file with the required structure
 
     Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
     contain point coordinates.
@@ -25,7 +26,7 @@ Create Point
 
 |
 
-    b. From another QGIS layer/table (setting a field mapping)
+    2. From another QGIS layer/table (setting a field mapping)
 
     Choose this option to open a window that allows you to import data from a source
     layer into the *LADM_COL* **puntolindero** layer.
@@ -35,7 +36,8 @@ Create Point
 
     TODO!
 
-2. **Survey Point**
+Survey Point
+------------
 
   Choose this option to load points to **Survey Points** layer from *LADM_COL*
   model.
@@ -43,7 +45,7 @@ Create Point
   **Survey Point** is a specialized class of *LA_Point* which represents a
   building, right of way or auxiliary vertex.
 
-    a. From a CSV file with the required structure
+    1. From a CSV file with the required structure
 
     Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
     contain point coordinates.
@@ -55,7 +57,7 @@ Create Point
 
 |
 
-    b. From another QGIS layer/table (setting a field mapping)
+    2. From another QGIS layer/table (setting a field mapping)
 
     Choose this option to open a window that allows you to import data from a source
     layer into the *LADM_COL* **puntolevantamiento** layer.
@@ -65,7 +67,8 @@ Create Point
 
       TODO!
 
-3. **Control Point**
+Control Point
+-------------
 
   Choose this option to load points to **Control Points** layer from *LADM_COL*
   model.
@@ -74,14 +77,14 @@ Create Point
   belonging to the local network, used in cadastre operation for surveying
   physical information of the territorial objects.
 
-    a. From a CSV file with the required structure
+    1. From a CSV file with the required structure
 
     Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
     contain point coordinates.
 
       TODO!
 
-    b. From another QGIS layer/table (setting a field mapping)
+    2. From another QGIS layer/table (setting a field mapping)
 
       TODO!
 
