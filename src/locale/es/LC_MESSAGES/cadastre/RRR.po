@@ -9,110 +9,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 16:22-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../../cadastre/RRR.rst:2
 msgid "RRR"
 msgstr ""
 
-#: ../../../cadastre/RRR.rst:5
+#: ../../../cadastre/RRR.rst:4 ../../../cadastre/RRR.rst:9
+#: ../../../cadastre/RRR.rst:14 ../../../cadastre/RRR.rst:19
+msgid "This functionality is currently being developed"
+msgstr ""
+
+#: ../../../cadastre/RRR.rst:7
 msgid "Right"
 msgstr ""
 
-#: ../../../cadastre/RRR.rst:7 ../../../cadastre/RRR.rst:28
-#: ../../../cadastre/RRR.rst:49
-msgid ""
-"1. Entering data manually using a form (you need to select Administrative"
-" sources before)"
+#: ../../../cadastre/RRR.rst:12
+msgid "Restriccion"
 msgstr ""
 
-#: ../../../cadastre/RRR.rst:10
-msgid ""
-"Choose this option if you have selected at least one *Administrative "
-"Source* and want to link such selected sources to a new **Right** that "
-"you will create using a form."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:14
-msgid ""
-"**COL_Right** is a class that stores right instances that a party has "
-"over a parcel. It is a specialization of the class *LA_RRR*."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:17 ../../../cadastre/RRR.rst:38
-#: ../../../cadastre/RRR.rst:59
-msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:19
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **col_derecho table**."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:22 ../../../cadastre/RRR.rst:43
-#: ../../../cadastre/RRR.rst:64
-msgid ""
-"If the field structure of input and target tables differs, you can set a "
-"field mapping to define field transformations and correspondence."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:26
-msgid "Restriction"
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:31
-msgid ""
-"Choose this option if you have selected at least one *Administrative "
-"Source* and want to link such selected sources to a new **Restriction** "
-"that you will create using a form."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:35
-msgid ""
-"**COL_Restriction** are the restrictions on a parcel that affect rights "
-"that parties may have over it."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:40
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **col_restriccion table**."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:47
+#: ../../../cadastre/RRR.rst:17
 msgid "Responsibility"
 msgstr ""
-
-#: ../../../cadastre/RRR.rst:52
-msgid ""
-"Choose this option if you have selected at least one *Administrative "
-"Source* and want to link such selected sources to a new "
-"**Responsibility** that you will create using a form."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:56
-msgid ""
-"**COL_Responsibility** is a class of type *LA_RRR* which stores "
-"responsibilities that parties have over parcels."
-msgstr ""
-
-#: ../../../cadastre/RRR.rst:61
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **col_responsabilidad** table."
-msgstr ""
-
-#~ msgid "This functionality is currently being developed"
-#~ msgstr ""
-
-#~ msgid "Restriccion"
-#~ msgstr ""
 

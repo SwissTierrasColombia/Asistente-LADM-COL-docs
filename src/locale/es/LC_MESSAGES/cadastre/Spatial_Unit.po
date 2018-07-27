@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 16:22-0500\n"
+"POT-Creation-Date: 2018-05-02 16:26-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../../cadastre/Spatial_Unit.rst:2
 msgid "Spatial Unit"
@@ -46,19 +46,17 @@ msgstr ""
 msgid "**Plot** is a portion of land with a defined geographical extension."
 msgstr ""
 
-#: ../../../cadastre/Spatial_Unit.rst:22 ../../../cadastre/Spatial_Unit.rst:46
-#: ../../../cadastre/Spatial_Unit.rst:71
+#: ../../../cadastre/Spatial_Unit.rst:17
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr ""
 
-#: ../../../cadastre/Spatial_Unit.rst:24
+#: ../../../cadastre/Spatial_Unit.rst:19
 msgid ""
 "Choose this option to open a window that allows you to import data from a"
 " source layer into the *LADM_COL* **terreno** layer."
 msgstr ""
 
-#: ../../../cadastre/Spatial_Unit.rst:27 ../../../cadastre/Spatial_Unit.rst:51
-#: ../../../cadastre/Spatial_Unit.rst:76
+#: ../../../cadastre/Spatial_Unit.rst:22
 msgid ""
 "If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -66,54 +64,5 @@ msgstr ""
 
 #: ../../../cadastre/Spatial_Unit.rst:32
 msgid "Create Building"
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:34
-msgid "Digitizing"
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:36
-msgid ""
-"Choose this option if you want to create a **Building** from existing "
-"*Survey Points*."
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:38
-msgid ""
-"**Building** is a type of legal space of the building unit of the LADM "
-"model that stores data specific of the resulting valuation."
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:48
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source layer into the *LADM_COL* **construccion** layer."
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:56
-msgid "Create Building Unit"
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:58
-msgid ". Digitizing"
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:60
-msgid ""
-"Choose this option if you want to create a **Building Unit** from "
-"existing *Survey Points*."
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:63
-msgid ""
-"**Building Unit** is a group of consolidated materials within a Parcel "
-"that has specific characteristics in terms of physical constituent "
-"elements and their usage."
-msgstr ""
-
-#: ../../../cadastre/Spatial_Unit.rst:73
-msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source layer into the *LADM_COL* **unidadconstruccion** layer."
 msgstr ""
 
