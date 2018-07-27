@@ -23,6 +23,8 @@ Create Point
        :width: 800
        :alt: Create Boundary Point
 
+|
+
     b. From another QGIS layer/table (setting a field mapping)
 
     Choose this option to open a window that allows you to import data from a source
@@ -50,6 +52,8 @@ Create Point
        :height: 500
        :width: 800
        :alt: Create Boundary Point
+
+|
 
     b. From another QGIS layer/table (setting a field mapping)
 
@@ -97,6 +101,8 @@ Create Boundary
      :width: 800
      :alt: Create Boundary Point
 
+|
+
 2. From another QGIS Layer/table (setting a field mapping)
 
   Choose this option to open a window that allows you to import data from a source
@@ -115,6 +121,7 @@ Create Boundary
      :width: 800
      :alt: Create Boundary Point
 
+|
 
   You can fill point bfs topology table using the button *Fill Point BFS* on
   Toolbar LADM_COL which makes automatic and faster this job.
