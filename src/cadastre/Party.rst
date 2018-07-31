@@ -24,6 +24,7 @@ Natural Party
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
 
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
 
 Legal Party
@@ -43,3 +44,5 @@ Legal Party
 
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
+
+  For use this function check this `LINK <../mapping_fields.html>`_.

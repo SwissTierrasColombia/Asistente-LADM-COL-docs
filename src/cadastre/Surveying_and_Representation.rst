@@ -61,7 +61,7 @@ building, right of way or auxiliary vertex.
   If the field structure of input and target layers differs, you can set a field
   mapping to define field transformations and correspondence.
 
-  TODO!
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
 Control Point
 -------------
@@ -82,7 +82,7 @@ physical information of the territorial objects.
 
 2. From another QGIS layer/table (setting a field mapping)
 
-  TODO!
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
 Create Boundary
 ================
@@ -108,7 +108,7 @@ Create Boundary
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
 
-    TODO!
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
   If you need to merge or explodes boundaries you can use the *merge* and *explode*
   buttons on Toolbar LADM_COL.

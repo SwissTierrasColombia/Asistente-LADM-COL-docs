@@ -21,6 +21,8 @@ Right
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
 
+  For use this function check this `LINK <../mapping_fields.html>`_.
+
 Restriction
 --------------
 
@@ -41,6 +43,8 @@ Restriction
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
 
+  For use this function check this `LINK <../mapping_fields.html>`_.
+
 Responsibility
 --------------
 
@@ -60,3 +64,5 @@ Responsibility
 
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
+
+  For use this function check this `LINK <../mapping_fields.html>`_.

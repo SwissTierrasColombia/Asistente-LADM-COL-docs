@@ -27,6 +27,7 @@ Create Plot
   If the field structure of input and target layers differs, you can set a field
   mapping to define field transformations and correspondence.
 
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
 Create Building
 ---------------
@@ -51,6 +52,7 @@ Create Building
   If the field structure of input and target layers differs, you can set a field
   mapping to define field transformations and correspondence.
 
+  For use this function check this `LINK <../mapping_fields.html>`_.
 
 Create Building Unit
 ---------------------
@@ -75,3 +77,5 @@ Create Building Unit
 
   If the field structure of input and target layers differs, you can set a field
   mapping to define field transformations and correspondence.
+
+  For use this function check this `LINK <../mapping_fields.html>`_.
