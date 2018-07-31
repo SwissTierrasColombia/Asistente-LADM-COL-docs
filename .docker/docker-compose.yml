@@ -1,0 +1,10 @@
+version: '3'
+services:
+  compiler:
+    build:
+      context: ../
+      dockerfile: ./.docker/Dockerfile
+    ports:
+      - 5000:5000
+    volumes:
+      - ..:/docs
