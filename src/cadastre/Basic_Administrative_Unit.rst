@@ -13,6 +13,11 @@ Parcel
   territorial unit, which is formed by the plot and may or may not have associated
   constructions.
 
+  .. image:: ../static/crear_predio.gif
+     :height: 500
+     :width: 800
+     :alt: Create Parcel
+
 2. From another QGIS layer/table (setting a field mapping)
 
   Choose this option to open a window that allows you to import data from a source

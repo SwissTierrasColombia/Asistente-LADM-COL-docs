@@ -22,7 +22,7 @@ its specializations.
   .. image:: ../static/_CREAR_PUNTO_LINDERO_.gif
      :height: 500
      :width: 800
-     :alt: Create Boundary Point
+     :alt: Create Control Point
 
 2. From another QGIS layer/table (setting a field mapping)
 
@@ -78,7 +78,10 @@ physical information of the territorial objects.
   Add a Comma Separated Values file (CSV), choosing the delimiter and fields that
   contain point coordinates.
 
-  TODO!
+  .. image:: ../static/crear_punto_control.gif
+     :height: 500
+     :width: 800
+     :alt: Create Boundary Point
 
 2. From another QGIS layer/table (setting a field mapping)
 
