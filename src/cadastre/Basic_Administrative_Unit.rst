@@ -15,12 +15,8 @@ Parcel
 
 2. From another QGIS layer/table (setting a field mapping)
 
-  Choose this option to open a window that allows you to import data from a source table into the *LADM_COL* **predio** table.
+  Choose this option to open a window that allows you to import data from a source
+  table into the *LADM_COL* **predio** table.
 
   If the field structure of input and target tables differs, you can set a field
   mapping to define field transformations and correspondence.
-
-  .. image:: ../static/refactor_fields_predio.gif
-     :height: 500
-     :width: 800
-     :alt: Create Parcel from another table
