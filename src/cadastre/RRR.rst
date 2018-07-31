@@ -13,7 +13,7 @@ Right
   **COL_Right** is a class that stores right instances that a party has over a
   parcel. It is a specialization of the class *LA_RRR*.
 
-  .. image:: static/crear_derecho.gif
+  .. image:: ../static/crear_derecho_.gif
      :height: 500
      :width: 800
      :alt: Create Right
@@ -40,7 +40,7 @@ Restriction
   **COL_Restriction** are the restrictions on a parcel that affect rights that parties
   may have over it.
 
-  .. image:: static/crear_restriccion.gif
+  .. image:: ../static/crear_restriccion_.gif
      :height: 500
      :width: 800
      :alt: Create Restriction
@@ -67,7 +67,7 @@ Responsibility
   **COL_Responsibility** is a class of type *LA_RRR* which stores responsibilities
   that parties have over parcels.
 
-  .. image:: static/crear_responsabilidad.gif
+  .. image:: ../static/crear_responsabilidad_.gif
      :height: 500
      :width: 800
      :alt: Create Responsibility

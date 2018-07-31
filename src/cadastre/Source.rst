@@ -30,7 +30,7 @@ Administrative Source
   For use this function check this `LINK <../mapping_fields.html>`_.
 
 Spatial Source
----------------
+--------------
 
 1. Entering data manually using a form
 
