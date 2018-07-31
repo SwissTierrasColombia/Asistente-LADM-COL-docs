@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-02 16:26-0500\n"
+"POT-Creation-Date: 2018-07-31 08:37-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: es_CO\n"
-"X-Source-Language: en_US\n"
+"X-Language: es\n"
+"X-Source-Language: en\n"
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:2
 msgid "Basic Administrative Unit"
@@ -65,7 +65,7 @@ msgstr ""
 "Escoja esta opción para abrir una ventana que le permita importar datos de "
 "una tabla fuente en la tabla *LADM_COL* **predio**."
 
-#: ../../../cadastre/Basic_Administrative_Unit.rst:20
+#: ../../../cadastre/Basic_Administrative_Unit.rst:21
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -73,3 +73,7 @@ msgstr ""
 "Si la estructura del campo de entrada y el campo de salida difieren, tu "
 "puedes establecer un mapeo de campos para definir las transformaciones y "
 "correspondencias."
+
+#: ../../../cadastre/Basic_Administrative_Unit.rst:24
+msgid "For use this function check this `LINK <../mapping_fields.html>`_."
+msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."

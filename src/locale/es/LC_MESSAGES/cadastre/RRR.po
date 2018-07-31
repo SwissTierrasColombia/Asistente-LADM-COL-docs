@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 12:24-0500\n"
+"POT-Creation-Date: 2018-07-31 08:37-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: es_CO\n"
-"X-Source-Language: en_US\n"
+"X-Language: es\n"
+"X-Source-Language: en\n"
 
 #: ../../../cadastre/RRR.rst:2
 msgid "RRR"
@@ -29,8 +29,8 @@ msgstr "RRR"
 msgid "Right"
 msgstr "Derecho"
 
-#: ../../../cadastre/RRR.rst:7 ../../../cadastre/RRR.rst:27
-#: ../../../cadastre/RRR.rst:47
+#: ../../../cadastre/RRR.rst:7 ../../../cadastre/RRR.rst:29
+#: ../../../cadastre/RRR.rst:51
 msgid ""
 "Entering data manually using a form (you need to select Administrative "
 "sources before)"
@@ -57,8 +57,8 @@ msgstr ""
 "un interesado ejerce sobre un predio. Es una especialización de la clase "
 "*LA_RRR* del propio modelo."
 
-#: ../../../cadastre/RRR.rst:16 ../../../cadastre/RRR.rst:36
-#: ../../../cadastre/RRR.rst:56
+#: ../../../cadastre/RRR.rst:16 ../../../cadastre/RRR.rst:38
+#: ../../../cadastre/RRR.rst:60
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr "Desde otra tabla de QGIS (definiendo un mapeo de campos)"
 
@@ -70,8 +70,8 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **col_derecho** de *LADM_COL*."
 
-#: ../../../cadastre/RRR.rst:21 ../../../cadastre/RRR.rst:41
-#: ../../../cadastre/RRR.rst:61
+#: ../../../cadastre/RRR.rst:21 ../../../cadastre/RRR.rst:43
+#: ../../../cadastre/RRR.rst:65
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -80,11 +80,16 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos. "
 
-#: ../../../cadastre/RRR.rst:25
+#: ../../../cadastre/RRR.rst:24 ../../../cadastre/RRR.rst:46
+#: ../../../cadastre/RRR.rst:68
+msgid "For use this function check this `LINK <../mapping_fields.html>`_."
+msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
+
+#: ../../../cadastre/RRR.rst:27
 msgid "Restriction"
 msgstr "Restricción"
 
-#: ../../../cadastre/RRR.rst:29
+#: ../../../cadastre/RRR.rst:31
 msgid ""
 "Choose this option if you have selected at least one *Administrative Source* "
 "and want to link such selected sources to a new **Restriction** that you "
@@ -94,7 +99,7 @@ msgstr ""
 "Administrativa* y deseas relacionar esas fuentes seleccionadas con una nueva "
 "**Restricción** que vas a crear usando un formulario."
 
-#: ../../../cadastre/RRR.rst:33
+#: ../../../cadastre/RRR.rst:35
 msgid ""
 "**COL_Restriction** are the restrictions on a parcel that affect rights that "
 "parties may have over it."
@@ -102,7 +107,7 @@ msgstr ""
 "**COL_Restricción** almacena las restricciones a las que está sometido un "
 "predio y que inciden sobre los derechos que pueden ejercerse sobre él."
 
-#: ../../../cadastre/RRR.rst:38
+#: ../../../cadastre/RRR.rst:40
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **col_restriccion table**."
@@ -110,11 +115,11 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **col_restriccion** de *LADM_COL*."
 
-#: ../../../cadastre/RRR.rst:45
+#: ../../../cadastre/RRR.rst:49
 msgid "Responsibility"
 msgstr "Responsabilidad"
 
-#: ../../../cadastre/RRR.rst:49
+#: ../../../cadastre/RRR.rst:53
 msgid ""
 "Choose this option if you have selected at least one *Administrative Source* "
 "and want to link such selected sources to a new **Responsibility** that you "
@@ -124,7 +129,7 @@ msgstr ""
 "Administrativa* y deseas relacionar esas fuentes seleccionadas con una nueva "
 "**Responsabilidad** que vas a crear usando un formulario."
 
-#: ../../../cadastre/RRR.rst:53
+#: ../../../cadastre/RRR.rst:57
 msgid ""
 "**COL_Responsibility** is a class of type *LA_RRR* which stores "
 "responsibilities that parties have over parcels."
@@ -133,7 +138,7 @@ msgstr ""
 "responsabilidades que las instancias de los interesados tienen sobre los "
 "predios."
 
-#: ../../../cadastre/RRR.rst:58
+#: ../../../cadastre/RRR.rst:62
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **col_responsabilidad** table."

@@ -82,6 +82,12 @@ physical information of the territorial objects.
 
 2. From another QGIS layer/table (setting a field mapping)
 
+  Choose this option to open a window that allows you to import data from a source
+  layer into the *LADM_COL* **puntocontrol** layer.
+
+  If the field structure of input and target layers differs, you can set a field
+  mapping to define field transformations and correspondence.
+
   For use this function check this `LINK <../mapping_fields.html>`_.
 
 Create Boundary

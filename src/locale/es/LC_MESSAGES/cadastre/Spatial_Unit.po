@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-25 17:12-0500\n"
+"POT-Creation-Date: 2018-07-31 08:37-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: es_CO\n"
-"X-Source-Language: en_US\n"
+"X-Language: es\n"
+"X-Source-Language: en\n"
 
 #: ../../../cadastre/Spatial_Unit.rst:2
 msgid "Spatial Unit"
@@ -54,8 +54,8 @@ msgid "**Plot** is a portion of land with a defined geographical extension."
 msgstr ""
 "**Terreno** es una porción de tierra con una extensión geográfica definida."
 
-#: ../../../cadastre/Spatial_Unit.rst:22 ../../../cadastre/Spatial_Unit.rst:46
-#: ../../../cadastre/Spatial_Unit.rst:71
+#: ../../../cadastre/Spatial_Unit.rst:22 ../../../cadastre/Spatial_Unit.rst:47
+#: ../../../cadastre/Spatial_Unit.rst:73
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
@@ -67,8 +67,8 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una capa fuente hacia la capa **terreno** de *LADM_COL*."
 
-#: ../../../cadastre/Spatial_Unit.rst:27 ../../../cadastre/Spatial_Unit.rst:51
-#: ../../../cadastre/Spatial_Unit.rst:76
+#: ../../../cadastre/Spatial_Unit.rst:27 ../../../cadastre/Spatial_Unit.rst:52
+#: ../../../cadastre/Spatial_Unit.rst:78
 msgid ""
 "If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -77,15 +77,20 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos."
 
-#: ../../../cadastre/Spatial_Unit.rst:32
+#: ../../../cadastre/Spatial_Unit.rst:30 ../../../cadastre/Spatial_Unit.rst:55
+#: ../../../cadastre/Spatial_Unit.rst:81
+msgid "For use this function check this `LINK <../mapping_fields.html>`_."
+msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
+
+#: ../../../cadastre/Spatial_Unit.rst:33
 msgid "Create Building"
 msgstr "Crear Construcción"
 
-#: ../../../cadastre/Spatial_Unit.rst:34 ../../../cadastre/Spatial_Unit.rst:58
+#: ../../../cadastre/Spatial_Unit.rst:35 ../../../cadastre/Spatial_Unit.rst:60
 msgid "Digitizing"
 msgstr "Digitalizando"
 
-#: ../../../cadastre/Spatial_Unit.rst:36
+#: ../../../cadastre/Spatial_Unit.rst:37
 msgid ""
 "Choose this option if you want to create a **Building** from existing "
 "*Survey Points*."
@@ -93,7 +98,7 @@ msgstr ""
 "Elige esta opción si deseas crear una **Construcción** a partir de *Puntos "
 "de Levantamiento* existentes. "
 
-#: ../../../cadastre/Spatial_Unit.rst:38
+#: ../../../cadastre/Spatial_Unit.rst:39
 msgid ""
 "**Building** is a type of legal space of the building unit of the LADM model "
 "that stores data specific of the resulting valuation."
@@ -102,7 +107,7 @@ msgstr ""
 "del modelo LADM que almacena datos específicos del avalúo resultante del "
 "mismo."
 
-#: ../../../cadastre/Spatial_Unit.rst:48
+#: ../../../cadastre/Spatial_Unit.rst:49
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **construccion** layer."
@@ -110,11 +115,11 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una capa fuente hacia la capa **construccion** de *LADM_COL*."
 
-#: ../../../cadastre/Spatial_Unit.rst:56
+#: ../../../cadastre/Spatial_Unit.rst:58
 msgid "Create Building Unit"
 msgstr "Crear Unidad de Construcción"
 
-#: ../../../cadastre/Spatial_Unit.rst:60
+#: ../../../cadastre/Spatial_Unit.rst:62
 msgid ""
 "Choose this option if you want to create a **Building Unit** from existing "
 "*Survey Points*."
@@ -122,7 +127,7 @@ msgstr ""
 "Elige esta opción si deseas crear una **Unidad de Construcción** a partir de "
 "*Puntos de Levantamiento* existentes."
 
-#: ../../../cadastre/Spatial_Unit.rst:63
+#: ../../../cadastre/Spatial_Unit.rst:65
 msgid ""
 "**Building Unit** is a group of consolidated materials within a Parcel that "
 "has specific characteristics in terms of physical constituent elements and "
@@ -132,7 +137,7 @@ msgstr ""
 "dentro de un Predio que tiene unas caracteristicas específicas en cuanto a "
 "elementos constitutivos físicos y usos de los mismos."
 
-#: ../../../cadastre/Spatial_Unit.rst:73
+#: ../../../cadastre/Spatial_Unit.rst:75
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **unidadconstruccion** layer."
