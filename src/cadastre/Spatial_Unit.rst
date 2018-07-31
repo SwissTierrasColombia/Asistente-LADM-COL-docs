@@ -65,7 +65,7 @@ Create Building Unit
   **Building Unit** is a group of consolidated materials within a Parcel that has
   specific characteristics in terms of physical constituent elements and their usage.
 
-  .. image:: ../static/Create_building_unit.gif
+  .. image:: ../static/create_building_unit.gif
      :height: 500
      :width: 800
      :alt: Create building unit
