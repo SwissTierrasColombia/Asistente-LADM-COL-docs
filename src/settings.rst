@@ -84,4 +84,4 @@ collected in LADM-COL.
 .. image:: static/Configurar_fuentes.gif
    :height: 500
    :width: 800
-   :alt: about plugin
+   :alt: Setting up sources
