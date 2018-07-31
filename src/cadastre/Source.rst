@@ -14,6 +14,11 @@ Administrative Source
   historical documents, and the like) that document the relationship
   between parties and parcels.
 
+  .. image:: ../static/crear_fuente_administrativa.gif
+     :height: 500
+     :width: 800
+     :alt: Create Administrative Source
+
 2. From another QGIS layer/table (setting a field mapping)
 
   Choose this option to open a window that allows you to import data from a source
@@ -36,6 +41,11 @@ Spatial Source
   photogrammetric flights, maps, coordinate listings, ancient or modern plans,
   location descriptions, and the like) that technically document the relationship
   between parties and parcels.
+
+  .. image:: ../static/crear_fuente_espacial.gif
+     :height: 500
+     :width: 800
+     :alt: Create Spatial Source
 
 2. From another QGIS layer/table (setting a field mapping)
 
