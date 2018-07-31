@@ -32,7 +32,7 @@ its specializations.
   If the field structure of input and target layers differs, you can set a field
   mapping to define field transformations and correspondence.
 
-  For use this function check this `LINK <../mapping_fields.rst>`_
+  For use this function check this `LINK <../mapping_fields.rst>`_.
 
 Survey Point
 ------------
