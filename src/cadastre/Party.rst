@@ -37,6 +37,11 @@ Legal Party
   **Legal Party** is a legal entity that has rights, restrictions or
   responsibilities related to one or more *Parcels*.
 
+  .. image:: ../static/crear_interesado_juridico.gif
+     :height: 500
+     :width: 800
+     :alt: Create Legal Party
+
 2. From another QGIS layer/table (setting a field mapping)
 
   Choose this option to open a window that allows you to import data from a source

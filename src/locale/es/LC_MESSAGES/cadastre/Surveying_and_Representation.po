@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 08:37-0500\n"
+"POT-Creation-Date: 2018-07-31 11:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../../cadastre/Surveying_and_Representation.rst:27
 #: ../../../cadastre/Surveying_and_Representation.rst:56
-#: ../../../cadastre/Surveying_and_Representation.rst:83
+#: ../../../cadastre/Surveying_and_Representation.rst:86
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../cadastre/Surveying_and_Representation.rst:32
 #: ../../../cadastre/Surveying_and_Representation.rst:61
-#: ../../../cadastre/Surveying_and_Representation.rst:88
+#: ../../../cadastre/Surveying_and_Representation.rst:91
 msgid ""
 "If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -94,8 +94,8 @@ msgstr ""
 
 #: ../../../cadastre/Surveying_and_Representation.rst:35
 #: ../../../cadastre/Surveying_and_Representation.rst:64
-#: ../../../cadastre/Surveying_and_Representation.rst:91
-#: ../../../cadastre/Surveying_and_Representation.rst:117
+#: ../../../cadastre/Surveying_and_Representation.rst:94
+#: ../../../cadastre/Surveying_and_Representation.rst:120
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
 msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
 
@@ -151,11 +151,7 @@ msgstr ""
 "catastral para el levantamiento de información fisica de los objetos "
 "territoriales."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:81
-msgid "TODO!"
-msgstr "POR HACER!"
-
-#: ../../../cadastre/Surveying_and_Representation.rst:85
+#: ../../../cadastre/Surveying_and_Representation.rst:88
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **puntocontrol** layer."
@@ -163,15 +159,15 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **puntocontrol** de *LADM_COL*."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:94
+#: ../../../cadastre/Surveying_and_Representation.rst:97
 msgid "Create Boundary"
 msgstr "Crear Lindero"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:96
+#: ../../../cadastre/Surveying_and_Representation.rst:99
 msgid "Digitizing"
 msgstr "Digitalizando"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:98
+#: ../../../cadastre/Surveying_and_Representation.rst:101
 msgid ""
 "Choose this option if you want to create a **Boundary** using QGIS "
 "digitizing tools."
@@ -179,7 +175,7 @@ msgstr ""
 "Elige esta opción si deseas agregar un **Lindero** usando las herramientas "
 "de digitalización de QGIS. "
 
-#: ../../../cadastre/Surveying_and_Representation.rst:101
+#: ../../../cadastre/Surveying_and_Representation.rst:104
 msgid ""
 "**Boundary** is a specialization of the *LA_CadenaCarasLindero* class to "
 "store boundaries that define plots. Two boundaries must not cross or overlap."
@@ -188,11 +184,11 @@ msgstr ""
 "permite registrar los linderos. Dos linderos no pueden cruzarse ni "
 "superponerse."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:109
+#: ../../../cadastre/Surveying_and_Representation.rst:112
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:111
+#: ../../../cadastre/Surveying_and_Representation.rst:114
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **lindero** table."
@@ -200,7 +196,7 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **lindero** de *LADM_COL*."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:114
+#: ../../../cadastre/Surveying_and_Representation.rst:117
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -209,7 +205,7 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:119
+#: ../../../cadastre/Surveying_and_Representation.rst:122
 msgid ""
 "If you need to merge or explodes boundaries you can use the *merge* and "
 "*explode* buttons on Toolbar LADM_COL."
@@ -218,7 +214,7 @@ msgstr ""
 "botones *Unir* y *Partir por segmento* en la barra de herramientas de "
 "LADM-COL."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:127
+#: ../../../cadastre/Surveying_and_Representation.rst:130
 msgid ""
 "You can fill point bfs topology table using the button *Fill Point BFS* on "
 "Toolbar LADM_COL which makes automatic and faster this job."
@@ -256,3 +252,6 @@ msgstr ""
 
 #~ msgid "b. From another QGIS layer/table (setting a field mapping)"
 #~ msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#~ msgid "TODO!"
+#~ msgstr "POR HACER!"
