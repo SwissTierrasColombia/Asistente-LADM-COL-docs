@@ -22,6 +22,5 @@ msgstr ""
 "X-Source-Language: en\n"
 
 #: ../../../cadastre.rst:2
-#, fuzzy
 msgid "Cadastre"
 msgstr "Catastro"
