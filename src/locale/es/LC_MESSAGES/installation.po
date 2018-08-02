@@ -45,8 +45,7 @@ msgid ""
 msgstr ""
 "Es necesario tener el Software QGIS versión 3 instalado, recomendamos usar "
 "la versión semanal hasta que se haya lanzado la versión 3.4 LTS, para "
-"obtener este diríjete a `QGIS "
-"<https://qgis.org/en/site/forusers/download.html>`_."
+"obtener este diríjete a `QGIS <https://qgis.org/downloads/weekly/>`_."
 
 #: ../../../installation.rst:14
 msgid "The process can be seen graphically in the following gif:"
