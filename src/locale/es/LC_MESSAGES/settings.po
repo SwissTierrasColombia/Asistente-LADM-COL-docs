@@ -34,7 +34,7 @@ msgid ""
 "In this tab, the parameters are defined to connect to the database in which "
 "the physical model of LADM_COL is stored."
 msgstr ""
-"En esta pestaña, los parámetros se definen para conectarse con la base de "
+"En esta pestaña, se definen los parámetros para conectarse con la base de "
 "datos que almacena el modelo físico de LADM_COL."
 
 #: ../../../settings.rst:15
@@ -62,7 +62,7 @@ msgid ""
 "**Host**: address where the database is hosted *localhost* is equivalent to "
 "*127.0.0.1*"
 msgstr ""
-"**Host**: dirección donde la base de datos es alamacenada *localhost* es "
+"**Host**: dirección donde la base de datos es almacenada *localhost* es "
 "equivalente a *127.0.0.1*"
 
 #: ../../../settings.rst:27
@@ -123,9 +123,9 @@ msgid ""
 "For data quality issues in this tab, the tolerance limit allowed for too "
 "long boundary segments is established, this must be defined in meters."
 msgstr ""
-"Por cuestiones de calidad en esta pestaña, se etablece el límite de "
-"tolerancia permitido para segmentos de linderos demasiado largos, este debe "
-"estar definido en metros."
+"En esta pestaña se definen parámetros para validaciones de calidad. Por "
+"ejemplo, se establece el límite de tolerancia permitido para segmentos de "
+"linderos demasiado largos, el cual debe estar definido en metros."
 
 #: ../../../settings.rst:54
 msgid "Automatic Values"
@@ -140,8 +140,8 @@ msgid ""
 msgstr ""
 "La mayoría de las clases en LADM_COL tiene dos atributos que combinados "
 "deben ser únicos en todo el ``esquema/base de datos``. Se denominan  "
-"**espacio_de_nombres** and **local_id**. Para hacer más fácil el llenado de "
-"estos atributos, el *asitente LADM_COL* puede configurarse con valores "
+"**espacio_de_nombres** y **local_id**. Para hacer más fácil el llenado de "
+"estos atributos, el *asistente LADM_COL* puede configurarse con valores "
 "automáticos para ellos."
 
 #: ../../../settings.rst:61
@@ -167,7 +167,7 @@ msgid ""
 "If you want to fill those values by youtself, uncheck the check boxes in "
 "this form."
 msgstr ""
-"Si desea llenar esos valores por su cuenta desmarque las siguientes opciones "
+"Si deseas llenar esos valores por tu cuenta desmarca las siguientes opciones "
 "en este formulario."
 
 #: ../../../settings.rst:78
