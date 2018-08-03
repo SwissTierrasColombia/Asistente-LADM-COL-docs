@@ -5,7 +5,7 @@ This is how toolbar looks like:
 
 .. image:: static/ladm_col_toolbar.png
    :height: 25
-   :width: 32
+   :width: 418
    :alt: LADM-COL toolbar
 
 If the toolbar does not appear on the QGIS interface, you can make it show with
@@ -36,7 +36,7 @@ Toolbar LADM_COL which makes automatic and faster this job.
 
 This are the tables that relate with this function:
 
-puntosccl --> puntolindero and lindero
+- puntosccl --> puntolindero and lindero
 
 .. image:: static/_LLENAR_TOPOLOGIAS_PUNTO_LINDERO.gif
    :height: 500
@@ -51,8 +51,8 @@ and Less* on Toolbar LADM_COL which makes automatic and faster this job.
 
 This are the tables that relate with this function:
 
-masccl --> puntolindero and lindero
-menos --> puntolindero and lindero (holes or intern rings)
+- masccl --> puntolindero and lindero
+- menos --> puntolindero and lindero (holes or intern rings)
 
 .. image:: static/_TOPOLOGIAS_TERRENO.gif
    :height: 500
