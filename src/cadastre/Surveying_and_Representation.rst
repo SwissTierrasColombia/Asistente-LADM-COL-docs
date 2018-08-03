@@ -127,10 +127,8 @@ Create Boundary
      :width: 800
      :alt: Create Boundary Point
 
-  You can fill point bfs topology table using the button *Fill Point BFS* on
-  Toolbar LADM_COL which makes automatic and faster this job.
+|
 
-  .. image:: ../static/_LLENAR_TOPOLOGIAS.gif
-     :height: 500
-     :width: 800
-     :alt: Create Boundary Point
+  You can fill point bfs topology table using the button *Fill Point BFS* on
+  Toolbar LADM_COL which makes automatic and faster this job. For use this
+  function check this `LINK <../toolbar.html>`_.

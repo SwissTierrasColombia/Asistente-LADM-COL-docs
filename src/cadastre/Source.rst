@@ -35,6 +35,9 @@ Spatial Source
 1. Entering data manually using a form
 
   Choose this option if you want to create a **Spatial Source** using a form.
+  (Previously you have to select objects from the table terreno, lindero,
+  puntolindero, puntolevantamiento, o punto control which will be associated
+  with the new **Spatial Source**)
 
   **Spatial Source** is a specialization of the *COL_Fuente* class to store those
   sources corresponding to spatial data (geographic features, satellite imagery,

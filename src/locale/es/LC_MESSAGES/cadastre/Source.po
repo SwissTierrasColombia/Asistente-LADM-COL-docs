@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 08:37-0500\n"
+"POT-Creation-Date: 2018-08-03 13:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Fuente"
 msgid "Administrative Source"
 msgstr "Fuente Administrativa"
 
-#: ../../../cadastre/Source.rst:7 ../../../cadastre/Source.rst:30
+#: ../../../cadastre/Source.rst:7 ../../../cadastre/Source.rst:35
 msgid "Entering data manually using a form"
 msgstr "Ingresando datos manualmente en un formulario"
 
@@ -53,11 +53,11 @@ msgstr ""
 "hipotecario, documentos notariales, documentos históricos, etc.) que "
 "documentan la relación entre instancias de interesados y de predios."
 
-#: ../../../cadastre/Source.rst:17 ../../../cadastre/Source.rst:40
+#: ../../../cadastre/Source.rst:22 ../../../cadastre/Source.rst:53
 msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr "Desde otra caoa de QGIS (definiendo un mapeo de campos)"
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
-#: ../../../cadastre/Source.rst:19
+#: ../../../cadastre/Source.rst:24
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **col_fuenteadministrativa** table."
@@ -65,7 +65,7 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **col_fuenteadministrativa** de *LADM_COL*."
 
-#: ../../../cadastre/Source.rst:22 ../../../cadastre/Source.rst:45
+#: ../../../cadastre/Source.rst:27 ../../../cadastre/Source.rst:58
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -74,22 +74,27 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos."
 
-#: ../../../cadastre/Source.rst:25 ../../../cadastre/Source.rst:48
+#: ../../../cadastre/Source.rst:30 ../../../cadastre/Source.rst:61
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
 msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
 
-#: ../../../cadastre/Source.rst:28
+#: ../../../cadastre/Source.rst:33
 msgid "Spatial Source"
 msgstr "Fuente Espacial"
 
-#: ../../../cadastre/Source.rst:32
+#: ../../../cadastre/Source.rst:37
 msgid ""
-"Choose this option if you want to create a **Spatial Source** using a form."
+"Choose this option if you want to create a **Spatial Source** using a form. "
+"(Previously you have to select objects from the table terreno, lindero, "
+"puntolindero, puntolevantamiento, o punto control which will be associated "
+"with the new **Spatial Source**)"
 msgstr ""
-"Elige esta opción si deseas agregar una **Fuente espacial** usando un "
-"formulario."
+"Elige esta opción si deseas agregar una **Fuente Espacial** usando un "
+"formulario. (Previamente debes haber seleccionado objetos de la tabla "
+"terreno, lindero, puntolindero, puntolevantamiento, o puntocontro a los "
+"cuales se asociará la nueva fuente espacial)"
 
-#: ../../../cadastre/Source.rst:34
+#: ../../../cadastre/Source.rst:42
 msgid ""
 "**Spatial Source** is a specialization of the *COL_Fuente* class to store "
 "those sources corresponding to spatial data (geographic features, satellite "
@@ -97,17 +102,24 @@ msgid ""
 "modern plans, location descriptions, and the like) that technically document "
 "the relationship between parties and parcels."
 msgstr ""
-"**Fuente espacia**l es una especialización de la clase *COL_Fuente* para "
+"**Fuente espacial** es una especialización de la clase *COL_Fuente* para "
 "almacenar las fuentes constituidas por datos espaciales (entidades "
 "geográficas, imágenes de satélite, vuelos fotogramétricos, listados de "
 "coordenadas, mapas, planos antiguos o modernos, descripción de "
 "localizaciones, etc.) que documentan técnicamente la relación entre "
 "instancias de interesados y de predios."
 
-#: ../../../cadastre/Source.rst:42
+#: ../../../cadastre/Source.rst:55
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **col_fuenteespacial** table."
 msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una tabla fuente hacia la tabla **col_fuenteespacial** de *LADM_COL*."
+
+#~ msgid ""
+#~ "Choose this option if you want to create a **Spatial Source** using a "
+#~ "form."
+#~ msgstr ""
+#~ "Elige esta opción si deseas agregar una **Fuente espacial** usando un "
+#~ "formulario."

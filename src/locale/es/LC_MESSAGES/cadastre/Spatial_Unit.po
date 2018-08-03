@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 08:37-0500\n"
+"POT-Creation-Date: 2018-08-03 13:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,41 +25,33 @@ msgstr ""
 msgid "Spatial Unit"
 msgstr "Unidad Espacial"
 
-#: ../../../cadastre/Spatial_Unit.rst:4
-msgid ""
-"In this process you define the new spatial objects that you want to add to "
-"the database with the structure of the *LADM_COL* model."
-msgstr ""
-"En este proceso definirás los objetos espaciales nuevo que deseas agregar a "
-"la base de datos con la estructura del modelo *LADM_COL*."
-
-#: ../../../cadastre/Spatial_Unit.rst:9
+#: ../../../cadastre/Spatial_Unit.rst:5
 msgid "Create Plot"
 msgstr "Crear Terreno"
 
-#: ../../../cadastre/Spatial_Unit.rst:11
+#: ../../../cadastre/Spatial_Unit.rst:7
 msgid "Selecting existing boundaries"
-msgstr "Seleccionando lindero existentes"
+msgstr "Seleccionando linderos existentes"
 
-#: ../../../cadastre/Spatial_Unit.rst:13
+#: ../../../cadastre/Spatial_Unit.rst:9
 msgid ""
 "Choose this option if you want to create a **Plot** from existing "
 "*Boundaries*."
 msgstr ""
-"Elige esta opción si deseas crear un **Terreno** a partir de *Límites* "
+"Elige esta opción si deseas crear un **Terreno** a partir de *Linderos* "
 "existentes. "
 
-#: ../../../cadastre/Spatial_Unit.rst:15
+#: ../../../cadastre/Spatial_Unit.rst:11
 msgid "**Plot** is a portion of land with a defined geographical extension."
 msgstr ""
 "**Terreno** es una porción de tierra con una extensión geográfica definida."
 
-#: ../../../cadastre/Spatial_Unit.rst:22 ../../../cadastre/Spatial_Unit.rst:47
-#: ../../../cadastre/Spatial_Unit.rst:73
+#: ../../../cadastre/Spatial_Unit.rst:18 ../../../cadastre/Spatial_Unit.rst:43
+#: ../../../cadastre/Spatial_Unit.rst:69
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
-#: ../../../cadastre/Spatial_Unit.rst:24
+#: ../../../cadastre/Spatial_Unit.rst:20
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **terreno** layer."
@@ -67,8 +59,8 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una capa fuente hacia la capa **terreno** de *LADM_COL*."
 
-#: ../../../cadastre/Spatial_Unit.rst:27 ../../../cadastre/Spatial_Unit.rst:52
-#: ../../../cadastre/Spatial_Unit.rst:78
+#: ../../../cadastre/Spatial_Unit.rst:23 ../../../cadastre/Spatial_Unit.rst:48
+#: ../../../cadastre/Spatial_Unit.rst:74
 msgid ""
 "If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -77,20 +69,20 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos."
 
-#: ../../../cadastre/Spatial_Unit.rst:30 ../../../cadastre/Spatial_Unit.rst:55
-#: ../../../cadastre/Spatial_Unit.rst:81
+#: ../../../cadastre/Spatial_Unit.rst:26 ../../../cadastre/Spatial_Unit.rst:51
+#: ../../../cadastre/Spatial_Unit.rst:77
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
 msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
 
-#: ../../../cadastre/Spatial_Unit.rst:33
+#: ../../../cadastre/Spatial_Unit.rst:29
 msgid "Create Building"
 msgstr "Crear Construcción"
 
-#: ../../../cadastre/Spatial_Unit.rst:35 ../../../cadastre/Spatial_Unit.rst:60
+#: ../../../cadastre/Spatial_Unit.rst:31 ../../../cadastre/Spatial_Unit.rst:56
 msgid "Digitizing"
 msgstr "Digitalizando"
 
-#: ../../../cadastre/Spatial_Unit.rst:37
+#: ../../../cadastre/Spatial_Unit.rst:33
 msgid ""
 "Choose this option if you want to create a **Building** from existing "
 "*Survey Points*."
@@ -98,7 +90,7 @@ msgstr ""
 "Elige esta opción si deseas crear una **Construcción** a partir de *Puntos "
 "de Levantamiento* existentes. "
 
-#: ../../../cadastre/Spatial_Unit.rst:39
+#: ../../../cadastre/Spatial_Unit.rst:35
 msgid ""
 "**Building** is a type of legal space of the building unit of the LADM model "
 "that stores data specific of the resulting valuation."
@@ -107,7 +99,7 @@ msgstr ""
 "del modelo LADM que almacena datos específicos del avalúo resultante del "
 "mismo."
 
-#: ../../../cadastre/Spatial_Unit.rst:49
+#: ../../../cadastre/Spatial_Unit.rst:45
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **construccion** layer."
@@ -115,11 +107,11 @@ msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una capa fuente hacia la capa **construccion** de *LADM_COL*."
 
-#: ../../../cadastre/Spatial_Unit.rst:58
+#: ../../../cadastre/Spatial_Unit.rst:54
 msgid "Create Building Unit"
 msgstr "Crear Unidad de Construcción"
 
-#: ../../../cadastre/Spatial_Unit.rst:62
+#: ../../../cadastre/Spatial_Unit.rst:58
 msgid ""
 "Choose this option if you want to create a **Building Unit** from existing "
 "*Survey Points*."
@@ -127,7 +119,7 @@ msgstr ""
 "Elige esta opción si deseas crear una **Unidad de Construcción** a partir de "
 "*Puntos de Levantamiento* existentes."
 
-#: ../../../cadastre/Spatial_Unit.rst:65
+#: ../../../cadastre/Spatial_Unit.rst:61
 msgid ""
 "**Building Unit** is a group of consolidated materials within a Parcel that "
 "has specific characteristics in terms of physical constituent elements and "
@@ -137,10 +129,17 @@ msgstr ""
 "dentro de un Predio que tiene unas caracteristicas específicas en cuanto a "
 "elementos constitutivos físicos y usos de los mismos."
 
-#: ../../../cadastre/Spatial_Unit.rst:75
+#: ../../../cadastre/Spatial_Unit.rst:71
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source layer into the *LADM_COL* **unidadconstruccion** layer."
 msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
 "una capa fuente hacia la capa **unidadconstruccion** de *LADM_COL*."
+
+#~ msgid ""
+#~ "In this process you define the new spatial objects that you want to add "
+#~ "to the database with the structure of the *LADM_COL* model."
+#~ msgstr ""
+#~ "En este proceso definirás los objetos espaciales nuevo que deseas agregar "
+#~ "a la base de datos con la estructura del modelo *LADM_COL*."

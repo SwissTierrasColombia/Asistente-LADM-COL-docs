@@ -37,7 +37,7 @@ msgstr "Ingresando datos manualmente en un formulario"
 msgid ""
 "Choose this option if you want to create a **Natural Party** using a form."
 msgstr ""
-"Elige esta opción si deseas agregar una **Interesado Natural** con un "
+"Elige esta opción si deseas agregar un **Interesado Natural** con un "
 "formulario."
 
 #: ../../../cadastre/Party.rst:11
@@ -81,7 +81,7 @@ msgstr "Interesado Jurídico"
 msgid ""
 "Choose this option if you want to create a **Legal Party** using a form."
 msgstr ""
-"Elige esta opción si deseas agregar una **Interesado Jurídico** con un "
+"Elige esta opción si deseas agregar un **Interesado Jurídico** con un "
 "formulario."
 
 #: ../../../cadastre/Party.rst:37

@@ -38,7 +38,7 @@ msgid ""
 "Choose this option if you want to create a **Parcel** based on existing "
 "plots."
 msgstr ""
-"Escoja esta opción si desea crear un **Predio** basado en terrenos "
+"Escoje esta opción si deseas crear un **Predio** basado en terrenos "
 "existentes."
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:11
@@ -62,7 +62,7 @@ msgid ""
 "Choose this option to open a window that allows you to import data from a "
 "source table into the *LADM_COL* **predio** table."
 msgstr ""
-"Escoja esta opción para abrir una ventana que le permita importar datos de "
+"Escoje esta opción para abrir una ventana que te permita importar datos de "
 "una tabla fuente en la tabla *LADM_COL* **predio**."
 
 #: ../../../cadastre/Basic_Administrative_Unit.rst:21
