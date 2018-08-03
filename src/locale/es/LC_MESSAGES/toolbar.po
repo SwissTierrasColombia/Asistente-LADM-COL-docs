@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-03 12:09-0500\n"
+"POT-Creation-Date: 2018-08-03 14:04-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,12 +87,12 @@ msgstr ""
 "este trabajo de forma automática y más rápido."
 
 #: ../../../toolbar.rst:54
-msgid "masccl --> puntolindero and lindero"
-msgstr "masccl --> puntolindero y lindero"
+msgid "masccl --> terreno and lindero"
+msgstr "masccl --> terreno y lindero"
 
 #: ../../../toolbar.rst:55
-msgid "menos --> puntolindero and lindero (holes or intern rings)"
-msgstr "menos --> puntolindero y lindero (agujeros o anillos internos)"
+msgid "menos --> terreno and lindero (holes or intern rings)"
+msgstr "menos --> terreno y lindero (agujeros o anillos internos)"
 
 #~ msgid "Explode"
 #~ msgstr ""

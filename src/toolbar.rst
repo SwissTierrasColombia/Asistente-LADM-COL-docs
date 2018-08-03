@@ -51,8 +51,8 @@ and Less* on Toolbar LADM_COL which makes automatic and faster this job.
 
 This are the tables that relate with this function:
 
-- masccl --> puntolindero and lindero
-- menos --> puntolindero and lindero (holes or intern rings)
+- masccl --> terreno and lindero
+- menos --> terreno and lindero (holes or intern rings)
 
 .. image:: static/_TOPOLOGIAS_TERRENO.gif
    :height: 500
