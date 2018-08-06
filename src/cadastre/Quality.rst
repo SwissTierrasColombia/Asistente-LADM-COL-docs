@@ -32,6 +32,13 @@ Rules for Lines
 Boundary Segments Should Not Be Longer Than
 -------------------------------------------
 
+.. image:: ../static/quality_segments_longer_than.png
+   :height: 503
+   :width: 509
+   :alt: about plugin
+   :download: true
+   :title: Settings Boundary Segments Should Not Be Longer Than
+
 .. image:: ../static/boundary_segments_should_not_be_longer_than.gif
    :height: 500
    :width: 800

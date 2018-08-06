@@ -7,34 +7,95 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 16:22-0500\n"
+"POT-Creation-Date: 2018-08-03 14:04-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es\n"
+"X-Source-Language: en\n"
 
 #: ../../../toolbar.rst:2
 msgid "Toolbar LADM_COL"
-msgstr ""
+msgstr "Barra de herramientas de LADM_COL"
 
-#: ../../../toolbar.rst:5
-msgid "Explode"
-msgstr ""
+#: ../../../toolbar.rst:4
+msgid "This is how toolbar looks like:"
+msgstr "Así es como se ve la barra de herramientas:"
 
-#: ../../../toolbar.rst:13
-msgid "Merge"
+#: ../../../toolbar.rst:11
+msgid ""
+"If the toolbar does not appear on the QGIS interface, you can make it show "
+"with the next interaction: right click on the gray region in QGIS and "
+"clicking in \"LADM-COL Toolbar\" or like in the following gif:"
 msgstr ""
+"Si la barra de herramientas no aparece en la interfaz de QGIS, puedes hacer "
+"que se vea con la siguiente interacción: click derecho en la región gris en "
+"QGIS y clickeando en \"Herramientas LADM-COL\" o como en el siguiente gif:"
 
 #: ../../../toolbar.rst:21
+msgid "Explode and Merge"
+msgstr "Partir por segmento y Unir"
+
+#: ../../../toolbar.rst:23
+msgid ""
+"If you need to merge or explodes boundaries you can use the *merge* and "
+"*explode* buttons on Toolbar LADM_COL."
+msgstr ""
+"Si necesitas unir o explotar por segmentos los linderos puedes utilizar los "
+"botones *Unir* y *Partir por segmento* en la barra de herramientas de "
+"LADM_COL."
+
+#: ../../../toolbar.rst:32
 msgid "Fill Points BFS"
-msgstr ""
+msgstr "Llenar PuntosCCL"
 
-#: ../../../toolbar.rst:29
+#: ../../../toolbar.rst:34
+msgid ""
+"You can fill point bfs topology table using the button *Fill Point BFS* on "
+"Toolbar LADM_COL which makes automatic and faster this job."
+msgstr ""
+"Puedes llenar la tabla de topología PuntosCCL usando el botón *Llenar "
+"PuntosCCL* en la barra de herramientas de LADM_COL el cual hace este trabajo "
+"de forma automática y más rápido."
+
+#: ../../../toolbar.rst:37 ../../../toolbar.rst:52
+msgid "This are the tables that relate with this function:"
+msgstr "Estas son las tablas que se relacionan con esta función:"
+
+#: ../../../toolbar.rst:39
+msgid "puntosccl --> puntolindero and lindero"
+msgstr "puntosccl --> puntolindero y lindero"
+
+#: ../../../toolbar.rst:47
 msgid "Fill More BFS and Less"
-msgstr ""
+msgstr "Llenar más CCL y menos"
 
+#: ../../../toolbar.rst:49
+msgid ""
+"You can fill More BFS and Less topology table using the button *Fill More "
+"BFS and Less* on Toolbar LADM_COL which makes automatic and faster this job."
+msgstr ""
+"Puedes llenar la tabla de topología más CCL y menos usando el botón *Llenar "
+"más CCL y menos* usando la barra de herramientas de LADM_COL el cual hace "
+"este trabajo de forma automática y más rápido."
+
+#: ../../../toolbar.rst:54
+msgid "masccl --> terreno and lindero"
+msgstr "masccl --> terreno y lindero"
+
+#: ../../../toolbar.rst:55
+msgid "menos --> terreno and lindero (holes or intern rings)"
+msgstr "menos --> terreno y lindero (agujeros o anillos internos)"
+
+#~ msgid "Explode"
+#~ msgstr ""
+
+#~ msgid "Merge"
+#~ msgstr ""

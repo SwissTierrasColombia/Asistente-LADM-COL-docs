@@ -7,92 +7,253 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 12:09-0500\n"
+"POT-Creation-Date: 2018-08-03 13:33-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es\n"
+"X-Source-Language: en\n"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:2
 msgid "Surveying and Representation"
-msgstr ""
+msgstr "Topografía y Representación"
 
 #: ../../../cadastre/Surveying_and_Representation.rst:5
 msgid "Create Point"
-msgstr ""
+msgstr "Crear Punto"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:12
+#: ../../../cadastre/Surveying_and_Representation.rst:8
 msgid "Boundary Point"
-msgstr ""
+msgstr "Punto lindero"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:14
+#: ../../../cadastre/Surveying_and_Representation.rst:10
 msgid ""
 "Choose this option to load points to **Boundary Points** layer from "
 "*LADM_COL* model."
 msgstr ""
+"Elige esta opción para cargar puntos a la capa **Punto Lindero** del modelo "
+"*LADM_COL*."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:13
+msgid ""
+"**Boundary Point** is a specialized class of *LA_Point* which stores points "
+"that define a boundary. Boundary is an instance of *LA_BoundaryFaceString* "
+"class and its specializations."
+msgstr ""
+"**Punto Lindero** es una clase especializada de *LA_Punto* que almacena "
+"puntos que definen un lindero. Lindero es una instancia de la clase "
+"*LA_BoundaryFaceString* y sus especializaciones."
 
 #: ../../../cadastre/Surveying_and_Representation.rst:17
-msgid ""
-"**Boundary Point** is a specialized class of *LA_Point* which stores "
-"points that define a boundary. Boundary is an instance of "
-"*LA_BoundaryFaceString* class and its specializations."
-msgstr ""
+#: ../../../cadastre/Surveying_and_Representation.rst:46
+#: ../../../cadastre/Surveying_and_Representation.rst:76
+msgid "From a CSV file with the required structure"
+msgstr "Desde un archivo CSV con la estructura requerida"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:21
+#: ../../../cadastre/Surveying_and_Representation.rst:19
+#: ../../../cadastre/Surveying_and_Representation.rst:48
+#: ../../../cadastre/Surveying_and_Representation.rst:78
+msgid ""
+"Add a Comma Separated Values file (CSV), choosing the delimiter and fields "
+"that contain point coordinates."
+msgstr ""
+"Agrega un archivo de valores separados por coma (CSV), seleccionando el "
+"delimitador y los campos que contienen las coordenadas de los puntos."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:27
+#: ../../../cadastre/Surveying_and_Representation.rst:56
+#: ../../../cadastre/Surveying_and_Representation.rst:86
+msgid "From another QGIS layer/table (setting a field mapping)"
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#: ../../../cadastre/Surveying_and_Representation.rst:29
+msgid ""
+"Choose this option to open a window that allows you to import data from a "
+"source layer into the *LADM_COL* **puntolindero** layer."
+msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **puntolindero** de *LADM_COL*."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:32
+#: ../../../cadastre/Surveying_and_Representation.rst:61
+#: ../../../cadastre/Surveying_and_Representation.rst:91
+msgid ""
+"If the field structure of input and target layers differs, you can set a "
+"field mapping to define field transformations and correspondence."
+msgstr ""
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:35
+#: ../../../cadastre/Surveying_and_Representation.rst:64
+#: ../../../cadastre/Surveying_and_Representation.rst:94
+#: ../../../cadastre/Surveying_and_Representation.rst:120
+msgid "For use this function check this `LINK <../mapping_fields.html>`_."
+msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:38
 msgid "Survey Point"
-msgstr ""
+msgstr "Punto Levantamiento"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:23
+#: ../../../cadastre/Surveying_and_Representation.rst:40
 msgid ""
-"Choose this option to load points to **Survey Points** layer from "
-"*LADM_COL* model."
+"Choose this option to load points to **Survey Points** layer from *LADM_COL* "
+"model."
 msgstr ""
+"Elige esta opción para cargar puntos a la capa **Punto Levantamiento** del "
+"modelo *LADM_COL*."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:26
+#: ../../../cadastre/Surveying_and_Representation.rst:43
 msgid ""
 "**Survey Point** is a specialized class of *LA_Point* which represents a "
 "building, right of way or auxiliary vertex."
 msgstr ""
+"**Punto Levantamiento** es una clase especializada de *LA_Punto* que "
+"representa la posición horizontal de un vértice de construcción, servidumbre "
+"o auxiliares."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:31
+#: ../../../cadastre/Surveying_and_Representation.rst:58
+msgid ""
+"Choose this option to open a window that allows you to import data from a "
+"source layer into the *LADM_COL* **puntolevantamiento** layer."
+msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **lindero** de *LADM_COL*."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:67
+msgid "Control Point"
+msgstr "Punto de Control"
+
+#: ../../../cadastre/Surveying_and_Representation.rst:69
+msgid ""
+"Choose this option to load points to **Control Points** layer from "
+"*LADM_COL* model."
+msgstr ""
+"Elige esta opción para cargar puntos a la capa **Punto de Control** del "
+"modelo *LADM_COL*."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:72
+msgid ""
+"**Control Point** is a specialized class of *LA_Point* which represents "
+"points belonging to the local network, used in cadastre operation for "
+"surveying physical information of the territorial objects."
+msgstr ""
+"**Punto de Control** es una clase especializada de *LA_Punto* que representa "
+"puntos de la densificación de la red local, que se utiliza en la operación "
+"catastral para el levantamiento de información fisica de los objetos "
+"territoriales."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:88
+msgid ""
+"Choose this option to open a window that allows you to import data from a "
+"source layer into the *LADM_COL* **puntocontrol** layer."
+msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **puntocontrol** de *LADM_COL*."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:97
 msgid "Create Boundary"
-msgstr ""
+msgstr "Crear Lindero"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:33
+#: ../../../cadastre/Surveying_and_Representation.rst:99
 msgid "Digitizing"
-msgstr ""
+msgstr "Digitalizando"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:35
+#: ../../../cadastre/Surveying_and_Representation.rst:101
 msgid ""
 "Choose this option if you want to create a **Boundary** using QGIS "
 "digitizing tools."
 msgstr ""
+"Elige esta opción si deseas agregar un **Lindero** usando las herramientas "
+"de digitalización de QGIS. "
 
-#: ../../../cadastre/Surveying_and_Representation.rst:38
+#: ../../../cadastre/Surveying_and_Representation.rst:104
 msgid ""
 "**Boundary** is a specialization of the *LA_CadenaCarasLindero* class to "
-"store boundaries that define plots. Two boundaries must not cross or "
-"overlap."
+"store boundaries that define plots. Two boundaries must not cross or overlap."
 msgstr ""
+"**Lindero** es una clase especializada de *LA_CadenaCarasLindero* que "
+"permite registrar los linderos. Dos linderos no pueden cruzarse ni "
+"superponerse."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:41
+#: ../../../cadastre/Surveying_and_Representation.rst:112
 msgid "From another QGIS Layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
-#: ../../../cadastre/Surveying_and_Representation.rst:43
+#: ../../../cadastre/Surveying_and_Representation.rst:114
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **lindero** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **lindero** table."
 msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **lindero** de *LADM_COL*."
 
-#: ../../../cadastre/Surveying_and_Representation.rst:46
+#: ../../../cadastre/Surveying_and_Representation.rst:117
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
 
+#: ../../../cadastre/Surveying_and_Representation.rst:122
+msgid ""
+"If you need to merge or explodes boundaries you can use the *merge* and "
+"*explode* buttons on Toolbar LADM_COL."
+msgstr ""
+"Si necesitas unir o partir por segmentos los linderos, puedes utilizar los "
+"botones *Unir* y *Partir por segmento* en la barra de herramientas de "
+"LADM-COL."
+
+#: ../../../cadastre/Surveying_and_Representation.rst:132
+msgid ""
+"You can fill point bfs topology table using the button *Fill Point BFS* on "
+"Toolbar LADM_COL which makes automatic and faster this job. For use this "
+"function check this `LINK <../toolbar.html>`_."
+msgstr ""
+"Puedes llenar la tabla de topología PuntoCCL usando el botón *Llenar "
+"PuntosCCL* en barra de herramientas de LADM_COL que hace más rápido y de "
+"forma automática este trabajo. Para usar esta función revisa este `ENLACE "
+"<../toolbar.html>`_."
+
+#~ msgid "1.1 From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "2.1 From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "3.1 From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "1.1. From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "1.2. From another QGIS layer/table (setting a field mapping)"
+#~ msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#~ msgid "2.1. From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "2.2. From another QGIS layer/table (setting a field mapping)"
+#~ msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#~ msgid "3.1. From a CSV file with the required structure"
+#~ msgstr ""
+
+#~ msgid "3.2. From another QGIS layer/table (setting a field mapping)"
+#~ msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#~ msgid "b. From another QGIS layer/table (setting a field mapping)"
+#~ msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
+
+#~ msgid "TODO!"
+#~ msgstr "POR HACER!"
