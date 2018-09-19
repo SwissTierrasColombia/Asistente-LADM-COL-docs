@@ -10,4 +10,4 @@ Property record card
     property_record_card/Market_research.rst
     property_record_card/Nuclear_family.rst
     property_record_card/Natural_party.rst
-    property_record_card/Legal_Party.rst
+    property_record_card/Legal_party.rst

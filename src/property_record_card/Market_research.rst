@@ -1,2 +1,2 @@
-Market Resarch
-==============
+Market Research
+===============
