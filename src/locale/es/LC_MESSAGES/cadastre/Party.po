@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 08:37-0500\n"
+"POT-Creation-Date: 2018-09-20 15:37-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,49 +18,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: es\n"
-"X-Source-Language: en\n"
+"X-Language: en_US\n"
+"X-Source-Language: C\n"
 
 #: ../../../cadastre/Party.rst:2
 msgid "Party"
 msgstr "Interesado"
 
 #: ../../../cadastre/Party.rst:5
-msgid "Natural Party"
-msgstr "Interesado Natural"
+msgid "Create Party"
+msgstr "Crear Interesado"
 
 #: ../../../cadastre/Party.rst:7 ../../../cadastre/Party.rst:33
 msgid "Entering data manually using a form"
 msgstr "Ingresando datos manualmente en un formulario"
 
 #: ../../../cadastre/Party.rst:9
-msgid ""
-"Choose this option if you want to create a **Natural Party** using a form."
+msgid "Choose this option if you want to create a **Party** using a form."
 msgstr ""
-"Elige esta opción si deseas agregar un **Interesado Natural** con un "
-"formulario."
+"Elige esta opción si deseas agregar un **Interesado** con un formulario."
 
 #: ../../../cadastre/Party.rst:11
 msgid ""
-"**Natural Party** is a natural person who has rights or who is subject to "
-"restrictions or responsibilities related to one or more *Parcels*."
+"**Party** is a natural or non-natural person who has rights or who is "
+"subject to restrictions or responsibilities related to one or more *Parcels*."
 msgstr ""
-"**Interesado Natural** es una Persona natural que tiene derechos o a la que "
-"le recaen restricciones o responsabilidades referidas a uno o más *predios*."
+"**Interesado** es una Persona natural o no natural que tiene derechos o a la "
+"que le recaen restricciones o responsabilidades referidas a uno o más "
+"*predios*."
 
-#: ../../../cadastre/Party.rst:19 ../../../cadastre/Party.rst:40
+#: ../../../cadastre/Party.rst:19
 msgid "From another QGIS layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
 #: ../../../cadastre/Party.rst:21
 msgid ""
 "Choose this option to open a window that allows you to import data from a "
-"source table into the *LADM_COL* **interesado_natural** table."
+"source table into the *LADM_COL* **col_interesado** table."
 msgstr ""
 "Elige esta opción para abrir una ventana que te permite importar datos desde "
-"una tabla fuente hacia la tabla **interesado_natural** de *LADM_COL*."
+"una tabla fuente hacia la tabla **col_interesado** de *LADM_COL*."
 
-#: ../../../cadastre/Party.rst:24 ../../../cadastre/Party.rst:45
+#: ../../../cadastre/Party.rst:24
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -69,33 +68,60 @@ msgstr ""
 "definir un mapeo para transformar campos y establecer correspondencias entre "
 "ellos."
 
-#: ../../../cadastre/Party.rst:27 ../../../cadastre/Party.rst:48
+#: ../../../cadastre/Party.rst:27
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
 msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
 
 #: ../../../cadastre/Party.rst:31
-msgid "Legal Party"
-msgstr "Interesado Jurídico"
+msgid "Group Party"
+msgstr "Agrupación de Interesados"
 
 #: ../../../cadastre/Party.rst:35
 msgid ""
-"Choose this option if you want to create a **Legal Party** using a form."
+"Choose this option if you want to create a **Group Party** using a form."
 msgstr ""
-"Elige esta opción si deseas agregar un **Interesado Jurídico** con un "
+"Elige esta opción si deseas agregar una **Agrupación de Interesados** con un "
 "formulario."
 
 #: ../../../cadastre/Party.rst:37
 msgid ""
-"**Legal Party** is a legal entity that has rights, restrictions or "
+"**Group Party** registers parties that represents groups of people. The "
+"group itself is registered, independently of the persons separately. This is "
+"what happens, for example, with an ethnic group or a civil group."
+msgstr ""
+"**Agrupación de Interesados** registra interesados que representan a grupos "
+"de personas. Se registra el grupo en s'i, independiente mento de las "
+"personas por separado. Es lo que ocurre, por ejemplo, con un grupo étnico o "
+"un groupo civil."
+
+#: ../../../cadastre/Party.rst:41
+msgid ""
+"This **Group Party** has rights or is subject to restrictions or "
 "responsibilities related to one or more *Parcels*."
 msgstr ""
-"**Interesado Jurídico** es una Persona jurídica que tiene derechos, "
+"Esta **Agrupaci'on de Interesados** tiene derechos o a la que le recaen "
 "restricciones o responsabilidades referidas a uno o más *predios*."
 
-#: ../../../cadastre/Party.rst:42
-msgid ""
-"Choose this option to open a window that allows you to import data from a "
-"source table into the *LADM_COL* **interesado_juridico** table."
-msgstr ""
-"Elige esta opción para abrir una ventana que te permite importar datos desde "
-"una tabla fuente hacia la tabla **interesado_juridico** de *LADM_COL*."
+#~ msgid "Natural Party"
+#~ msgstr "Interesado Natural"
+
+#~ msgid ""
+#~ "Choose this option if you want to create a **Natural Party** using a form."
+#~ msgstr ""
+#~ "Elige esta opción si deseas agregar un **Interesado Natural** con un "
+#~ "formulario."
+
+#~ msgid ""
+#~ "**Legal Party** is a legal entity that has rights, restrictions or "
+#~ "responsibilities related to one or more *Parcels*."
+#~ msgstr ""
+#~ "**Interesado Jurídico** es una Persona jurídica que tiene derechos, "
+#~ "restricciones o responsabilidades referidas a uno o más *predios*."
+
+#~ msgid ""
+#~ "Choose this option to open a window that allows you to import data from a "
+#~ "source table into the *LADM_COL* **interesado_juridico** table."
+#~ msgstr ""
+#~ "Elige esta opción para abrir una ventana que te permite importar datos "
+#~ "desde una tabla fuente hacia la tabla **interesado_juridico** de "
+#~ "*LADM_COL*."
