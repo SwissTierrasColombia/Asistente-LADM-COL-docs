@@ -99,7 +99,7 @@ msgid ""
 "This **Group Party** has rights or is subject to restrictions or "
 "responsibilities related to one or more *Parcels*."
 msgstr ""
-"Esta **Agrupaci'on de Interesados** tiene derechos o a la que le recaen "
+"Esta **Agrupación de Interesados** tiene derechos o a la que le recaen "
 "restricciones o responsabilidades referidas a uno o más *predios*."
 
 #~ msgid "Natural Party"

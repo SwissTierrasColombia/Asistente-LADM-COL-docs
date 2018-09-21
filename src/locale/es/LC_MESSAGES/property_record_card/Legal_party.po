@@ -61,7 +61,10 @@ msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
+"Si la estructura de campos de las capas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
 
 #: ../../../property_record_card/Legal_party.rst:26
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
-msgstr ""
+msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
