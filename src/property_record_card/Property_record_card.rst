@@ -12,7 +12,7 @@ Create Property Record Card
   **Property Record Card** is created specifically to store the information
   collected for the parcels.
 
-  .. image:: ../static/crear_interesado_natural.gif
+  .. image:: ../static/Ficha_predial.gif
      :height: 500
      :width: 800
      :alt: Create Property Record Card

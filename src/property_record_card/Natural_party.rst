@@ -10,7 +10,7 @@ Create Natural Party
 
   **Natural Party** acting as a party.
 
-  .. image:: ../static/crear_interesado_natural.gif
+  .. image:: ../static/Interesado_natural_prc.gif
      :height: 500
      :width: 800
      :alt: Create Natural Party

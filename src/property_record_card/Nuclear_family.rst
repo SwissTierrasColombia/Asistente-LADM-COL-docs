@@ -2,7 +2,7 @@ Nuclear Family
 ==============
 
 Create Nuclear Family
---------------------
+---------------------
 
 1. Entering data manually using a form
 
@@ -11,7 +11,7 @@ Create Nuclear Family
   **Nuclear Family** allows to registry the information related to the nuclear
   families of the cadastral survey for the pilots of the multipurpose cadastre.
 
-  .. image:: ../static/crear_interesado_natural.gif
+  .. image:: ../static/Nucleo_Familiar.gif
      :height: 500
      :width: 800
      :alt: Create Nuclear Family
