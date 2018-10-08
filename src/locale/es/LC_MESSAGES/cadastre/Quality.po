@@ -51,7 +51,7 @@ msgstr "Los Linderos no deben superponerse"
 
 #: ../../../cadastre/Quality.rst:53
 msgid "Boundary Nodes Should Be Covered By Boundary Point"
-msgstr "Los nodos de Linderos deben estar cubiertos por Putos de Lindero"
+msgstr "Los nodos de Linderos deben estar cubiertos por Puntos de Lindero"
 
 #: ../../../cadastre/Quality.rst:63
 msgid "Boundaries Should Not Have Dangles"
