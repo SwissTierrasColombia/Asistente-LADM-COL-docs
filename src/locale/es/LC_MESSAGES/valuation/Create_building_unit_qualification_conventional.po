@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agencia de Implementacion
+# This file is distributed under the same license as the LADM_COL Assistant
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LADM_COL Assistant \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-12 16:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:2
+msgid "Building Unit Qualification conventional"
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:5
+msgid "Create Building Unit Qualification conventional"
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:7
+msgid "Entering data manually using a form"
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:9
+msgid ""
+"Choose this option if you want to create a **Building Unit Qualification "
+"conventional** using a form."
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:12
+msgid ""
+"**Building Unit Qualification conventional** is data for the valuation of"
+" the construction unit."
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:19
+msgid "From another QGIS layer/table (setting a field mapping)"
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:21
+msgid ""
+"Choose this option to open a window that allows you to import data from a"
+" source table into the *LADM_COL* **calificacion_convencional** table."
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:24
+msgid ""
+"If the field structure of input and target tables differs, you can set a "
+"field mapping to define field transformations and correspondence."
+msgstr ""
+
+#: ../../../valuation/Create_building_unit_qualification_conventional.rst:27
+msgid "For use this function check this `LINK <../mapping_fields.html>`_."
+msgstr ""
+
