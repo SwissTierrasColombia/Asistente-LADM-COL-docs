@@ -7,56 +7,78 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LADM_COL Assistant \n"
+"Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 16:14-0500\n"
+"POT-Creation-Date: 2018-12-14 11:12-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: C\n"
 
 #: ../../../valuation/Create_physical_zone.rst:2
 msgid "Physical Zone"
-msgstr ""
+msgstr "Zona homogenea física"
 
 #: ../../../valuation/Create_physical_zone.rst:5
 msgid "Create Physical Zone"
-msgstr ""
+msgstr "Crear zona homogenea física"
 
 #: ../../../valuation/Create_physical_zone.rst:7
 msgid "Entering data manually using a form"
-msgstr ""
+msgstr "Ingresando datos manualmente en un formulario"
 
 #: ../../../valuation/Create_physical_zone.rst:9
-msgid "Choose this option if you want to create a **Physical Zone** using a form."
+msgid ""
+"Choose this option if you want to create a **Physical Zone** using a form."
 msgstr ""
+"Elige esta opción si deseas agregar una **Zona homogenea física** con un "
+"formulario."
 
 #: ../../../valuation/Create_physical_zone.rst:12
 msgid ""
-"**Physical Zone** is created specifically to store the information "
-"collected for the parcels."
+"**Physical Zone** allows you to manage the physically homogeneous zones "
+"defined for the valuation and which delimit the zones that have similar "
+"physical characteristics."
 msgstr ""
+"**Zona homogenea física** permite gestionar las zonas físicamente homogéneas "
+"definidas para el avalúo y que delimitan las zonas que tienen "
+"características físicas similares."
 
 #: ../../../valuation/Create_physical_zone.rst:20
 msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
 #: ../../../valuation/Create_physical_zone.rst:22
 msgid ""
-"Choose this option to open a window that allows you to import data from a"
-" source table into the *LADM_COL* **zona_homogenea_fisica** table."
+"Choose this option to open a window that allows you to import data from a "
+"source table into the *LADM_COL* **zona_homogenea_fisica** table."
 msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una tabla fuente hacia la tabla **zona_homogenea_fisica** de *LADM_COL*."
 
 #: ../../../valuation/Create_physical_zone.rst:25
 msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
 
 #: ../../../valuation/Create_physical_zone.rst:28
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
-msgstr ""
+msgstr "Para usar esta función revisa este `LINK <../mapping_fields.html>`_."
 
+#~ msgid ""
+#~ "**Physical Zone** is created specifically to store the information "
+#~ "collected for the parcels."
+#~ msgstr ""
+#~ "**Zona homogenea física** permite gestionar las zonas físicamente "
+#~ "homogéneas definidas para el avalúo y que delimitan las zonas que tienen "
+#~ "características físicas similares."

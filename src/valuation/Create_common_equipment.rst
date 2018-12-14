@@ -9,8 +9,8 @@ Create Common Equipment
   Choose this option if you want to create a **Common equipment** using a
   form.
 
-  **Common equipment** class is to record the information relative to the property,
-   or basic unit of the plot, which serves as a matrix to a horizontal property element.
+  **Common equipment** Class to record the information relative to the common
+  equipment property matrix of the horizontal property
 
   .. image:: ../static/Ficha_predial.gif
      :height: 500

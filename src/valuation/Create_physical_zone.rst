@@ -9,8 +9,8 @@ Create Physical Zone
   Choose this option if you want to create a **Physical Zone** using a
   form.
 
-  **Physical Zone** is created specifically to store the information
-  collected for the parcels.
+  **Physical Zone** allows you to manage the physically homogeneous zones defined
+  for the valuation and which delimit the zones that have similar physical characteristics.
 
   .. image:: ../static/Ficha_predial.gif
      :height: 500

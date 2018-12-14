@@ -6,7 +6,7 @@ Create Building
 
 1. Entering data manually using a form
 
-  Choose this option if you want to create a **Parcel** using a
+  Choose this option if you want to create a **Building** using a
   form.
 
   **Building** is a grouping of specific attributes for the valuation of it.
