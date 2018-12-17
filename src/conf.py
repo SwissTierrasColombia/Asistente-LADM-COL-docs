@@ -21,7 +21,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'LADM_COL Assistant'
-copyright = '2018, Agencia de Implementacion'
+copyright = '2018, Agencia de Implementación'
 author = 'Fernando Pineda'
 
 scv_greatest_tag = True
