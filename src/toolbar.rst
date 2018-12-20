@@ -130,3 +130,74 @@ which should look like this in the following images:
    :height: 500
    :width: 800
    :alt: basic settings
+
+
+Import from intermediate structure
+==================================
+
+Este apartado esboza el procedimiento a seguir para poder realizar la
+importación de datos masivamente desde archivos con formato de hoja de
+calculo a una base de datos con la estructura del modelo LADM_COL.
+
+Requisitos previos:
+1. Datos coincidentes con la estructura intermedia, como se muestra en
+las imagenes:
+
++ Estructura de Agrupación
+
+.. image:: static/agrupacion.png
+   :height: 500
+   :width: 800
+   :alt: basic settings
+
++ Estructura de Derecho:
+
+.. image:: static/derecho.PNG
+   :height: 500
+   :width: 800
+   :alt: basic settings
+
++ Estructura de Interesado:
+
+.. image:: static/interesado.PNG
+   :height: 500
+   :width: 800
+   :alt: basic settings
+
++ Estructura de Predio:
+
+.. image:: static/predio.PNG
+   :height: 500
+   :width: 800
+   :alt: basic settings
+
+Plantilla en blanco de con estructura intermedia
+Datos de ejemplo conformes con la estructura intermedia.
+
+El procedimiento es el siguiente:
+
+1. En la barra de herramientas dar click en el boton que dice: "Import from intermediate structure"
+2. Seleccione el archivo con formato de hoja de calculo donde se encuentra almacenada la información a ser cargada.
+3. aceptar el dialogo y esperar por el resultado.
+4. confirmar que en QGIS se crearon las tablas intermedias y que las tablas del modelo implicadas quedaron con nuevos datos.
+La ejecución del modelo con los datos de ejemplo debe genberar el siguiente resultado:
+Tablas intermedias:
+
+.. image:: static/tablas_intermed.PNG
+   :height: 250
+   :width: 400
+   :alt: basic settings
+
+Tablas del modelo implicadas:
+
+.. image:: static/tabla_implicadas.PNG
+   :height: 250
+   :width: 400
+   :alt: basic settings
+
+Un ejemplo del procedimiento haciendo uso de los datos de ejemplo:
+
+.. image:: static/import_intermediate_structure.gif
+   :height: 500
+   :width: 800
+   :alt: basic settings
