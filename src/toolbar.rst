@@ -67,7 +67,7 @@ which corresponds to Annex 17, this contain a report of adjoining.
 
 The adjoining report corresponds to the document where they will be identified
 by property (with formal or informal tenure relations) each of the boundaries
-that constitute it, its corresponding physical and legal relationship with
+that constitute it and its corresponding physical and legal relationship with
 the properties surrounding it.
 
 To generate the report of annex 17, follow these steps:
@@ -85,117 +85,82 @@ Download dependencies. This step is done only once.
 
 3. You must indicate the directory where you want to store the generated documents.
 
-4. Press ok should show a progress bar at the top, as in the following image:
+4. Press ok should show a progress bar at the top.
 
 5. You will obtain the validation of the generated reports with a message bar in green and inside it a link to the route where the files are located.
-6. Go to the directory that you selected in step 3 to verify the result,
-which should look like this in the following images:
+6. Go to the directory that you selected in step 3 to verify the result, which should look like this in the following image:
 
 .. image:: static/annex_17_2.gif
    :height: 500
    :width: 800
    :alt: basic settings
 
-+ A map with detailed information of the plot.
-
-.. image:: static/mapannex17.png
-   :height: 500
-   :width: 800
-   :alt: basic settings
-
-+ A picture of adjoining
-
-.. image:: static/adjoiningannex17.png
-   :height: 500
-   :width: 800
-   :alt: basic settings
-
-+ Technical description of boundaries
-
-.. image:: static/Tdescriptionannex17.png
-   :height: 500
-   :width: 800
-   :alt: basic settings
-
-+ Coordinate box
-
-.. image:: static/boxcoordinatesannex17.png
-   :height: 500
-   :width: 800
-   :alt: basic settings
-
-+ Signatures
-
-.. image:: static/signaturesannex17.png
-   :height: 500
-   :width: 800
-   :alt: basic settings
-
-
 Import from intermediate structure
 ==================================
 
-Este apartado esboza el procedimiento a seguir para poder realizar la
-importación de datos masivamente desde archivos con formato de hoja de
-calculo a una base de datos con la estructura del modelo LADM_COL.
+This section exposes the procedure to be followed in order to be able to massively import data from spreadsheet format files to a database with the structure of the LADM_COL model.
 
-Requisitos previos:
-1. Datos coincidentes con la estructura intermedia, como se muestra en
-las imagenes:
+Previous requirements:
 
-+ Estructura de Agrupación
+1. Data coinciding with the intermediate structure, as shown in the images:
+
++ Structure of Grouping:
 
 .. image:: static/agrupacion.png
    :height: 500
    :width: 800
    :alt: basic settings
 
-+ Estructura de Derecho:
++ Structure of Law:
 
 .. image:: static/derecho.PNG
    :height: 500
    :width: 800
    :alt: basic settings
 
-+ Estructura de Interesado:
++ Structure of Party:
 
 .. image:: static/interesado.PNG
    :height: 500
    :width: 800
    :alt: basic settings
 
-+ Estructura de Predio:
++ Structure of Plot:
 
 .. image:: static/predio.PNG
    :height: 500
    :width: 800
    :alt: basic settings
 
-Plantilla en blanco de con estructura intermedia
-Datos de ejemplo conformes con la estructura intermedia.
+`Blank template of intermediate structure. <static/data_templates/estructura_vacia.xlsx>`_
 
-El procedimiento es el siguiente:
+`Example data according to the intermediate structure. <static/data_templates/estructura.xlsx>`_
 
-1. En la barra de herramientas dar click en el boton que dice: "Import from intermediate structure"
-2. Seleccione el archivo con formato de hoja de calculo donde se encuentra almacenada la información a ser cargada.
-3. aceptar el dialogo y esperar por el resultado.
-4. confirmar que en QGIS se crearon las tablas intermedias y que las tablas del modelo implicadas quedaron con nuevos datos.
-La ejecución del modelo con los datos de ejemplo debe genberar el siguiente resultado:
-Tablas intermedias:
+
+The procedure is the next:
+
+1. In the toolbar click on the button that says: "Import from intermediate structure"
+2. In the toolbar click on the button that says: Select the file with spreadsheet format where the information to be loaded is stored.
+3. Accept the dialogue and wait for the result.
+4. Confirm that in QGIS the intermediate tables were created and that the model tables involved were left with new data.
+
+The execution of the model with the sample data should generate the following result:
+
+Intermediate tables:
 
 .. image:: static/tablas_intermed.PNG
    :height: 250
    :width: 400
    :alt: basic settings
 
-Tablas del modelo implicadas:
+Model tables involved:
 
 .. image:: static/tabla_implicadas.PNG
    :height: 250
    :width: 400
    :alt: basic settings
 
-Un ejemplo del procedimiento haciendo uso de los datos de ejemplo:
+An example of the procedure making use of the example data:
 
 .. image:: static/import_intermediate_structure.gif
    :height: 500
