@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 14:37-0500\n"
+"POT-Creation-Date: 2019-01-08 14:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,10 +95,30 @@ msgid "menos --> terreno and lindero (holes or intern rings)"
 msgstr "menos --> terreno y lindero (agujeros o anillos internos)"
 
 #: ../../../toolbar.rst:63
+msgid "Fill Right Of Way relations"
+msgstr "Llenar relaciones de Servidumbre de paso"
+
+#: ../../../toolbar.rst:65
+msgid ""
+"You have to select one **Right of Way**, one or more **Plot(s)** which will "
+"be benefited with the Right of Way, and one or more **Administrative "
+"Source(s)** which support this Right of Way. The plugin automatically "
+"creates the relations between benefited parcels and the restrictions. Is "
+"important to know that you should have relations between parcels and plots "
+"to avoid any issue with this function"
+msgstr ""
+"Debes seleccionar una **Servidumbre de Paso**, uno o más **Terreno(s)** que "
+"serán beneficiados con la servidumbre de paso, y una o más **Fuentes "
+"Administrativa(s)** que soporte(n) la servidumbre de paso. El plugin "
+"automáticamente crea la relación entre los predios beneficados y las "
+"relaciones. Es importante saber que debes tener las relaciones entre los "
+"predios y los terrenos para evitar inconvenientes con esta función"
+
+#: ../../../toolbar.rst:78
 msgid "Generate Annex 17"
 msgstr "Generar Anexo 17"
 
-#: ../../../toolbar.rst:65
+#: ../../../toolbar.rst:80
 msgid ""
 "This option allows generating a document associated with the selected plots, "
 "which corresponds to Annex 17, this contain a report of adjoining."
@@ -107,7 +127,7 @@ msgstr ""
 "seleccionados, el cual corresponde al Anexo 17, este contiene un reporte de "
 "contigüidad."
 
-#: ../../../toolbar.rst:68
+#: ../../../toolbar.rst:83
 msgid ""
 "The adjoining report corresponds to the document where they will be "
 "identified by property (with formal or informal tenure relations) each of "
@@ -119,35 +139,35 @@ msgstr ""
 "los linderos que lo constituyen y su correspondiente relación física y "
 "jurídica con los predios circundantes al mismo."
 
-#: ../../../toolbar.rst:73
+#: ../../../toolbar.rst:88
 msgid "To generate the report of annex 17, follow these steps:"
 msgstr "Para generar el informe del anexo 17, siga estos pasos:"
 
-#: ../../../toolbar.rst:75
+#: ../../../toolbar.rst:90
 msgid "Select the plot (s) for which you want to generate the report."
 msgstr "Selecciones el o los terrenos los cuales quiere generar el reporte."
 
-#: ../../../toolbar.rst:77
+#: ../../../toolbar.rst:92
 msgid "Go to the toolbar and click on the button \"Generate Annex 17\""
 msgstr ""
 "Vaya a la barra de herramientas y haga clic en el botón \"Generar Anexo 17\""
 
-#: ../../../toolbar.rst:79
+#: ../../../toolbar.rst:94
 msgid "Download dependencies. This step is done only once."
 msgstr "Descargar dependencias. Este paso se realiza una sola vez."
 
-#: ../../../toolbar.rst:86
+#: ../../../toolbar.rst:101
 msgid ""
 "You must indicate the directory where you want to store the generated "
 "documents."
 msgstr ""
 "Debe indicar el directorio donde desea almacenar los documentos generados."
 
-#: ../../../toolbar.rst:88
+#: ../../../toolbar.rst:103
 msgid "Press ok should show a progress bar at the top."
 msgstr "Press ok should show a progress bar at the top."
 
-#: ../../../toolbar.rst:90
+#: ../../../toolbar.rst:105
 msgid ""
 "You will obtain the validation of the generated reports with a message bar "
 "in green and inside it a link to the route where the files are located."
@@ -156,7 +176,7 @@ msgstr ""
 "en verde y dentro de ella un enlace a la ruta donde se encuentran los "
 "archivos."
 
-#: ../../../toolbar.rst:91
+#: ../../../toolbar.rst:106
 msgid ""
 "Go to the directory that you selected in step 3 to verify the result, which "
 "should look like this in the following image:"
@@ -164,11 +184,11 @@ msgstr ""
 "Vaya al directorio que seleccionó en el paso 3 para verificar el resultado, "
 "que debería verse así en la siguiente imagen:"
 
-#: ../../../toolbar.rst:99
+#: ../../../toolbar.rst:114
 msgid "Import from intermediate structure"
 msgstr "Importar desde estructura intermedia"
 
-#: ../../../toolbar.rst:101
+#: ../../../toolbar.rst:116
 msgid ""
 "This section exposes the procedure to be followed in order to be able to "
 "massively import data from spreadsheet format files to a database with the "
@@ -178,34 +198,34 @@ msgstr ""
 "importación de datos masivamente desde archivos con formato de hoja de "
 "calculo a una base de datos con la estructura del modelo LADM_COL."
 
-#: ../../../toolbar.rst:103
+#: ../../../toolbar.rst:118
 msgid "Previous requirements:"
 msgstr "Requerimientos previos:"
 
-#: ../../../toolbar.rst:105
+#: ../../../toolbar.rst:120
 msgid ""
 "Data coinciding with the intermediate structure, as shown in the images:"
 msgstr ""
 "Datos coincidentes con la estructura intermedia, como se muestra en las "
 "imagenes:"
 
-#: ../../../toolbar.rst:107
+#: ../../../toolbar.rst:122
 msgid "Structure of Grouping:"
 msgstr "Estructura de Agrupación:"
 
-#: ../../../toolbar.rst:114
+#: ../../../toolbar.rst:129
 msgid "Structure of Law:"
 msgstr "Estructura de Predio:"
 
-#: ../../../toolbar.rst:121
+#: ../../../toolbar.rst:136
 msgid "Structure of Party:"
 msgstr "Estructura de Predio:"
 
-#: ../../../toolbar.rst:128
+#: ../../../toolbar.rst:143
 msgid "Structure of Plot:"
 msgstr "Estructura de Predio:"
 
-#: ../../../toolbar.rst:135
+#: ../../../toolbar.rst:150
 msgid ""
 "`Blank template of intermediate structure. "
 "<static/data_templates/estructura_vacia.xlsx>`_"
@@ -213,7 +233,7 @@ msgstr ""
 "`Plantilla en blanco de con estructura intermedia. "
 "<static/data_templates/estructura_vacia.xlsx>`_"
 
-#: ../../../toolbar.rst:137
+#: ../../../toolbar.rst:152
 msgid ""
 "`Example data according to the intermediate structure. "
 "<static/data_templates/estructura.xlsx>`_"
@@ -221,11 +241,11 @@ msgstr ""
 "`Datos de ejemplo conformes con la estructura intermedia. "
 "<static/data_templates/estructura.xlsx>`_"
 
-#: ../../../toolbar.rst:140
+#: ../../../toolbar.rst:155
 msgid "The procedure is the next:"
 msgstr "El procedimiento es el siguiente:"
 
-#: ../../../toolbar.rst:142
+#: ../../../toolbar.rst:157
 msgid ""
 "In the toolbar click on the button that says: \"Import from intermediate "
 "structure\""
@@ -233,7 +253,7 @@ msgstr ""
 "En la barra de herramientas dar click en el boton que dice: \"Importar desde "
 "estructura intermedia\""
 
-#: ../../../toolbar.rst:143
+#: ../../../toolbar.rst:158
 msgid ""
 "In the toolbar click on the button that says: Select the file with "
 "spreadsheet format where the information to be loaded is stored."
@@ -241,11 +261,11 @@ msgstr ""
 "Seleccione el archivo con formato de hoja de calculo donde se encuentra "
 "almacenada la información a ser cargada."
 
-#: ../../../toolbar.rst:144
+#: ../../../toolbar.rst:159
 msgid "Accept the dialogue and wait for the result."
 msgstr "Aceptar el diálogo y esperar por el resultado."
 
-#: ../../../toolbar.rst:145
+#: ../../../toolbar.rst:160
 msgid ""
 "Confirm that in QGIS the intermediate tables were created and that the model "
 "tables involved were left with new data."
@@ -253,7 +273,7 @@ msgstr ""
 "Confirmar que en QGIS se crearon las tablas intermedias y que las tablas del "
 "modelo implicadas quedaron con nuevos datos."
 
-#: ../../../toolbar.rst:147
+#: ../../../toolbar.rst:162
 msgid ""
 "The execution of the model with the sample data should generate the "
 "following result:"
@@ -261,15 +281,15 @@ msgstr ""
 "La ejecución del modelo con los datos de ejemplo debe genberar el siguiente "
 "resultado:"
 
-#: ../../../toolbar.rst:149
+#: ../../../toolbar.rst:164
 msgid "Intermediate tables:"
 msgstr "Tablas intermedias:"
 
-#: ../../../toolbar.rst:156
+#: ../../../toolbar.rst:171
 msgid "Model tables involved:"
 msgstr "Tablas del modelo implicadas:"
 
-#: ../../../toolbar.rst:163
+#: ../../../toolbar.rst:178
 msgid "An example of the procedure making use of the example data:"
 msgstr "Un ejemplo del procedimiento haciendo uso de los datos de ejemplo:"
 

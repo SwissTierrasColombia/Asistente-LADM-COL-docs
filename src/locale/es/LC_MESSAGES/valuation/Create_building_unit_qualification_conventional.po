@@ -31,7 +31,7 @@ msgstr "Crear Calificación de la unidad de construcción convencional"
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:7
 msgid "Entering data manually using a form"
-msgstr ""
+msgstr "Ingresando datos manualmente en un formulario"
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:9
 msgid ""
@@ -42,17 +42,16 @@ msgstr ""
 "construcción convencional** con un formulario."
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:12
-#, fuzzy
 msgid ""
 "**Building Unit Qualification conventional** is data for the valuation of "
 "the construction unit."
 msgstr ""
-"**Calificación de la unidad de construcción convencional**datos para el "
+"**Calificación de la unidad de construcción convencional** datos para el "
 "avalúo de la unidad de construcción."
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:19
 msgid "From another QGIS layer/table (setting a field mapping)"
-msgstr ""
+msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:21
 msgid ""
@@ -67,7 +66,10 @@ msgid ""
 "If the field structure of input and target tables differs, you can set a "
 "field mapping to define field transformations and correspondence."
 msgstr ""
+"Si la estructura de campos de las tablas de entrada y salida difiere, puedes "
+"definir un mapeo para transformar campos y establecer correspondencias entre "
+"ellos."
 
 #: ../../../valuation/Create_building_unit_qualification_conventional.rst:27
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
-msgstr ""
+msgstr "Para usar esta función revisa este `LINK <../mapping_fields.html>`_."
