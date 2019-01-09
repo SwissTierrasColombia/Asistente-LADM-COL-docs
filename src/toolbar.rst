@@ -68,7 +68,7 @@ this Right of Way. The plugin automatically creates the relations between benefi
 parcels and the restrictions. Is important to know that you should have relations
 between parcels and plots to avoid any issue with this function
 
-.. image:: static/create_building_unit.gif
+.. image:: static/fill_relations_right_of_way.gif
    :height: 500
    :width: 800
    :alt: Fill right of way relations

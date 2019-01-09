@@ -87,7 +87,7 @@ Create Right of Way
   **Right of Way** is a type of spatial unit of the LADM model wich allows the
   representation of a Right of Way associated to a *LA_BAUnit*.
 
-  .. image:: ../static/create_building_unit.gif
+  .. image:: ../static/create_right_of_way_line.gif
      :height: 500
      :width: 800
      :alt: Create Right of Way Centerline
@@ -100,7 +100,7 @@ Create Right of Way
   **Right of Way** is a type of spatial unit of the LADM model wich allows the
   representation of a Right of Way associated to a *LA_BAUnit*.
 
-  .. image:: ../static/create_building_unit.gif
+  .. image:: ../static/create_right_of_way_polygon.gif
      :height: 500
      :width: 800
      :alt: Create Right of Way Polygon
