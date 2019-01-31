@@ -34,3 +34,18 @@ Installation process
    :height: 20
    :width: 800
    :alt: projectgenerator installation
+
+
+Subscribe to the releases of Asistente-LADM_COL
+----------------------------------------------
+
+1. Enter to `LINK <../https://gitpunch.com/>`_. 
+2. Search Asistente-LADM_COL.
+3. Select *enter email*.
+4. sing in or sing up the email and the passwaord.
+5. Ready, you are suscribed to the releases of Asistente-LADM_COL.
+
+.. image:: static/Suscribe_Asistente-LADM-col.gif
+   :height: 20
+   :width: 800
+   :alt: suscribe to the releases
