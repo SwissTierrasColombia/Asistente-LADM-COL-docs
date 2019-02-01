@@ -44,6 +44,15 @@ database.
 The *Test Connection* button is used to know if the entered parameters are
 correct and allow connection to the database
 
+Models
+-------------
+In this tab, you can select whether you want to use the repository of local or remote models.
+
+.. image:: static/set_custom_models_directories.gif
+   :height: 500
+   :width: 800
+   :alt: set custom models directories
+
 Quality
 -------------
 
