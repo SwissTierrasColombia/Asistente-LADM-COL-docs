@@ -37,12 +37,12 @@ Installation process
 
 
 Subscribe to the releases of Asistente-LADM_COL
-----------------------------------------------
+-------------------------------------------------
 
 1. Enter to `LINK <../https://gitpunch.com/>`_. 
-2. Search Asistente-LADM_COL.
+2. Search *Asistente-LADM_COL*.
 3. Select *enter email*.
-4. sing in or sing up the email and the passwaord.
+4. sign in or sign up the email and the passwaord.
 5. Ready, you are suscribed to the releases of Asistente-LADM_COL.
 
 .. image:: static/Suscribe_Asistente-LADM-col.gif
