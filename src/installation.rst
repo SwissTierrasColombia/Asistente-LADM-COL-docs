@@ -18,24 +18,24 @@ Installation process
    :width: 800
    :alt: install plugin process
 
-- Make sure you have the last versión of the projectgenerator plugin, the
+- Make sure you have the last versión of the QgisModelBaker plugin, the
   Assistant LADM_COL depends on this plugin to work, otherwise this message will
   appear:
 
-.. image:: static/error_asistente_project_generator.png
+.. image:: static/error_asistente_qgis_model_baker.png
    :height: 20
    :width: 800
-   :alt: error assistant projectgenerator
+   :alt: error assistant QgisModelBaker
 
-- If you get an error, you can install the projectgenerator plugin like in the
+- If you get an error, you can install the QgisModelBaker plugin like in the
   following gif:
 
-.. image:: static/instalacion_projectgenerator.gif
+.. image:: static/qgis_model_baker_installation.gif
    :height: 20
    :width: 800
-   :alt: projectgenerator installation
-
-
+   :alt: QgisModelBaker installation
+   
+   
 Subscribe to the releases of Asistente-LADM_COL
 -------------------------------------------------
 

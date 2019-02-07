@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-08 14:50-0500\n"
+"POT-Creation-Date: 2019-02-06 15:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,9 @@ msgstr ""
 "**Terreno** es una porción de tierra con una extensión geográfica definida."
 
 #: ../../../cadastre/Spatial_Unit.rst:18 ../../../cadastre/Spatial_Unit.rst:43
-#: ../../../cadastre/Spatial_Unit.rst:69 ../../../cadastre/Spatial_Unit.rst:108
+#: ../../../cadastre/Spatial_Unit.rst:69
+#: ../../../cadastre/Spatial_Unit.rst:108
+#: ../../../cadastre/Spatial_Unit.rst:161
 msgid "From another QGIS Layer/table (setting a field mapping)"
 msgstr "Desde otra capa de QGIS (definiendo un mapeo de campos)"
 
@@ -60,7 +62,9 @@ msgstr ""
 "una capa fuente hacia la capa **terreno** de *LADM_COL*."
 
 #: ../../../cadastre/Spatial_Unit.rst:23 ../../../cadastre/Spatial_Unit.rst:48
-#: ../../../cadastre/Spatial_Unit.rst:74 ../../../cadastre/Spatial_Unit.rst:113
+#: ../../../cadastre/Spatial_Unit.rst:74
+#: ../../../cadastre/Spatial_Unit.rst:113
+#: ../../../cadastre/Spatial_Unit.rst:166
 msgid ""
 "If the field structure of input and target layers differs, you can set a "
 "field mapping to define field transformations and correspondence."
@@ -70,7 +74,9 @@ msgstr ""
 "ellos."
 
 #: ../../../cadastre/Spatial_Unit.rst:26 ../../../cadastre/Spatial_Unit.rst:51
-#: ../../../cadastre/Spatial_Unit.rst:77 ../../../cadastre/Spatial_Unit.rst:116
+#: ../../../cadastre/Spatial_Unit.rst:77
+#: ../../../cadastre/Spatial_Unit.rst:116
+#: ../../../cadastre/Spatial_Unit.rst:169
 msgid "For use this function check this `LINK <../mapping_fields.html>`_."
 msgstr "Para usar esta función revisa este `ENLACE <../mapping_fields.html>`_."
 
@@ -194,6 +200,76 @@ msgid ""
 msgstr ""
 "Para saber como usar esta función dirígete a este `LINK "
 "<../toolbar.html#fill-right-of-way-relations>`_."
+
+#: ../../../cadastre/Spatial_Unit.rst:124
+msgid "Associate Extaddress"
+msgstr "Relacionar Extdireccion"
+
+#: ../../../cadastre/Spatial_Unit.rst:126
+msgid "To associate extaddress there are two groups of options:"
+msgstr "Para asociar extdireccion existen dos grupos de opciones:"
+
+#: ../../../cadastre/Spatial_Unit.rst:129
+msgid "Creating manually using Spatial Units"
+msgstr "Creando manualmente usando Unidades Espaciales"
+
+#: ../../../cadastre/Spatial_Unit.rst:131
+msgid "To Plot"
+msgstr "A un Terreno"
+
+#: ../../../cadastre/Spatial_Unit.rst:133
+msgid "To Building"
+msgstr "A una Construcción"
+
+#: ../../../cadastre/Spatial_Unit.rst:135
+msgid "To Building Unit"
+msgstr "A una Unidad de Construcción"
+
+#: ../../../cadastre/Spatial_Unit.rst:137
+msgid ""
+"To associate the **ExtAddress** to an existing *Spatial Unit*, first you "
+"have to select one of this."
+msgstr ""
+"Para asociar la **Extdireccion** a una *Unidad Espacial Existente*, primero "
+"debes seleccionar una de estas opciones."
+
+#: ../../../cadastre/Spatial_Unit.rst:139
+msgid "There are two ways to associate"
+msgstr "Existen dos formas de relacionar"
+
+#: ../../../cadastre/Spatial_Unit.rst:141
+msgid ""
+"**Selecting on the map**: here you select one *Spatial Unit* and immediately "
+"it will come back to wizard, this enables the button for create the "
+"association"
+msgstr ""
+"**Seleccionando en el mapa**: aquí seleccionas una *Unidad Espacial* e "
+"inmediatamente este regresará al asistente, esto activa el botón para crear "
+"la relación"
+
+#: ../../../cadastre/Spatial_Unit.rst:149
+msgid ""
+"**Selecting by expression**:  here you select one *Spatial Unit* using an "
+"expression, this has to be valid and the selection should take just one "
+"feature. If the expression gets two or more features, the button for create "
+"the association will not be activated."
+msgstr ""
+"**Seleccionando por expresión**: aquí seleccionas una *Unidad Espacial* "
+"usando una expresión, esta debe ser válida y la selección debe tomar solo un "
+"objeto espacial. Si la expresión toma dos o más objetos espaciales, el botón "
+"para crear la relación no se activará."
+
+#: ../../../cadastre/Spatial_Unit.rst:159
+msgid "Using refactor from an existing layer"
+msgstr "Usando un mapeo de campos de una capa existente"
+
+#: ../../../cadastre/Spatial_Unit.rst:163
+msgid ""
+"Choose this option to open a window that allows you to import data from a "
+"source layer into the *LADM_COL* **extdireccion** layer."
+msgstr ""
+"Elige esta opción para abrir una ventana que te permite importar datos desde "
+"una capa fuente hacia la capa **extdireccion** de *LADM_COL*."
 
 #~ msgid ""
 #~ "In this process you define the new spatial objects that you want to add "

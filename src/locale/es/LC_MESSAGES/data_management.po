@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agencia de Implementación
+# This file is distributed under the same license as the LADM_COL Assistant
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LADM_COL Assistant\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-31 12:53-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: en\n"
+
+#: ../../../data_management.rst:2
+msgid "Data management"
+msgstr "Gestión de datos"
+
+#: ../../../data_management.rst:3
+msgid ""
+"Through this module users will be able to import and export the generated "
+"data. As well as to create the initial structure of work according to the "
+"model LADM-COL and its extended models."
+msgstr ""
+"A través de este modulo los usuarios podrán importar y exportar los datos "
+"generados.Asi como crear la estructura inicial de trabajo conforme al modelo "
+"LADM-COL y sus modelos extendidos."
+
+#: ../../../data_management.rst:6
+msgid "Create LADM-COL structure"
+msgstr "Crear estructura LADM-COL"
+
+#: ../../../data_management.rst:7
+msgid ""
+"This functionality allows the creation of a database schema according to the "
+"LADM-COL model and its extended models."
+msgstr ""
+"Esta funcionalidad permite realizar la creación de un esquema de base de "
+"datos conforme al modelo LADM-COL y sus modelos extendidos."
+
+#: ../../../data_management.rst:15
+msgid ""
+"**Note**: The name of the database schema must be in lowercase and must not "
+"contain special characters."
+msgstr ""
+"Nota: El nombre del esquema de base de datos debe estar en minúsculas y no "
+"debe contener caracteres especiales."
+
+#: ../../../data_management.rst:18
+msgid "Import data"
+msgstr "Importar datos"
+
+#: ../../../data_management.rst:19
+msgid ""
+"This functionality allows importing data in XTF format to a database schema "
+"according to the LADM-COL model or its extended models."
+msgstr ""
+"Esta funcionalidad permite realizar la importación de los datos en formato "
+"XTF a una esquema de base de datos conforme al modelo LADM-COL o sus modelos "
+"extendidos."
+
+#: ../../../data_management.rst:27
+msgid "Export data"
+msgstr "Exportar datos"
+
+#: ../../../data_management.rst:28
+msgid ""
+"This functionality allows export from a LADM-COL compliant database schema "
+"to an XTF file."
+msgstr ""
+"Esta funcionalidad permite realizar la exportación desde un esquema de base "
+"de datos conforme al LADM-COL a un archivo XTF."

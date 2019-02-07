@@ -1,5 +1,6 @@
 src/build/
 .directory
+.idea/
 
 # python
 __pycache__/
