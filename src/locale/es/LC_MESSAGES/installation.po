@@ -9,14 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LADM_COL Assistant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-31 12:53-0500\n"
+"POT-Creation-Date: 2019-02-01 09:13-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_CO\n"
+"X-Source-Language: C\n"
 
 #: ../../../installation.rst:2
 msgid "Installation guide for plugin"
@@ -69,6 +72,30 @@ msgid ""
 msgstr ""
 "Si tienes un error, puedes instalar el plugin projectgenerator como en el"
 " siguiente gif:"
+
+#: ../../../installation.rst:40
+msgid "Subscribe to the releases of Asistente-LADM_COL"
+msgstr "Suscríbete a los lanzamientos del Asistente-LADM_COL"
+
+#: ../../../installation.rst:42
+msgid "Enter to `LINK <../https://gitpunch.com/>`_."
+msgstr "Ingrese al `LINK <../https://gitpunch.com/>`_."
+
+#: ../../../installation.rst:43
+msgid "Search *Asistente-LADM_COL*."
+msgstr "Busque *Asistente-LADM_COL*."
+
+#: ../../../installation.rst:44
+msgid "Select *enter email*."
+msgstr "Seleccione *ingrese correo electronico*."
+
+#: ../../../installation.rst:45
+msgid "sign in or sign up the email and the passwaord."
+msgstr "Inicia sesión o regístrate el correo electrónico y la contraseña."
+
+#: ../../../installation.rst:46
+msgid "Ready, you are suscribed to the releases of Asistente-LADM_COL."
+msgstr "Listo, estás suscrito a los lanzamientos del Asistente-LADM_COL."
 
 #~ msgid ""
 #~ "It is necessary to have Qgis "
