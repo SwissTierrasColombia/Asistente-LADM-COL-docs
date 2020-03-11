@@ -1,4 +1,4 @@
-sphinx==1.7.6
+git+https://github.com/AgenciaImplementacion/sphinx.git@v1.7.6.1
 sphinx_rtd_theme
 git+https://github.com/antaflos/sphinxcontrib-images
 git+https://github.com/AgenciaImplementacion/sphinxcontrib-versioning
