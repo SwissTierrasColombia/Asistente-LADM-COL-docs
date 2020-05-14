@@ -1,5 +1,5 @@
-git+https://github.com/AgenciaImplementacion/sphinx.git@v1.7.6.1
-sphinx_rtd_theme
-git+https://github.com/antaflos/sphinxcontrib-images
-git+https://github.com/AgenciaImplementacion/sphinxcontrib-versioning
-sphinx-intl
+sphinx==2.4.4
+sphinx-rtd-theme==0.4.3
+sphinxcontrib-images==0.9.1
+sphinx-intl==0.9.11
+recommonmark==0.6.0

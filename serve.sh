@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
 then
-  cd $(dirname $0)/src/build
+  cd $(dirname $0)/source/_build
 else
   cd $1
 fi
