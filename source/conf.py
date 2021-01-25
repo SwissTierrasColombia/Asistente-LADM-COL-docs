@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Asistente LADM-COL'
-copyright = '2020, Agencia de implementación'
-author = 'Agencia de implementación'
+copyright = '2017-hoy, SwissTierras Colombia'
+author = 'SwissTierras Colombia'
 
 
 # -- General configuration ---------------------------------------------------
@@ -29,12 +29,12 @@ author = 'Agencia de implementación'
 # ones.
 extensions = [
     'sphinx_markdown_tables',
-    'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
-    'sphinx.ext.autodoc'
+    'sphinx.ext.autodoc',
+    'recommonmark'
 ]
 
 
@@ -44,12 +44,6 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 # https://stackoverflow.com/questions/2471804/using-sphinx-with-markdown-instead-of-rst
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
 source_suffix = ['.rst', '.md']
 
 # The master toctree document.
@@ -85,6 +79,8 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_logo = '_static/logo_asistente_ladm_col_96x100.png'
 
 # -- Extension configuration -------------------------------------------------
 import sys,os

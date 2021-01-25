@@ -1,6 +1,8 @@
-# Acerca de
+# Introducción
 
-Complemento para [QGIS](http://qgis.org) que permite crear y mantener datos conformes con [LADM-COL](https://github.com/SwissTierrasColombia/LADM-COL), así  como importar, visualizar, capturar, consultar, transformar (mediante  ETLs), validar y generar archivos de intercambio de [INTERLIS](http://www.interlis.ch/index_e.htm) (.XTF). Se integra al Sistema de Transición para realizar tareas que requieren análisis y validación de datos espaciales.
+## Generalidades
+
+El Asistente LADM-COL es un complemento para [QGIS](http://qgis.org) que permite crear y mantener datos conformes con [LADM-COL](https://github.com/SwissTierrasColombia/LADM-COL), así  como importar, visualizar, capturar, consultar, transformar (mediante  ETLs), validar y generar archivos de intercambio de [INTERLIS](http://www.interlis.ch/index_e.htm) (.XTF). Se integra al Sistema de Transición para realizar tareas que requieren análisis y validación de datos espaciales.
 
 Licencia: [GNU General Public License v3.0](https://github.com/SwissTierrasColombia/Asistente-LADM-COL/blob/master/LICENSE)
 
@@ -8,9 +10,9 @@ Enlaces de interés: [Documentación](https://swisstierrascolombia.github.io/Asi
 
 Un proyecto de: [SwissTierras Colombia](https://swisstierrascolombia.com/) ([BSF-Swissphoto AG](http://bsf-swissphoto.com/) - [INCIGE S.A.S](http://www.incige.com/))
 
-## Soporte de funcionalidades por motor de base de datos
+### Soporte de funcionalidades por motor de base de datos
 
-La versión actual ([3.1.0](https://github.com/SwissTierrasColombia/Asistente-LADM-COL/releases/tag/3.1.0)) del Asistente LADM-COL depende del plugin [QGIS Model Baker v6.1.1.4](https://github.com/SwissTierrasColombia/QgisModelBaker/releases/download/v6.1.1.4/QgisModelBaker_6114.zip) y soporta los motores de Base de Datos PostgreSQL/PostGIS, GeoPackage y SQL Server.
+La versión actual ([3.1.3](https://github.com/SwissTierrasColombia/Asistente-LADM-COL/releases/tag/3.1.0)) del Asistente LADM-COL depende del plugin [QGIS Model Baker v6.1.1.5](https://github.com/SwissTierrasColombia/QgisModelBaker/releases/download/v6.1.1.5/QgisModelBaker_6115.zip) y soporta los motores de Base de Datos PostgreSQL/PostGIS, GeoPackage y SQL Server.
 
 Este es el soporte funcional para cada motor:
 
@@ -26,7 +28,7 @@ Este es el soporte funcional para cada motor:
 | Identificación de novedades       |         Si         |            Si            |            Parcial          |
 | Sistema de Transición             |         Si         |            Si            |            Si               |
 
-## Funcionalidades
+### Funcionalidades
 
 #### Administración de datos
 
@@ -37,7 +39,7 @@ Este es el soporte funcional para cada motor:
   - Soporte de tres motores para manejar datos de LADM-COL:
     - :elephant: PostgreSQL/PostGIS: Soporte total.
     - :package: GeoPackage: Soporte total, exceptuando el módulo de reportes.
-    - SQL Server: Soporte parcial. Gestión de insumos y reportes no están soportados.
+    - :copyright: SQL Server: Soporte parcial. Gestión de insumos y reportes no están soportados.
 
 #### Captura y estructuración de datos
 
@@ -193,7 +195,7 @@ Este es el soporte funcional para cada motor:
      - ETL para generar insumos catastrales a partir de datos del IGAC (fuente Cobol).
  - Soporte de roles y generación de interfaz de usuario para cada rol.
 
-## Galería
+### Galería
 
  + Reglas de Calidad![Reglas de Calidad](https://s3.amazonaws.com/media-p.slid.es/uploads/308098/images/6343636/quality_rules_25-min.gif)
 
@@ -212,3 +214,62 @@ Este es el soporte funcional para cada motor:
 + Integración con el Sistema de Transición
 
   ![insumos](https://user-images.githubusercontent.com/27906888/83693002-b6f17900-a5ba-11ea-8d62-0ed25b2a7cfe.gif)
+
+
+### Suscríbete a los lanzamientos del Asistente-LADM_COL
+
+1. Ingrese al siguiente [enlace](https://gitpunch.com).
+2. Busque Asistente-LADM_COL.
+3. Seleccione ingrese correo electronico.
+4. Inicia sesión o regístrate el correo electrónico y la contraseña.
+5. Listo, estás suscrito a los lanzamientos del Asistente-LADM_COL.
+
+<img src="_static/instalacion/suscribe_notification_new_release.gif" alt="Suscribirse al lanzamiento de versiones Asistente LADM-COL" />
+
+
+
+## Instalación
+
+### Requerimientos mínimos
+
+Para usar el Asistente LADM-COL se requiere:
+
+ - Sistema Operativo:
+   - Windows 10
+   - GNU/Linux
+   - macOS
+ - Software base:
+   - QGIS v3.10.0-A Coruña o superior
+   - Java v1.8
+   - PostgreSQL 9.5 o superior (funciona PostgreSQL 10, 11 o 12).
+   - PostGIS 2.4 o superior.
+ - Complementos de QGIS (al instalar el Asistente LADM-COL usando el Administrador de Complementos de QGIS, las dependencias se instalarán automáticamente):
+   - QGIS Model Baker [v6.1.1.4](https://github.com/SwissTierrasColombia/QgisModelBaker/releases/download/v6.1.1.4/QgisModelBaker_6114.zip).
+   - MapSwipe Tool v1.2
+
+
+### Proceso de instalación
+
+- Es necesario tener el Software QGIS versión 3 instalado, recomendamos usar la versión 3.10.0-A Coruña o superior, para obtener este diríjete a [la página de descargas de QGIS](https://qgis.org/es/site/forusers/download.html).
+
+- El proceso puede ser observado graficamete en el siguiente GIF:
+
+    <img src="_static/instalacion/instalation.gif" alt="Proceso de instalación del plugin" style="width:800px" />
+
+- Asegúrate de tener la última versión del plugin QgisModelBaker, el Asistente LADM_COL
+  depende de este plugin para funcionar, de lo contrario este mensaje aparecerá:  <img src="_static/instalacion/error_asistente_qgis_model_baker.png" alt="Error de dependencia QgisModelBaker" />
+
+- Si tienes un error, puedes instalar el plugin QgisModelBaker como en el siguiente gif:
+
+    <img src="_static/instalacion/instalation_qgis_model_baker.gif" alt="Instalación de QgisModelBaker" style="width:800px" />
+
+
+### Habilitar proyección Origen Nacional
+
+Para poder usar la proyección con Origen Único Nacional antes de que esta sea agregada oficialmente en la base de datos de Sistemas de Referencia de QGIS, debemos permitir que el Asistente LADM-COL configure dicha proyección.
+
+Para ello, basta con otorgar estos dos permisos de escritura al usuario con el cual usamos QGIS:
+
+<img src="_static/instalacion/permisos_srs.gif" alt="Habilitar proyección Origen Nacional" style="width:800px" />
+
+

@@ -1,8 +1,2 @@
-src/build/
-.directory
-.idea/
-
-# python
-__pycache__/
-*.py[cod]
-*$py.class
+source/_build
+source/_images

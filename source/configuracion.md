@@ -1,15 +1,10 @@
-Configuración
-==============
+# Configuración
 
-.. image:: _static/configuracion/settings.gif
-    :height: 500
-    :width: 800
-    :alt: Configuración básica
-    :download: true
-    :title: Configuración básica
+<img src="_static/configuracion/settings.gif" alt="Configuración básica" style="height:500px;width:800px" />
 
-Conexión a Base de Datos
-**************************
+
+
+## Conexión a Base de Datos
 
 En esta pestaña, se definen los parámetros para conectarse con la base de datos que almacena el modelo físico de LADM_COL.
 
@@ -29,12 +24,9 @@ Párametros de PostgreSQL/PostGIS
 - **Base de Datos**:Nombre de la base de datos que contiene o contendrá el modelo físico de LADM_COL
 - **Esquema**: Nombre del esquema que almacena los objetos del modelo físico de LADM_COL
 
-.. image:: _static/configuracion/db_connection_settings.gif
-    :height: 500
-    :width: 800
-    :alt: Configuración básica
-    :download: true
-    :title: Configuración básica
+
+
+<img src="_static/configuracion/db_connection_settings.gif" alt="Configuración básica" style="height:500px;width:800px" />
 
 **Nota**: Puede crear su base de datos y su esquema. Pero los nombres no deben contener caracteres especiales.
 
@@ -45,24 +37,19 @@ Parámetros de GeoPackage
 
 El botón Probar Conexión se usa para saber si los parámetros ingresados son correctos y permiten la conexión a la base de datos
 
-Modelos
-********
+## Modelos
 
 En esta pestaña, puede seleccionar si desea utilizar el repositorio de modelos locales o remotos.
 
-.. image:: _static/configuracion/set_custom_models_directories.gif
-    :height: 500
-    :width: 800
-    :alt: Establecer directorios de modelos personalizados
-    :download: true
-    :title: Establecer directorios de modelos personalizados
+<img src="_static/configuracion/set_custom_models_directories.gif" alt="Establecer directorios de modelos personalizados" style="height:500px;width:800px" />
 
-Calidad
-*********
+
+
+## Calidad
+
 En esta pestaña se definen parámetros para validaciones de calidad. Por ejemplo, se establece el límite de tolerancia permitido para segmentos de linderos demasiado largos, el cual debe estar definido en metros.
 
-Valores automáticos
-*********************
+## Valores automáticos
 
 La mayoría de las clases en LADM_COL tiene dos atributos que combinados deben ser únicos en todo el `esquema/base de datos`. Se denominan **espacio_de_nombres** y **local_id**. Para hacer más fácil el llenado de estos atributos, el asistente LADM_COL puede configurarse con valores automáticos para ellos.
 
@@ -72,21 +59,16 @@ Por otra parte , **local_id** correspondera al ID del registro en la base de dat
 
 Si deseas llenar esos valores por tu cuenta desmarca las siguientes opciones en este formulario.
 
-.. image:: _static/configuracion/automatic_values_settings.gif
-    :height: 500
-    :width: 800
-    :alt: Configuración de valores automáticos
-    :download: true
-    :title: Configuración de valores automáticos
+<img src="_static/configuracion/automatic_values_settings.gif" alt="Configuración de valores automáticos" style="height:500px;width:800px" />
 
-Fuentes
-********
+
+
+
+## Fuentes
 
 Es posible configurar a través de un repositorio de datos una ruta de acceso URL para subir fuentes administrativas y fuentes espaciales asociadas a la información recolectada en LADM-COL.
 
-.. image:: _static/configuracion/source_settings.gif
-    :height: 500
-    :width: 800
-    :alt: Fuentes
-    :download: true
-    :title: Fuentes
+<img src="_static/configuracion/source_settings.gif" alt="Fuentes" style="height:500px;width:800px" />
+
+
+   

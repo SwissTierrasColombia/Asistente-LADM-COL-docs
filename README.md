@@ -1,19 +1,19 @@
-# Documentación Asistente LADM_COL
+# Documentación del Asistente LADM-COL
 
-Documentación del plugin Asistente de LADM_COL para QGIS
+Este es el repositorio de las fuentes de la documentación del plugin Asistente de LADM-COL para QGIS.
 
-## Instalar Requerimientos
+## Instalar requerimientos
 
-Para instalar los requerimientos de python ejecute el siguiente comando:
+Para instalar los requerimientos de Python ejecuta el siguiente comando (desde la carpeta `source`):
 
 ```bash
 sudo pip3 install -r requirements.txt
 ```
 
-## Generar Documentación
+## Generar documentación
 
-Para generar la documentación ejecute el siguiente comando:
+Para generar la documentación ejecuta el siguiente comando (desde la carpeta `source`):
 
 ```bash
-sh generate.sh
+sphinx-build -b html . _build --keep-going --no-color -w /tmp/sphinx-log
 ```
