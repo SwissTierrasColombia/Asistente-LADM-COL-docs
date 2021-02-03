@@ -18,6 +18,7 @@ jobs:
     - name: Commit documentation changes
       run: |
         git clone https://github.com/SwissTierrasColombia/Asistente-LADM-COL.git --branch gh-pages --single-branch gh-pages
+        rm -r gh-pages/*
         cp -r source/_build/* gh-pages/
         cd gh-pages
         touch .nojekyll
