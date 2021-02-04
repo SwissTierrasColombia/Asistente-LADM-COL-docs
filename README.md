@@ -100,7 +100,7 @@ Si quieres contribuir a la documentación del Asistente LADM-COL:
 
       Ejemplo: 
 
-            ![](source/_static/importante.png)
+      ![](source/_static/importante.png)
 
       Código HTML:
 
