@@ -56,9 +56,9 @@ Si quieres contribuir a la documentación del Asistente LADM-COL:
 
    Ejemplos: 
 
-   ​    :white_check_mark: "Se debe dar clic en el botón `Aceptar`".
+   ​    :heavy_check_mark: "Se debe dar clic en el botón `Aceptar`".
 
-   ​    :white_check_mark: "Haz clic en el botón `Aceptar`".
+   ​    :heavy_check_mark: "Haz clic en el botón `Aceptar`".
 
    ​    :heavy_multiplication_x: "Debe dar clic en el botón `Aceptar`".
 
@@ -68,50 +68,50 @@ Si quieres contribuir a la documentación del Asistente LADM-COL:
 
    a. **Tip:** Esta caja se usa en el caso de recomendar mejores prácticas en el uso de la herramienta.
 
-   ​	Ejemplo: 
+      Ejemplo: 
 
-​          ![](/docs/dev/Asistente-LADM-COL-docs/source/_static/tip.png)
+      ![](source/_static/tip.png)
 
-​          Código HTML: 
+      Código HTML: 
 
-```html
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>Antes de ejecutar el ETL de SNC a submodelo de Insumos, crea la estructura de base de datos desde Administración de datos --> Crear estructura LADM-COL</p>
-</div>
-```
+      ```
+      <div class="seealso">
+      <p class="admonition-title">TIP</p>
+      <p>Antes de ejecutar el ETL de SNC a submodelo de Insumos, crea la estructura de base de datos desde Administración de datos --> Crear estructura LADM-COL</p>
+      </div>
+      ```
 
-​      b. **Advertencia:** Esta caja se usa para advertir al usuario de posibles resultados inesperados.
+   b. **Advertencia:** Esta caja se usa para advertir al usuario de posibles resultados inesperados.
+   
+      Ejemplo: 
+   
+      ![](source/_static/advertencia.png)
+   
+      Código HTML: 
+   
+      ```
+      <div class="warning">
+      <p class="admonition-title">ADVERTENCIA</p>
+      <p>Antes de ejecutar el ETL del SNC, verifica la configuración de la conexión a la base de datos destino para evitar sobreescribir datos a una estructura incorrecta.</p>
+      </div>
+      ```
 
-​          Ejemplo: 
+   c. **Importante:** Esta caja se usa para dar información clave de la funcionalidad actual. 
 
-![](/docs/dev/Asistente-LADM-COL-docs/source/_static/advertencia.png)
+      Ejemplo: 
 
-​          Código HTML: 
+            ![](source/_static/importante.png)
 
-```html
-<div class="warning">
-<p class="admonition-title">ADVERTENCIA</p>
-<p>Antes de ejecutar el ETL del SNC, verifica la configuración de la conexión a la base de datos destino para evitar sobreescribir datos a una estructura incorrecta.</p>
-</div>
-```
+      Código HTML:
 
-​      c. **Importante:** Esta caja se usa para dar información clave de la funcionalidad actual. 
+      ```
+      <div class="note">
+      <p class="admonition-title">IMPORTANTE</p>
+      <p>El rol elegido definirá el conjunto de módulos, barra de herramientas,  modelos e incluso, reglas de calidad, que tendrás a disposición desde la interfaz del Asistente LADM-COL.</p>
+      </div>
+      ```
 
-​          Ejemplo: 
-
-​		  ![](/docs/dev/Asistente-LADM-COL-docs/source/_static/importante.png)
-
-​          Código HTML:
-
-```html
-<div class="note">
-<p class="admonition-title">IMPORTANTE</p>
-<p>El rol elegido definirá el conjunto de módulos, barra de herramientas,  modelos e incluso, reglas de calidad, que tendrás a disposición desde la interfaz del Asistente LADM-COL.</p>
-</div>
-```
-
-​     Se recomienda la utilización de las anteriores cajas de colores, solo para casos que lo requieran, con el fin de evitar sobrecargar al lector con mucha información.
+   Se recomienda la utilización de las anteriores cajas de colores, solo para casos que lo requieran, con el fin de evitar sobrecargar al lector con mucha información.
 
 5. Se recomienda utilizar imágenes (PNG) o animaciones (GIF) para ilustrar gráficamente el uso de una funcionalidad al lector.
 
