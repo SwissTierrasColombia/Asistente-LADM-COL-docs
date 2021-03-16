@@ -1,6 +1,7 @@
 # Gestión de insumos
 
-<a href="_static/sistema_de_transicion/transitional_system.gif" target="_blank"><img src="_static/sistema_de_transicion/transitional_system.gif" alt="Sistema de transición" title="Sistema de transición" style="height:500px;width:800px" /></a>
+<a class="" data-lightbox="Sistema de transición" href="_static/sistema_de_transicion/transitional_system.gif" title="Sistema de transición" data-title="Sistema de transición"><img src="_static/sistema_de_transicion/transitional_system.gif" class="align-center" width="800px" height="500px" alt="Sistema de transición">
+</a>
 
 ## Ejecutar ETL de Insumos
 
@@ -25,51 +26,25 @@ Esta funcionalidad cuenta con una interfaz desarrollada para guiar al usuario de
 
 Para Ejecutar la ETL SNC es necesario que del sistema catastral SNC se extraigan los siguientes archivos para la zona de trabajo de su interés: 
 
-<table border="0" style="width:100%">
- <tr>
-    <th colspan="3"><b>Alfanuméricos</b></th>
- </tr>
- <tr>
-    <td>
-        <ul>
-            <li>predio_bloqueo.csv</li>
-            <li>persona.csv</li>
-            <li>predio.csv</li>
-        </ul>
-    </td>
-    <td>
-        <ul>
-            <li>persona_predio.csv</li>
-            <li>direccion.csv</li>
-            <li>unidad_construccion.csv</li>
-        </ul>
-    </td>
-    <td>
-        <ul>
-            <li>unidad_construccion_comp.csv</li>
-            <li>ficha_matriz.csv</li>
-            <li>ficha_matriz_predio.csv</li>
-            <li>ficha_matriz_torre.csv</li>
-        </ul>
-    </td>
- </tr>
-</table>
+<center>
 
-<table border="0" style="width:100%">
- <tr>
-    <th colspan="1"><b>Geográficos</b></th>
- </tr>
- <tr>
-    <td>
-        <ul>
-               <li>GDB (Geodatabase)</li>
-        </ul>
-    </td>
- </tr>
-</table>
+|                    |    **Alfanuméricos**    |                              |
+| ------------------ | ----------------------- | ---------------------------- |
+| predio_bloqueo.csv | persona_predio.csv      | unidad_construccion_comp.csv |
+| persona.csv        | direccion.csv           | ficha_matriz.csv             |
+| predio.csv         | unidad_construccion.csv | ficha_matriz_predio.csv      |
+| ficha_matriz_torre |                         |                              |
 
-***** Archivo Obligatorio para ejecutar el ETL
+|  **Geográficos**  |
+| ----------------- |
+| GDB (Geodatabase) |
 
+</center>
+
+\* Archivo Obligatorio para ejecutar el ETL
+
+<a class="" data-lightbox="ETL SNC" href="_static/gestion_de_insumos/etl_snc.gif" title="ETL SNC" data-title="ETL SNC"><img src="_static/gestion_de_insumos/etl_snc.gif" class="align-center" width="800px" height="500px" alt="ETL SNC">
+</a>
 ## ETL COBOL a submodelo de insumos
 
 <div class="warning">
@@ -79,49 +54,33 @@ Para Ejecutar la ETL SNC es necesario que del sistema catastral SNC se extraigan
 
 Para Ejecutar la ETL COBOL es necesario que del sistema catastral COBOL se extraigan los siguiente archivos para la zona de trabajo de su interés:
 
-<table border="0" style="width:100%">
- <tr>
-    <th colspan="2"><b>Alfanuméricos</b></th>
- </tr>
- <tr>
-    <td>
-        <ul>
-            <li>predio_bloqueo.csv</li>
-            <li>persona.csv</li>
-        </ul>
-    </td>
-    <td>
-        <ul>
-            <li>persona_predio.csv</li>
-            <li>direccion.csv</li>
-        </ul>
-    </td>
- </tr>
-</table>
+<center>
 
-<table border="0" style="width:100%">
- <tr>
-    <th colspan="1"><b>Geográficos</b></th>
- </tr>
- <tr>
-    <td>
-        <ul>
-               <li>GDB (Geodatabase)</li>
-        </ul>
-    </td>
- </tr>
-</table>
+|         | **Alfanuméricos** |         |
+| ------- | :---------------: | ------- |
+| blo.lis |      uni.lis      | ter.lis |
+| pro.lis |                   |         |
 
-***** Archivo Obligatorio para ejecutar el ETL
+|  **Geográficos**  |
+| ----------------- |
+| GDB (Geodatabase) |
 
+</center>
+
+\* Archivo Obligatorio para ejecutar el ETL
+
+<a class="" data-lightbox="ETL Cobol" href="_static/gestion_de_insumos/etl_cobol.gif" title="ETL Cobol" data-title="ETL Cobol"><img src="_static/gestion_de_insumos/etl_cobol.gif" class="align-center" width="800px" height="500px" alt="ETL Cobol">
+</a>
 ## Reporte de Omisiones y Comisiones
 
 Esta funcionalidad facilita la generación del reporte de omisiones y comisiones para los datos de **COBOL** y **SNC**, este reporte ***(Averiguar para que es el reporte de omisiones y comisiones)** , para esto es necesario contar con la información asociada al predio que se encuentra en el archivo **uni.lis** para el caso de **COBOL**, y para el caso **SNC** se encuentra en el archivo**predio.csv**.La información geográfica para ambos casos se encuentra en el archivo con formato **GDB**. Despues de ejecutar el reporte, las capas geográficas resultantes se almacenarán en un archivo con formato **Geopackage (GPKG)** y la estadistica de los datos se almacenará en un archivo en formato **Excel (XLS)** a los cuales se les podrá asígnar un nombre y quedarán en la carpeta seleccionada en la interfaz en el momento de ejecutar el reporte.
 
 ## Reporte Omisiones y Comisiones - COBOL
 
-
+<a class="" data-lightbox="Omisiones y Comisiones Cobol" href="_static/gestion_de_insumos/omisiones_comisiones_cobol.gif" title="Omisiones y Comisiones Cobol" data-title="Omisiones y Comisiones Cobol"><img src="_static/gestion_de_insumos/omisiones_comisiones_cobol.gif" class="align-center" width="800px" height="500px" alt="Omisiones y Comisiones Cobol">
+</a>
 
 ## Reporte Omisiones y Comisiones - SNC
 
-
+<a class="" data-lightbox="Omisiones y Comisiones SNC" href="_static/gestion_de_insumos/omisiones_comisiones_snc.gif" title="Omisiones y Comisiones SNC" data-title="Omisiones y Comisiones SNC"><img src="_static/gestion_de_insumos/omisiones_comisiones_snc.gif" class="align-center" width="800px" height="500px" alt="Omisiones y Comisiones SNC">
+</a>
