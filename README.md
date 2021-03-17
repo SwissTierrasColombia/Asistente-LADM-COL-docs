@@ -115,10 +115,10 @@ Si quieres contribuir a la documentación del Asistente LADM-COL:
 
 5. Se recomienda utilizar imágenes (PNG) o animaciones (GIF) para ilustrar gráficamente el uso de una funcionalidad al lector.
 
-   Se puede usar el siguiente código HTML para insertar una animación (GIF) que permita ser expandida a su resolución original en otra pestaña/ventana del navegador web:
+   Se puede usar el siguiente código HTML para insertar una animación (GIF) que permita ser expandida en un diálogo emergente de la misma página web donde se aloja el GIF:
 
    ```html
-   <a href="_static/animacion.gif" target="_blank"><img src="_static/animacion.gif" alt="Cargar capas" title="Cargar capas" style="width:800px" /></a>
+   <a class="" data-lightbox="Sistema de transición" href="_static/sistema_de_transicion/transitional_system.gif" title="Sistema de transición" data-title="Sistema de transición"><img src="_static/sistema_de_transicion/transitional_system.gif" class="align-center" width="800px" alt="Sistema de transición"/></a>
    ```
 
    Parámetros recomendados de grabación de la animación: 
