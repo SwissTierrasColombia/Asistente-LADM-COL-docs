@@ -9,3 +9,8 @@
 p {
   text-align: justify;
 }
+
+table{
+  margin-right: auto;
+  margin-left: auto;
+}
