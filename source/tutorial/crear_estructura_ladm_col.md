@@ -45,5 +45,5 @@
     
 7.  Finalmente volverá al cuadro de diálogo inicial con un mensaje de verificación del proceso realizado, presionar el botón Cerrar para continuar con el proceso.
 
-     (<a class="" data-lightbox="Paso 11" href="../source/_static/tutorial/paso11.png" title="Paso 11" data-title="Paso 11"><img src="../source/_static/tutorial/paso11.png" class="align-center" width="800px" alt="Paso 11"/></a>)
+     <a class="" data-lightbox="Paso 11" href="../source/_static/tutorial/paso11.png" title="Paso 11" data-title="Paso 11"><img src="../source/_static/tutorial/paso11.png" class="align-center" width="800px" alt="Paso 11"/></a>
 
