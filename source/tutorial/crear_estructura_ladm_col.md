@@ -1,6 +1,6 @@
 # Crear Estructura LADM-COL
 
-1. Para configurar el asistente se debe asignar el modelo conceptual, el cual será la base para el desarrollo de operaciones, que ayuden de forma organizada en el registro y recopilación de información, para ello es necesario ir al menú de opciones y seleccionar el asistente **LADM-COL,** luego ir **administración de datos** y finalmente en **crear estructura LADM-COL.**
+1. Para configurar el asistente se debe asignar el modelo conceptual, el cual será la base para el desarrollo de operaciones que ayuden de forma organizada en el registro y recopilación de información, para ello es necesario ir al menú de opciones y seleccionar el asistente **LADM-COL,** luego ir **administración de datos** y finalmente en **crear estructura LADM-COL.**
     
     <a class="" data-lightbox="Paso 1" href="../_static/tutorial/Paso1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/Paso1.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
@@ -34,19 +34,17 @@
 
      <a class="" data-lightbox="Paso 4" href="../_static/tutorial/paso4.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/paso4.png" class="align-center" width="400px" alt="Paso 4"/></a>
 
-5.  Para la creación de la base de datos presionar el icono <a class="" data-lightbox="icono_1" href="../_static/tutorial/icono1.png" title="icono_1" data-title="icono_1"><img src="../_static/tutorial/icono1.png" class="align-center" width="40px" alt="icono_1"/></a> de inmediato saldrá un cuadro de diálogo solicitando el nombre a asignar, posterior a ello se deberá activar el botón **Crear database** y después de ver el mensaje de verificación de dicho proceso finalmente dar clic en el botón **Cerrar.**
+5.  Para la creación de la base de datos presionar el boton <a class="" data-lightbox='Boton "Crear Database"' href="../_static/tutorial/icono1.png" title='Boton "Crear Database"' data-title="Crear DataBase"><img src="../_static/tutorial/icono1.png" class="align-center" width="30px" alt='Boton "Crear Database"'/></a> de inmediato saldrá un cuadro de diálogo solicitando el nombre a asignar, posterior a ello se deberá activar el botón **Crear database** obteniendo un mensaje de verificación de dicho proceso, finalmente dar clic en el botón **Cerrar.**
 
     
-     <a class="" data-lightbox="Paso 6" href="../_static/tutorial/paso6.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/paso6.png" class="align-center" width="400px" alt="Paso 6"/></a>
-     <a class="" data-lightbox="Paso 7" href="../_static/tutorial/Paso7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/Paso7.png" class="align-Right" width="400px" alt="Paso 7"/></a>
-      <a class="" data-lightbox="Paso 5" href="../_static/tutorial/paso5.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/paso5.png" class="align-left" width="400px" alt="Paso 5"/></a>
+     <a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap3crearLADM5.gif" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap3crearLADM5.gif" class="align-center" width="400px" alt="Paso 5"/></a>
+  
 
-6.  Para la creación del esquema presionar el icono  <a class="" data-lightbox="icono_2" href="../_static/tutorial/icono2.png" title="icono_2" data-title="icono_2"><img src="../_static/tutorial/icono2.png" class="align-center" width="40px" alt="icono_2"/></a> saldrá un cuadro de diálogosolicitando el nombre a asignar, posterior a ello se deberá activar el botón **Crear Shema,** se procede a dar clic en el botón **Aceptar**
+6.  Para la creación del esquema se debe presionar el boton  <a class="" data-lightbox='Botón "Crear esquema"' href="../_static/tutorial/icono2.png" title='Botón "Crear esquema"' data-title='Botón "Crear esquema"'><img src="../_static/tutorial/icono2.png" width="30px" alt='Botón "Crear esquema"'/></a> surgiendo asi, un cuadro de diálogo solicitando el nombre a asignar,  presionar el botón **Crear Shema,** y el botón **Aceptar**
 
 
-     <a class="" data-lightbox="Paso 8" href="../_static/tutorial/paso10.png" title="Paso 8" data-title="Paso 8"><img src="../_static/tutorial/paso10.png" class="align-left" width="400px" alt="Paso 8"/></a>
-     <a class="" data-lightbox="Paso 9" href="../_static/tutorial/paso9.png" title="Paso 9" data-title="Paso 9"><img src="../_static/tutorial/paso9.png" class="align-center" width="400px" alt="Paso 9"/></a>
-     <a class="" data-lightbox="Paso 10" href="../_static/tutorial/paso8.png" title="Paso 10" data-title="Paso 10"><img src="../_static/tutorial/paso8.png" class="align-Right" width="400px" alt="Paso 10"/></a>
+     <a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap3crearLADM6.gif" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap3crearLADM6.gif" class="align-center" width="400px" alt="Paso 6"/></a>
+
     
 7.  Finalmente volverá al cuadro de diálogo inicial con un mensaje de verificación del proceso realizado, presionar el botón Cerrar para continuar con el proceso.
 
