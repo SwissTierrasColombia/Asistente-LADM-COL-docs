@@ -220,17 +220,202 @@ este caso seleccionaremos la opción **seleccionando linderos existentes,**poste
  <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap5undespaciales6.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap5undespaciales6.png" class="align-center" width="800px" alt="Paso 7"/></a>
  
 #### Creación de relacion entre los linderos y los terrenos
+
+1.  Esta relación lo que busca es identificar los linderos que abarcan un área de terreno determinada ya sea para sumar el cual se usa la relación *Col\_masccl* o para restar área *Col_menosccl*. Para llenar estas relaciones hacemos uso de la herramienta **llenar mas CCL y menos** ubicada en la barra de herramientas
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales8.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales8.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.   emergerá un cuadro de diálogo preguntando si se desea ejecutar la acción por lo tanto daremos clic en el botón **si**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales9.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+Finalmente, en caso de que desee ver si las relaciones fueron tramitadas puede abrir la tabla de atributos de la tabla Col\_masccl y en la columna col_mas observar si los datos están diligenciados como lo muestra la siguiente imagen 
+
+<a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales10.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales10.png" class="align-center" width="800px" alt="Resultado"/></a>
+
 ### Creación de construcciones
+
+1.  Para iniciar con las construcciones diríjase a la caja de **crear objetos de levantamiento** y posteriormente seleccione la opción crear objeto.
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales11.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales11.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  saldrá una ventana donde se solicita la opción para crear las construcciones, si digitalizando o importando la información desde una capa vectorial , en este caso hará uso de la información suministrada de la capa **topo_construcciones**  y posteriormente dar clic en el botón **importar**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales12.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales12.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3.  De inmediato se desplegara la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos *4, 5 y 6 del capítulo 4 captura y estructuración de datos,* el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar**  y después de ver el mensaje de verificación del proceso procedemos a **cerrar** la ventana
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap5undespaciales13.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3"/></a>
+
+Al finalizar en su totalidad se podrá visualizar las construcciones en el mapa
+
+<a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales14.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales14.png" class="align-center" width="800px" alt="Resultado"/></a>
+
 ### Creación de unidades de construcción
 
+Para iniciar con el proceso de crear las unidades de construccion se debe usar la herramienta **Identificar**, ubicada en la barra de herramientas 
+
+<a class="" data-lightbox="Identificación" href="../_static/tutorial/cap5undespaciales15.png" title="Identificación" data-title="Identificación"><img src="../_static/tutorial/cap5undespaciales15.png" class="align-center" width="800px" alt="Identificación"/></a>
+
+Con el fin de extraer el valor **t_id** asignado al polígono que representa la construcción.
+
+<a class="" data-lightbox="Identificación2" href="../_static/tutorial/cap5undespaciales16.png" title="Identificación2" data-title="Identificación2"><img src="../_static/tutorial/cap5undespaciales16.png" class="align-center" width="800px" alt="Identificación2"/></a>
+
+1.  Después de tener los t_id se procede con el proceso de creación de las unidades de construcción,  para ello dirigirse al menú de opciones, y seleccionamos la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Unidad Espacial—Crear Unidad De Construcción**
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales17.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales17.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  De inmediato se desplegará un cuadro de diálogo solicitando como se pretende generar la unidad de construcción si por una capa vectorial o digitalizándolo en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales18.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales18.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3. Al cerrarse la ventana  se activara el snapping, el cual ayudará con el proceso de digitalización, podrá apoyarse con los puntos levantamiento para definir la unidad de construcción, una vez termine de vectorizar el polígono correspondiente dar clic derecho, al hacerlo el polígono tendrá un contorno sombreado y abrirá un formulario.
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap5undespaciales19.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap5undespaciales19.gif" class="align-center" width="800px" alt="Paso 3"/></a>
+
+al finalizar el polígono se abre un formulario, el cual tiene resaltado unas casillas en un color melocotón, estas casillas indican que deben llenarse de forma obligatoria, ahorrando trabajo en el momento de consultar los datos obligatorios en el modelo, en la sección **lc_construccion** diligenciar el **t_id** de la construcción consultada previamente.
+
+<a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales20.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales20.png" class="align-center" width="800px" alt="Resultado"/></a>
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>se recomienda llenar el formulario con los datos que se pueden visualizar en la siguiente imagen, una vez terminado de diligenciar el formulario dar clic en el botón **aceptar**</p>
+</div>
+
+<a class="" data-lightbox="Recomendado" href="../_static/tutorial/cap5undespaciales21.png" title="Recomendado" data-title="Recomendado"><img src="../_static/tutorial/cap5undespaciales21.png" class="align-center" width="800px" alt="Recomendado"/></a>
+
+Finalmente se cerrara el cuadro de diálogo y se podra visualizar un solido en 3D que representa la construccion.
+
+<a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales22.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales22.png" class="align-center" width="800px" alt="Resultado"/></a>
+
 ## Unidad Básica Administrativa
+Para el desarrollo de este capítulo se es necesario tener en cuenta la información que se puede obtener de la siguiente imagen, ya que se asociara la información de propiedad con los predios ya definidos en el modelo.
+
+<a class="" data-lightbox="Información" href="../_static/tutorial/cap6UBA1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap6UBA1.png" class="align-center" width="800px" alt="Información"/></a>
+
+
+
 ### Crear predio
 
+1.  El proceso iniciara dirigiéndose al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Unidad básica administrativa—Crear Predio**
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap6UBA2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap6UBA2.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  Se desplegará un cuadro de diálogo donde se permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un **formulario**, seleccionar la opción y presionar el botón **siguiente** posteriormente se debe seleccionar el tipo de predio a crear, para eso se recomienda revisar la imagen anterior del presente documento. Como se
+puede observar en la siguiente figura se solicita información del terreno por lo tanto se debe dar clic al boton seleccion href="../_static/tutorial/ICOSeleccion.png" title='Boton "Selección"' data-title="Selección"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Selección"'/></a>
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap6UBA3.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap6UBA3.gif" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3.   Se cerrara el cuadro de diálogo actual y el puntero cambiara a una cruz lo cual indica que ya esta listo para seleccionar el terreno, damos clic sobre el terreno a registrar.
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap6UBA4.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap6UBA4.gif" class="align-center" width="800px" alt="Paso 3"/></a>
+
+4. Al seleccionar el predio reaparecerá el cuadro de diálogo inicial identificando los elementos a registrar,
+posteriormente se debe activar el botón crear
+
+<a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap6UBA5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap6UBA5.png" class="align-center" width="800px" alt="Paso 4"/></a>
+
+5.Se desplegará un formulario, el cual deberá ser diligenciado con la información ofrecida por la imagen de la seccion unidad basica administrativa, recuerde que los campos coloreados son obligatorios
+
+<a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap6UBA6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap6UBA6.png" class="align-center" width="800px" alt="Paso 5"/></a>
+
+6. El objetivo es que el formulario quede diligenciado tal cual como lo muestra la siguiente imagen y finalmente dar clic en el botón **Aceptar**
+
+<a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap6UBA7.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap6UBA7.png" class="align-center" width="800px" alt="Paso 6"/></a>
+
 ## Interesados
+Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado puede ser natural o jurídico, inclusive puede ser un grupo de interesados, en este capítulo se describirá como se debe registrar cada uno de estos, en su elaboración es necesario tener en cuenta la información de la siguiente imagen.
+
+<a class="" data-lightbox="Información" href="../_static/tutorial/cap7interesados1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap7interesados1.png" class="align-center" width="800px" alt="Información"/></a>
+
+1.  Para iniciar el proceso diríjase al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Interesado—Crear Interesado**
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap7interesados2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap7interesados2.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  De inmediato se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **crear**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap7interesados3.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap7interesados3.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3. Se desplegará un formulario, el cual deberá ser diligenciado con la información de la primera imagen de la seccion de interesados, recuerde que los campos coloreados son obligatorios.
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap7interesados4.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap7interesados4.png" class="align-center" width="800px" alt="Paso 3"/></a>
+
+4. El objetivo es que el formulario que pueda ser diligenciado tal cual como lo muestra la siguiente imagen y finalmente dar clic en el botón **Aceptar**
+
+<a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap7interesados5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap7interesados5.png" class="align-center" width="800px" alt="Paso 4"/></a>
+
 ### Crear agrupación de interesados
+<div class="warning">
+<p class="admonition-title">ADVERTENCIA</p>
+<p>Antes de iniciar con este proceso, debe haberse creado todos los interesados presentes la primera imagen de la seccion de interesados.</p>
+</div>
+
+1.  Se iniciará el proceso dirigiéndose al menú de opciones, siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Interesado—Crear Agrupación de Interesados**
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap7interesados6.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap7interesados6.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  Por ultimo, se asignan los porcentajes de derecho sobre el predio, teniendo en cuenta la información la primera imagen de la seccion de interesados, es importante aclarar que todos ellos deben tener un valor de participación, al terminar la asignación se procede a dar clic en el botón **Aceptar.**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap7interesados7.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap7interesados7.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
 ## Fuentes
+Las fuentes son los documentos de soporte tanto a nivel administrativo como técnico del predio, en esta sección se detallara como hacer la relación de este tipo de información y lo desarrollado hasta el momento , para ello es necesario tener en cuenta la información de la siguiente imagen.
+
+<a class="" data-lightbox="Información" href="../_static/tutorial/cap8fuentes1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap8fuentes1.png" class="align-center" width="800px" alt="Información"/></a>
+
+1. Para iniciar el proceso de relación es necesario, seguir la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Fuente—Crear Fuente Administrativa.**
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap8fuentes2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap8fuentes2.png" class="align-center" width="800px" alt="Paso 1"/></a>
+
+2.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **crear**.
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap8fuentes3.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap8fuentes3.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3. Se desplegará un formulario, el cual deberá ser diligenciado con la información de la primera imagen de esta seccion, recuerde que los campos coloreados son obligatorios.
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap8fuentes4.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap8fuentes4.png" class="align-center" width="800px" alt="Paso 3"/></a>
+
+4.  Se vinculará el archivo que será el soporte administrativo, iniciamos la pestaña **extrarchivo,** posteriormente se activa el botón edición href="../_static/tutorial/ICOedicion.png" title='Boton "Edición"' data-title="Edición"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Edición"'/></a> 
+
+<a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap8fuentes5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap8fuentes5.png" class="align-center" width="800px" alt="Paso 4"/></a>
+
+5.  Se activará el botón añadir extrarchivo, se procede a dar clic en el botón que se encuentra cerca de la casilla **Datos**.
+
+<a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap8fuentes6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap8fuentes6.png" class="align-center" width="800px" alt="Paso 5"/></a>
+
+6. Se abrirá un cuadro de diálogo, donde se podrá seleccionar el documento de soporte administrativo, después de seleccionado dar clic en el botón **abrir**.
+
+<a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap8fuentes5.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap8fuentes5.png" class="align-center" width="800px" alt="Paso 6"/></a>
+
+7. Como se puede apreciar en la ventana, el archivo ya ha sido cargado y además ya se le fue asignado un número de identificación, se procede a dar clic en **Aceptar**
+
+<a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap8fuentes7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap8fuentes7.png" class="align-center" width="800px" alt="Paso 7"/></a>
+
+Finalmente se repite el proceso, teniendo en cuenta la información consignada en la imagen inicial de la seccion Fuentes, guardar los cambios de edición, si se quiere ver el resultado de este proceso, dirigirse a la tabla de Fuente administrativa, y consultar su información tal cual como lo muestra la siguiente imagen.
+
+<a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap8fuentes8.gif" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap8fuentes8.gif" class="align-center" width="800px" alt="Paso 7"/></a>
 
 ## RRR
+
 ### Crear derecho
+Se creará el derecho de dominio, para ello se necesita un documento de soporte, identificado como nuestra fuente, el cual también ya ha sido creada. Por lo tanto, lo único que se necesita es crear la relación, para su construcción es necesario tener en cuenta la información de la siguiente imagen.
+
+<a class="" data-lightbox="Información" href="../_static/tutorial/cap9derechos1.png" title="Información" data-title="Paso 7"><img src="../_static/tutorial/cap9derechos1.png" class="align-center" width="800px" alt="Información"/></a>
+
+1. Dirigase a la tabla de atributos de la tabla fuente administrativa, y seleccionar la fila correspondiente con la información del predio, para ello es posible apoyarse en la ultima imagen de la seccion de Fuentes.
+
+2. Para continuar con el proceso de relación es necesario, seguir la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – RRR—Crear Derecho.**
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap9derechos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap9derechos2.png" class="align-center" width="800px" alt="Paso 2"/></a>
+
+3.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **siguiente** , al haberse realizado el paso 1 , ya se puede visualizar una fuente administrativa seleccionada procedemos a dar clic en el botón **crear**
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap9derechos3.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap9derechos3.gif" class="align-center" width="800px" alt="Paso 3"/></a>
+
+4. El objetivo es que el formulario quede diligenciado tal cual como lo muestra la siguiente imagen, para ello se puede basar en la imagen inicial de esta seccion y finalmente dar clic en el botón **Aceptar**
+
+<a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap9derechos4.gif" title="Paso4" data-title="Paso 4"><img src="../_static/tutorial/cap9derechos3.gif" class="align-center" width="800px" alt="Paso 4"/></a>
+
+
+
 
