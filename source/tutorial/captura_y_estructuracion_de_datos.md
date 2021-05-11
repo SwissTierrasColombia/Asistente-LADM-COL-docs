@@ -1,12 +1,12 @@
 # Captura y Estructuración de Datos
 ## Preprocesamiento de insumos
-Se iniciará con el proceso de importación de datos, para el desarrollo de este documento, se harán con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita con el fin de que desarrolle el siguiente ejercicio de aplicación de la herramienta.
+Se iniciará con el proceso de importación de datos, para el desarrollo de este documento, se harán con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
 
 <http://bit.ly/TallerAsistente>
 
-Se comenzará con el proceso de conexión, a partir del panel de navegación ubicado a la izquierda de la interfaz de Qgis , ubicar el gestor **Geopackage** con clic derecho y posteriormente seleccionar la opción de **Conexión nueva** para ubicar la base de datos que posee la información necesaria para seguir avanzando.
+Se comenzará con el proceso de conexión, a partir del panel de navegación ubicado a la izquierda de la interfaz de Qgis , ubicar el gestor **Geopackage** con clic derecho y  seleccionar la opción de **Conexión nueva** para ubicar la base de datos que posee la información necesaria para seguir avanzando.
 
-Como resultado de este proceso se tendrá conexión a una base de datos que posee diversa información, de la cual se hará uso a medida que se avance en los capítulos de este documento.
+Como resultado de este proceso se tendrá conexión a una base de datos que posee diversa información, de la cual se hará uso a medida que se avance en las secciones de este tutorial.
 
    <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap4preinsumos1.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos1.gif" class="align-center" width="800px" alt="Paso 1"/></a>
 
@@ -23,7 +23,7 @@ Con el fin de tener una mejor perspectiva de manera visual es recomendable insta
 ## Paquete de topografía y representación
 ### Puntos de lindero
 
-1.  Entiéndase como puntos linderos aquellos que definen los límites de un terreno, entonces siguiendo la **ruta LADM-COL – captura y estructuración de datos – levantamiento Catastral- Topografía y representación – crear punto**.
+1.  Entiéndase como puntos linderos aquellos que definen los límites de un terreno,  siguiendo la **ruta LADM-COL – captura y estructuración de datos – levantamiento Catastral- Topografía y representación – crear punto**.
 
   <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap4preinsumos3.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos3.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
@@ -41,16 +41,16 @@ Con el fin de tener una mejor perspectiva de manera visual es recomendable insta
 
 A continuación se podrá ver la sección de punto lindero de [Modelo_Aplicación_LADMCOL_Lev_Cat_V1_0](https://raw.githubusercontent.com/SwissTierrasColombia/LADM_COL/master/Catastro_Multiproposito/1_Metamodelo_Extendido/1_Catastro_Registro/Modelo_Extendido_LADMCOL_Cat_Reg_V3_0.png) donde es posible consultar el repositorio de SwissTierras y ver futuras actualizaciones del mismo, esto se hace con el fin de identificar los campos obligatorios que debe tener la información al momento de ser importada y poder trabajar con el asistente usando sus funcionalidades de captura masiva.
 
-Se debe tener en cuenta que existen entidades asociadas a otras, las cuales guardan una relación directa, por lo tanto, en este caso según la figura 7 es necesario analizar tanto **LC\_PuntoLindero** como **COL_Punto** teniendo en cuenta los criterios presentados en la siguiente imagen.
+Es importante tener en cuenta que existen entidades asociadas a otras, las cuales guardan una relación directa, por lo tanto, en este caso según lo muestra la siguiente imagen es necesario analizar tanto **LC\_PuntoLindero** como **COL_Punto** teniendo en cuenta los criterios presentados imagen titulada **Entendiendo LADM 2**.
 
  <a class="" data-lightbox="Entendiendo LADM" href="../_static/tutorial/cap4preinsumos7.png" title="Entendiendo LADM" data-title="Entendiendo LADM"><img src="../_static/tutorial/cap4preinsumos7.png" class="align-center" width="800px" alt="Entendiendo LADM"/></a>
 
- <a class="" data-lightbox="Entendiendo LADM2" href="../_static/tutorial/cap4preinsumos8.png" title="Entendiendo LADM" data-title="Entendiendo LADM"><img src="../_static/tutorial/cap4preinsumos8.png" class="align-center" width="800px" alt="Entendiendo LADM"/></a>
+ <a class="" data-lightbox="Entendiendo LADM2" href="../_static/tutorial/cap4preinsumos8.png" title="Entendiendo LADM 2" data-title="Entendiendo LADM"><img src="../_static/tutorial/cap4preinsumos8.png" class="align-center" width="800px" alt="Entendiendo LADM"/></a>
  
-Posteriormente se debe identificar el dominio de aquellos valores, que poseen un tipo de información determinada como es el caso del punto tipo, el cual tiene asignado los valores de LC_PuntoTipo según la imagen anterior.
+Posteriormente se debe identificar el dominio de aquellos valores, que poseen un tipo de información determinada como es el caso del **punto tipo**, el cual tiene asignado los valores de LC_PuntoTipo según la imagen anterior.
 
 #### Consulta de dominios
-1.  Para proceder a la consulta de dominios diríjirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el Lc\_topo_punto
+1.  Para proceder a la consulta de dominios diríjirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el **Lc\_topo_punto**
 
  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos9.png" class="align-center" width="800px" alt="Paso 1"/></a>
  
@@ -58,7 +58,7 @@ Posteriormente se debe identificar el dominio de aquellos valores, que poseen un
 
  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap4preinsumos10.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos10.png" class="align-center" width="800px" alt="Paso 2"/></a>
  
-Finalmente se retoma *el paso 4 del presente documento*, esta vez teniendo en cuenta el modelo LADM-COL y los dominios, por lo tanto, para LC\_ punto lindero posee 5 atributos obligatorios, estos son:
+Finalmente se retoma *el paso 4 de la seccion puntos lindero*, esta vez teniendo en cuenta el modelo LADM-COL y los dominios, por lo tanto, para LC\_ punto lindero posee 5 atributos obligatorios, estos son:
 
 Tabla 1 Atributos obligatorios de la entidad LC_PuntoLindero
 
@@ -72,7 +72,7 @@ Tabla 1 Atributos obligatorios de la entidad LC_PuntoLindero
 
 Como se puede observar existen 3 atributos los cuales se les debe asignar un **t_id** en específico. Para lograr esto de forma masiva se procede a desarrollar el paso 5.
 
-5.  En el cuadro de diálogo del muestreo activar el botón href="../_static/tutorial/ICOdialogodeexpressiones.png" title='Boton "Generar expresion"' data-title="Generar expresion"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Generar expresion"'/></a>, para aquellos atributos que posean un contenido determinado y solo sea necesario asignar el **t\_id .** Un ejemplo de ello es la columna Punto_tipo de la capa vectorial topo_punto_lindero suministrada, el cual contiene los valores definidos por el modelo, esto se puede ver en la figura 8 con la entidad LC_puntotipo.
+5.  En el cuadro de diálogo del muestreo activar el botón href="../_static/tutorial/ICOdialogodeexpressiones.png" title='Boton "Generar expresion"' data-title="Generar expresion"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Generar expresion"'/></a>, para aquellos atributos que posean un contenido determinado y solo sea necesario asignar el **t\_id .** Un ejemplo de ello es la columna Punto_tipo de la capa vectorial topo_punto_lindero suministrada, el cual contiene los valores definidos por el modelo, esto se puede ver en la imagen **Entendiendo LADM 2** del paso 4 de la seccion **punto lindero** con la entidad LC_puntotipo.
 
 Para la asignación de diferentes t_id se hace uso de la función:
 
@@ -84,11 +84,11 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
  <a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap4preinsumos12.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap4preinsumos12.png" class="align-center" width="800px" alt="Paso 5"/></a>
 
-6.  Finalmente se recomienda repetir los pasos 5 y 6 de este capítulo para hacer el muestreo total de los datos, al completar la información de los atributos obligatorios se puede activar el botón ejecutar.
+6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información suministrada no la tenga, podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer.
 
  <a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap4preinsumos13.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 6"/></a>
 
-7.  Finalmente se recomienda repetir los pasos 5 y 6 de este capítulo para hacer el muestreo total de los datos, al completar la información de los atributos obligatorios se puede activar el botón ejecutar.
+7.  Finalmente se recomienda repetir los pasos 5 y 6 de esta seccion para hacer el muestreo total de los datos, al completar la información de los atributos obligatorios se puede activar el botón ejecutar.
 
  <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap4preinsumos14.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap4preinsumos14.png" class="align-center" width="800px" alt="Paso 7"/></a>
   
@@ -101,7 +101,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
    <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap4preinsumos16.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos16.png" class="align-center" width="800px" alt="Paso 1"/></a>
  
- 2.  para iniciar con el proceso de importación podemos dirigirnos al cajetín **crear objetos de levantamiento – Crear punto**
+ 2.  Para iniciar con el proceso de importación podemos dirigirnos al cajetín **crear objetos de levantamiento – Crear punto**
    
    <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap4preinsumos17.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos17.gif" class="align-center" width="800px" alt="Paso 2"/></a>
    
@@ -109,7 +109,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
 
    <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap4preinsumos18.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap4preinsumos18.png" class="align-center" width="800px" alt="Paso 3"/></a>
    
-4.  Se desplegará el cuadro de diálogo de muestreo de la información se recomienda tener en cuenta los *pasos 4, 5 y 6 de la presente seccion captura y estructuración de datos,* para el desarrollo de este proceso, lo que se buscar es lograr un muestreo como se indica en la siguiente imagen, al lograrlo proceder a activar el botón ejecutar.   
+4.  Se desplegará un cuadro de diálogo de muestreo de la información se recomienda tener en cuenta los *pasos 4, 5 y 6 de la  seccion **punto lindero**,* para el desarrollo de este proceso, lo que se buscar es lograr un muestreo como se indica en la siguiente imagen, al lograrlo proceder a activar el botón ejecutar.   
 
    <a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap4preinsumos19.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap4preinsumos19.png" class="align-center" width="800px" alt="Paso 4"/></a>
    
@@ -117,27 +117,28 @@ Para este ejemplo, la manera correcta de escribir la función es:
    
    <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap4preinsumos20.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap4preinsumos20.png" class="align-center" width="800px" alt="Resultado"/></a>   
  
-## Puntos de control 
+## Puntos de Control 
 1.  para importar los puntos control, se hará atreves de un archivo \*.csv para ello vamos **abrir la fuente de administración de datos** de Qgis.
 
  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap4preinsumos21.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos21.gif" class="align-center" width="800px" alt="Paso 1"/></a>
  
-2.  Se desplegará un cuadro de diálogo, donde se deberá seleccionaremos la fuente de texto delimitado por texto. Seleccionar la opción CSV (valores separados por coma), posteriormente en la casilla de nombre del archivo, presionar la casilla de los tres putos que lo acompañan, se abrirá un cuadro de diálogo, con el fin de que selecciones el archivo de dicho formato y se inicie el proceso de importación de datos
+2.  Emergerá un cuadro de diálogo, donde se debe seleccionar la fuente de texto delimitado por texto. Elegir la opción **CSV (valores separados por coma)**, posteriormente en la casilla de nombre del archivo, presionar la casilla de los tres putos que lo acompañan, se abrirá un cuadro de diálogo, donde se ubicará el archivo de dicho formato y se inicie con el proceso de importación de datos
+
  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap4preinsumos21.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos21.gif" class="align-center" width="800px" alt="Paso 2"/></a>
  
- 3.  Despues de añadir los puntos, dirigirse a la herramienta **crear punto**.
+ 3.  Despues de añadir los puntos, dirijase a la herramienta **crear punto**.
 
  <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap4preinsumos22.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap4preinsumos22.png" class="align-center" width="800px" alt="Paso 3"/></a>
  
-4.  Seleccionar en tipo de puntos la opción **punto de control**, presionar el botón **siguiente** , de inmediato se cambiara el cuadro de diálogo, donde le solicitara que la fuente de datos que quiere cargar al modelo, seleccionar la alternativa de cargar dicha información **desde otra capa Qgis** y escoger la capa topo\_punto_control recién ingresada y dirigirse al botón **exportar** . 
+4.  Seleccionar en tipo de puntos la opción **punto de control**, presionar el botón **siguiente** , de inmediato se cambiara el cuadro de diálogo, donde solicitará la fuente de datos que quiere cargar al modelo, elegir la alternativa de cargar dicha información **desde otra capa Qgis** y escoger la capa **topo\_punto_control** recién ingresada y dirigirse al botón **exportar** . 
 
  <a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap4preinsumos24.gif" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap4preinsumos24.gif" class="align-center" width="800px" alt="Paso 4"/></a>
  
-5. De inmediato se desplegara la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos *4, 5 y 6 del capítulo 4 captura y estructuración de datos,* el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar**  y después de ver el mensaje de verificación del proceso procedemos a **cerrar** la ventana
+5. Se desplegará la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos **4, 5 y 6 de la seccion punto lindero,** el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar** al generarse el mensaje de verificación del proceso, **cerrar** la ventana
 
  <a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap4preinsumos25.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap4preinsumos25.png" class="align-center" width="800px" alt="Paso 5"/></a>
  
- Al incorporar la información al modelo, el asistente configura la simbología de los puntos como lo muestra la siguiente figura
+ Al incorporar la información al modelo, el asistente configura la simbología de los puntos como lo muestra la siguiente imágen
  
   <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap4preinsumos25.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap4preinsumos25.png" class="align-center" width="800px" alt="Resultado"/></a>
   
@@ -146,61 +147,60 @@ Para este ejemplo, la manera correcta de escribir la función es:
 1.  El proceso de creación de linderos es muy similar a la creación de puntos, iniciamos con la carga de la información suministrada **topo_lindero**.
   <a class="" data-lightbox="paso 1" href="../_static/tutorial/cap4preinsumos26.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos26.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Presionamos el botón **Crear objetos de levantamiento** y seleccionamos la opción de crear lindero, seleccionamos la opción de **crear el lindero desde otra capa Qgis** y seleccionamos la capa recién cargada posteriormente dar clic en el botón **importar.**
+2.  Presione el botón **Crear objetos de levantamiento** y seleccione la opción de **crear lindero**, elegir la opción de **crear el lindero desde otra capa Qgis** y se escoge la capa recién cargada, posteriormente dar clic en el botón **importar.**
 
 <a class="" data-lightbox="paso 2" href="../_static/tutorial/cap4preinsumos27.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos27.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3.  Posteriormente se abre la ventana de muestreo de la información, basados en los pasos *4, 5 y 6 del capítulo 4 captura y estructuración de datos,* podemos observar que el único campo obligatorio es longitud, asi que damos clic  href="../_static/tutorial/ICOdialogodeexpressiones.png" title='Boton "Generar expresion"' data-title="Generar expresion"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Generar expresion"'/></a>, y hacemos uso de la función *\$length* , para extraer desde la geometría la longitud damos clic en el botón **Aceptar** y posteriormente en **ejecutar** y **cerrar.**
+3.  Se abrirá la ventana de muestreo de la información, basados en los pasos **4, 5 y 6 de la seccion punto lindero,**  se puede observar que el único campo obligatorio es longitud, asi que al dar clic en  href="../_static/tutorial/ICOdialogodeexpressiones.png" title='Boton "Generar expresion"' data-title="Generar expresion"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Generar expresion"'/></a>, haciendo uso de la función *\$length* , para extraer desde la geometría la longitud dar clic en el botón **Aceptar** y posteriormente en **ejecutar** y **cerrar.**
 
 <a class="" data-lightbox="paso 3" href="../_static/tutorial/cap4preinsumos29.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap4preinsumos29.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
 ### Construcción de linderos
-Entiéndase como lindero, la línea continua que separa un terreno de otro desde una bifurcación a otra, como se puede observar en la figura 12, hasta el momento no se tienen líneas. Se tienen segmentos de línea generados por los puntos lindero, una opción para corregir este fenómeno es seleccionar cada uno de los segmentos y unirlos, lo
-cual quita mucho tiempo si el conjunto de datos a manejar sea grande, es por ello que el asistente cuenta con una herramienta que ayuda automatizar este proceso.
+Entiéndase como lindero, la línea continua que separa un terreno de otro, como se puede observar en la siguiente imágen. Se tienen segmentos de línea generados por los puntos lindero, una opción para corregir este fenómeno es seleccionar cada uno de los segmentos y unirlos, lo cual quita mucho tiempo si el conjunto de datos a manejar es grande, es por ello que el asistente cuenta con una herramienta que ayuda automatizar este proceso.
 
 <a class="" data-lightbox="introducicon" href="../_static/tutorial/cap4preinsumos30.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos30.png" class="align-center" width="800px" alt="introduccion"/></a>
 
-1.  Para acceder a esta funcion solo es direccionarse a la barra de herramientas y dar clic en el boton **construir linderos**
+1.  Para acceder a esta herramienta, direccionarse a la barra de herramientas y dar clic en el boton **construir linderos**
 
 <a class="" data-lightbox="paso 1" href="../_static/tutorial/cap4preinsumos31.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos31.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Posteriormente saldrá un cuadro de diálogo, preguntando si desea seleccionar algún tipo de lindero o desea construir los linderos con todas las líneas existentes. Presionamos el botón **sí** y finalmente detenemos la edición y guardamos los cambios.
+2. Se obtendrá un cuadro de diálogo, preguntando si desea seleccionar algún tipo de lindero o desea construir los linderos con todas las líneas existentes. Presionar el botón **sí** y finalmente detener la edición y guardar los cambios.
 
 <a class="" data-lightbox="paso 1" href="../_static/tutorial/cap4preinsumos32.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos32.gif" class="align-center" width="800px" alt="Paso 1"/></a>
 
-Como se puede observar en la siguiente imagen en el momento de seleccionar se puede identificar, los linderos bien definidos.
+Como se puede observar en la siguiente imágen, en el momento de seleccionar se puede identificar los linderos bien definidos.
 
 <a class="" data-lightbox="paso 2" href="../_static/tutorial/cap4preinsumos33.png" title="paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos33.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
 ### Relación entre puntos y linderos
-1.  Ahora es necesario identificar los puntos que hacen parte de los linderos recién construidos, es decir identificar el **id** de los puntos que conforman un lindero, para ello haremos uso de la herramienta **llenar PuntosCCL** (cara cadena línea). Ubicado en la barra de herramientas
+1.  Ahora se debe identificar los puntos que hacen parte de los linderos recién construidos, es decir, identificar el **id** de los puntos que conforman un lindero, para ello se hará uso de la herramienta **llenar PuntosCCL** (cara cadena línea). Ubicado en la barra de herramientas
 
  <a class="" data-lightbox="paso 1" href="../_static/tutorial/cap4preinsumos34.png" title="paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap4preinsumos34.png" class="align-center" width="800px" alt="Paso 1"/></a>
  
- 2.  Posteriormente saldrá un cuadro de diálogo donde se consulta si se desea crear la relación para un lindero en especifico o para todos los existentes, para este caso se hará con todos por lo tanto daremos clic en el botón **si**
+ 2.  Se obtendrá un cuadro de diálogo donde se consulta si se desea crear la relación para un lindero en especifico o para todos los existentes, para este caso se hará con todos por lo tanto dar clic en el botón **si**
  
   <a class="" data-lightbox="paso 2" href="../_static/tutorial/cap4preinsumos35.png" title="paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap4preinsumos35.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-Para identificar si el proceso se genero correctamente podemos abrir la tabla de atributos de la tabla **col_puntoccl** el cual podra ubicar en el grupo de tables ubicado en el panel de capas como lo muestra la siguiente imagen.
+Para identificar si el proceso se generó correctamente se puede abrir la tabla de atributos de la tabla **col_puntoccl** el cual podra ubicar en el grupo de tables ubicado en el panel de capas como lo muestra la siguiente imagen.
 
   <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap4preinsumos36.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap4preinsumos36.png" class="align-center" width="800px" alt="Resultado"/></a>
 
-Como se puede observar en la figura 15 podemos encontrar la columna ccl diligenciada , dado por el proceso desarrollado
+Como se puede observar en la siguiente imágen encontrará la columna ccl diligenciada , gracias al proceso desarrollado
 
   <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap4preinsumos37.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap4preinsumos37.png" class="align-center" width="800px" alt="Resultado"/></a>
 
 ## Unidades Espaciales
 ### Creación de terrenos y sus relaciones
-1.  Para crear un terreno basta con ir a la barra de herramientas y activar el  botón **crear objetos de levantamiento** y a continuación seleccionar la opción crear terreno
+1.  Para crear un terreno se debe ir a la barra de herramientas y activar el  botón **crear objetos de levantamiento** y  seleccionar la opción crear terreno
 
   <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales1.png" class="align-center" width="800px" alt="Paso 1"/></a>
   
-2.  Se desplegara un cuadro de diálogo, donde ofrece la opción de cargar una capa vectorial con la información o generar el terreno a partir de los linderos existentes, en
-este caso seleccionaremos la opción **seleccionando linderos existentes,**posteriormente damos clic en el botón **siguiente,** de inmediato el cuadro de diálogo cambiara y nos da 3 opciones para seleccionándolos en el mapa, o por medio de una expresión algorítmica o seleccionar todos los linderos existentes en este caso, se recurrirá hacer uso de la ultima utilidad mencionada.
+2.  Se desplegará un cuadro de diálogo, donde ofrece la opción de cargar una capa vectorial con la información o generar el terreno a partir de los linderos existentes, en
+este caso elegir la opción **seleccionando linderos existentes,** posteriormente damos clic en el botón **siguiente,** de inmediato el cuadro de diálogo cambiará generando 3 opciones, ya sea seleccionar la informacion desde el mapa, por medio de una expresión algorítmica o seleccionar todos los linderos existentes en este caso, se recurrirá hacer uso de la ultima utilidad mencionada.
 
   <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales2.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales2.gif" class="align-center" width="800px" alt="Paso 2"/></a>
   
-3.  Como se puede apreciar todos los linderos son seleccionados y son identificados por la herramienta, finalmente procedemos a dar clic en el botón **finalizar**
+3.  Como se puede apreciar todos los linderos son seleccionados y son identificados por la herramienta, se procede a dar clic en el botón **finalizar**
 
   <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap5undespaciales3.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap5undespaciales3.png" class="align-center" width="800px" alt="Paso 3"/></a>
   
@@ -208,52 +208,55 @@ este caso seleccionaremos la opción **seleccionando linderos existentes,**poste
 
  <a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap5undespaciales4.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap5undespaciales4.png" class="align-center" width="800px" alt="Paso 4"/></a>
 
-5.  Se identifico que como único valor obligatorio del terreno es el atributo de área, por lo tanto nos dirigimos al cajetín de asignación de atributos ubicado en la parte superior de la ventana emergente generada al finalizar el paso 4 y buscamos el atributo **Área de terreno**
+5.  Se identifico que como único valor obligatorio del terreno es el atributo de área, por lo tanto dirigirse al cajetín de asignación de atributos ubicado en la parte superior de la ventana emergente generada al finalizar el paso 4 y buscamos el atributo **Área de terreno**
+ 
+ <a class="" data-lightbox="Paso 5" href="../_static/tutorial/cap5undespaciales5.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/cap5undespaciales5.png" class="align-center" width="800px" alt="Paso 5"/></a>
  
 6. Posteriormente damos clic en el botón href="../_static/tutorial/ICOdialogodeexpressiones.png" title='Boton "Generar expresion"' data-title="Generar expresion"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Generar expresion"'/></a> se desplegará la ventana de expresiones donde se escribirá la función *\$area* posteriormente damos clic en el botón **Aceptar.** 
 
- <a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap5undespaciales5.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap5undespaciales5.png" class="align-center" width="800px" alt="Paso 6"/></a>
+ <a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap5undespaciales6.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap5undespaciales6.png" class="align-center" width="800px" alt="Paso 6"/></a>
  
- 7.  Finalmente se cerrará esa ventana emergente y solo queda dar clic en el botón **Actualizar lo filtrado**, de inmediato se podrá ver que en la columna en este caso el de
- nombre área de terreno fueron asignadas los valores de área correspondiente y finalmente guardamos dichos cambios presionando el botón href="../_static/tutorial/ICOguardarcambios.png" title='Boton "Guardar Cambios"' data-title="Guardar cambios"><img src="../_static/tutorial/ICOguardarcambios.png" class="align-center" width="30px" alt='Boton "Guardar Cambios"'/></a> y finalmente cerramos la ventana actual.
+ 7.  Finalmente se cerrará esa ventana emergente y solo queda dar clic en el botón **Actualizar lo filtrado**, de inmediato se podrá ver que en la columna **areá de terreno** se asignaron los valores de área correspondiente, para guardar dichos cambios presionar el botón href="../_static/tutorial/ICOguardarcambios.png" title='Boton "Guardar Cambios"' data-title="Guardar cambios"><img src="../_static/tutorial/ICOguardarcambios.png" class="align-center" width="30px" alt='Boton "Guardar Cambios"'/></a> y se cierra la ventana actual.
  
- <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap5undespaciales6.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap5undespaciales6.png" class="align-center" width="800px" alt="Paso 7"/></a>
+ <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap5undespaciales7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap5undespaciales7.png" class="align-center" width="800px" alt="Paso 7"/></a>
  
 #### Creación de relacion entre los linderos y los terrenos
 
-1.  Esta relación lo que busca es identificar los linderos que abarcan un área de terreno determinada ya sea para sumar el cual se usa la relación *Col\_masccl* o para restar área *Col_menosccl*. Para llenar estas relaciones hacemos uso de la herramienta **llenar mas CCL y menos** ubicada en la barra de herramientas
+1.  Esta relación lo que busca es identificar los linderos que abarcan un área de terreno determinada ya sea para sumar, el cual se usa la relación *Col\_masccl* o para restar área *Col_menosccl*. 
+
+Para llenar estas relaciones se hace uso de la herramienta **llenar mas CCL y menos** ubicada en la barra de herramientas
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales8.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales8.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.   emergerá un cuadro de diálogo preguntando si se desea ejecutar la acción por lo tanto daremos clic en el botón **si**
+2. Emergerá un cuadro de diálogo preguntando si se desea ejecutar la acción por lo tanto dar clic en el botón **si**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales9.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-Finalmente, en caso de que desee ver si las relaciones fueron tramitadas puede abrir la tabla de atributos de la tabla Col\_masccl y en la columna col_mas observar si los datos están diligenciados como lo muestra la siguiente imagen 
+Finalmente, en caso de que se desee ver si las relaciones fueron tramitadas, puede abrir la tabla de atributos de la tabla Col\_masccl y en la columna col_mas observar si los datos están diligenciados como lo muestra la siguiente imágen 
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales10.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales10.png" class="align-center" width="800px" alt="Resultado"/></a>
 
 ### Creación de construcciones
 
-1.  Para iniciar con las construcciones diríjase a la caja de **crear objetos de levantamiento** y posteriormente seleccione la opción crear objeto.
+1.  Para iniciar con las construcciones diríjirse a la caja de **crear objetos de levantamiento** y posteriormente seleccione la opción crear objeto.
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales11.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales11.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  saldrá una ventana donde se solicita la opción para crear las construcciones, si digitalizando o importando la información desde una capa vectorial , en este caso hará uso de la información suministrada de la capa **topo_construcciones**  y posteriormente dar clic en el botón **importar**
+2.  saldrá una ventana donde se solicitará la opción para crear las construcciones, ya sea digitalizando o importando la información desde una capa vectorial, en este caso hará uso de la información suministrada de la capa **topo_construcciones**  y se dará clic en el botón **importar**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales12.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales12.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3.  De inmediato se desplegara la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos *4, 5 y 6 del capítulo 4 captura y estructuración de datos,* el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar**  y después de ver el mensaje de verificación del proceso procedemos a **cerrar** la ventana
+3.  De inmediato se desplegará la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos *4, 5 y 6 de la seccion puntos lindero,* el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , dirigirse al botón **ejecutar**  y después de ver el mensaje de verificación del proceso, **cerrar** la ventana
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap5undespaciales13.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3"/></a>
 
-Al finalizar en su totalidad se podrá visualizar las construcciones en el mapa
+Al finalizar en su totalidad se podrá visualizar las construcciones en el mapa.
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales14.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales14.png" class="align-center" width="800px" alt="Resultado"/></a>
 
 ### Creación de unidades de construcción
 
-Para iniciar con el proceso de crear las unidades de construccion se debe usar la herramienta **Identificar**, ubicada en la barra de herramientas 
+Para iniciar con el proceso de crear las unidades de construcción se debe usar la herramienta **Identificar**, ubicada en la barra de herramientas. 
 
 <a class="" data-lightbox="Identificación" href="../_static/tutorial/cap5undespaciales15.png" title="Identificación" data-title="Identificación"><img src="../_static/tutorial/cap5undespaciales15.png" class="align-center" width="800px" alt="Identificación"/></a>
 
@@ -261,19 +264,19 @@ Con el fin de extraer el valor **t_id** asignado al polígono que representa la 
 
 <a class="" data-lightbox="Identificación2" href="../_static/tutorial/cap5undespaciales16.png" title="Identificación2" data-title="Identificación2"><img src="../_static/tutorial/cap5undespaciales16.png" class="align-center" width="800px" alt="Identificación2"/></a>
 
-1.  Después de tener los t_id se procede con el proceso de creación de las unidades de construcción,  para ello dirigirse al menú de opciones, y seleccionamos la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Unidad Espacial—Crear Unidad De Construcción**
+1.  Después de tener los t_id se procede con el proceso de creación de las unidades de construcción,  para ello dirigirse al menú de opciones, y seleccior la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Unidad Espacial—Crear Unidad De Construcción**
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap5undespaciales17.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap5undespaciales17.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  De inmediato se desplegará un cuadro de diálogo solicitando como se pretende generar la unidad de construcción si por una capa vectorial o digitalizándolo en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
+2.  De inmediato se desplegará un cuadro de diálogo solicitando como se pretende generar la unidad de construcción si por una capa vectorial o digitalizándolo, en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap5undespaciales18.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap5undespaciales18.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3. Al cerrarse la ventana  se activara el snapping, el cual ayudará con el proceso de digitalización, podrá apoyarse con los puntos levantamiento para definir la unidad de construcción, una vez termine de vectorizar el polígono correspondiente dar clic derecho, al hacerlo el polígono tendrá un contorno sombreado y abrirá un formulario.
+3. Al cerrarse la ventana se activará el snapping, el cual ayudará con el proceso de digitalización,  apoyandose de los puntos levantamiento para definir la unidad de construcción, una vez termine de vectorizar el polígono correspondiente dar clic derecho, al hacerlo el polígono tendrá un contorno sombreado y abrirá un formulario.
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap5undespaciales19.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap5undespaciales19.gif" class="align-center" width="800px" alt="Paso 3"/></a>
 
-al finalizar el polígono se abre un formulario, el cual tiene resaltado unas casillas en un color melocotón, estas casillas indican que deben llenarse de forma obligatoria, ahorrando trabajo en el momento de consultar los datos obligatorios en el modelo, en la sección **lc_construccion** diligenciar el **t_id** de la construcción consultada previamente.
+Al finalizar el polígono se abre un formulario, el cual tiene resaltado unas casillas en un color melocotón, estas casillas indican que deben llenarse de forma obligatoria, ahorrando trabajo en el momento de consultar los datos obligatorios en el modelo, en la sección **lc_construccion** diligenciar el **t_id** de la construcción consultada previamente.
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales20.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales20.png" class="align-center" width="800px" alt="Resultado"/></a>
 
@@ -289,7 +292,7 @@ Finalmente se cerrara el cuadro de diálogo y se podra visualizar un solido en 3
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/cap5undespaciales22.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/cap5undespaciales22.png" class="align-center" width="800px" alt="Resultado"/></a>
 
 ## Unidad Básica Administrativa
-Para el desarrollo de este capítulo se es necesario tener en cuenta la información que se puede obtener de la siguiente imagen, ya que se asociara la información de propiedad con los predios ya definidos en el modelo.
+Para el desarrollo de este capítulo es necesario tener en cuenta la información que se puede obtener de la siguiente imagen, ya que se asociará la información de propiedad con los predios ya definidos en el modelo.
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/cap6UBA1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap6UBA1.png" class="align-center" width="800px" alt="Información"/></a>
 
@@ -297,21 +300,21 @@ Para el desarrollo de este capítulo se es necesario tener en cuenta la informac
 
 ### Crear predio
 
-1.  El proceso iniciara dirigiéndose al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Unidad básica administrativa—Crear Predio**
+1.  Se iniciará el proceso dirigiéndose al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Unidad básica administrativa—Crear Predio**
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap6UBA2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap6UBA2.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Se desplegará un cuadro de diálogo donde se permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un **formulario**, seleccionar la opción y presionar el botón **siguiente** posteriormente se debe seleccionar el tipo de predio a crear, para eso se recomienda revisar la imagen anterior del presente documento. Como se
-puede observar en la siguiente figura se solicita información del terreno por lo tanto se debe dar clic al boton seleccion href="../_static/tutorial/ICOSeleccion.png" title='Boton "Selección"' data-title="Selección"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Selección"'/></a>
+2.  Se desplegará un cuadro de diálogo donde se permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un **formulario**, seleccionar la opción y presionar el botón **siguiente** se debe elegir el tipo de predio a crear, para eso se recomienda revisar la imagen anterior de la  seccion **unidad básica administrativa**.
+
+Como se puede observar en la siguiente figura se solicita información del terreno por lo tanto se debe dar clic al boton seleccion href="../_static/tutorial/ICOSeleccion.png" title='Boton "Selección"' data-title="Selección"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Selección"'/></a>
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap6UBA3.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap6UBA3.gif" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3.   Se cerrara el cuadro de diálogo actual y el puntero cambiara a una cruz lo cual indica que ya esta listo para seleccionar el terreno, damos clic sobre el terreno a registrar.
+3.   Se cerrara el cuadro de diálogo actual y el puntero cambiará a una cruz lo cual indica que ya esta listo para seleccionar el terreno, dar clic sobre el terreno a registrar.
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap6UBA4.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap6UBA4.gif" class="align-center" width="800px" alt="Paso 3"/></a>
 
-4. Al seleccionar el predio reaparecerá el cuadro de diálogo inicial identificando los elementos a registrar,
-posteriormente se debe activar el botón crear
+4. Al seleccionar el predio reaparecerá el cuadro de diálogo inicial identificando los elementos a registrar, posteriormente se debe activar el botón crear
 
 <a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap6UBA5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap6UBA5.png" class="align-center" width="800px" alt="Paso 4"/></a>
 
@@ -324,7 +327,7 @@ posteriormente se debe activar el botón crear
 <a class="" data-lightbox="Paso 6" href="../_static/tutorial/cap6UBA7.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/cap6UBA7.png" class="align-center" width="800px" alt="Paso 6"/></a>
 
 ## Interesados
-Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado puede ser natural o jurídico, inclusive puede ser un grupo de interesados, en este capítulo se describirá como se debe registrar cada uno de estos, en su elaboración es necesario tener en cuenta la información de la siguiente imagen.
+Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado puede ser natural o jurídico, inclusive puede ser un grupo de interesados, en esta sección se describirá como se debe registrar cada uno de estos, en su elaboración es necesario tener en cuenta la información de la siguiente imagen.
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/cap7interesados1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap7interesados1.png" class="align-center" width="800px" alt="Información"/></a>
 
@@ -332,7 +335,7 @@ Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado 
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap7interesados2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap7interesados2.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  De inmediato se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **crear**
+2.  De inmediato se desplegará un cuadro de diálogo donde  permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionar la opción y presionar   el botón **crear**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap7interesados3.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap7interesados3.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
@@ -354,12 +357,16 @@ Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado 
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap7interesados6.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap7interesados6.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Por ultimo, se asignan los porcentajes de derecho sobre el predio, teniendo en cuenta la información la primera imagen de la seccion de interesados, es importante aclarar que todos ellos deben tener un valor de participación, al terminar la asignación se procede a dar clic en el botón **Aceptar.**
+2. Teniendo en cuenta la información de la primera imagen de la seccion de interesados, añadimos el nombre y el tipo de agrupación, seleccionamos los 3 interesados creados y por medio del botón <a class="" data-lightbox='Botón "Trasladar a la derecha"' href="../_static/tutorial/ICOtrasladarderecha.png" title='Botón "Trasladar a la derecha"' data-title='Botón "Trasladar a la derecha"'><img src="../_static/tutorial/ICOtrasladarderecha.png" width="30px" alt='Botón "Trasladar a la derecha"'/></a>. los añadimos como los protagonistas de la agrupación
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap7interesados7.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap7interesados7.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
+3.  Por ultimo, se asignan los porcentajes de derecho sobre el predio, teniendo en cuenta la información la primera imagen de la seccion de interesados, es importante aclarar que todos ellos deben tener un valor de participación, al terminar la asignación se procede a dar clic en el botón **Aceptar.**
+
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap7interesados8.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap7interesados8.png" class="align-center" width="800px" alt="Paso 3"/></a>
+
 ## Fuentes
-Las fuentes son los documentos de soporte tanto a nivel administrativo como técnico del predio, en esta sección se detallara como hacer la relación de este tipo de información y lo desarrollado hasta el momento , para ello es necesario tener en cuenta la información de la siguiente imagen.
+Las fuentes son los documentos de soporte tanto a nivel administrativo como técnico del predio, en esta sección se detallará como hacer la relación de este tipo de información y lo desarrollado hasta el momento , para ello es necesario tener en cuenta la información de la siguiente imagen.
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/cap8fuentes1.png" title="Información" data-title="Información"><img src="../_static/tutorial/cap8fuentes1.png" class="align-center" width="800px" alt="Información"/></a>
 
@@ -367,15 +374,15 @@ Las fuentes son los documentos de soporte tanto a nivel administrativo como téc
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap8fuentes2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/cap8fuentes2.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **crear**.
+2.  Se desplegará un cuadro de diálogo donde  permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionar la opción y presionar el botón **crear**.
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap8fuentes3.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap8fuentes3.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3. Se desplegará un formulario, el cual deberá ser diligenciado con la información de la primera imagen de esta seccion, recuerde que los campos coloreados son obligatorios.
+3. Se desplegará un formulario, el cual deberá ser diligenciado con la información de la primera imagen de esta sección, recuerde que los campos coloreados son obligatorios.
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap8fuentes4.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap8fuentes4.png" class="align-center" width="800px" alt="Paso 3"/></a>
 
-4.  Se vinculará el archivo que será el soporte administrativo, iniciamos la pestaña **extrarchivo,** posteriormente se activa el botón edición href="../_static/tutorial/ICOedicion.png" title='Boton "Edición"' data-title="Edición"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Edición"'/></a> 
+4.  Se vinculará el archivo que será el soporte administrativo, elegir la pestaña **extrarchivo,** posteriormente se activa el botón edición href="../_static/tutorial/ICOedicion.png" title='Boton "Edición"' data-title="Edición"><img src="../_static/tutorial/ICOdialogodeexpressiones.png" class="align-center" width="30px" alt='Boton "Edición"'/></a> 
 
 <a class="" data-lightbox="Paso 4" href="../_static/tutorial/cap8fuentes5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/cap8fuentes5.png" class="align-center" width="800px" alt="Paso 4"/></a>
 
@@ -391,7 +398,7 @@ Las fuentes son los documentos de soporte tanto a nivel administrativo como téc
 
 <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap8fuentes7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap8fuentes7.png" class="align-center" width="800px" alt="Paso 7"/></a>
 
-Finalmente se repite el proceso, teniendo en cuenta la información consignada en la imagen inicial de la seccion Fuentes, guardar los cambios de edición, si se quiere ver el resultado de este proceso, dirigirse a la tabla de Fuente administrativa, y consultar su información tal cual como lo muestra la siguiente imagen.
+Finalmente se repite el proceso, teniendo en cuenta la información consignada en la imagen inicial de la seccion **Fuentes**, guardar los cambios de edición, si se quiere ver el resultado de este proceso, dirigirse a la tabla de Fuente administrativa, y consultar su información tal cual como lo muestra la siguiente imagen.
 
 <a class="" data-lightbox="Paso 7" href="../_static/tutorial/cap8fuentes8.gif" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/cap8fuentes8.gif" class="align-center" width="800px" alt="Paso 7"/></a>
 
@@ -408,7 +415,7 @@ Se creará el derecho de dominio, para ello se necesita un documento de soporte,
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap9derechos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap9derechos2.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-3.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionamos la opción y presionamos el botón **siguiente** , al haberse realizado el paso 1 , ya se puede visualizar una fuente administrativa seleccionada procedemos a dar clic en el botón **crear**
+3.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), o por medio de un formulario. Para este ejercicio se hará por medio de un formulario, seleccionar la opción y presionar el botón **siguiente** , al haberse realizado el paso 1 , ya se puede visualizar una fuente administrativa seleccionada por lo tanto se procede a dar clic en el botón **crear**
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/cap9derechos3.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/cap9derechos3.gif" class="align-center" width="800px" alt="Paso 3"/></a>
 
