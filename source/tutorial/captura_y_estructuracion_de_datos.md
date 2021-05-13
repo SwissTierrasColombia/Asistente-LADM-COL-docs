@@ -1,6 +1,6 @@
 # Captura y Estructuración de Datos
 ## Preprocesamiento de insumos
-Se iniciará con el proceso de importación de datos, para el desarrollo de este documento, se harán con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
+Se iniciará con el proceso de importación de datos, para el desarrollo de este documento se realizará con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita, con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
 
 <http://bit.ly/TallerAsistente>
 
@@ -10,14 +10,14 @@ Como resultado de este proceso se tendrá conexión a una base de datos que pose
 
    <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" class="align-center" width="800px" alt="Paso 1"/></a>
 
-Con el fin de tener una mejor perspectiva de manera visual es recomendable instalar el complemento **Quick Map Server** ya que, proporciona un set de imágenes satelitáles que podrá utilizar para entender un poco más lo realizado en campo.
+Con el fin de tener una mejor perspectiva es recomendable instalar el complemento **Quick Map Server** que proporciona un conjunto de imágenes satelitales que sirven de referencia en la visualización de la información adquirida en campo.
 
    <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" class="align-center" width="800px" alt="Paso 2"/></a>
    <div class="note">
 
+<div class="note">
 <p class="admonition-title">IMPORTANTE</p>
-<p> Para mas información de este plugin, podrá consultar el siguiente link donde se detalla el proceso de instalación: [Quick Map
-    server](https://mappinggis.com/2016/09/plugin-quickmapservices-capas-base-de-google-landsat-openstreetmap-para-qgis/)</p>
+<p> Para mas información de este plugin, podrá consultar el siguiente link donde se detalla el proceso de instalación:   <a href="https://mappinggis.com/2016/09 plugin-quickmapservices-capas-base-de-google-landsat-openstreetmap-para-qgis/">Quick Map server</a></p>
 </div>
 
 ## Paquete de topografía y representación
@@ -29,15 +29,15 @@ Con el fin de tener una mejor perspectiva de manera visual es recomendable insta
 
 2.  De forma inmediata se desplegará un cuadro de diálogo con la opción de seleccionar que clase de punto desea importar, en este caso será **punto lindero,** presionar **Siguiente**
 
-  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" class="align-center" width="800px" alt="Paso 2"/></a>
+  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" class="align-center" width="600px" alt="Paso 2"/></a>
   
 3. Ahora se selecciona el set de datos ya sea de una fuente archivo CSV o una capa vectorial, en este caso elegir el conjunto de datos que ya esta cargado en el interfaz de Qgis. Que es **topo_punto_lindero**, y procedemos a dar clic en el botón **importar.**
   
- <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" class="align-center" width="800px" alt="Paso 4"/></a>
+ <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" class="align-center" width="600px" alt="Paso 4"/></a>
  
 4. Se genera un cuadro de diálogo, donde se lleva a cabo un muestreo de la información levantada contra la información que requiere el modelo. Se considera de gran importancia detallar esta sección ya que, es la base del resto de importaciones que se explicarán en este documento. Para ello es necesario observar el modelo.
 
- <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" class="align-center" width="800px" alt="Paso 5"/></a>
+ <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" class="align-center" width="600px" alt="Paso 5"/></a>
 
 A continuación se podrá ver la sección de punto lindero de [Modelo_Aplicación_LADMCOL_Lev_Cat_V1_0](https://raw.githubusercontent.com/SwissTierrasColombia/LADM_COL/master/Catastro_Multiproposito/1_Metamodelo_Extendido/1_Catastro_Registro/Modelo_Extendido_LADMCOL_Cat_Reg_V3_0.png) donde es posible consultar el repositorio de SwissTierras y ver futuras actualizaciones del mismo, esto se hace con el fin de identificar los campos obligatorios que debe tener la información al momento de ser importada y poder trabajar con el asistente usando sus funcionalidades de captura masiva.
 
@@ -52,7 +52,7 @@ Posteriormente se debe identificar el dominio de aquellos valores, que poseen un
 #### Consulta de dominios
 1.  Para proceder a la consulta de dominios diríjirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el **Lc\_topo_punto**
 
- <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" class="align-center" width="800px" alt="Paso 1"/></a>
+ <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" class="align-center" width="600px" alt="Paso 1"/></a>
  
 2.  Se desplegará un cuadro de diálogo con el listado de dominios existentes, lo que se busca es identificar el número correspondiente al campo de descripción del elemento requerido, ubicado en la columna **t_id,** ya que, para un manejo óptimo de bases de datos, se recomienda trabajar con identificadores numéricos
 
@@ -76,7 +76,7 @@ Como se puede observar existen 3 atributos los cuales se les debe asignar un **t
 
 Para la asignación de diferentes t_id se hace uso de la función:
 
--   **get_domain_code_from_value(‘**nombre de la entidad que posee los datos en especifico aceptados por el modelo’ , **‘**nombre de la columna de la capa vectorial suministrada que posee dichos datos’ se indica si los valores a importar estan escritos sin alias (se puede visualizar en la columna ilicode de la tabla de dominios lc_puntotipo , se indica si los valores a importar estan escritos con alias (se puede visualizar en la columna dispname de la tabla de dominios lc_puntotipo)
+-   **get_domain_code_from_value**(‘nombre de la entidad que posee los datos en especifico aceptados por el modelo’,‘**nombre de la columna de la capa vectorial suministrada que posee dichos datos**’ se indica si los valores a importar estan escritos sin alias (se puede visualizar en la columna ilicode de la tabla de dominios lc_puntotipo , **se indica si los valores a importar estan escritos con alias (se puede visualizar en la columna dispname de la tabla de dominios lc_puntotipo**)
 
 Para este ejemplo, la manera correcta de escribir la función es:
 
@@ -130,7 +130,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
  3.  Despues de añadir los puntos, dirijase a la herramienta **crear punto**.
 
- <a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" class="align-center" width="800px" alt="Paso 3"/></a>
+ <a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" class="align-center" width="400px" alt="Paso 3"/></a>
  
 4.  Seleccionar en tipo de puntos la opción **punto de control**, presionar el botón **siguiente** , de inmediato se cambiara el cuadro de diálogo, donde solicitará la fuente de datos que quiere cargar al modelo, elegir la alternativa de cargar dicha información **desde otra capa Qgis** y escoger la capa **topo\_punto_control** recién ingresada y dirigirse al botón **exportar** . 
 
@@ -147,6 +147,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
 ## Creación de linderos y sus relaciones
 
 1.  El proceso de creación de linderos es muy similar a la creación de puntos, iniciamos con la carga de la información suministrada **topo_lindero**.
+
   <a class="" data-lightbox="paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos27.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos27.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
 2.  Presione el botón **Crear objetos de levantamiento** y seleccione la opción de **crear lindero**, elegir la opción de **crear el lindero desde otra capa Qgis** y se escoge la capa recién cargada, posteriormente dar clic en el botón **importar.**
@@ -168,7 +169,7 @@ Entiéndase como lindero, la línea continua que separa un terreno de otro, como
 
 2. Se obtendrá un cuadro de diálogo, preguntando si desea seleccionar algún tipo de lindero o desea construir los linderos con todas las líneas existentes. Presionar el botón **sí** y finalmente detener la edición y guardar los cambios.
 
-<a class="" data-lightbox="paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos32.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos32.gif" class="align-center" width="800px" alt="Paso 1"/></a>
+<a class="" data-lightbox="paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos32.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos32.gif" class="align-center" width="400px" alt="Paso 1"/></a>
 
 Como se puede observar en la siguiente imágen, en el momento de seleccionar se puede identificar los linderos bien definidos.
 
@@ -181,7 +182,7 @@ Como se puede observar en la siguiente imágen, en el momento de seleccionar se 
  
  2.  Se obtendrá un cuadro de diálogo donde se consulta si se desea crear la relación para un lindero en especifico o para todos los existentes, para este caso se hará con todos por lo tanto dar clic en el botón **si**
  
-  <a class="" data-lightbox="paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos35.png" title="paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos35.png" class="align-center" width="800px" alt="Paso 2"/></a>
+  <a class="" data-lightbox="paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos35.png" title="paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos35.png" class="align-center" width="400px" alt="Paso 2"/></a>
 
 Para identificar si el proceso se generó correctamente se puede abrir la tabla de atributos de la tabla **col_puntoccl** el cual podra ubicar en el grupo de tables ubicado en el panel de capas como lo muestra la siguiente imagen.
 
@@ -195,7 +196,7 @@ Como se puede observar en la siguiente imágen encontrará la columna ccl dilige
 ### Creación de terrenos y sus relaciones
 1.  Para crear un terreno se debe ir a la barra de herramientas y activar el  botón **crear objetos de levantamiento** y  seleccionar la opción crear terreno
 
-  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="800px" alt="Paso 1"/></a>
+  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="400px" alt="Paso 1"/></a>
   
 2.  Se desplegará un cuadro de diálogo, donde ofrece la opción de cargar una capa vectorial con la información o generar el terreno a partir de los linderos existentes, en
 este caso elegir la opción **seleccionando linderos existentes,** posteriormente damos clic en el botón **siguiente,** de inmediato el cuadro de diálogo cambiará generando 3 opciones, ya sea seleccionar la informacion desde el mapa, por medio de una expresión algorítmica o seleccionar todos los linderos existentes en este caso, se recurrirá hacer uso de la ultima utilidad mencionada.
@@ -208,11 +209,11 @@ este caso elegir la opción **seleccionando linderos existentes,** posteriorment
   
 4.  Los terrenos ya han sido creados, pero es necesario llenar unos campos obligatorios, para identificar cuales son dichos campos es recomendable tener en cuenta los pasos *4, 5 y 6 de la seccion puntos lindero,* para iniciar con el proceso dar clic en el botón **Abrir tabla de atributos** ubicado en el mensaje emergente al finalizar el paso 3.
 
- <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales4.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales4.png" class="align-center" width="800px" alt="Paso 4"/></a>
+ <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales4.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales4.png" class="align-center" width="1200px" alt="Paso 4"/></a>
 
 5.  Se identifico que como único valor obligatorio del terreno es el atributo de área, por lo tanto dirigirse al cajetín de asignación de atributos ubicado en la parte superior de la ventana emergente generada al finalizar el paso 4 y buscamos el atributo **Área de terreno**
  
- <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales5.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales5.png" class="align-center" width="800px" alt="Paso 5"/></a>
+ <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales5.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales5.png" class="align-center" width="400px" alt="Paso 5"/></a>
  
 6. Posteriormente damos clic en el botón <a class="" data-lightbox='Botón "Generar expresion"' href="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" title='Botón "Generar expresion"' data-title='Botón "Generar expresion"'><img src="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" width="30px" alt='Botón "generar expresion"'/></a> se desplegará la ventana de expresiones donde se escribirá la función *\$area* posteriormente damos clic en el botón **Aceptar.** 
 
@@ -221,6 +222,7 @@ este caso elegir la opción **seleccionando linderos existentes,** posteriorment
  7.  Finalmente se cerrará esa ventana emergente y solo queda dar clic en el botón **Actualizar lo filtrado**, de inmediato se podrá ver que en la columna **areá de terreno** se asignaron los valores de área correspondiente, para guardar dichos cambios presionar el botón <a class="" data-lightbox='Botón "Guardar edición"' href="../_static/tutorial/captura_y_estructura_de_datos/ICOguardarcambios.png" title='Botón "Guardar edición"' data-title='Botón "Guardar edición"'><img src="../_static/tutorial/captura_y_estructura_de_datos/ICOguardarcambios.png" width="30px" alt='Botón "guardar edición"'/></a> y se cierra la ventana actual.
  
  Obteniendo el area geometrica de cada uno de los poligonos 
+ 
  <a class="" data-lightbox="Paso 7" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales7.png" class="align-center" width="800px" alt="Paso 7"/></a>
  
 #### Creación de relacion entre los linderos y los terrenos
@@ -233,7 +235,7 @@ Para llenar estas relaciones se hace uso de la herramienta **llenar mas CCL y me
 
 2. Emergerá un cuadro de diálogo preguntando si se desea ejecutar la acción por lo tanto dar clic en el botón **si**
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales9.png" class="align-center" width="800px" alt="Paso 2"/></a>
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales9.png" class="align-center" width="600px" alt="Paso 2"/></a>
 
 Finalmente, en caso de que se desee ver si las relaciones fueron tramitadas, puede abrir la tabla de atributos de la tabla Col\_masccl y en la columna col_mas observar si los datos están diligenciados como lo muestra la siguiente imágen 
 
