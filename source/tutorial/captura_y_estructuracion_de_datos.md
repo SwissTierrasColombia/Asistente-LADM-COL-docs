@@ -84,7 +84,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
  <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" class="align-center" width="800px" alt="Paso 5"/></a>
 
-6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información vectorial suministrada no la tenga, en el caso del campo  **metodoproduccion y exactitud_horizontal** podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer, para ello es necesario repetir los pasos 1 y 2 de la sección **Consulta de Dominios**.
+6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información vectorial suministrada no la tenga, en el caso de los campos  **metodoproduccion y exactitud_horizontal** podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer, para ello es necesario repetir los pasos 1 y 2 de la sección **Consulta de Dominios**.
 
  <a class="" data-lightbox="Paso 6" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 6"/></a>
 
