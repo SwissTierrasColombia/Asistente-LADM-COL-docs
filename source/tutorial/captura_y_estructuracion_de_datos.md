@@ -1,5 +1,5 @@
 # Captura y Estructuración de Datos
-## Preprocesamiento de insumos
+## Preprocesamiento De Insumos
 Se iniciará con el proceso de importación de datos, para el desarrollo de este documento se realizará con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita, con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
 
 <http://bit.ly/TallerAsistente>
@@ -20,8 +20,8 @@ Con el fin de tener una mejor perspectiva es recomendable instalar el complement
 <p> Para mas información de este plugin, podrá consultar el siguiente link donde se detalla el proceso de instalación:   <a href="https://mappinggis.com/2016/09 plugin-quickmapservices-capas-base-de-google-landsat-openstreetmap-para-qgis/">Quick Map server</a></p>
 </div>
 
-## Paquete de topografía y representación
-### Puntos de lindero
+## Paquete De Topografía y Representación
+### Puntos De Lindero
 
 1.  Entiéndase como puntos linderos aquellos que definen los límites de un terreno,  siguiendo la **ruta LADM-COL – captura y estructuración de datos – levantamiento Catastral- Topografía y representación – crear punto**.
 
@@ -47,10 +47,10 @@ Es importante tener en cuenta que existen entidades asociadas a otras, las cuale
 
  <a class="" data-lightbox="Entendiendo LADM2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos8.png" title="Entendiendo LADM 2" data-title="Entendiendo LADM"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos8.png" class="align-center" width="800px" alt="Entendiendo LADM"/></a>
  
-Posteriormente se debe identificar el dominio de aquellos valores, que poseen un tipo de información determinada como es el caso del **punto tipo**, el cual tiene asignado los valores de LC_PuntoTipo según la imagen anterior.
+Posteriormente se debe identificar el dominio de aquellos valores que poseen un tipo de información determinada como es el caso del **punto tipo**, el cual tiene asignado los valores de LC_PuntoTipo según la imagen anterior.
 
-#### Consulta de dominios
-1.  Para proceder a la consulta de dominios diríjirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el **Lc\_topo_punto**
+#### Consulta De Dominios
+1.  Para proceder a la consulta de dominios dirígirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el **Lc\_puntotipo**
 
  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" class="align-center" width="600px" alt="Paso 1"/></a>
  
@@ -74,9 +74,9 @@ Como se puede observar existen 3 atributos los cuales se les debe asignar un **t
 
 5.  En el cuadro de diálogo del muestreo activar el botón <a class="" data-lightbox='Botón "Generar expresion"' href="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" title='Botón "Generar expresion"' data-title='Botón "Generar expresion"'><img src="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" width="30px" alt='Botón "generar expresion"'/></a>. para aquellos atributos que posean un contenido determinado y solo sea necesario asignar el **t\_id .** Un ejemplo de ello es la columna Punto_tipo de la capa vectorial topo_punto_lindero suministrada, el cual contiene los valores definidos por el modelo, esto se puede ver en la imagen **Entendiendo LADM 2** del paso 4 de la seccion **punto lindero** con la entidad LC_puntotipo.
 
-Para la asignación de diferentes t_id se hace uso de la función:
+Para la asignación de diferentes t_id se hace uso de la función el cual contiene 4 variables :
 
--   **get_domain_code_from_value**(‘nombre de la entidad que posee los datos en especifico aceptados por el modelo’,‘**nombre de la columna de la capa vectorial suministrada que posee dichos datos**’ se indica si los valores a importar estan escritos sin alias (se puede visualizar en la columna ilicode de la tabla de dominios lc_puntotipo , **se indica si los valores a importar estan escritos con alias (se puede visualizar en la columna dispname de la tabla de dominios lc_puntotipo**)
+-   **get_domain_code_from_value**(‘nombre de la entidad que posee los datos en especifico aceptados por el modelo **(Texto)**’,‘**nombre de la columna de la capa vectorial suministrada que posee dichos datos **(Texto)***’ se indica si los valores a importar estan escritos sin alias (se puede visualizar en la columna ilicode de la tabla de dominios lc_puntotipo **(Booleano)** , se indica si los valores a importar estan escritos con alias (se puede visualizar en la columna dispname de la tabla de dominios lc_puntotipo) **(Booleano)**.
 
 Para este ejemplo, la manera correcta de escribir la función es:
 
@@ -84,7 +84,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
  <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" class="align-center" width="800px" alt="Paso 5"/></a>
 
-6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información suministrada no la tenga, podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer.
+6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información vectorial suministrada no la tenga, en el caso del campo  **metodoproduccion y exactitud_horizontal** podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer, para ello es necesario repetir los pasos 1 y 2 de la sección **Consulta de Dominios**.
 
  <a class="" data-lightbox="Paso 6" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 6"/></a>
 
@@ -96,7 +96,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
 
   <a class="" data-lightbox="Paso 8" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" title="Paso 8" data-title="Paso 8"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" class="align-center" width="800px" alt="Paso 8"/></a>
   
- ## Puntos de levantamiento
+ ## Puntos De Levantamiento
  1.  Inicialmente se procede arrastra el insumo de topo_puntos_levantamiento.
  
    <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/
@@ -119,7 +119,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
    
    <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos19.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos19.png" class="align-center" width="800px" alt="Resultado"/></a>   
  
-## Puntos de Control 
+## Puntos De Control 
 1.  para importar los puntos control, se hará atreves de un archivo \*.csv para ello vamos **abrir la fuente de administración de datos** de Qgis.
 
  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos20.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos20.png" class="align-center" width="800px" alt="Paso 1"/></a>
@@ -144,7 +144,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
  
   <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" class="align-center" width="800px" alt="Resultado"/></a>
   
-## Creación de linderos y sus relaciones
+## Creación de Linderos y Sus Relaciones
 
 1.  El proceso de creación de linderos es muy similar a la creación de puntos, iniciamos con la carga de la información suministrada **topo_lindero**.
 
@@ -158,7 +158,7 @@ Para este ejemplo, la manera correcta de escribir la función es:
 
 <a class="" data-lightbox="paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos29.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos29.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-### Construcción de linderos
+### Construcción De Linderos
 Entiéndase como lindero, la línea continua que separa un terreno de otro, como se puede observar en la siguiente imágen. Se tienen segmentos de línea generados por los puntos lindero, una opción para corregir este fenómeno es seleccionar cada uno de los segmentos y unirlos, lo cual quita mucho tiempo si el conjunto de datos a manejar es grande, es por ello que el asistente cuenta con una herramienta que ayuda automatizar este proceso.
 
 <a class="" data-lightbox="introducicon" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos30.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos30.png" class="align-center" width="800px" alt="introduccion"/></a>
@@ -175,7 +175,7 @@ Como se puede observar en la siguiente imágen, en el momento de seleccionar se 
 
 <a class="" data-lightbox="paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos33.png" title="paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos33.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
-### Relación entre puntos y linderos
+### Relación Entre Puntos y Linderos
 1.  Ahora se debe identificar los puntos que hacen parte de los linderos recién construidos, es decir, identificar el **id** de los puntos que conforman un lindero, para ello se hará uso de la herramienta **llenar PuntosCCL** (cara cadena línea). Ubicado en la barra de herramientas
 
  <a class="" data-lightbox="paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos34.png" title="paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos34.png" class="align-center" width="800px" alt="Paso 1"/></a>
@@ -193,7 +193,7 @@ Como se puede observar en la siguiente imágen encontrará la columna ccl dilige
   <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos37.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos37.png" class="align-center" width="800px" alt="Resultado"/></a>
 
 ## Unidades Espaciales
-### Creación de terrenos y sus relaciones
+### Creación De Terrenos y Sus Relaciones
 1.  Para crear un terreno se debe ir a la barra de herramientas y activar el  botón **crear objetos de levantamiento** y  seleccionar la opción crear terreno
 
   <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="400px" alt="Paso 1"/></a>
@@ -225,7 +225,7 @@ este caso elegir la opción **seleccionando linderos existentes,** posteriorment
  
  <a class="" data-lightbox="Paso 7" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales7.png" class="align-center" width="800px" alt="Paso 7"/></a>
  
-#### Creación de relacion entre los linderos y los terrenos
+#### Creación De Relacion Entre Los Linderos y Los Terrenos
 
 1.  Esta relación lo que busca es identificar los linderos que abarcan un área de terreno determinada ya sea para sumar, el cual se usa la relación *Col\_masccl* o para restar área *Col_menosccl*. 
 
@@ -241,7 +241,7 @@ Finalmente, en caso de que se desee ver si las relaciones fueron tramitadas, pue
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.png" class="align-center" width="800px" alt="Resultado"/></a>
 
-### Creación de construcciones
+### Creación De Construcciones
 
 1.  Para iniciar con las construcciones diríjirse a la caja de **crear objetos de levantamiento** y posteriormente seleccione la opción crear objeto.
 
@@ -259,7 +259,7 @@ Al finalizar en su totalidad se podrá visualizar las construcciones en el mapa.
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales14.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales14.png" class="align-center" width="800px" alt="Resultado"/></a>
 
-### Creación de unidades de construcción
+### Creación De Unidades De Construcción
 
 Para iniciar con el proceso de crear las unidades de construcción se debe usar la herramienta **Identificar**, ubicada en la barra de herramientas. 
 
@@ -303,7 +303,7 @@ Para el desarrollo de este capítulo es necesario tener en cuenta la informació
 
 
 
-### Crear predio
+### Crear Predio
 
 1.  Se iniciará el proceso dirigiéndose al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Unidad básica administrativa—Crear Predio**
 
@@ -350,7 +350,7 @@ Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado 
 
 <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados5.png" class="align-center" width="800px" alt="Paso 4"/></a>
 
-### Crear agrupación de interesados
+### Crear Agrupación De Interesados
 <div class="warning">
 <p class="admonition-title">ADVERTENCIA</p>
 <p>Antes de iniciar con este proceso, debe haberse creado todos los interesados presentes la primera imagen de la seccion de interesados.</p>
@@ -407,7 +407,7 @@ Finalmente se repite el proceso, teniendo en cuenta la información consignada e
 
 ## RRR
 
-### Crear derecho
+### Crear Derecho
 Se creará el derecho de dominio, para ello se necesita un documento de soporte, identificado como nuestra fuente, el cual también ya ha sido creada. Por lo tanto, lo único que se necesita es crear la relación, para su construcción es necesario tener en cuenta la información de la siguiente imagen.
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" title="Información" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" class="align-center" width="800px" alt="Información"/></a>
