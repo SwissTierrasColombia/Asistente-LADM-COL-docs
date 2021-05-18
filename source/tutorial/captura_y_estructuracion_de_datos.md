@@ -1,6 +1,8 @@
 # Captura y Estructuración de Datos
-## Preprocesamiento De Insumos
-Se iniciará con el proceso de importación de datos, para el desarrollo de este documento se realizará con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita, con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
+
+## Preprocesamiento de insumos
+
+Se iniciará con el proceso de importación de datos, para el desarrollo de este documento, se harán con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
 
 <http://bit.ly/TallerAsistente>
 
@@ -13,33 +15,29 @@ Como resultado de este proceso se tendrá conexión a una base de datos que pose
 Con el fin de tener una mejor perspectiva es recomendable instalar el complemento **Quick Map Server** que proporciona un conjunto de imágenes satelitales que sirven de referencia en la visualización de la información adquirida en campo.
 
    <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" class="align-center" width="800px" alt="Paso 2"/></a>
-   <div class="note">
 
-<div class="note">
-<p class="admonition-title">IMPORTANTE</p>
-<p> Para mas información de este plugin, podrá consultar el siguiente link donde se detalla el proceso de instalación:   <a href="https://mappinggis.com/2016/09 plugin-quickmapservices-capas-base-de-google-landsat-openstreetmap-para-qgis/">Quick Map server</a></p>
+## Consulta de dominios
+
+### Paso 1:
+
+Para proceder a la consulta de dominios debes dirigirte al grupo **domains** ubicado en el panel de capas, abrir el grupo y buscar el dominio de interés, sobre esta debes dar click derecho y seleccionar la opción **Abrir tabla de atributos** en el menú que se despliega.
+
+El ejemplo que se muestra a continuación se desarrolla con la capa **lc\_puntotipo**.
+
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" class="align-center" width="400px" alt="Paso 1"/></a>
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Puedes acceder a la tabla de atributos de la capa de interes, ubicandote sobre el elemento de interes y dando clic en la tecla <b>F6</b></p>
 </div>
 
-## Paquete De Topografía y Representación
-### Puntos De Lindero
+### Paso 2:
 
-1.  Entiéndase como puntos linderos aquellos que definen los límites de un terreno,  siguiendo la **ruta LADM-COL – captura y estructuración de datos – levantamiento Catastral- Topografía y representación – crear punto**.
+Se desplegará un cuadro de diálogo con el listado de dominios existentes, lo que se busca es identificar el número correspondiente al campo de descripción del elemento requerido, ubicado en la columna **t_id,** ya que, para un manejo óptimo de bases de datos, se recomienda trabajar con identificadores numéricos
 
-  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos3.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos3.png" class="align-center" width="800px" alt="Paso 1"/></a>
+ <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos10.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos10.png" class="align-center" width="1200px" alt="Paso 2"/></a>
 
-2.  De forma inmediata se desplegará un cuadro de diálogo con la opción de seleccionar que clase de punto desea importar, en este caso será **punto lindero,** presionar **Siguiente**
-
-  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" class="align-center" width="600px" alt="Paso 2"/></a>
-  
-3. Ahora se selecciona el set de datos ya sea de una fuente archivo CSV o una capa vectorial, en este caso elegir el conjunto de datos que ya esta cargado en el interfaz de Qgis. Que es **topo_punto_lindero**, y procedemos a dar clic en el botón **importar.**
-  
- <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" class="align-center" width="600px" alt="Paso 4"/></a>
- 
-4. Se genera un cuadro de diálogo, donde se lleva a cabo un muestreo de la información levantada contra la información que requiere el modelo. Se considera de gran importancia detallar esta sección ya que, es la base del resto de importaciones que se explicarán en este documento. Para ello es necesario observar el modelo.
-
- <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" class="align-center" width="600px" alt="Paso 5"/></a>
-
-A continuación se podrá ver la sección de punto lindero de [Modelo_Aplicación_LADMCOL_Lev_Cat_V1_0](https://raw.githubusercontent.com/SwissTierrasColombia/LADM_COL/master/Catastro_Multiproposito/1_Metamodelo_Extendido/1_Catastro_Registro/Modelo_Extendido_LADMCOL_Cat_Reg_V3_0.png) donde es posible consultar el repositorio de SwissTierras y ver futuras actualizaciones del mismo, esto se hace con el fin de identificar los campos obligatorios que debe tener la información al momento de ser importada y poder trabajar con el asistente usando sus funcionalidades de captura masiva.
+ A continuación se podrá ver la sección de punto lindero de [Modelo_Aplicación_LADMCOL_Lev_Cat_V1_0](https://raw.githubusercontent.com/SwissTierrasColombia/LADM_COL/master/Catastro_Multiproposito/1_Metamodelo_Extendido/1_Catastro_Registro/Modelo_Extendido_LADMCOL_Cat_Reg_V3_0.png) donde es posible consultar el repositorio de SwissTierras y ver futuras actualizaciones del mismo, esto se hace con el fin de identificar los campos obligatorios que debe tener la información al momento de ser importada y poder trabajar con el asistente usando sus funcionalidades de captura masiva.
 
 Es importante tener en cuenta que existen entidades asociadas a otras, las cuales guardan una relación directa, por lo tanto, en este caso según lo muestra la siguiente imagen es necesario analizar tanto **LC\_PuntoLindero** como **COL_Punto** teniendo en cuenta los criterios presentados imagen titulada **Entendiendo LADM 2**.
 
@@ -49,69 +47,105 @@ Es importante tener en cuenta que existen entidades asociadas a otras, las cuale
  
 Posteriormente se debe identificar el dominio de aquellos valores que poseen un tipo de información determinada como es el caso del **punto tipo**, el cual tiene asignado los valores de LC_PuntoTipo según la imagen anterior.
 
-#### Consulta De Dominios
-1.  Para proceder a la consulta de dominios dirígirse al grupo **domains** ubicado en el panel de capas, abrir el grupo y proceder a buscar el dominio de interés, en este caso se desarrollará con el **Lc\_puntotipo**
+## Paquete de topografía y representación
 
- <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.png" class="align-center" width="600px" alt="Paso 1"/></a>
- 
-2.  Se desplegará un cuadro de diálogo con el listado de dominios existentes, lo que se busca es identificar el número correspondiente al campo de descripción del elemento requerido, ubicado en la columna **t_id,** ya que, para un manejo óptimo de bases de datos, se recomienda trabajar con identificadores numéricos
+### Puntos de lindero
 
- <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos10.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos10.png" class="align-center" width="1200px" alt="Paso 2"/></a>
- 
-Finalmente se retoma *el paso 4 de la seccion puntos lindero*, esta vez teniendo en cuenta el modelo LADM-COL y los dominios, por lo tanto, para LC\_ punto lindero posee 5 atributos obligatorios, estos son:
+#### Paso 1: Creación de punto
 
-Tabla 1 Atributos obligatorios de la entidad LC_PuntoLindero
+Entiéndase como puntos linderos aquellos que definen los límites de un terreno,  siguiendo la **ruta LADM-COL – captura y estructuración de datos – levantamiento Catastral- Topografía y representación – crear punto**.
+
+  <a class="" data-lightbox="Paso 1: Creación de punto" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos3.png" title="Paso 1: Creación de punto" data-title="Paso 1: Creación de punto"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos3.png" class="align-center" width="800px" alt="Paso 1: Creación de punto"/></a>
+
+#### Paso 2: Selección del tipo de punto
+
+De forma inmediata se desplegará un cuadro de diálogo con la opción de seleccionar que clase de punto desea importar, en este caso será **punto lindero,** presionar **Siguiente**
+
+  <a class="" data-lightbox="Paso 2: Selección del tipo de punto" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" title="Paso 2: Selección del tipo de punto" data-title="Paso 2: Selección del tipo de punto"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos4.png" class="align-center" width="600px" alt="Paso 2: Selección del tipo de punto"/></a>
+
+#### Paso 3: Selección de los datos
+
+Ahora se selecciona el set de datos ya sea de una fuente archivo CSV o una capa vectorial, en este caso elegir el conjunto de datos que ya esta cargado en el interfaz de Qgis. Que es **topo_punto_lindero**, y procedemos a dar clic en el botón **importar.**
+  
+ <a class="" data-lightbox="Paso 3: Selección de los datos" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" title="Paso 3: Selección de los datos" data-title="Paso 3: Selección de los datos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos5.png" class="align-center" width="600px" alt="Paso 3: Selección de los datos"/></a>
+
+#### Paso 4: Mapeo de campos
+
+Se genera un cuadro de diálogo, donde se lleva a cabo un muestreo de la información levantada contra la información que requiere el modelo. Se considera de gran importancia detallar esta sección ya que, es la base del resto de importaciones que se explicarán en este documento. Para ello es necesario observar el modelo.
+
+ <a class="" data-lightbox="Paso 4: Mapeo de campos" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" title="Paso 4: Mapeo de campos" data-title="Paso 4: Mapeo de campos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos6.png" class="align-center" width="600px" alt="Paso 4: Mapeo de campos"/></a>
+
+La capa **lc\_ punto lindero** cuenta con 5 atributos obligatorios, estos son:
 
 | **Item** | **Entidad**     | **Atributo**         | **Contenido**                |
 |----------|-----------------|----------------------|------------------------------|
-| 1        | COL_Punto       | MétodoProducción     | **Col_MetodoProduccionTipo** |
-| 2        | LC_PuntoLindero | ID_Punto_Lindero     | Cadena de texto              |
-| 3        | LC_PuntoLindero | Punto Tipo           | **LC_puntotipo**             |
-| 4        | LC_PuntoLindero | Acuerdo              | **LC_Acuerdotipo**           |
-| 5        | LC_PuntoLindero | Exactitud Horizontal | Numérico                     |
+| 1        | LC_PuntoLindero | ID_Punto_Lindero     | Cadena de texto              |
+| 2        | LC_PuntoLindero | Punto Tipo           | **LC_puntotipo**             |
+| 3        | LC_PuntoLindero | Acuerdo              | **LC_Acuerdotipo**           |
+| 4        | LC_PuntoLindero | Exactitud Horizontal | Numérico                     |
+| 5        | COL_Punto       | MétodoProducción     | **Col_MetodoProduccionTipo** |
 
-Como se puede observar existen 3 atributos los cuales se les debe asignar un **t_id** en específico. Para lograr esto de forma masiva se procede a desarrollar el paso 5.
+#### Paso 5: Asignación de campos
 
-5.  En el cuadro de diálogo del muestreo activar el botón <a class="" data-lightbox='Botón "Generar expresion"' href="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" title='Botón "Generar expresion"' data-title='Botón "Generar expresion"'><img src="../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png" width="30px" alt='Botón "generar expresion"'/></a>. para aquellos atributos que posean un contenido determinado y solo sea necesario asignar el **t\_id .** Un ejemplo de ello es la columna Punto_tipo de la capa vectorial topo_punto_lindero suministrada, el cual contiene los valores definidos por el modelo, esto se puede ver en la imagen **Entendiendo LADM 2** del paso 4 de la seccion **punto lindero** con la entidad LC_puntotipo.
+En el cuadro de diálogo del mapeo de campos dar clic en el botón "Generar expresión" ![Botón generar expresion](../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png) para los atributos mencionados en la tabla anterior.
 
-Para la asignación de diferentes t_id se hace uso de la función el cual contiene 4 variables :
+Para la asignación de diferentes t_id se hace uso de la siguiente función:
 
--   **get_domain_code_from_value**(‘nombre de la entidad que posee los datos en especifico aceptados por el modelo **(Texto)**’,‘**nombre de la columna de la capa vectorial suministrada que posee dichos datos **(Texto)***’ se indica si los valores a importar estan escritos sin alias (se puede visualizar en la columna ilicode de la tabla de dominios lc_puntotipo **(Booleano)** , se indica si los valores a importar estan escritos con alias (se puede visualizar en la columna dispname de la tabla de dominios lc_puntotipo) **(Booleano)**.
+```python
+get_domain_code_from_value('Nombre de la tabla del dominio' (Texto), 
+                           valor del dominio a buscar (Texto),
+                           Indica si validar conexión o no (Booleano), 
+                           Indica si el valor es iliCode o no (Booleano))
+```
+<a class="" data-lightbox="Paso 5: Asignación de campos" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" title="Paso 5: Asignación de campos" data-title="Paso 5: Asignación de campos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" class="align-center" width="800px" alt="Paso 5: Asignación de campos"/></a>
 
-Para este ejemplo, la manera correcta de escribir la función es:
+Para este caso debemos asígnar los valores de la siguiente manera:
 
- **get_domain_code\_from\_value** : (‘’lc_puntotipo’, punto_tipo, True, False)
+| Atributo             | Expresión                                                    |
+| -------------------- | ------------------------------------------------------------ |
+| id_punto_lindero     | id_punto                                                     |
+| puntotipo            | get_domain_code_from_value('lc_puntotipo', punto_tipo,True, False) |
+| acuerdo              | get_domain_code_from_value('lc_acuerdotipo', acuerdo,True, False) |
+| exactitud_horizontal | 1                                                            |
+| metodoproduccion     | get_domain_code_from_value('col_metodoproducciontipo', 'Metodo_Directo',True, False) |
+
+<div class="warning">
+<p class="admonition-title">ADVERTENCIA</p>
+<p>Para el caso de <b>metodoproduccion</b>, se utiliza el texto 'Metodo_Directo' ya que los datos iniciales no cuentan con información para este campo.</p>
+</div>
+
+Una vez que se diligencian cada uno de los atributos al interior del formulario, se obtiene el siguiente resultado:
+
+<a class="" data-lightbox="Paso 5: Asignación de campos" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" title="Paso 5: Asignación de campos" data-title="Paso 5: Asignación de campos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 5: Asignación de campos"/></a>
+
+#### Paso 6 Resultado de la ejecución:
+
+Ya terminado el mapeo de campos, debes dar click en Ejecutar y al terminar el proceso tu podras visualizar el siguiente mensaje de validación, y posteriormente cerrar el cuadro de diálogo.
+
+  <a class="" data-lightbox="Paso 6 Resultado de la ejecución" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" title="Paso 6 Resultado de la ejecución" data-title="Paso 6 Resultado de la ejecución"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" class="align-center" width="800px" alt="Paso 6 Resultado de la ejecución"/></a>
  
- <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos12.png" class="align-center" width="800px" alt="Paso 5"/></a>
+### Puntos de levantamiento
 
-6.  Para aquellos valores, donde se necesita información determinada por el modelo y la información vectorial suministrada no la tenga, en el caso de los campos  **metodoproduccion y exactitud_horizontal** podrá dar doble clic sobre la casilla “**Expresion de Origen”** y asignar el **t\_id** de manera manual. Cabe aclarar que antes debe realizar este proceso se debe consultar los dominios existentes para tener claridad de los valores a establecer, para ello es necesario repetir los pasos 1 y 2 de la sección **Consulta de Dominios**.
+#### Paso 1:
 
- <a class="" data-lightbox="Paso 6" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 6"/></a>
-
-7.  Finalmente se recomienda repetir los pasos 5 y 6 de esta seccion para hacer el muestreo total de los datos, al completar la información de los atributos obligatorios se puede activar el botón ejecutar.
-
- <a class="" data-lightbox="Paso 7" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos14.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos14.png" class="align-center" width="800px" alt="Paso 7"/></a>
-  
-8.  si se realiza todo el proceso correctamente podremos visualizar el siguiente mensaje de validación, y posteriormente cerrar el cuadro de diálogo
-
-  <a class="" data-lightbox="Paso 8" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" title="Paso 8" data-title="Paso 8"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" class="align-center" width="800px" alt="Paso 8"/></a>
-  
- ## Puntos De Levantamiento
- 1.  Inicialmente se procede arrastra el insumo de topo_puntos_levantamiento.
+Inicialmente se procede arrastra el insumo de topo_puntos_levantamiento.
  
    <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/
    cap4preinsumos16.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos16.png" class="align-center" width="800px" alt="Paso 1"/></a>
- 
- 2.  Para iniciar con el proceso de importación podemos dirigirnos al cajetín **crear objetos de levantamiento – Crear punto**
 
+#### Paso 2:
 
- 3.  Posteriormente se activará un cuadro de diálogo donde se deberá seleccionar el tipo de punto a insertar en este caso **punto     levantamiento** después de darle **siguiente** escoger el set de datos para el procesamiento en este caso **topo_punto\_levantamiento** y finalmente presionar el botón **Importar**
+Para iniciar con el proceso de importación podemos dirigirnos al cajetín **crear objetos de levantamiento – Crear punto**
+
+#### Paso 3:
+
+Posteriormente se activará un cuadro de diálogo donde se deberá seleccionar el tipo de punto a insertar en este caso **punto     levantamiento** después de darle **siguiente** escoger el set de datos para el procesamiento en este caso **topo_punto\_levantamiento** y finalmente presionar el botón **Importar**
    
    <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos17.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos17.gif" class="align-center" width="800px" alt="Paso 2"/></a>
-   
 
-   
-4.  Se desplegará un cuadro de diálogo de muestreo de la información se recomienda tener en cuenta los *pasos 4, 5 y 6 de la  seccion **punto lindero**,* para el desarrollo de este proceso, lo que se buscar es lograr un muestreo como se indica en la siguiente imagen, al lograrlo proceder a activar el botón ejecutar.   
+#### Paso 4:   
+
+Se desplegará un cuadro de diálogo de muestreo de la información se recomienda tener en cuenta los *pasos 4, 5 y 6 de la  seccion **punto lindero**,* para el desarrollo de este proceso, lo que se buscar es lograr un muestreo como se indica en la siguiente imagen, al lograrlo proceder a activar el botón ejecutar.   
 
    <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos18.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos18.png" class="align-center" width="800px" alt="Paso 4"/></a>
    
@@ -119,30 +153,41 @@ Para este ejemplo, la manera correcta de escribir la función es:
    
    <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos19.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos19.png" class="align-center" width="800px" alt="Resultado"/></a>   
  
-## Puntos De Control 
-1.  para importar los puntos control, se hará atreves de un archivo \*.csv para ello vamos **abrir la fuente de administración de datos** de Qgis.
+### Puntos de Control
+
+#### Paso 1:
+
+Para importar los puntos control, se hará atreves de un archivo \*.csv para ello vamos **abrir la fuente de administración de datos** de Qgis.
 
  <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos20.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos20.png" class="align-center" width="800px" alt="Paso 1"/></a>
- 
-2.  Emergerá un cuadro de diálogo, donde se debe seleccionar la fuente de texto delimitado por texto. Elegir la opción **CSV (valores separados por coma)**, posteriormente en la casilla de nombre del archivo, presionar la casilla de los tres putos que lo acompañan, se abrirá un cuadro de diálogo, donde se ubicará el archivo de dicho formato y se inicie con el proceso de importación de datos
+
+#### Paso 2:
+
+Emergerá un cuadro de diálogo, donde se debe seleccionar la fuente de texto delimitado por texto. Elegir la opción **CSV (valores separados por coma)**, posteriormente en la casilla de nombre del archivo, presionar la casilla de los tres putos que lo acompañan, se abrirá un cuadro de diálogo, donde se ubicará el archivo de dicho formato y se inicie con el proceso de importación de datos
 
  <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos21.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos21.gif" class="align-center" width="800px" alt="Paso 2"/></a>
- 
- 3.  Despues de añadir los puntos, dirijase a la herramienta **crear punto**.
+
+#### Paso 3:
+
+Despues de añadir los puntos, dirijase a la herramienta **crear punto**.
 
  <a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos22.png" class="align-center" width="400px" alt="Paso 3"/></a>
- 
-4.  Seleccionar en tipo de puntos la opción **punto de control**, presionar el botón **siguiente** , de inmediato se cambiara el cuadro de diálogo, donde solicitará la fuente de datos que quiere cargar al modelo, elegir la alternativa de cargar dicha información **desde otra capa Qgis** y escoger la capa **topo\_punto_control** recién ingresada y dirigirse al botón **exportar** . 
+
+#### Paso 4:
+
+Seleccionar en tipo de puntos la opción **punto de control**, presionar el botón **siguiente** , de inmediato se cambiara el cuadro de diálogo, donde solicitará la fuente de datos que quiere cargar al modelo, elegir la alternativa de cargar dicha información **desde otra capa Qgis** y escoger la capa **topo\_punto_control** recién ingresada y dirigirse al botón **exportar** . 
 
  <a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos24.gif" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos24.gif" class="align-center" width="800px" alt="Paso 4"/></a>
- 
-5. Se desplegará la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos **4, 5 y 6 de la seccion punto lindero,** el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar** al generarse el mensaje de verificación del proceso, **cerrar** la ventana
 
- <a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos25.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos25.png" class="align-center" width="800px" alt="Paso 5"/></a>
- 
- Al incorporar la información al modelo, el asistente configura la simbología de los puntos como lo muestra la siguiente imágen
- 
-  <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" class="align-center" width="800px" alt="Resultado"/></a>
+#### Paso 5:
+
+Se desplegará la ventana de muestreo donde se recomienda replicar el mismo procedimiento ejecutado en los pasos **4, 5 y 6 de la seccion punto lindero,** el objetivo es que pueda obtener un muestreo como el de la siguiente imagen , al finalizar dicho proceso , nos dirigimos al botón **ejecutar** al generarse el mensaje de verificación del proceso, **cerrar** la ventana
+
+<a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos25.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos25.png" class="align-center" width="800px" alt="Paso 5"/></a>
+
+Al incorporar la información al modelo, el asistente configura la simbología de los puntos como lo muestra la siguiente imágen
+
+<a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos26.png" class="align-center" width="800px" alt="Resultado"/></a>
   
 ## Creación de Linderos y Sus Relaciones
 
