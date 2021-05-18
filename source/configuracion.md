@@ -70,7 +70,7 @@ El listado desplegable **Fuente** permite elegir el motor de base de datos de in
 
 ## Modelos
 
-En esta pestaña se puede seleccionar el repositorio de modelos locales a utilizar, así como definir si se quieren deshabilitar las validaciones (por ejemplo, validaciones de estructura y de relaciones) sobre las operaciones de importar y exportar archivos XTF (ver sección [Administración de datos](administracion_de_datos.html)).
+En esta pestaña se puede seleccionar el repositorio de modelos locales a utilizar, así como definir si se quieren deshabilitar las validaciones (por ejemplo, validaciones de estructura y de relaciones) sobre las operaciones de importar y exportar archivos XTF (ver sección [Administración de datos](administracion_de_datos.md)).
 
 <a class="" data-lightbox="Configuración de acceso a modelos" href="_static/configuracion/modelos.png" title="Configuración de acceso a modelos" data-title="Configuración de acceso a modelos"><img src="_static/configuracion/modelos.png" class="align-center" alt="Configuración de acceso a modelos"/></a>
 
@@ -134,7 +134,7 @@ Si deseas llenar esos valores por tu cuenta y no de forma automática, desmarca 
 
 ## Servicios
 
-En esta sección se configuran un par de servicios web que el Asistente LADM-COL puede emplear para conectarse al [Sistema de Transición](sistema_de_transicion.html) y para subir archivos de fuentes administrativas y espaciales. 
+En esta sección se configuran un par de servicios web que el Asistente LADM-COL puede emplear para conectarse al [Sistema de Transición](sistema_de_transicion.md) y para subir archivos de fuentes administrativas y espaciales. 
 
 La configuración de estos servicios es opcional, pues solo se requiere cuando se utilizará alguna de las dos funcionalidades mencionadas, pero no interfiere en el uso normal del complemento.
 

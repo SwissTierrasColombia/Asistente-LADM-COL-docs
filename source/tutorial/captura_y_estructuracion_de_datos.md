@@ -2,19 +2,30 @@
 
 ## Preprocesamiento de insumos
 
-Se iniciará con el proceso de importación de datos, para el desarrollo de este documento, se harán con información en formato Geopackage, cabe aclarar que se puede implementar otras fuentes de información en sus diversos formatos ya sea shapefile, archivos CSV etc. Se ha dispuesto un material de práctica que podrá descargar de manera gratuita con el fin de desarrollar el siguiente ejercicio de aplicación de la herramienta.
+La primera parte de tutorial corresponde a la descarga e importación de datos en QGIS.  Para llevar a cabo con éxito cada uno de los pasos, es necesario que descargues el [material de práctica](http://nas-swissphoto.quickconnect.to/d/f/620702901595062139) y sigas los pasos que describiremos a lo largo de documento.
 
-<http://bit.ly/TallerAsistente>
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p> Si deseas agregar otras fuentes de información como referencia a la información proporcionada, puedes hacerlo haciendo uso de QGIS y sus diferentes funcionalidades. </p>
+</div>
 
-Se comenzará con el proceso de conexión, a partir del panel de navegación ubicado a la izquierda de la interfaz de Qgis , ubicar el gestor **Geopackage** con clic derecho y  seleccionar la opción de **Conexión nueva** para ubicar la base de datos que posee la información necesaria para seguir avanzando.
+### Paso 1: Conexión a la base de datos 
 
-Como resultado de este proceso se tendrá conexión a una base de datos que posee diversa información, de la cual se hará uso a medida que se avance en las secciones de este tutorial.
+Comenzaremos con la conexión a la base de datos, para realizar este proceso, dirígete al panel de navegación ubicado a la izquierda de la interfaz de QGIS, ubica la sección **Geopackage**, clic derecho sobre esta sección y seleccionas la opción de **Conexión nueva**. Una vez se despliega el panel de navegación, deberás ubicar la base de datos **taller_asistente.gpkg** y dar clic en el botón **Abrir** para configurar la conexión a la base de datos.
 
-   <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" class="align-center" width="800px" alt="Paso 1"/></a>
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p> Como resultado de este proceso se tendrá conexión a una base de datos que posee diversa información, de la cual se hará uso a medida que se avance en las secciones de este tutorial. </p>
+</div>
 
-Con el fin de tener una mejor perspectiva es recomendable instalar el complemento **Quick Map Server** que proporciona un conjunto de imágenes satelitales que sirven de referencia en la visualización de la información adquirida en campo.
+<a class="" data-lightbox=" Paso 1: Conexión a la base de datos " href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" title=" Paso 1: Conexión a la base de datos " data-title=" Paso 1: Conexión a la base de datos "><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos1.gif" class="align-center" width="800px" alt=" Paso 1: Conexión a la base de datos "/></a>
 
-   <a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" class="align-center" width="800px" alt="Paso 2"/></a>
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p> Con el fin de tener una mejor perspectiva es recomendable instalar el complemento <b>QuickMapServices</b> que proporciona un conjunto de imágenes satelitales que sirven de referencia en la visualización de la información adquirida en campo. </p>
+</div>
+
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos2.gif" class="align-center" width="800px" alt="Paso 2"/></a>
 
 ## Consulta de dominios
 
