@@ -181,3 +181,8 @@ A continuación, se muestran el menú y barra de herramientas (*toolbar*) dispon
 - Funcionalidades y *toolbar* (rol avanzado)
 
 <img src="_static/configuracion/toolbar_rol_avanzado.png" class="align-center" alt="Funcionalidades y toolbar (rol avanzado)"/>
+
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>El rol seleccionado en el asistente se puede cambiar según la necesidad del usuario, pero se debe tener en cuenta que algunas funciones estarán disponibles o se ocultarán en el menú y en la barra de herramientas (toolbar) en el momento que se cambie de un rol a otro.</p>
+</div>
