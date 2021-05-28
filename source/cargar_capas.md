@@ -12,11 +12,11 @@ Después de haber creado la estructura LADM-COL en la base de datos donde se gua
 
 Es de tener en cuenta que los datos se muestran en grupos según al modelo núcleo o extendido del modelo LADM-COL en que están estructurados los datos, adicional a esto en la parte inferior de la ventana interna hay tres _check box_  :ballot_box_with_check: de selección que permiten ver adicional a las capas geográficas, los dominios, estructuras y asociaciones que contenga el modelo. No se despliegan por defecto con el fin que el usuario pueda manipular las capas básicas de forma más fácil.
 
-* Mostrar dominios: Despliega las tablas que contienen dominios de los modelos LADM-COL desplegados.
-* Mostrar estructuras: Despliega las tablas que contienen de datos tipo "Estructura" de los modelos LADM-COL desplegados.
-* Mostrar asociaciones:  Despliega las tablas que almacenan relaciones entre tablas y capas geográficas de los modelos LADM-COL desplegados.
+* Mostrar dominios: Muestra las tablas que contienen dominios de los modelos LADM-COL desplegados.
+* Mostrar estructuras: Muestra las tablas que contienen de datos tipo "Estructura" de los modelos LADM-COL desplegados.
+* Mostrar asociaciones:  Muestra las tablas que almacenan relaciones entre tablas y capas geográficas de los modelos LADM-COL desplegados.
 
-* <img src="_static\cargar_capas\Cajas_seleccion.gif" alt="Cajas de selección" style="height:500px;width:800px" />
+<img src="_static/cargar_capas/Cajas_seleccion.png" alt="Cajas de selección" style="height:450px;width:800px" />
 
 En la parte inferior de la ventana emergente existe un menú desplegable "Seleccionar tablas predefinida para" que permite seleccionar un conjunto de datos asociados (capas y tablas) sin tener que seleccionar uno a uno, como son los datos de interesados, derechos y las relaciones presentes entre las capas de Punto Lindero, Lindero y Terreno; lo cual es muy útil al revisar la información cargada en el modelo LADM-COL. Se selecciona una de las tres opciones y el Asistente carga al panel de capas y mapa, las tablas y capas asociadas a la opción seleccionada como se ve en el siguiente gif.
 
