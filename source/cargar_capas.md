@@ -16,7 +16,7 @@ Es de tener en cuenta que los datos se muestran en grupos según al modelo núcl
 * Mostrar estructuras: Muestra las tablas que contienen de datos tipo "Estructura" de los modelos LADM-COL desplegados.
 * Mostrar asociaciones:  Muestra las tablas que almacenan relaciones entre tablas y capas geográficas de los modelos LADM-COL desplegados.
 
-<img src="_static/cargar_capas/Cajas_seleccion.png" alt="Cajas de selección" style="height:450px;width:800px" />
+<a class="" data-lightbox="Cajas de selección" href="_static/cargar_capas/Cajas_seleccion.png" title="Cajas de selección" data-title="Cajas de selección"><img src="_static/cargar_capas/Cajas_seleccion.png" class="align-center" width="800px" alt="Cajas de selección"/></a>
 
 En la parte inferior de la ventana emergente existe un menú desplegable "Seleccionar tablas predefinida para" que permite seleccionar un conjunto de datos asociados (capas y tablas) sin tener que seleccionar uno a uno, como son los datos de interesados, derechos y las relaciones presentes entre las capas de Punto Lindero, Lindero y Terreno; lo cual es muy útil al revisar la información cargada en el modelo LADM-COL. Se selecciona una de las tres opciones y el Asistente carga al panel de capas y mapa, las tablas y capas asociadas a la opción seleccionada como se ve en el siguiente gif.
 
