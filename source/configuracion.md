@@ -143,46 +143,44 @@ La configuración de estos servicios es opcional, pues solo se requiere cuando s
 
 ## Avanzado
 
-En esta sección se selecciona cuál es el rol activo para el Asistente LADM-COL. En la sección de [Introducción](introduccion.html#dialogo-de-bienvenida) se da la opción de escoger  el perfil con el que el usuario desea configurar el Asistente después de realizar la instalación.
+En esta sección se selecciona cuál es el rol activo para el Asistente LADM-COL. Ver la sección de [Introducción](introduccion.html#dialogo-de-bienvenida) para más detalles.
 
 <a class="" data-lightbox="Configuración del rol activo" href="_static/configuracion/roles.png" title="Configuración del rol activo" data-title="Configuración del rol activo"><img src="_static/configuracion/roles.png" class="align-center" alt="Configuración del rol activo"/></a>
 
-### Selección de Roles
+### Funcionalidades por rol
 
-Con el fin de mejorar la usabilidad y agrupar las funcionalidades disponibles en el Asistente LADM-COL se dispone de roles como se ve en la imagen anterior que le permiten al usuario tener un menú y barra de herramientas (*toolbar*) configurada de acuerdo con las tareas que realiza. Por ello se definieron los siguientes perfiles que se pueden seleccionar en el momento de la instalación del Asistente o directamente desde el menú “Configuración”, se selecciona la pestaña “Avanzado” y se escoge el rol de acuerdo con las actividades que se desarrollan tal como se muestra en la siguiente tabla.
-|Nombre Perfil|Descripción|Funcionalidades disponibles|
+Los roles agrupan funcionalidades disponibles en el Asistente LADM-COL. La interfaz del plugin varía dependiendo el rol activo, esto es, cada rol tiene un listado de funcionalidades propias, así como un menú principal y una barra de herramientas (*toolbar*), que corresponden a las tareas que el rol realiza. 
+
+La siguiente tabla resumen los roles disponibles, así como las funcionalidades que les corresponden.
+
+|Rol|Descripción|Funcionalidades asignadas|
 |--------|:-------|----------|
 |    Básico    |    Perfil de exploración de la herramienta    |Exploración de datos<br>Cargar Capas|
-| Proveedor de Insumos |  |Corres ETL COBOL, SNC<br>Generar archivo XTF en modelo de Insumos|
+| Proveedor de Insumos |  |ETL COBOL, SNC<br>Generar archivo XTF en modelo de Insumos|
 |    Coordinador General (campo)    |    Perfil encargado de capturar y generar los datos obtenidos en campo    |Importar insumos (admon. de datos)<br>Consulta Predial<br>Estructurar datos en modelo de Operación<br />Validaciones de Calidad<br>Exportar modelo operación <br>Cargar Capas|
 | Coordinador de Campo | Perfil encargado de Gestionar los datos de campo |Idem. a Coordinador General menos Validaciones de Calidad|
 | Operador | Perfil encargado de recibir insumos y capturar y estructurar datos provenientes de campo |Importar insumos (admon. de datos)<br/>Consulta Predial<br/>Edición de Datos Espaciales<br/>Estructurar datos en modelo de Operación<br />Validaciones de Calidad<br/>Exportar modelo operación <br/>Cargar Capas|
 | Gestor | Perfil encargado de revisar los datos provenientes de campo en el modelo de Levantamiento Catastral |Crear archivo XTF en modelo Levantamiento Catastral<br />Validaciones de Calidad<br />Identificación de Novedades<br />Consulta Predial<br />Generación de Reportes<br />Cargar Capas|
 | Avanzado | Perfil con todas las funcionalidades de la herramienta disponibles |Todas las funciones disponibles|
 
-A continuación, se muestran el menú y barra de herramientas (*toolbar*) disponibles para la versión actual del Asistente por cada rol definido en el Asistente LADM-COL.
+A continuación, se muestran los elementos de interfaz gráfica (menú principal y barra de herramientas o *toolbar*) disponibles para cada rol:
 
-- Funcionalidades y *toolbar* (rol básico)
+- Rol básico
 
 <img src="_static/configuracion/toolbar_rol_basico.png" class="align-center" alt="Funcionalidades y toolbar (rol básico)"/>
 
-- Funcionalidades y *toolbar* (rol proveedor de insumos)
+- Rol proveedor de insumos
 
 <img src="_static/configuracion/toolbar_rol_proveedor.png" class="align-center" alt="Funcionalidades y toolbar (rol proveedor de insumos)"/>
 
-- Funcionalidades y *toolbar* (rol operador)
+- Rol operador
 
 <img src="_static/configuracion/toolbar_rol_operador.png" class="align-center" alt="Funcionalidades y toolbar (rol operador)"/>
 
-- Funcionalidades y *toolbar* (rol gestor)
+- Rol gestor
 
 <img src="_static/configuracion/toolbar_rol_gestor.png" class="align-center" alt="Funcionalidades y toolbar (rol gestor)"/>
 
-- Funcionalidades y *toolbar* (rol avanzado)
+- Rol avanzado
 
 <img src="_static/configuracion/toolbar_rol_avanzado.png" class="align-center" alt="Funcionalidades y toolbar (rol avanzado)"/>
-
-<div class="note">
-<p class="admonition-title">IMPORTANTE</p>
-<p>El rol seleccionado en el asistente se puede cambiar según la necesidad del usuario, pero se debe tener en cuenta que algunas funciones estarán disponibles o se ocultarán en el menú y en la barra de herramientas (toolbar) en el momento que se cambie de un rol a otro.</p>
-</div>
