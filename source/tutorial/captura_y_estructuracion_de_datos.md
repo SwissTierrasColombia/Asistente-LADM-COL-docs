@@ -70,71 +70,68 @@ Para verificar el estado de las relaciones creadas previamente, basta con abrir 
 
 #### Paso 1: Creación de construcción
 
-Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) debes seleccionar la opción **Crear Construcción**. Esta acción abrirá una ventana en la cual se te consulta *¿Cómo te gustaría crear construcciones?*, allí puedes seleccionar entre dos opciones: digitalizando ó importando la información desde una capa vectorial.
+Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) debes seleccionar la opción **Crear Construcción**. Esta acción abrirá una ventana en la cual se te consulta *¿Cómo te gustaría crear construcciones?*, para este caso selecciona la opcion *Desde otra capa de QGIS (definiendo un mapeo de campos)*.
 
 En este caso, harás uso de la información registrada en la capa **topo_construcciones**. De manera que luego de definir la fuente mencionada, debes dar clic en el botón `Importar`.
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11.png" class="align-center" width="400px" alt="Paso 1"/></a>
+<a class="" data-lightbox="Paso 1: Creación de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11.gif  " title="Paso 1: Creación de construcción" data-title="Paso 1: Creación de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11.gif" class="align-center" width="800px" alt="Paso 1: Creación de construcción"/></a>
 
 #### Paso 2: Creación de construcción
 
 De inmediato, se desplegará la ventana de mapeo de campos, en la cual debes realizar las modificaciones correspondientes hasta obtener un muestreo como el de la siguiente imagen:
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3"/></a>
+<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3"/></a> 
 
 Se recomienda tener en cuenta los pasos desarrollados en el [paso 4](#paso-4-mapeo-de-campos-punto-lindero) de la sección de punto de lindero, considerando:   
 
-| Atributo                 | Expresión                                                    |
-| ------------------------ | ------------------------------------------------------------ |
-| REVISAR   | nombre                                                       |
-| puntotipo                | get_domain_code_from_value('lc_puntotipo', punto_tipo,True, False) |
-| tipo_punto_control       | get_domain_code_from_value('lc_puntocontroltipo', "Control",True, False) |
-| exactitud_horizontal     | 1                                                            |
-| exactitud_vertical       | 1                                                            |
-| metodoproduccion         | get_domain_code_from_value('col_metodoproducciontipo', 'Metodo_Directo',True, False) |
+| Atributo                 | Expresión    |
+| ------------------------ | ------------ |
+| identificador            | $id          |
+| numero_pisos             | num_pisos    |
+| area_construccion        | $area        |
+
+<div class="warning">
+<p class="admonition-title">ADVERTENCIA</p>
+<p>Para el caso de <b>identificador</b>, se utiliza la expresión <i>$id</i> ya que los datos iniciales no cuentan con información para este campo.</p>
+<p>Para el caso de <b>area_construccion</b>, se utiliza la expresión <i>$area</i> ya que los datos iniciales no cuentan con información para este campo.</p>
+</div>
 
 Después de completar dichas modificaciones, puedes emplear la acción del botón ``Ejecutar``, y verificar el mensaje del proceso, luego, puedes **Cerrar** la ventana.
 
 ### Unidades De Construcción
 
+#### Paso 1: Identificación de la construcción
 
-#### Paso 1: Creación de unidad de construcción
+Para iniciar con el proceso de crear las unidades de construcción se debe emplear la herramienta **Identificar**, ubicada en la barra de herramientas de QGIS. Esto se realiza con el propósito de extraer el valor **t_id** asignado al polígono que representa la construcción de interés.
 
-Para iniciar con el proceso de crear las unidades de construcción se debe emplear la herramienta **Identificar**, ubicada en la barra de herramientas de QGIS. 
+<a class="" data-lightbox="Paso 1: Identificación de la construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.gif" title="Paso 1: Identificación de la construcción" data-title="Paso 1: Identificación de la construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.gif" class="align-center" width="800px" alt="Paso 1: Identificación de la construcción"/></a>
 
-<a class="" data-lightbox="Identificación" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.png" title="Identificación" data-title="Identificación"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.png" class="align-center" width="800px" alt="Identificación"/></a>
+#### Paso 2: Creación de unidad de construcción
 
-Con el propósito de extraer el valor **t_id** asignado al polígono que representa la construcción de interés.
+Después de tener los *t_id* se procede con el proceso de creación de las *unidades de construcción*,  para ello dirigirse a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial—Crear Unidad De Construcción**
 
-<a class="" data-lightbox="Identificación2" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales16.png" title="Identificación2" data-title="Identificación2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales16.png" class="align-center" width="800px" alt="Identificación2"/></a>
+De inmediato se desplegará un cuadro de diálogo solicitando como generar la unidad de construcción si por una capa vectorial o digitalizándolo, en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
 
-1.  Después de tener los t_id se procede con el proceso de creación de las unidades de construcción,  para ello dirigirse al menú de opciones, y seleccionar la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Unidad Espacial—Crear Unidad De Construcción**
+<a class="" data-lightbox="Paso 2: Creación de unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 2: Creación de unidad de construcción" data-title="Paso 2: Creación de unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 2: Creación de unidad de construcción"/></a>
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.png" class="align-center" width="800px" alt="Paso 1"/></a>
+#### Paso 3: Formulario de la unidad de construcción
 
-2.  De inmediato se desplegará un cuadro de diálogo solicitando como se pretende generar la unidad de construcción si por una capa vectorial o digitalizándolo, en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
+Al cerrarse la ventana se activará el snapping, el cual ayudará con el proceso de digitalización,  apoyándose de los puntos levantamiento para definir la unidad de construcción, digitalizé el polígono correspondiente y de clic derecho al finalizar la digitalización.
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.png" class="align-center" width="800px" alt="Paso 2"/></a>
+Una vez que termine la digitalización del polígono se abre un formulario, el cual tiene resaltado unas casillas en un tono naranja, estas casillas indican que deben llenarse de forma obligatoria. En la sección **lc_construccion** diligenciar el **t_id** de la construcción consultada previamente.
 
-3. Al cerrarse la ventana se activará el snapping, el cual ayudará con el proceso de digitalización,  apoyándose de los puntos levantamiento para definir la unidad de construcción, una vez termine de vectorizar el polígono correspondiente dar clic derecho, al hacerlo el polígono tendrá un contorno sombreado y abrirá un formulario.
-
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales19.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales19.gif" class="align-center" width="800px" alt="Paso 3"/></a>
-
-Al finalizar el polígono se abre un formulario, el cual tiene resaltado unas casillas en un color melocotón, estas casillas indican que deben llenarse de forma obligatoria, ahorrando trabajo en el momento de consultar los datos obligatorios en el modelo, en la sección **lc_construccion** diligenciar el **t_id** de la construcción consultada previamente.
-
-<a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales20.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales20.png" class="align-center" width="800px" alt="Resultado"/></a>
+<a class="" data-lightbox="Paso 3: Formulario de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 3: Formulario de la unidad de construcción" data-title="Paso 3: Formulario de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" class="align-center" width="800px" alt="Paso 3: Formulario de la unidad de construcción"/></a>
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>se recomienda llenar el formulario con los datos que se pueden visualizar en la siguiente imagen, una vez terminado de diligenciar el formulario dar clic en el botón **aceptar**</p>
+<p>Se recomienda llenar el formulario con los datos que se pueden visualizar en la siguiente imagen, una vez terminado de diligenciar el formulario dar clic en el botón <b>aceptar</b></p>
 </div>
 
+#### Paso 4: Resultado de la unidad de construcción
 
-<a class="" data-lightbox="Recomendado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales21.png" title="Recomendado" data-title="Recomendado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales21.png" class="align-center" width="800px" alt="Recomendado"/></a>
+Finalmente, se cerrará el cuadro de diálogo y se podrá visualizar un sólido en 2.5D que representa la construcción.
 
-Finalmente, se cerrará el cuadro de diálogo y se podrá visualizar un sólido en 3D que representa la construcción.
-
-<a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Resultado"/></a>
+<a class="" data-lightbox="Paso 4: Resultado de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 4: Resultado de la unidad de construcción" data-title="Paso 4: Resultado de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 4: Resultado de la unidad de construcción"/></a>
 
 ## Unidad Básica Administrativa
 
