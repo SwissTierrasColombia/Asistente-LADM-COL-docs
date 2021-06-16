@@ -18,8 +18,10 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Asistente LADM-COL'
-copyright = '2017-hoy, SwissTierras Colombia'
-author = 'SwissTierras Colombia'
+# We overwrite the copyright note using a custom CSS,
+# since we want a custom license note.
+# copyright = '2017-hoy, SwissTierras Colombia'
+author = 'SwissTierras Colombia (2017-hoy)'
 
 
 # -- General configuration ---------------------------------------------------
