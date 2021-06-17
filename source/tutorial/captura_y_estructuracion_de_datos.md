@@ -30,7 +30,7 @@ Dirigete al botón  `Crear objetos de Levantamiento` (ubicado en la barra de her
 
 #### Paso 2: Selección de linderos
 
-Se desplegará un cuadro de diálogo, donde tienes la opción de cargar una capa vectorial con la información o generar el terreno a partir de los linderos existentes. En este caso, se procede a elegir la opción **Seleccionando linderos existentes** y luego das clic en el botón **Siguiente**. Posteriormente, das clic en la opción *"Seleccionar todos los linderos"* (última opción):
+<!-- Se desplegará un cuadro de diálogo, donde tienes la opción de cargar una capa vectorial con la información o generar el terreno a partir de los linderos existentes. En este caso, se procede a elegir la opción **Seleccionando linderos existentes** y luego das clic en el botón **Siguiente**. Posteriormente, das clic en la opción *"Seleccionar todos los linderos"* (última opción): -->
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
@@ -110,7 +110,7 @@ Para iniciar con el proceso de crear las unidades de construcción se debe emple
 
 Después de tener los *t_id* se procede con el proceso de creación de las *unidades de construcción*,  para ello dirigirse a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial—Crear Unidad De Construcción**
 
-De inmediato se desplegará un cuadro de diálogo solicitando como generar la unidad de construcción si por una capa vectorial o digitalizándolo, en este caso lo haremos digitalizando, posteriormente se da clic en el botón **crear**
+De inmediato se desplegará un cuadro de diálogo solicitando como generar la unidad de construcción si por una capa vectorial o digitalizándolo, en este caso lo haremos digitalizando, posteriormente se da clic en el botón `crear`
 
 <a class="" data-lightbox="Paso 2: Creación de unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 2: Creación de unidad de construcción" data-title="Paso 2: Creación de unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 2: Creación de unidad de construcción"/></a>
 
@@ -122,16 +122,35 @@ Una vez que termine la digitalización del polígono se abre un formulario, el c
 
 <a class="" data-lightbox="Paso 3: Formulario de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 3: Formulario de la unidad de construcción" data-title="Paso 3: Formulario de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" class="align-center" width="800px" alt="Paso 3: Formulario de la unidad de construcción"/></a>
 
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>Se recomienda llenar el formulario con los datos que se pueden visualizar en la siguiente imagen, una vez terminado de diligenciar el formulario dar clic en el botón <b>aceptar</b></p>
-</div>
-
 #### Paso 4: Resultado de la unidad de construcción
 
 Finalmente, se cerrará el cuadro de diálogo y se podrá visualizar un sólido en 2.5D que representa la construcción.
 
 <a class="" data-lightbox="Paso 4: Resultado de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 4: Resultado de la unidad de construcción" data-title="Paso 4: Resultado de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 4: Resultado de la unidad de construcción"/></a>
+
+### Servidumbre de transito
+
+#### Paso 1: Creación de servidumbre de transito
+
+Se procede con el proceso de creación de la *servidumbre de transito*,  para ello en la barra de herramientas encuentras **Crear objetos de levantamiento –> Crear Servidumbre de Paso**
+
+De inmediato se desplegará un cuadro de diálogo que habilitará tres (3) opciones: Digitalizando el eje, Digitalizando polígono y Desde otra capa de QGIS. Para este caso lo haremos digitalizando polígono, posteriormente se da clic en el botón `crear`
+
+<a class="" data-lightbox="Paso 1: Creación de servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 1: Creación de servidumbre de transito" data-title="Paso 1: Creación de servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales23.gif" class="align-center" width="800px" alt="Paso 1: Creación de servidumbre de transito"/></a>
+
+#### Paso 2: Formulario de la servidumbre de paso
+
+Al cerrarse la ventana se activará el snapping, el cual ayudará con el proceso de digitalización,  apoyándose de los puntos levantamiento para definir la unidad de construcción, digitalizé el polígono correspondiente y de clic derecho al finalizar la digitalización.
+
+Una vez que termine la digitalización del polígono se abre un formulario, el cual tiene resaltado unas casillas en un tono naranja, estas casillas indican que deben llenarse de forma obligatoria.
+
+<a class="" data-lightbox="Paso 2: Formulario de la servidumbre de paso" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 2: Formulario de la servidumbre de paso" data-title="Paso 2: Formulario de la servidumbre de paso"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales24.gif" class="align-center" width="800px" alt="Paso 2: Formulario de la servidumbre de paso"/></a>
+
+#### Paso 3: Resultado de la servidumbre de paso
+
+Finalmente, se cerrará el cuadro de diálogo y se podrá visualizar un polígono que representa la servidumbre de paso.
+
+<a class="" data-lightbox="Paso 3: Resultado de la servidumbre de paso" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 3: Resultado de la servidumbre de paso" data-title="Paso 3: Resultado de la servidumbre de paso"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" class="align-center" width="800px" alt="Paso 3: Resultado de la servidumbre de paso"/></a>
 
 ## Unidad Básica Administrativa
 
