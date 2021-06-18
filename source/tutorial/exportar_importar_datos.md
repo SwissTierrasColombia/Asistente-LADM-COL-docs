@@ -1,36 +1,64 @@
 # Exportar e Importar Datos
-Es importante hacer énfasis, en la interoperabilidad que ofrece el uso de los archivos \*.xtf , ya que programas como postgres permiten exportar archivos en dicho formato y ser acogidos por otros gestores de base de datos como el Geopackages, es decir que todos los procesos mencionados en cada uno de las secciones se pueden guardar en único archivo, permitiendo consolidar toda la información.
+
+En esta sección se describe el procedimiento que se debe seguir para la exportación e importación de la información generada en el modelo de levantamiento catastral a lo largo de este tutorial.
+
 ## Exportar datos
-1.  Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -- Exportar Datos**
 
-<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport1.png" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport1.png" class="align-center" width="400px" alt="Paso1"/></a>
+### Paso 1: Menú de Exportar Datos.
 
-2. Se abrirá un cuadro de diálogo, donde se localiza una casilla de color naranja que posee un botón el cual se debe activar para localizar la ruta donde se guardará la base de datos que contiene toda la información construida.
+Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Exportar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
+
+- Fuente
+- Destino
+- Mostrar detalles
+
+<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" class="align-center" width="800px" alt="Paso1"/></a>
+
+### Paso 2: Selección de la Fuente.
+
+En primera medida, se debe validar que la *Base de datos* a la cual se hace referencia corresponde al archivo que se desea exportar en el formato de intercambio **.xtf**. 
+
+En caso de que ésta no sea correcta, puedes cambiar la conexión dando clic en `Configurar conexión`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>En la interfaz que se despliega al dar clic en <code class="docutils literal notranslate">Configurar conexión</code>, es posible deshabilitar las validaciones ingresando a la pestaña <b>Modelos</b> y seleccionando la casilla de verificación de <i>Validar datos cuando se importa o exporta un archivo XTF</i>.</p>
+</div>
 
 <a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" class="align-center" width="800px" alt="Paso2"/></a>
 
-3. Al presionar el botón guardar, se cerrara la ventana emergente quedando aun la ventana de exportar datos, presionar el botón **configurar conexión,**  desspplegando otra ventana donde se dará clic en la pestaña modelos, ofreciendo la posibilidad de exportar los datos sin necesidad de validar la información, desactivando la casilla **validar datos cuando se importa o exporta un archivo \*.xtf** y posteriormente dar clic en el botón
-**Aceptar**
+### Paso 3: Exportar XTF.
 
-<a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" class="align-center" width="400px" alt="Paso3"/></a>
+En la sección *Destino*, en el campo de *Archivo XTF* debes dar clic en el botón `...`, con esta acción procedes a definir la carpeta y el nombre del archivo *.xtf* a exportar, luego das clic en `Guardar` y finalmente en el botón `Exportar datos`. 
 
-4. Por último dar clic en el botón exportar datos después de generarse la notificación del proceso ejecutado, dar clic el botón cerrar.
+<a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" class="align-center" width="800px" alt="Paso3"/></a>
 
-<a class="" data-lightbox="Paso4" href="../_static/tutorial/exportar_importar_datos/cap12importexport4.gif" title="Paso4" data-title="Paso4"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport4.gif" class="align-center" width="400px" alt="Paso4"/></a>
+### Paso 4: Verificación de la creación del XTF.
 
+Una vez que termine el proceso de *Exportar Datos*, das clic en el botón `Cerrar` y verificas que el XTF se encuentre en la carpeta especificada.
 
 ## Importar datos
 
-1. Para iniciar el proceso, seguir la ruta **Administración de Datos --Importar Datos**
+### Paso 1: Menú de Importar Datos.
 
-<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport5.png" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport5.png" class="align-center" width="800px" alt="Paso1"/></a>
+Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Importar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
 
-2.  Se abrirá un cuadro de diálogo, donde se localiza una casilla de color naranja que posee un botón el cual se debe activar para localizar la ruta donde se guardó.
+- Fuente
+- Destino
+- Mostrar detalles
 
-<a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport6.png" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport6.png" class="align-center" width="400px" alt="Paso2"/></a>
+<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" class="align-center" width="800px" alt="Paso1"/></a>
 
-3.  Cuando se ubique el archivo, dar clic en **abrir** posteriormente en **importar datos** y finalmente dar clic en el botón **cerrar**
+### Paso 2: Selección de la Fuente.
+
+En primera medida debes validar que el *Archivo XTF* que se va a importar sea el de tu interés. En caso de que desees modificarlo basta con cambiar la ruta del archivo *.xtf* dando clic en `...`.
+
+<a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" class="align-center" width="800px" alt="Paso2"/></a>
+
+### Paso 3: Importar XTF.
+
+En la sección de *Destino* debes verificar que la conexión sobre la cual se va a importar la información del archivo *.xtf* (seleccionado previamente) sea correcta. En caso contrario, debes modificar la conexión dando clic en el botón `Configurar conexión` y seleccionar la base de datos a la cual se desea importar la información. Una vez que termines de configurar la conexión debes dar clic en el botón `Importar datos`.
 
 <a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" class="align-center" width="800px" alt="Paso3"/></a>
 
-
+Al finalizar la importación aparecerá un aviso de confirmación en la ventana de *Importar Datos*, luego de su validación podrás dar clic en el botón `Cerrar`.
