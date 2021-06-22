@@ -1,22 +1,20 @@
 # Reglas de calidad
-
-El Asistente LADM-COL incluye funcionalidades de revisión y control de calidad de los datos que han sido estructurados en el modelo LADM, para ello le presenta un conjunto de 30 reglas de validación de calidad que le ayudara al usuario a revisar sus datos y corregir inconsistencias que se presenten en la información. Para acceder a este menú se debe ingresar al menú del Asistente LADM-COL y seleccionar “Calidad” como se muestra en el siguiente gif.
+El Asistente LADM-COL incluye funcionalidades de revisión y control de calidad de los datos que han sido estructurados en el modelo LADM, para ello le presenta un conjunto reglas de validación de calidad que ayudara al usuario a revisar datos y corregir inconsistencias que se presenten en la información. Para acceder a este menú se debe ingresar al menú del Asistente LADM-COL y seleccionar “Calidad” como se muestra en el siguiente gif.
 
 <img src="_static/reglas_de_calidad/quality_rules.gif" alt="Reglas de calidad" style="height:500px;width:800px" />
 
 El conjunto de reglas disponibles comprenden:
++ Reglas para Puntos.
++ Reglas para Líneas.
++ Reglas para Polígonos.
++ Reglas de Consistencia Lógica, verifica las relaciones de los objetos del modelo LADM-COL.
+<a class="" data-lightbox="Conjunto de reglas disponibles" href="_static/reglas_de_calidad/rules_list.png" title="Conjunto de reglas disponibles" data-title="Conjunto de reglas disponibles"><img src="_static/reglas_de_calidad/rules_list.png" class="align-center" width="600px" alt="Conjunto de reglas disponibles"/></a>
 
-+ Reglas para puntos (4 reglas)
-+ Reglas para Líneas (5 reglas)
-+ Reglas para Polígonos (11 reglas)
-+ Reglas de Consistencia Lógica (22 reglas), verifica las relaciones de los objetos del modelo LADM-COL.
-  <a class="" data-lightbox="Conjunto de reglas disponibles" href="_static/reglas_de_calidad/rules_list.png" title="Conjunto de reglas disponibles" data-title="Conjunto de reglas disponibles"><img src="_static/reglas_de_calidad/rules_list.png" class="align-center" width="600px" alt="Conjunto de reglas disponibles"/></a>
-
-Para ejecutar las reglas primero se debe haber cargado previamente las capas a validar como se mostró en la sección [Cargar Capas](cargar_capas.html); se pueden correr las reglas una a una, por grupos o seleccionándolas todas al tiempo, para este caso se da clic en el botón “Seleccionar Todas” o si se quiere limpiar la selección actual se da clic en el botón “Limpiar Selección” y luego dar clic en el botón “Aceptar”. 
+Las reglas se pueden ejecutar habiendo cargado previamente las capas a validar como se mostró en la sección [Cargar Capas](cargar_capas.html) o sin haberlas cargado en el panel de capas; se pueden correr las reglas una a una, por grupos o seleccionándolas todas al tiempo, para este caso se da clic en el botón “Seleccionar Todas” o si se quiere limpiar la selección actual se da clic en el botón “Limpiar Selección” y luego dar clic en el botón “Aceptar”. 
 
 <div class="warning">
 <p class="admonition-title">ADVERTENCIA</p>
-<p>Se recomienda que para un gran volumen de datos (varias capas y tablas con mucha información) se corran las reglas por grupos o por regla especifica con el fin de evitar que la aplicación se bloquee y genere algún error por consumo excesivo de memoria al intentar validar todas las reglas al tiempo.</p>
+<p>En algunos casos con poca frecuencia, al tener un gran volumen de datos (varias capas y tablas con mucha información) se recomienda correr las reglas por grupos o por regla especifica con el fin de evitar algún posible bloqueo de la aplicación y que se pueda generar algún error por consumo excesivo de memoria al intentar validar todas las reglas al tiempo.(equipos de computo con limitada memoria disponible)</p>
 </div>
 
 
@@ -24,7 +22,7 @@ A continuación, se realiza una breve descripción de las reglas de validación 
 
 ## Reglas para puntos
 
-Este grupo de reglas validan en general que los puntos provenientes de un levantamiento predial no se sobrepongan, estén cubiertos por los nodos de un Lindero y los nodos de Terrenos, etc. En el gif se muestra cómo se ejecuta dos de las reglas y los resultados que se despliegan en panel de mapa. 
+Este grupo de reglas ayudan a validar que los puntos provenientes de un levantamiento predial no se sobrepongan, ayudan a verificar que los puntos estén cubiertos por los nodos de un lindero y los nodos de un terrenos. En el gif se muestra cómo se ejecuta dos de estas reglas y sus resultados que se despliegan en panel de mapa. 
 
 ### Los Puntos de Linderos no deben superponerse
 
@@ -39,7 +37,7 @@ Este grupo de reglas validan en general que los puntos provenientes de un levant
 
 ## Reglas para Líneas
 
-Este grupo de reglas validan diferentes características de los Linderos de un predio; como que no sean más largos de 200 metros ya que a una magnitud mayor se pierde la definición exacta de la forma y el área del predio, que no se superpongan, que los Linderos estén cubiertos por los Terrenos, Linderos deben terminar en cambio de una colindancia. En los siguientes gif se observan los resultados al ejecutar estas reglas.
+Este grupo de reglas ayudan a validar algunas características que pueden presentar los linderos de un predio; como que estos no se superpongan, que los linderos estén cubiertos por los límites de uno o varios terrenos, que los linderos deben terminar en cambio de una colindancia, entre otros. En los siguientes gif se observan los resultados al ejecutar estas reglas.
 
 ### Los Linderos no deben superponerse
 
@@ -59,7 +57,9 @@ Este grupo de reglas validan diferentes características de los Linderos de un p
 
 ## Reglas para Polígonos
 
-Este grupo de reglas validan diferentes características que deben cumplir los elementos con geometría polígono como los terrenos, construcciones, servidumbres y unidades de construcción; al correrlas permite identificar errores topológicos y validación de consistencia entre los elementos como la contenencia de un polígono contenida dentro de  otro polígono, ejm. Una construcción debe estar dentro de un polígono de terreno, una unidad de construcción debe estar dentro de una construcción).
+Este grupo de reglas ayudan a validar diferentes características que deben cumplir los elementos con geometría polígono como son los terrenos, construcciones, servidumbres y unidades de construcción; al ejecutarlas permite identificar errores topológicos y puede realizar una verificación de consistencia entre los elementos como la contenencia de un polígono dentro de otro como por ejemplo: Una construcción debe estar contenida dentro de un polígono de terreno o una unidad de construcción debe estar contenida dentro de un polígono de una construcción.
+
+A continuación algunos ejemplos de estas reglas para polígonos:
 
 ### Los Terrenos no deben superponerse
 
