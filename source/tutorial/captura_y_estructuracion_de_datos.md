@@ -81,11 +81,11 @@ En este caso, harás uso de la información registrada en la capa **topo_constru
 
 <a class="" data-lightbox="Paso 2: Creación de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif  " title="Paso 2: Creación de construcción" data-title="Paso 2: Creación de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif" class="align-center" width="800px" alt="Paso 2: Creación de construcción"/></a>
 
-#### Paso 2: Creación de construcción
+#### Paso 3: Mapeo de campos
 
 De inmediato, se desplegará la ventana de mapeo de campos, en la cual debes realizar las modificaciones correspondientes hasta obtener un muestreo de campos como el de la siguiente imagen:
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3"/></a> 
+<a class="" data-lightbox="Paso 3: Mapeo de campos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" title="Paso 3: Mapeo de campos" data-title="Paso 3: Mapeo de campos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3: Mapeo de campos"/></a> 
 
 Se recomienda tener en cuenta los pasos desarrollados en el [paso 4](#paso-4-mapeo-de-campos-punto-lindero) de la sección de punto de lindero, considerando que:   
 
