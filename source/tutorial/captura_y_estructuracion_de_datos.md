@@ -30,21 +30,27 @@
 
 ## Unidad Básica Administrativa
 
-Para el desarrollo de este capítulo es necesario tener en cuenta la información que se puede obtener de la siguiente imagen, ya que se asociará la información de propiedad con los predios ya definidos en el modelo.
+Con el objetivo de continuar con el desarrollo del tutorial, es necesario tener en cuenta la imagen que se muestra a continuación.
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA1.png" title="Información" data-title="Información"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA1.png" class="align-center" width="800px" alt="Información"/></a>
 
 ### Crear Predio
 
-1.  Se iniciará el proceso dirigiéndose al menú de opciones y siguiendo la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos –Levantamiento Catastral – Unidad básica administrativa—Crear Predio**
+#### Paso 1: Crear predio 
+
+Debes seguir la siguiente ruta en el Asistente LADM-COL **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad básica administrativa —> Crear Predio**
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA2.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  Se desplegará un cuadro de diálogo donde se permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un **formulario**, seleccionar la opción y presionar el botón **siguiente** se debe elegir el tipo de predio a crear, para eso se recomienda revisar la imagen anterior de la  seccion **unidad básica administrativa**.
+#### Paso 2: Selección metodo de creación del Predio
+
+Se desplegará un cuadro de diálogo con dos opciones de ingreso de datos. *Desde otra capa de QGIS* o por medio de *Ingresando datos manualmente en un formulario*, debes seleccionar la opción *Ingresando datos manualmente en un formulario* y presionar el botón ``siguiente``. En la siguiente parte de la interfaz se debe elegir el tipo de predio a crear, para eso se recomienda revisar la [imagen](#unidad-basica-administrativa) anterior.
 
 Como se puede observar en la siguiente figura se solicita información del terreno por lo tanto se debe dar clic al ![Botón Selección](../_static/tutorial/captura_y_estructura_de_datos/ICOSeleccion.png)
 
-3.   Se cerrara el cuadro de diálogo actual y el puntero cambiará a una cruz lo cual indica que ya esta listo para seleccionar el terreno, dar clic sobre el terreno a registrar.
+#### Paso 3: Selección metodo de creación del Predio
+
+Se cerrara el cuadro de diálogo actual y el puntero cambiará a una cruz lo cual indica que ya esta listo para seleccionar el terreno, dar clic sobre el terreno a registrar.
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA4.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA4.gif" class="align-center" width="800px" alt="Paso 3"/></a>
 
