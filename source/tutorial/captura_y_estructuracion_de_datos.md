@@ -54,7 +54,7 @@ Se desplegará un diálogo con el listado de los valores del dominio seleccionad
 
 #### Paso 1: Cargue de insumos Punto lindero
 
-Inicialmente, se arrastra la capa de insumo llamada **topo_puntos_lindero** al menú de capas de QGIS.
+Inicialmente, se arrastra la capa de insumo llamada **topo_puntos_lindero** al mapa de QGIS.
 
 <a class="" data-lightbox="Paso 1: Cargue de insumos Punto lindero" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.gif" title="Paso 1: Cargue de insumos Punto lindero" data-title="Paso 1: Cargue de insumos Punto lindero"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos9.gif" class="align-center" width="800px" alt="Paso 1: Cargue de insumos Punto lindero"/></a>
 
@@ -136,11 +136,11 @@ Una vez que se diligencian cada uno de los atributos al interior del formulario,
 
 <a class="" data-lightbox="Paso 6b: Definición del mapeo de campos para punto lindero" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" title="Paso 6b: Definición del mapeo de campos para punto lindero" data-title="Paso 6b: Definición del mapeo de campos para punto lindero"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos13.png" class="align-center" width="800px" alt="Paso 6b: Definición del mapeo de campos para punto lindero"/></a>
 
-#### Paso 6: Resultado de la ejecución punto lindero
+#### Paso 7: Resultado de la ejecución punto lindero
 
 Una vez terminado el mapeo de campos, debes dar clic en **Ejecutar** y al terminar el proceso podrás visualizar el siguiente mensaje de validación. Puedes leer su contenido (por ejemplo, "146 features copiados") para verificar que la ejecución haya sido exitosa y cerrar el cuadro de diálogo.
 
-<a class="" data-lightbox="Paso 6 Resultado de la ejecución punto lindero" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" title="Paso 6 Resultado de la ejecución punto lindero" data-title="Paso 6 Resultado de la ejecución punto lindero"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" class="align-center" width="800px" alt="Paso 6 Resultado de la ejecución punto lindero"/></a>
+<a class="" data-lightbox="Paso 7 Resultado de la ejecución punto lindero" href="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" title="Paso 7 Resultado de la ejecución punto lindero" data-title="Paso 7 Resultado de la ejecución punto lindero"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap4preinsumos15.png" class="align-center" width="800px" alt="Paso 7 Resultado de la ejecución punto lindero"/></a>
 
 ### Puntos de levantamiento
 
