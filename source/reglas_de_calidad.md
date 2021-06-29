@@ -84,7 +84,7 @@ Una vez se hayan ejecutadas las reglas que se desean revisar sobre los datos que
 
 `Colocar gif de identificación de error y muestra de tabla de atributos (texto sujeto a modificación despues del gif)`
 
-<a class="" data-lightbox="Interpretación de resultados" href="_static/reglas_de_calidad/interpretacion_resultados.gif" title="Interpretación de resultados" data-title="Interpretación de resultados"><img src="_static/reglas_de_calidad/interpretacion_resultados.gif" class="align-center" width="800px" alt="Interpretación de resultados"/></a>
+<a class="" data-lightbox="Interpretación de resultados" href="_static/reglas_de_calidad/Interpretacion_resultados.gif" title="Interpretación de resultados" data-title="Interpretación de resultados"><img src="_static/reglas_de_calidad/Interpretacion_resultados.gif" class="align-center" width="800px" alt="Interpretación de resultados"/></a>
 
 ### Generar reporte validación de reglas y archivo *Geopackage*
 
