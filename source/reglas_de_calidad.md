@@ -74,22 +74,17 @@ Este conjunto de reglas permiten hacer validaciones sobre “reglas de negocio�
 
 A continuación un ejemplo de la utilización de reglas de consistencia lógica:
 
-`Colocar gif de reglas de consistencia logica`
 
 <a class="" data-lightbox="Reglas de Consistencia Lógica" href="_static/reglas_de_calidad/Logical_consistency_rules.gif" title="Reglas de Consistencia Lógica" data-title="Reglas de Consistencia Lógica"><img src="_static/reglas_de_calidad/Logical_consistency_rules.gif" class="align-center" width="800px" alt="Reglas de Consistencia Lógica"/></a>
 
 ## Interpretación de resultados
 
-Una vez se hayan ejecutadas las reglas que se desean revisar sobre los datos que han sido estructurados en el modelo LADM, en el panel de capas de la interfaz se carga una capa para identificar los errores de las reglas validadas, allí se encuentran errores para las geometrías de punto, línea y polígono así como las errores de consistencia lógica. Para ver el detalle de estos errores como su ubicación en los datos geográficos se debe dar doble clic sobre alguno de los errores  y el Asistente le mostrara en el panel de mapa la ubicación de los elementos geográficos que no cumplen la regla. También la funcionalidad al dar clic derecho sobre la capa de error muestra la opción de ver la tabla de atributos donde se tiene el identificador del *feature* que tiene el error, así como el código y la descripción del error, información útil para realizar control de calidad sobre el conjunto de datos. A continuación un gif donde se muestra el uso de estas funcionalidades.
-
-`Colocar gif de identificación de error y muestra de tabla de atributos (texto sujeto a modificación despues del gif)`
+Una vez se hayan ejecutadas las reglas que se desean revisar sobre los datos que han sido estructurados en el modelo LADM, en el panel de capas de la interfaz se carga una capa para identificar los errores de las reglas validadas, allí se encuentran errores para las geometrías de punto, línea y polígono así como las errores de consistencia lógica. Para ver el detalle de estos errores como su ubicación para el caso de errores en elementos geométricos, se da  doble clic sobre alguno de los errores  y el Asistente le mostrara en el panel de mapa la ubicación de los elementos geográficos que no cumplen la regla; por otro lado al dar clic derecho sobre la capa de error muestra la opción de ver la tabla de atributos donde se tiene el identificador del *feature* que tiene el error, así como el código y la descripción del error, información útil para realizar control de calidad sobre el conjunto de datos. A continuación un gif donde se muestra el uso de esta funcionalidad para validación de consistencia lógica.
 
 <a class="" data-lightbox="Interpretación de resultados" href="_static/reglas_de_calidad/Interpretacion_resultados.gif" title="Interpretación de resultados" data-title="Interpretación de resultados"><img src="_static/reglas_de_calidad/Interpretacion_resultados.gif" class="align-center" width="800px" alt="Interpretación de resultados"/></a>
 
 ### Generar reporte validación de reglas y archivo *Geopackage*
 
-Después de ejecutar las reglas necesarias para validar los datos que han sido estructurados en el modelo LADM, el Asistente tiene dos funcionalidades que permiten generar y descargar un reporte en formato PDF en donde se indica que reglas fueron validadas y en donde se encontraron errores, así como la funcionalidad de descargar la capa de errores en un archivo *Geopackage* con el fin de almacenar los errores detectados y que sirva como soporte de la validación y revisión de los datos para control de calidad como se muestra ene l siguiente gif.
-
-`Colocar gif de reporte PDF y GPKG`
+Después de ejecutar las reglas seleccionadas para validar los datos que han sido estructurados en el modelo LADM, el Asistente tiene dos opciones para guardar los resultados, el primero permiten generar y descargar un reporte en formato PDF en donde se indica que reglas fueron validadas y en donde se encontraron errores, así como la opción de descargar la capa de errores en un archivo formato *Geopackage* con el fin de almacenar los errores detectados y que sirva como soporte de la validación y revisión de los datos para control de calidad como se muestra en el siguiente gif.
 
 <a class="" data-lightbox="reporte y gpkg" href="_static/reglas_de_calidad/reporte_gpkg.gif" title="reporte y gpkg" data-title="reporte y gpkg"><img src="_static/reglas_de_calidad/reporte_gpkg.gif" class="align-center" width="800px" alt="reporte y gpkg"/></a>
