@@ -34,6 +34,13 @@ Con el objetivo de continuar con el desarrollo del tutorial, es necesario tener 
 
 <a class="" data-lightbox="Información" href="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA1.png" title="Información" data-title="Información"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap6UBA1.png" class="align-center" width="800px" alt="Información"/></a>
 
+| Predio 1                                       | Predio 2                                       | Predio 3                                       |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Condición: No propiedad Horizontal             | Condición: No propiedad Horizontal             | Condición: No propiedad Horizontal             |
+| Número predial: <br /> 251750000000000000000500000001 | Número predial: <br /> 251750000000000000000500000002 | Número predial: <br /> 251750000000000000000500000003 |
+| Tipo: Privado                                  | Tipo: Privado                                  | Tipo: Público                                  |
+| Dirección: AV 3 22 d 15                        | Dirección: AV 3 22 d 1                         | Dirección: AV 3 22 d 97                        |
+
 ### Crear Predio
 
 #### Paso 1: Crear predio 
