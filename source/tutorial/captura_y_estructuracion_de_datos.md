@@ -38,60 +38,80 @@
 
 ## Fuentes
 
-Las fuentes son los documentos de soporte tanto a nivel administrativo como técnico del predio, en esta sección se detallará como hacer la relación de este tipo de información y lo desarrollado hasta el momento , para ello es necesario tener en cuenta la información de la siguiente imagen.
+Para continuar con el desarrollo del tutorial, es necesario tener en cuenta los datos de prueba registrados a continuación:
 
-<a class="" data-lightbox="Información" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes1.png" title="Información" data-title="Información"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes1.png" class="align-center" width="800px" alt="Información"/></a>
+### Tabla fuentes administrativas 
 
-1. Para iniciar el proceso de relación es necesario, seguir la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – Fuente—Crear Fuente Administrativa.**
+| Variables                       | Fuente 1                                                 | Fuente 2                                                 | Fuente 3                                                 |
+| ------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| **Tipo**                        | Escritura pública                                        | Escritura pública                                        | Escritura pública                                        |
+| **Estado <br />disponibilidad** | Disponible                                               | Disponible                                               | Disponible                                               |
+| **Nombre<br /> archivo**        | escritura_01.jpg                                         | escritura_02.jpg                                         | escritura_03.jpg                                         |
+| **Observación**                 | Soporte Predio<br />251750000000000<br />000000500000001 | Soporte Predio<br />251750000000000<br />000000500000002 | Soporte Predio<br />251750000000000<br />000000500000003 |
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.png" class="align-center" width="800px" alt="Paso 1"/></a>
+### Paso 1: Crear fuente administrativa
 
-2.  Se desplegará un cuadro de diálogo donde  permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), para este ejercicio se hará por medio de un formulario, seleccionar la opción y presionar el botón **crear**.
+En el botón ``Crear objetos de Levantamiento`` selecciona la opción **Crear Fuente Administrativa**.
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.png" class="align-center" width="800px" alt="Paso 2"/></a>
+<a class="" data-lightbox="Paso 1: Crear Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes1.gif" title="Paso 1: Crear Fuente administrativa" data-title="Paso 1: Crear Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes1.gif" class="align-center" width="800px" alt="Paso 1: Crear Fuente administrativa"/></a>
 
-3. Se desplegará un formulario, el cual deberá ser diligenciado con la información de la primera imagen de esta sección, recuerde que los campos coloreados son obligatorios.
+### Paso 2: Selección método de creación de la fuente administrativa
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.png" class="align-center" width="800px" alt="Paso 3"/></a>
+Se desplegará un cuadro de diálogo con dos opciones para crear una fuente administrativa: *Ingresando datos manualmente en un formulario* o *Desde otra capa de QGIS*. Para este caso, selecciona la primera opción y presiona el botón ``Crear``.
 
-4.  Se vinculará el archivo que será el soporte administrativo, elegir la pestaña **extrarchivo,** posteriormente se activa el ![Botón edición](../_static/tutorial/captura_y_estructura_de_datos/ICOedicion.png).
+<a class="" data-lightbox="Paso 2: Selección método de creación de la Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.gif" title="Paso 2: Selección método de creación de la Fuente administrativa" data-title="Paso 2: Selección método de creación de la Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.gif" class="align-center" width="800px" alt="Paso 2: Selección método de creación de la Fuente administrativa"/></a>
 
-<a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.png" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.png" class="align-center" width="800px" alt="Paso 4"/></a>
+### Paso 3: Diligenciamiento de formulario fuente administrativa
 
-5.  Se activará el botón añadir extrarchivo, se procede a dar clic en el botón que se encuentra cerca de la casilla **Datos**.
+Se despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla](#tabla-fuentes-administrativas) que se encuentra al inicio de esta sección.
 
-<a class="" data-lightbox="Paso 5" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes6.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes6.png" class="align-center" width="800px" alt="Paso 5"/></a>
+<a class="" data-lightbox="Paso 3: Diligenciamiento de formulario Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.gif" title="Paso 3: Diligenciamiento de formulario Fuente administrativa" data-title="Paso 3: Diligenciamiento de formulario Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.gif" class="align-center" width="800px" alt="Paso 3: Diligenciamiento de formulario Fuente administrativa"/></a>
 
-6. Se abrirá un cuadro de diálogo, donde se podrá seleccionar el documento de soporte administrativo, después de seleccionado dar clic en el botón **abrir**.
+### Paso 4: Adjuntar archivos en Fuente administrativa
 
-<a class="" data-lightbox="Paso 6" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.png" title="Paso 6" data-title="Paso 6"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.png" class="align-center" width="800px" alt="Paso 6"/></a>
+Debes dirigirte a la pestaña *extarchivo* y agregar el archivo correspondiente a cada fuente administrativa.
 
-7. Como se puede apreciar en la ventana, el archivo ya ha sido cargado y además ya se le fue asignado un número de identificación, se procede a dar clic en **Aceptar**
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Los archivos los encuentras en la carpeta compartida al inicio del tutorial <i>Datos -> Soportes</i>.</p>
+</div>
 
-<a class="" data-lightbox="Paso 7" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes7.png" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes7.png" class="align-center" width="800px" alt="Paso 7"/></a>
+<a class="" data-lightbox="Paso 4: Adjuntar archivos en Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.gif" title="Paso 4: Adjuntar archivos en Fuente administrativa" data-title="Paso 4: Adjuntar archivos en Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.gif" class="align-center" width="800px" alt="Paso 4: Adjuntar archivos en Fuente administrativa"/></a>
 
-Finalmente se repite el proceso, teniendo en cuenta la información consignada en la imagen inicial de la seccion **Fuentes**, guardar los cambios de edición, si se quiere ver el resultado de este proceso, dirigirse a la tabla de Fuente administrativa, y consultar su información tal cual como lo muestra la siguiente imagen.
+Una vez que se ha cargado el archivo, debes dar clic en ``Aceptar``.
 
-<a class="" data-lightbox="Paso 7" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes8.gif" title="Paso 7" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes8.gif" class="align-center" width="800px" alt="Paso 7"/></a>
+### Paso 5: Resultado formulario Fuente administrativa
+
+Repite este proceso para los tres (3) archivos relacionados a fuentes administrativas. 
+
+<a class="" data-lightbox="Paso 5: Resultado formulario Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.gif" title="Paso 5: Resultado formulario Fuente administrativa" data-title="Paso 5: Resultado formulario Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes5.gif" class="align-center" width="800px" alt="Paso 5: Resultado formulario Fuente administrativa"/></a>
 
 ## RRR
 
-### Crear Derecho
+Ya que se han creado los interesados y las fuentes administrativas, es necesario crear las relaciones entre estos, para esto es necesario crear los **derechos** correspondientes considerando:
 
-Se creará el derecho de dominio, para ello se necesita un documento de soporte, identificado como nuestra fuente, el cual también ya ha sido creada. Por lo tanto, lo único que se necesita es crear la relación, para su construcción es necesario tener en cuenta la información de la siguiente imagen.
+<a class="" data-lightbox="Información RRR" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" title="Información RRR" data-title="Información RRR"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" class="align-center" width="800px" alt="Información RRR"/></a>
 
-<a class="" data-lightbox="Información" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" title="Información" data-title="Paso 7"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" class="align-center" width="800px" alt="Información"/></a>
+### Paso 1: Seleccionar la fuente administrativa. 
 
-1. Dirigase a la tabla de atributos de la tabla fuente administrativa, y seleccionar la fila correspondiente con la información del predio, para ello es posible apoyarse en la ultima imagen de la seccion de Fuentes.
+Debes dirigirte a la tabla de atributos de la fuente administrativa, y seleccionar la fila correspondiente a la información de la fuente administrativa que vas a asignar:
 
-2. Para continuar con el proceso de relación es necesario, seguir la siguiente ruta **LADM-COL – Captura Y Estructuración De Datos – Levantamiento Catastral – RRR—Crear Derecho.**
+<a class="" data-lightbox="Paso 1: Seleccionar la fuente administrativa." href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos2.gif" title="Paso 1: Seleccionar la fuente administrativa." data-title="Paso 1: Seleccionar la fuente administrativa."><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos2.gif" class="align-center" width="800px" alt="Paso 1: Seleccionar la fuente administrativa."/></a>
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos2.png" class="align-center" width="800px" alt="Paso 2"/></a>
+### Paso 2: Crear Derecho
 
-3.  Se desplegará un cuadro de diálogo donde nos permite dos maneras diferentes de ingresar este tipo de información, desde una capa de Qgis (definiendo un mapeo de campos), o por medio de un formulario. Para este ejercicio se hará por medio de un formulario, seleccionar la opción y presionar el botón **siguiente** , al haberse realizado el paso 1 , ya se puede visualizar una fuente administrativa seleccionada por lo tanto se procede a dar clic en el botón **crear**
+En el botón ``Crear objetos de Levantamiento`` selecciona la opción **Crear Derecho**.
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos3.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos3.gif" class="align-center" width="800px" alt="Paso 3"/></a>
+<a class="" data-lightbox="Paso 2: Crear Derecho" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos3.gif" title="Paso 2: Crear Derecho" data-title="Paso 2: Crear Derecho"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos3.gif" class="align-center" width="800px" alt="Paso 2: Crear Derecho"/></a>
 
-4. El objetivo es que el formulario quede diligenciado tal cual como lo muestra la siguiente imagen, para ello se puede basar en la imagen inicial de esta seccion y finalmente dar clic en el botón **Aceptar**
+### Paso 3: Selección método de creación del Derecho
 
-<a class="" data-lightbox="Paso 4" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos4.png" title="Paso4" data-title="Paso 4"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos4.png" class="align-center" width="800px" alt="Paso 4"/></a>
+Se desplegará un cuadro de diálogo con dos opciones para crear predios: *Ingresando datos manualmente en un formulario* o *Desde otra capa de QGIS*. Para este caso, selecciona la primera opción y presiona el botón ``Siguiente``. En la ventana que se despliega, verifica que la fuente administrativa se encuentre seleccionada y posteriormente das clic en `Crear`. 
+
+<a class="" data-lightbox="Paso 3: Selección método de creación del Derecho" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos4.gif" title="Paso 3: Selección método de creación del Derecho" data-title="Paso 3: Selección método de creación del Derecho"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos4.gif" class="align-center" width="800px" alt="Paso 3: Selección método de creación del Derecho"/></a>
+
+### Paso 4: Diligenciamiento de formulario Derecho
+
+Esta acción despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [imagen](#rrr) anterior.
+
+<a class="" data-lightbox="Paso 4: Diligenciamiento de formulario Derecho" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" title="Paso 4: Diligenciamiento de formulario Derecho" data-title="Paso 4: Diligenciamiento de formulario Derecho"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" class="align-center" width="800px" alt="Paso 4: Diligenciamiento de formulario Derecho"/></a>
