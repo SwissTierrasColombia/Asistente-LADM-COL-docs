@@ -10,7 +10,7 @@ El conjunto de reglas disponibles incluye:
 + [Reglas para Polígonos.](#reglas-para-poligonos)
 + [Reglas de Consistencia Lógica.](#reglas-de-consistencia-logica)
 
-<a class="" data-lightbox="Conjunto de reglas disponibles" href="_static/reglas_de_calidad/rules_list.png" title="Conjunto de reglas disponibles" data-title="Conjunto de reglas disponibles"><img src="_static/reglas_de_calidad/rules_list.png" class="align-center" width="600px" alt="Conjunto de reglas disponibles"/></a>
+<a class="" data-lightbox="Conjunto de reglas disponibles" href="_static/reglas_de_calidad/rules_list.PNG" title="Conjunto de reglas disponibles" data-title="Conjunto de reglas disponibles"><img src="_static/reglas_de_calidad/rules_list.PNG" class="align-center" width="600px" alt="Conjunto de reglas disponibles"/></a>
 
 Las reglas de calidad se pueden ejecutar sin haber cargado capas en el mapa o habiendo cargado previamente las capas a validar (como se mostró en la sección [Cargar Capas](cargar_capas.html)). Asimismo, las reglas de calidad se pueden ejecutar una a una, por grupos, o seleccionándolas todas al tiempo. Para este último caso se da clic en el botón “Seleccionar Todas” y luego se da clic en el botón “Aceptar”.
 
