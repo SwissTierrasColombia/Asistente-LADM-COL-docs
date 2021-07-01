@@ -498,19 +498,19 @@ Reaparecerá un cuadro de diálogo, en donde debes dar clic al botón `Crear`. E
 
 ## Interesados
 
-Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado puede ser natural o jurídico, inclusive puede ser un grupo de interesados, en esta sección se describirá como se debe registrar cada uno de los interesados y agrupaciones de interesados.
+Un predio siempre está asociado al menos a una persona (natural o jurídica), la cual es denominada como **Interesado** o **Agrupación de interesados** a lo largo de este tutorial. En esta sección se describe el procedimiento para registrar cada uno de los interesados y agrupaciones de interesados asociados a uno o más predios, de manera que se sugiere tener en cuenta los siguientes datos de referencia:
 
 ### Tabla Interesados
 
-| Descripción          | Interesado 1      | Interesado 2     | Interesado 3     |
-| -------------------- | :---------------: | :--------------: | :--------------: |
-| **Nombre**           | Carlos            | Camila           | Inversiones C    |
-| **Apellidos**        | Casas             | Cardenas         |                  |
-| **Tipo documento**   | Cédula Ciudadanía | Secuencial       | NIT              |
-| **Número documento** | 1032463643        | 1042477540       | 882734323-1      |
-| **Tipo**             | Natural           | Natural          | Jurídica         |
+| Descripción          |   Interesado 1    | Interesado 2 | Interesado 3  |
+| -------------------- | :---------------: | :----------: | :-----------: |
+| **Nombre**           |      Carlos       |    Camila    | Inversiones C |
+| **Apellidos**        |       Casas       |   Cárdenas   |               |
+| **Tipo documento**   | Cédula Ciudadanía |  Secuencial  |      NIT      |
+| **Número documento** |    1032463643     |  1042477540  |  882734323-1  |
+| **Tipo**             |      Natural      |   Natural    |   Jurídica    |
 
-### Tabla Agrupacion de interesados
+### Tabla Agrupación de interesados
 
 | Campo             | Valor          |
 | :---------------: | :------------: |
@@ -522,19 +522,19 @@ Un predio siempre tiene asociado a una persona, a la cual llamaremos interesado 
 
 ### Paso 1: Crear interesado
 
-En el botón ``Crear objetos de Levantamiento`` selecciona la opción Crear Interesado.
+En el botón ``Crear objetos de Levantamiento`` selecciona la opción **Crear Interesado**.
 
 <a class="" data-lightbox="Paso 1: Crear interesado" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados2.gif" title="Paso 1: Crear interesado" data-title="Paso 1: Crear interesado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados2.gif" class="align-center" width="800px" alt="Paso 1: Crear interesado"/></a>
 
-### Paso 2: Seleccion del método de creación del interesado
+### Paso 2: Selección del método de creación del interesado
 
-Se desplegará un cuadro de diálogo con dos opciones para crear interesados: *Ingresando datos manualmente en un formulario* o *desde una capa de Qgis (definiendo un mapeo de campos)*. Para este caso, selecciona la primera opción y presiona el botón `Crear`.
+Se desplegará un cuadro de diálogo con dos opciones para crear interesados: *Ingresando datos manualmente en un formulario* o *Desde una capa de QGIS (definiendo un mapeo de campos)*. Para este caso, selecciona la primera opción y presiona el botón `Crear`.
 
 <a class="" data-lightbox="Paso 2: Seleccion del método de creación del interesado" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados3.gif" title="Paso 2: Seleccion del método de creación del interesado" data-title="Paso 2: Seleccion del método de creación del interesado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados3.gif" class="align-center" width="800px" alt="Paso 2: Seleccion del método de creación del interesado"/></a>
 
 ### Paso 3: Diligenciamiento de formulario interesados
 
-Se desplegará un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla interesados](#tabla-interesados) que se encuentra al inicio de esta sección.
+Se desplegará un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla de interesados](#tabla-interesados) que se encuentra al inicio de esta sección.
 
 <a class="" data-lightbox="Paso 3: Diligenciamiento de formulario interesados" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados4.gif" title="Paso 3: Diligenciamiento de formulario interesados" data-title="Paso 3: Diligenciamiento de formulario interesados"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados4.gif" class="align-center" width="800px" alt="Paso 3: Diligenciamiento de formulario interesados"/></a>
 
@@ -542,24 +542,25 @@ Se desplegará un formulario que debe ser diligenciado con la información corre
 
 <div class="warning">
 <p class="admonition-title">ADVERTENCIA</p>
-<p>Antes de iniciar con este proceso, debe haberse creado todos los interesados presentes en la <a class="reference external" href="#tabla-interesados">tabla de Interesados</a>.</p>
+<p>Antes de iniciar con este proceso, deben haberse creado todos los interesados presentes en la <a class="reference external" href="#tabla-interesados">tabla de interesados</a>.</p>
 </div>
 
-### Paso 1: Crear Agrupación de interesados
 
-En el botón ``Crear objetos de Levantamiento`` selecciona la opción Crear Agrupación de Interesados.
+### Paso 1: Crear Agrupación de Interesados
+
+En el botón ``Crear objetos de Levantamiento`` selecciona la opción **Crear Agrupación de Interesados**.
 
 <a class="" data-lightbox="Paso 1: Crear Agrupación de interesados" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados6.gif" title="Paso 1: Crear Agrupación de interesados" data-title="Paso 1: Crear Agrupación de interesados"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados6.gif" class="align-center" width="800px" alt="Paso 1: Crear Agrupación de interesados"/></a>
 
 ### Paso 2: Diligenciamiento de formulario Agrupación de interesados
 
-Se desplegará un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla agrupación interesados](#tabla-agrupacion-de-interesados) que se encuentra al inicio de esta sección.Deberás añadir el nombre y el tipo de agrupación, seleccionando los 3 interesados creados y por medio del botón ![Trasladar a la derecha](../_static/tutorial/captura_y_estructura_de_datos/ICOtrasladarderecha.png). los añades como a la agrupación.
+Se desplegará un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla agrupación de interesados](#tabla-agrupacion-de-interesados) que se encuentra al inicio de esta sección. Debes especificar el nombre y el tipo de agrupación, seleccionando los tres (3) interesados creados y por medio del botón ![Trasladar a la derecha](../_static/tutorial/captura_y_estructura_de_datos/ICOtrasladarderecha.png) para que sean registrados en la agrupación.
 
 <a class="" data-lightbox="Paso 2: Diligenciamiento de formulario Agrupación de interesados" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados7.gif" title="Paso 2: Diligenciamiento de formulario Agrupación de interesados" data-title="Paso 2: Diligenciamiento de formulario Agrupación de interesados"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados7.gif" class="align-center" width="800px" alt="Paso 2: Diligenciamiento de formulario Agrupación de interesados"/></a>
 
 ### Paso 3: Asignación de porcentajes
 
-Por ultimo, debes asignar los porcentajes de derecho sobre el predio, teniendo en cuenta la [tabla agrupación interesados](#tabla-agrupacion-de-interesados), seguido debes dar clic en el botón `Aceptar`.
+Por último, debes asignar los porcentajes de derecho sobre el predio, teniendo en cuenta la [tabla agrupación de interesados](#tabla-agrupacion-de-interesados), seguido debes dar clic en el botón `Aceptar`.
 
 <a class="" data-lightbox="Paso 3: Asignación de porcentajes" href="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados8.gif" title="Paso 3: Asignación de porcentajes" data-title="Paso 3: Asignación de porcentajes"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap7interesados8.gif" class="align-center" width="800px" alt="Paso 3: Asignación de porcentajes"/></a>
 
