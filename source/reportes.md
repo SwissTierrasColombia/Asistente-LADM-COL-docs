@@ -1,6 +1,6 @@
 # Reportes
 
-El Asistente LADM-COL permite generar reportes de forma masiva y de forma automatizada a partir de los datos que fueron recolectados del levantamiento catastral, para tener acceso a esta funcionalidad deberá haber seleccionado el rol de usuario y luego ir al menú LADM-COL y seleccionar la opción reportes, para la cual se desplegarán dos opciones de reportes:
+El Asistente LADM-COL permite generar reportes de forma masiva y de forma automatizada a partir de los datos que fueron recolectados del levantamiento catastral. Para tener acceso a esta funcionalidad debes ir al menú LADM-COL y seleccionar la opción reportes, para la cual se desplegarán dos opciones de reportes:
 
 + [Anexo 17](#anexo-17): Es un reporte basado en la información y esquema del anexo #17 del documento “Conceptualización y especificaciones para la operación del Catastro Multipropósito” generado por el Instituto Geográfico Agustín Codazzi, IGAC.
 + [Plano ANT](#plano-ant): Plano definido por la Agencia Nacional de Tierras, ANT que se utiliza para mostrar la información producto de la definición de cabida y linderos de los predios objeto del levantamiento catastral.
@@ -43,15 +43,15 @@ Para generar el informe del plano ANT, sigue estos pasos:
 
 3. Descargar dependencias (automático). Este paso se realiza una sola vez, puede tardar algunos minutos y necesita una conexión a internet activa.
 
-4. Se desplega una ventana de dialogo y se debe diligenciar los campos solicitados y luego dar clic en el botón Generarar.
+4. Se despliega una ventana de dialogo en la cual se deben diligenciar los campos solicitados y luego dar clic en el botón Generar.
 
-   - **Zona**: Permite seleccionar la zona donde estan ubicados los datos. De acuerdo el apartado 7.3 de la resolución 388 de 2020 del IGAC, el área para predios en el suelo urbano se expresa en metros cuadrados (m<sup>2</sup> ) con aproximación al decímetro cuadrado, en el suelo rural se expresa en hectáreas (ha) y fracción en metros cuadrados (m<sup>2</sup>) sin aproximación.
+   - **Zona**: Permite seleccionar la zona donde estan ubicados los datos. De acuerdo el apartado 7.3 de la resolución 388 de 2020 del IGAC, el área para predios en el suelo urbano se expresa en metros cuadrados (m<sup>2</sup>) con aproximación al decímetro cuadrado, en el suelo rural se expresa en hectáreas (ha) y fracción en metros cuadrados (m<sup>2</sup>) sin aproximación.
 
-   - **Elaboró**: Permite diligenciar el nombre completo y su matrícula profesional de la persona que elaboró el reporte.
+   - **Elaboró**: Permite diligenciar el nombre completo y matrícula profesional de la persona que elaboró el reporte.
 
-   - **Revisó**: Permite diligenciar el nombre completo y su matrícula profesional de la persona que revisó el reporte.
+   - **Revisó**: Permite diligenciar el nombre completo y matrícula profesional de la persona que revisó el reporte.
 
-   - **Mapa base**: Permite seleccionar un mapa WMS, el cual será utilizado como mapa base en el mapa de localización general presentado en el reporte.
+   - **Mapa base**: Permite seleccionar un mapa WMS, el cual servirá como mapa base en la localización general del reporte.
 
    - **Observaciones**: Permite registrar una observación acerca del reporte generado.
 
