@@ -2,14 +2,14 @@
 
 La captura en campo es un proceso que permite realizar el levantamiento predial en terreno de una zona de interés por parte del Operador y entregada al Gestor. Se desarrolla en varias actividades entre las que se tienen:
 
-1. Alistamiento de insumos (ver [Gestión de insumos](st-docs/user-manual-doc/9-rol-operador.html#gestion-de-insumos))
+1. Alistamiento de insumos (ver <a href="https://swisstierrascolombia.github.io/st-docs/user-manual-doc/9-rol-operador.html#gestion-de-insumos" target="_blank">Gestión de insumos</a>)
 2. ETL de submodelo de insumos a Modelo de captura en campo
-3. Asignación de zonas de trabajo y predios por parte del Coordinador General
-4. Asignación de zonas de trabajo y predios por parte del Coordinador de Campo
-5. Levantamiento en campo por parte de los reconocedores
-6. Sincronización de datos de campo por parte del Coordinador de Campo
-7. Sincronización de datos de campo por parte del Coordinador General
-8. ETL de Modelo de captura en campo a Modelo de aplicación Lev.Catastral 
+3. [Asignación de zonas de trabajo y predios por parte del Coordinador General](#asignar-predios)
+4. [Asignación de zonas de trabajo y predios por parte del Coordinador de Campo](#coordinador-de-campo)
+5. [Levantamiento en campo por parte de los reconocedores](#recoleccion-datos-en-campo)
+6.  [Sincronización de datos de campo por parte del Coordinador de Campo](#sincronizar-datos-de-campo)
+7.  [Sincronización de datos de campo por parte del Coordinador General](#id2)
+8.  ETL de Modelo de captura en campo a Modelo de aplicación Lev.Catastral 
 
 El Asistente LADM-COL apoya en la realización de estas actividades y con la ayuda de algunas imágenes gif se orienta como llevarlas a cabo a partir de las funcionalidades asignadas a cada perfil.
 
@@ -83,7 +83,7 @@ El reconocedor con su dispositivo móvil puede agregara uno o varios proyectos *
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>El reconocedor antes de ir a campo debe instalar y configurar en su dispositivo la última versión de <i>QField</i> para poder cargar y vizualizar correctamente los proyectos entregados por el coordinador de campo. (ver manual de <a href="https://swisstierrascolombia.github.io/QField-LADM-COL-docs/">QField para campo</a>)</p>
+<p>El reconocedor antes de ir a campo debe instalar y configurar en su dispositivo la última versión de <i>QField</i> para poder cargar y vizualizar correctamente los proyectos entregados por el coordinador de campo. (ver manual de <a href="https://swisstierrascolombia.github.io/QField-LADM-COL-docs/" target="_blank">QField para campo</a>)</p>
 </div>
 
 
