@@ -11,7 +11,7 @@ La primera parte de tutorial corresponde a la descarga e importación de datos e
 
 ### Paso 1: Conexión a la base de datos 
 
-Para empezar, se debe definir la conexión a la base de datos. Para realizar este proceso, dirígete al panel "**Navegador**" ubicado a la izquierda de la interfaz de QGIS, en el árbol que se despliega ubica la sección **Geopackage**, haz clic derecho sobre esta sección y selecciona la opción de **Conexión nueva**. Una vez se despliega el panel de navegación, deberás ubicar la base de datos **taller_asistente.gpkg** (disponible en los datos del tutorial) y dar clic en el botón **Abrir** para configurar la conexión a la base de datos.
+Para empezar, se debe definir la conexión a la base de datos. Para realizar este proceso, dirígete al panel "**Navegador**" ubicado a la izquierda de la interfaz de QGIS, en el árbol que se despliega ubica la sección **GeoPackage**, haz clic derecho sobre esta sección y selecciona la opción de **Conexión nueva**. Una vez se despliega el panel de navegación, deberás ubicar la base de datos **taller_asistente.gpkg** (disponible en los datos del tutorial) y dar clic en el botón **Abrir** para configurar la conexión a la base de datos.
 
 <div class="note">
 <p class="admonition-title">IMPORTANTE</p>
@@ -158,7 +158,7 @@ Al realizar el paso 2 se desplegará un cuadro de diálogo donde se deberá sele
 
 #### Paso 4: Mapeo de campos punto levantamiento  
 
-Se desplegará un cuadro de diálogo para el mapeo de campos de la información. Se recomienda tener en cuenta el [paso 4](#paso-4-dialogo-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar los valores de la siguiente manera:
+Se recomienda tener en cuenta el [paso 5](#paso-5-definicion-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar los valores de la siguiente manera:
 
 | Atributo                 | Expresión                                                    |
 | ------------------------ | ------------------------------------------------------------ |
@@ -211,7 +211,7 @@ Al realizar el paso 2 se desplegará un cuadro de diálogo donde se deberá sele
 
 #### Paso 5: Mapeo de campos punto control  
 
-Se desplegará un cuadro de diálogo para el mapeo de campos de la información. Se recomienda tener en cuenta el [paso 4](#paso-4-dialogo-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debes asignar las siguientes expresiones:
+Se recomienda tener en cuenta el [paso 5](#paso-5-definicion-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar los valores de la siguiente manera:
 
 | Atributo               | Expresión                                                    |
 | ---------------------- | ------------------------------------------------------------ |
@@ -251,7 +251,7 @@ En la barra de herramientas del Asistente LADM-COL, presiona el botón ``Crear o
 
 #### Paso 3: Mapeo de campos lindero 
 
-Se desplegará un cuadro de diálogo para el mapeo de campos de la información. Se recomienda tener en cuenta los pasos desarrollados en el [paso 4](#paso-4-dialogo-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar la siguiente expresión:
+Se recomienda tener en cuenta el [paso 5](#paso-5-definicion-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar los valores de la siguiente manera:
 
 | Atributo                 | Expresión                                                    |
 | ------------------------ | ------------------------------------------------------------ |
@@ -319,19 +319,18 @@ Dirigete al botón `Crear objetos de Levantamiento` (ubicado en la barra de herr
 Se desplegará una ventana en la cual se te consulta *¿Cómo te gustaría crear terrenos?*, allí cuentas con dos opciones: *Seleccionando linderos existentes* ó *Desde otra capa de QGIS (definiendo un mapeo de campos)*.
 
 En este caso, se procede a elegir la opción **Seleccionando linderos existentes** y luego das clic en el botón **Siguiente**. En el cuadro de diálogo que se despliega, encuentras tres opciones que corresponden con: 
-<ol>
-  <li><b>1.</b> Seleccionar lindero(s) en el mapa.</li>
-  <li><b>2.</b> Seleccionar lindero(s) con base en una expresión.</li>
-  <li><b>3.</b> Seleccionar todos los linderos.</p></li>
-</ol>
 
-Posteriormente, das clic en la opción *"Seleccionar todos los linderos"* y luego en el botón `Finalizar`.
+1. Seleccionar lindero(s) en el mapa.
+2. Seleccionar lindero(s) con base en una expresión.
+3. Seleccionar todos los linderos.
+
+Posteriormente, das clic en el boton `Seleccionar todos los linderos` y luego en el botón `Finalizar`.
 
 <a class="" data-lightbox="Paso 2: Selección de linderos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales2.gif" title="Paso 2: Selección de linderos" data-title="Paso 2: Selección de linderos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales2.gif" class="align-center" width="800px" alt="Paso 2: Selección de linderos"/></a>
 
-#### Paso 3: Cálculo área del terreno
+#### Paso 3: Cálculo del área del terreno
 
-Una vez que los terrenos han sido creados, es necesario calcular o en su defecto actualizar el área del terreno. Para ello, debes dar clic en el botón `Abrir tabla de atributos` ubicado en la parte superior de la barra de tareas. Posteriormente, elijes en el menú desplegable del lado izquierdo el atributo **Área de terreno [m2]** y das clic en el botón *Generar expresión* ![Botón generar expresion](../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png), de esta forma se despliega la ventana de *"Diálogo de expresiones"*, en la cual debes emplear la función *\$area*. Luego, basta con dar clic en el botón `Aceptar`. 
+Una vez que los terrenos han sido creados, es necesario calcular o en su defecto actualizar el área del terreno. Para ello, debes dar clic en el botón `Abrir tabla de atributos` ubicado en la barra de herramientas. Posteriormente, elijes en el menú desplegable del lado izquierdo el atributo **Área de terreno [m2]** y das clic en el botón *Generar expresión* ![Botón generar expresion](../_static/tutorial/captura_y_estructura_de_datos/ICOdialogodeexpressiones.png), de esta forma se despliega la ventana de *"Diálogo de expresiones"*, en la cual debes emplear la función *area($geometry)*. Luego, basta con dar clic en el botón `Aceptar`. 
 
 Finalmente, al cerrar la ventana emergente debes dar clic en el botón **Actualizar todo**, de inmediato podrás ver que en la columna **Área de terreno** se asignaron los valores de área correspondientes. Para guardar dichos cambios presiona el botón *Guardar edición* ![Botón guardar edición](../_static/tutorial/captura_y_estructura_de_datos/ICOguardarcambios.png), luego, puedes cerrar la ventana.
 
@@ -341,13 +340,13 @@ Finalmente, al cerrar la ventana emergente debes dar clic en el botón **Actuali
 
 #### Paso 1: Creación de la relación
 
-El diligenciamiento de esta relación se realiza con la herramienta ``Llenar más CCL y menos`` ubicada en la barra de herramientas. Al hacer clic en este botón, emergerá un cuadro de diálogo preguntandóte si deseas ejecutar esta acción para todos los terrenos identificados en la base de datos. En este caso, se procede a dar clic en el botón ``Sí``.
+El diligenciamiento de esta relación se realiza con la herramienta ``Llenar más CCL y menos`` ubicada en la barra de herramientas. Al hacer clic en este botón, emergerá un cuadro de diálogo en el que se te pregunta si deseas ejecutar esta acción para todos los terrenos identificados en la base de datos. En este caso, se procede a dar clic en el botón ``Sí``.
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" class="align-center" width="800px" alt="Paso 1"/></a>
 
 #### Paso 2: Verificación de la relación
 
-Para verificar el estado de las relaciones creadas previamente, basta con abrir la tabla de atributos de la tabla **Col_masccl**, y en la columna *col_mas* corroborar si los campos están diligenciados correctamente. 
+Para verificar el estado de las relaciones creadas previamente, basta con abrir la tabla de atributos de la tabla **col_masccl**, y en la columna *ccl_mas* corroborar si los campos están diligenciados correctamente. 
 
 <a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" class="align-center" width="800px" alt="Resultado"/></a>
 
@@ -355,11 +354,11 @@ Para verificar el estado de las relaciones creadas previamente, basta con abrir 
 
 #### Paso 1: Cargar insumo construcción
 
-En primera medida, debes cargar a tu espacio de trabajo la capa **topo_construcciones**, para esto, debes dirigirte al **Navegador**, seleccionar **geopackage -> taller_asistente.gpkg** y arrastrar la capa **topo_construcciones** a la interfaz, para que esta seá cargada. 
+En primera medida, debes cargar a tu espacio de trabajo la capa **topo_construcciones**, para esto, debes dirigirte al **Navegador**, seleccionar **GeoPackage -> taller_asistente.gpkg** y arrastrar la capa **topo_construcciones** al mapa, para que ésta sea cargada. 
 
 <a class="" data-lightbox="Paso 1: Cargar insumo construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11a.gif  " title="Paso 1: Cargar insumo construcción" data-title="Paso 1: Cargar insumo construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11a.gif" class="align-center" width="800px" alt="Paso 1: Cargar insumo construcción"/></a>
 
-#### Paso 2: Creación de construcción
+#### Paso 2: Creación de las construcciones
 
 Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) debes seleccionar la opción **Crear Construcción**. Esta acción abrirá una ventana en la cual se te consulta *¿Cómo te gustaría crear construcciones?*, para este caso selecciona la opcion *Desde otra capa de QGIS (definiendo un mapeo de campos)*.
 
@@ -369,27 +368,27 @@ En este caso, harás uso de la información registrada en la capa **topo_constru
 
 #### Paso 3: Mapeo de campos
 
-De inmediato, se desplegará la ventana de mapeo de campos, en la cual debes realizar las modificaciones correspondientes hasta obtener un muestreo de campos como el de la siguiente imagen:
+De inmediato, se desplegará la ventana de mapeo de campos, en la cual debes realizar las modificaciones correspondientes hasta obtener un mapeo de campos como el de la siguiente imagen:
 
 <a class="" data-lightbox="Paso 3: Mapeo de campos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" title="Paso 3: Mapeo de campos" data-title="Paso 3: Mapeo de campos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales13.png" class="align-center" width="800px" alt="Paso 3: Mapeo de campos"/></a> 
 
-Se recomienda tener en cuenta los pasos desarrollados en el [paso 4](#paso-4-mapeo-de-campos-punto-lindero) de la sección de punto de lindero, considerando que:   
+Se recomienda tener en cuenta el [paso 5](#paso-5-definicion-del-mapeo-de-campos-para-punto-lindero) de la sección de punto de lindero. Para este caso, debemos asignar los valores de la siguiente manera:
 
-| Atributo                 | Expresión    |
-| ------------------------ | ------------ |
-| identificador            | $id          |
-| numero_pisos             | num_pisos    |
-| area_construccion        | $area        |
+| Atributo                 | Expresión              |
+| ------------------------ | ---------------------- |
+| identificador            | $id                    |
+| numero_pisos             | num_pisos              |
+| area_construccion        | area($geometry)        |
 
 <div class="warning">
 <p class="admonition-title">ADVERTENCIA</p>
 <p>Para el caso de <b>identificador</b>, se utiliza la expresión <i>$id</i> ya que los datos iniciales no cuentan con información para este campo.</p>
-<p>Para el caso de <b>area_construccion</b>, se utiliza la expresión <i>$area</i> ya que los datos iniciales no cuentan con información para este campo.</p>
+<p>Para el caso de <b>area_construccion</b>, se utiliza la expresión <i>area($geometry)</i> ya que los datos iniciales no cuentan con información para este campo.</p>
 </div>
 
-Después de completar dichas modificaciones, puedes emplear la acción del botón ``Ejecutar``, y verificar el mensaje del proceso, luego, puedes **Cerrar** la ventana.
+Después de completar dichas modificaciones, haz clic en el botón ``Ejecutar``. Cuando el proceso termine, puedes verificar los mensajes de la pestaña Registro y posteriormente cerrar la ventana.
 
-### Unidades De Construcción
+### Unidades de Construcción
 
 #### Paso 1: Identificación de la construcción
 
@@ -397,9 +396,9 @@ Para iniciar con el proceso de crear las unidades de construcción se debe emple
 
 <a class="" data-lightbox="Paso 1: Identificación de la construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.gif" title="Paso 1: Identificación de la construcción" data-title="Paso 1: Identificación de la construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales15.gif" class="align-center" width="800px" alt="Paso 1: Identificación de la construcción"/></a>
 
-#### Paso 2: Creación de unidad de construcción
+#### Paso 2: Creación de unidades de construcción
 
-Después de tener los *t_id* se procede con el proceso de creación de las *Unidades de construcción*, para ello debes dirigirte a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial –> Crear Unidad De Construcción**
+Después de identificar el t_id de la Construcción, se procede a crear las Unidades de construcción. Para ello debes dirigirte a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial –> Crear Unidad De Construcción**
 
 De inmediato se desplegará un cuadro de diálogo, en el cual se te consulta como generar la unidad de construcción, puedes elegir entre cargar una capa vectorial o digitalizar el contenido. En este caso, se empleará la opción de digitalización, posteriormente das clic en el botón `Crear`.
 
@@ -415,33 +414,33 @@ Esta acción desplegará un formulario, el cual tiene casillas resaltadas, las c
 
 #### Paso 4: Resultado de la unidad de construcción
 
-Finalmente, al cerrar el cuadro de diálogo, podrás visualizar un sólido en 2.5D que representa la construcción:
+Finalmente, al cerrar el cuadro de diálogo, podrás visualizar un sólido en 2.5D que representa la unidad de construcción:
 
 <a class="" data-lightbox="Paso 4: Resultado de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 4: Resultado de la unidad de construcción" data-title="Paso 4: Resultado de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 4: Resultado de la unidad de construcción"/></a>
 
-### Servidumbre de paso
+### Servidumbre de transito
 
-#### Paso 1: Creación de servidumbre de paso
+#### Paso 1: Creación de Servidumbre de transito
 
-Para crear una *Servidumbre de paso*, debes dirigirte a la opción **Crear objetos de levantamiento –> Crear Servidumbre de Paso** en la barra de herramientas.
+Para crear una *Servidumbre de transito*, debes dirigirte a la opción **Crear objetos de levantamiento –> Crear Servidumbre de transito** en la barra de herramientas.
 
 De inmediato, se desplegará un cuadro de diálogo que habilitará tres (3) opciones: *Digitalizando el eje*, *Digitalizando polígono* y *Desde otra capa de QGIS*. Para este caso, selecciona la segunda opción, posteriormente das clic en el botón `Crear`.
 
-<a class="" data-lightbox="Paso 1: Creación de servidumbre de paso" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 1: Creación de servidumbre de paso" data-title="Paso 1: Creación de servidumbre de paso"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales23.gif" class="align-center" width="800px" alt="Paso 1: Creación de servidumbre de paso"/></a>
+<a class="" data-lightbox="Paso 1: Creación de Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 1: Creación de Servidumbre de transito" data-title="Paso 1: Creación de Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 1: Creación de Servidumbre de transito"/></a>
 
-#### Paso 2: Formulario de la servidumbre de paso
+#### Paso 2: Formulario de la Servidumbre de transito
 
-Al cerrar la ventana anterior, se habilitará la opción para digitalizar la *Servidumbre de paso* junto con la herramienta de *Autoensamblado*. Grafica el polígono de tu interés y da clic derecho al finalizar la digitalización.
+Al cerrar la ventana anterior, se habilitará la opción para digitalizar la *Servidumbre de transito* junto con la herramienta de *Autoensamblado*. Grafica el polígono de tu interés y da clic derecho al finalizar la digitalización.
 
-Una vez que termines la digitalización del polígono se desplegará un formulario, que tiene algunas casillas resaltadas, las cuales indican que deben diligenciarse de forma obligatoria.
+Una vez que termines la digitalización del polígono, se desplegará un formulario que tiene algunas casillas resaltadas, las cuales deben diligenciarse de forma obligatoria.
 
-<a class="" data-lightbox="Paso 2: Formulario de la servidumbre de paso" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 2: Formulario de la servidumbre de paso" data-title="Paso 2: Formulario de la servidumbre de paso"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales24.gif" class="align-center" width="800px" alt="Paso 2: Formulario de la servidumbre de paso"/></a>
+<a class="" data-lightbox="Paso 2: Formulario de la Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 2: Formulario de la Servidumbre de transito" data-title="Paso 2: Formulario de la Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" class="align-center" width="800px" alt="Paso 2: Formulario de la Servidumbre de transito"/></a>
 
-#### Paso 3: Resultado de la servidumbre de paso
+#### Paso 3: Resultado de la Servidumbre de transito
 
-Finalmente, al cerrar el cuadro de diálogo podrás visualizar un polígono que representa la servidumbre de paso.
+Finalmente, al cerrar el cuadro de diálogo podrás visualizar un polígono que representa la Servidumbre de transito.
 
-<a class="" data-lightbox="Paso 3: Resultado de la servidumbre de paso" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 3: Resultado de la servidumbre de paso" data-title="Paso 3: Resultado de la servidumbre de paso"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" class="align-center" width="800px" alt="Paso 3: Resultado de la servidumbre de paso"/></a>
+<a class="" data-lightbox="Paso 3: Resultado de la Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 3: Resultado de la Servidumbre de transito" data-title="Paso 3: Resultado de la Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 3: Resultado de la Servidumbre de transito"/></a>
 
 ## Unidad Básica Administrativa
 
