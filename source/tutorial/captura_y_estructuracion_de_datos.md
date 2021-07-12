@@ -310,7 +310,7 @@ Una vez que te ubiques sobre la capa **col_puntoccl**, debes dar clic en el bot�
 
 #### Paso 1: Creación de terreno
 
-Dirigete al botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) y selecciona la opción **Crear Terreno**:
+Dirígete al botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) y selecciona la opción **Crear Terreno**:
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="400px" alt="Paso 1"/></a>
 
@@ -324,7 +324,7 @@ En este caso, se procede a elegir la opción **Seleccionando linderos existentes
 2. Seleccionar lindero(s) con base en una expresión.
 3. Seleccionar todos los linderos.
 
-Posteriormente, das clic en el boton `Seleccionar todos los linderos` y luego en el botón `Finalizar`.
+Posteriormente, das clic en el botón `Seleccionar todos los linderos` y luego en el botón `Finalizar`.
 
 <a class="" data-lightbox="Paso 2: Selección de linderos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales2.gif" title="Paso 2: Selección de linderos" data-title="Paso 2: Selección de linderos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales2.gif" class="align-center" width="800px" alt="Paso 2: Selección de linderos"/></a>
 
@@ -360,7 +360,7 @@ En primera medida, debes cargar a tu espacio de trabajo la capa **topo_construcc
 
 #### Paso 2: Creación de las construcciones
 
-Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) debes seleccionar la opción **Crear Construcción**. Esta acción abrirá una ventana en la cual se te consulta *¿Cómo te gustaría crear construcciones?*, para este caso selecciona la opcion *Desde otra capa de QGIS (definiendo un mapeo de campos)*.
+Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) debes seleccionar la opción **Crear Construcción**. Esta acción abrirá una ventana en la cual se te consulta *¿Cómo te gustaría crear construcciones?*, para este caso selecciona la opción *Desde otra capa de QGIS (definiendo un mapeo de campos)*.
 
 En este caso, harás uso de la información registrada en la capa **topo_construcciones**. De manera que luego de definir la fuente mencionada, debes dar clic en el botón `Importar`.
 
@@ -386,7 +386,7 @@ Se recomienda tener en cuenta el [paso 5](#paso-5-definicion-del-mapeo-de-campos
 <p>Para el caso de <b>area_construccion</b>, se utiliza la expresión <i>area($geometry)</i> ya que los datos iniciales no cuentan con información para este campo.</p>
 </div>
 
-Después de completar dichas modificaciones, haz clic en el botón ``Ejecutar``. Cuando el proceso termine, puedes verificar los mensajes de la pestaña Registro y posteriormente cerrar la ventana.
+Después de completar dichas modificaciones, haz clic en el botón ``Ejecutar``. Cuando el proceso termine, puedes verificar los mensajes de la pestaña **Registro** y posteriormente cerrar la ventana.
 
 ### Unidades de Construcción
 
@@ -398,7 +398,7 @@ Para iniciar con el proceso de crear las unidades de construcción se debe emple
 
 #### Paso 2: Creación de unidades de construcción
 
-Después de identificar el t_id de la Construcción, se procede a crear las Unidades de construcción. Para ello debes dirigirte a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial –> Crear Unidad De Construcción**
+Después de identificar el *t_id* de la construcción, se procede a crear las unidades de construcción. Para ello debes dirigirte a **LADM-COL –> Captura Y Estructuración De Datos –> Levantamiento Catastral –> Unidad Espacial –> Crear Unidad De Construcción**
 
 De inmediato se desplegará un cuadro de diálogo, en el cual se te consulta como generar la unidad de construcción, puedes elegir entre cargar una capa vectorial o digitalizar el contenido. En este caso, se empleará la opción de digitalización, posteriormente das clic en el botón `Crear`.
 
@@ -418,29 +418,29 @@ Finalmente, al cerrar el cuadro de diálogo, podrás visualizar un sólido en 2.
 
 <a class="" data-lightbox="Paso 4: Resultado de la unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 4: Resultado de la unidad de construcción" data-title="Paso 4: Resultado de la unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 4: Resultado de la unidad de construcción"/></a>
 
-### Servidumbre de transito
+### Servidumbre de tránsito
 
-#### Paso 1: Creación de Servidumbre de transito
+#### Paso 1: Creación de Servidumbre de tránsito
 
-Para crear una *Servidumbre de transito*, debes dirigirte a la opción **Crear objetos de levantamiento –> Crear Servidumbre de transito** en la barra de herramientas.
+Para crear una *Servidumbre de tránsito*, debes dirigirte a la opción **Crear objetos de levantamiento –> Crear Servidumbre de tránsito** en la barra de herramientas.
 
 De inmediato, se desplegará un cuadro de diálogo que habilitará tres (3) opciones: *Digitalizando el eje*, *Digitalizando polígono* y *Desde otra capa de QGIS*. Para este caso, selecciona la segunda opción, posteriormente das clic en el botón `Crear`.
 
-<a class="" data-lightbox="Paso 1: Creación de Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 1: Creación de Servidumbre de transito" data-title="Paso 1: Creación de Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 1: Creación de Servidumbre de transito"/></a>
+<a class="" data-lightbox="Paso 1: Creación de Servidumbre de tránsito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales23.gif" title="Paso 1: Creación de Servidumbre de tránsito" data-title="Paso 1: Creación de Servidumbre de tránsito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales23.gif" class="align-center" width="800px" alt="Paso 1: Creación de Servidumbre de tránsito"/></a>
 
-#### Paso 2: Formulario de la Servidumbre de transito
+#### Paso 2: Formulario de la Servidumbre de tránsito
 
-Al cerrar la ventana anterior, se habilitará la opción para digitalizar la *Servidumbre de transito* junto con la herramienta de *Autoensamblado*. Grafica el polígono de tu interés y da clic derecho al finalizar la digitalización.
+Al cerrar la ventana anterior, se habilitará la opción para digitalizar la *Servidumbre de tránsito* junto con la herramienta de *Autoensamblado*. Grafica el polígono de tu interés y da clic derecho al finalizar la digitalización.
 
 Una vez que termines la digitalización del polígono, se desplegará un formulario que tiene algunas casillas resaltadas, las cuales deben diligenciarse de forma obligatoria.
 
-<a class="" data-lightbox="Paso 2: Formulario de la Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" title="Paso 2: Formulario de la Servidumbre de transito" data-title="Paso 2: Formulario de la Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales18.gif" class="align-center" width="800px" alt="Paso 2: Formulario de la Servidumbre de transito"/></a>
+<a class="" data-lightbox="Paso 2: Formulario de la Servidumbre de tránsito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales24.gif" title="Paso 2: Formulario de la Servidumbre de tránsito" data-title="Paso 2: Formulario de la Servidumbre de tránsito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales24.gif" class="align-center" width="800px" alt="Paso 2: Formulario de la Servidumbre de tránsito"/></a>
 
-#### Paso 3: Resultado de la Servidumbre de transito
+#### Paso 3: Resultado de la Servidumbre de tránsito
 
-Finalmente, al cerrar el cuadro de diálogo podrás visualizar un polígono que representa la Servidumbre de transito.
+Finalmente, al cerrar el cuadro de diálogo podrás visualizar un polígono que representa la Servidumbre de tránsito.
 
-<a class="" data-lightbox="Paso 3: Resultado de la Servidumbre de transito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" title="Paso 3: Resultado de la Servidumbre de transito" data-title="Paso 3: Resultado de la Servidumbre de transito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales22.png" class="align-center" width="800px" alt="Paso 3: Resultado de la Servidumbre de transito"/></a>
+<a class="" data-lightbox="Paso 3: Resultado de la Servidumbre de tránsito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" title="Paso 3: Resultado de la Servidumbre de tránsito" data-title="Paso 3: Resultado de la Servidumbre de tránsito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" class="align-center" width="800px" alt="Paso 3: Resultado de la Servidumbre de tránsito"/></a>
 
 ## Unidad Básica Administrativa
 
