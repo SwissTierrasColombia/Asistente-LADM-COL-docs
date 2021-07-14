@@ -312,7 +312,7 @@ Una vez que te ubiques sobre la capa **col_puntoccl**, debes dar clic en el bot�
 
 Dirígete al botón `Crear objetos de Levantamiento` (ubicado en la barra de herramientas) y selecciona la opción **Crear Terreno**:
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="400px" alt="Paso 1"/></a>
+<a class="" data-lightbox="Paso 1: Creación de terreno" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" title="Paso 1: Creación de terreno" data-title="Paso 1: Creación de terreno"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales1.png" class="align-center" width="400px" alt="Paso 1: Creación de terreno"/></a>
 
 #### Paso 2: Selección de linderos
 
@@ -334,7 +334,7 @@ Una vez que los terrenos han sido creados, es necesario calcular o en su defecto
 
 Finalmente, al cerrar la ventana emergente debes dar clic en el botón **Actualizar todo**, de inmediato podrás ver que en la columna **Área de terreno** se asignaron los valores de área correspondientes. Para guardar dichos cambios presiona el botón *Guardar edición* ![Botón guardar edición](../_static/tutorial/captura_y_estructura_de_datos/ICOguardarcambios.png), luego, puedes cerrar la ventana.
 
-<a class="" data-lightbox="Paso 3: Cálculo área del terreno" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" title="Paso 3: Cálculo área del terreno" data-title="Paso 3: Cálculo área del terreno"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" class="align-center" width="800px" alt="Paso 3: Cálculo área del terreno"/></a>
+<a class="" data-lightbox="Paso 3: Cálculo del área del terreno" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" title="Paso 3: Cálculo del área del terreno" data-title="Paso 3: Cálculo del área del terreno"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" class="align-center" width="800px" alt="Paso 3: Cálculo del área del terreno"/></a>
  
 ### Relación entre Linderos y Terrenos
 
@@ -342,13 +342,13 @@ Finalmente, al cerrar la ventana emergente debes dar clic en el botón **Actuali
 
 El diligenciamiento de esta relación se realiza con la herramienta ``Llenar más CCL y menos`` ubicada en la barra de herramientas. Al hacer clic en este botón, emergerá un cuadro de diálogo en el que se te pregunta si deseas ejecutar esta acción para todos los terrenos identificados en la base de datos. En este caso, se procede a dar clic en el botón ``Sí``.
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" class="align-center" width="800px" alt="Paso 1"/></a>
+<a class="" data-lightbox="Paso 1: Creación de la relación" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" title="Paso 1: Creación de la relación" data-title="Paso 1: Creación de la relación"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales8.gif" class="align-center" width="800px" alt="Paso 1: Creación de la relación"/></a>
 
 #### Paso 2: Verificación de la relación
 
 Para verificar el estado de las relaciones creadas previamente, basta con abrir la tabla de atributos de la tabla **col_masccl**, y en la columna *ccl_mas* corroborar si los campos están diligenciados correctamente. 
 
-<a class="" data-lightbox="Resultado" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" class="align-center" width="800px" alt="Resultado"/></a>
+<a class="" data-lightbox="Resultado de la relación entre linderos y terrenos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" title="Resultado de la relaci[on entre linderos y terrenos" data-title="Resultado de la relaci[on entre linderos y terrenos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" class="align-center" width="800px" alt="Resultado de la relaci[on entre linderos y terrenos"/></a>
 
 ### Construcciones
 
@@ -364,7 +364,7 @@ Al desplegar el menú del botón `Crear objetos de Levantamiento` (ubicado en la
 
 En este caso, harás uso de la información registrada en la capa **topo_construcciones**. De manera que luego de definir la fuente mencionada, debes dar clic en el botón `Importar`.
 
-<a class="" data-lightbox="Paso 2: Creación de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif  " title="Paso 2: Creación de construcción" data-title="Paso 2: Creación de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif" class="align-center" width="800px" alt="Paso 2: Creación de construcción"/></a>
+<a class="" data-lightbox="Paso 2: Creación de las construcciones" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif  " title="Paso 2: Creación de las construcciones" data-title="Paso 2: Creación de las construcciones"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales11b.gif" class="align-center" width="800px" alt="Paso 2: Creación de las construcciones"/></a>
 
 #### Paso 3: Mapeo de campos
 
@@ -402,11 +402,11 @@ Después de identificar el *t_id* de la construcción, se procede a crear las un
 
 De inmediato se desplegará un cuadro de diálogo, en el cual se te consulta como generar la unidad de construcción, puedes elegir entre cargar una capa vectorial o digitalizar el contenido. En este caso, se empleará la opción de digitalización, posteriormente das clic en el botón `Crear`.
 
-<a class="" data-lightbox="Paso 2: Creación de unidad de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 2: Creación de unidad de construcción" data-title="Paso 2: Creación de unidad de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 2: Creación de unidad de construcción"/></a>
+<a class="" data-lightbox="Paso 2: Creación de unidades de construcción" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" title="Paso 2: Creación de unidades de construcción" data-title="Paso 2: Creación de unidades de construcción"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales17.gif" class="align-center" width="800px" alt="Paso 2: Creación de unidades de construcción"/></a>
 
 #### Paso 3: Formulario de la unidad de construcción
 
-Al cerrarse la ventana se activará la herramienta de *Autoensamblado*, la cual ayudará con el proceso de digitalización, apoyándose de los *Puntos levantamiento* para definir la unidad de construcción. Digitaliza el polígono correspondiente, tan pronto termines, debes dar clic derecho para finalizar este proceso.
+Al cerrarse la ventana se activará la herramienta de *Autoensamblado*, la cual ayudará con el proceso de digitalización, apoyándose de los *Puntos levantamiento* para definir la unidad de construcción. Digitaliza el polígono correspondiente. Tan pronto termines, debes dar clic derecho para finalizar este proceso.
 
 Esta acción desplegará un formulario, el cual tiene casillas resaltadas, las cuales indican que es obligatorio diligenciar dichos campos. En la sección **lc_construccion** diligencia el **t_id** de la construcción consultada previamente.
 
