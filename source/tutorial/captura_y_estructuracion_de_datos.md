@@ -335,7 +335,7 @@ Una vez que los terrenos han sido creados, es necesario calcular o en su defecto
 Finalmente, al cerrar la ventana emergente debes dar clic en el botón **Actualizar todo**, de inmediato podrás ver que en la columna **Área de terreno** se asignaron los valores de área correspondientes. Para guardar dichos cambios presiona el botón *Guardar edición* ![Botón guardar edición](../_static/tutorial/captura_y_estructura_de_datos/ICOguardarcambios.png), luego, puedes cerrar la ventana.
 
 <a class="" data-lightbox="Paso 3: Cálculo del área del terreno" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" title="Paso 3: Cálculo del área del terreno" data-title="Paso 3: Cálculo del área del terreno"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales3.gif" class="align-center" width="800px" alt="Paso 3: Cálculo del área del terreno"/></a>
- 
+
 ### Relación entre Linderos y Terrenos
 
 #### Paso 1: Creación de la relación
@@ -348,7 +348,7 @@ El diligenciamiento de esta relación se realiza con la herramienta ``Llenar má
 
 Para verificar el estado de las relaciones creadas previamente, basta con abrir la tabla de atributos de la tabla **col_masccl**, y en la columna *ccl_mas* corroborar si los campos están diligenciados correctamente. 
 
-<a class="" data-lightbox="Resultado de la relación entre linderos y terrenos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" title="Resultado de la relaci[on entre linderos y terrenos" data-title="Resultado de la relaci[on entre linderos y terrenos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" class="align-center" width="800px" alt="Resultado de la relaci[on entre linderos y terrenos"/></a>
+<a class="" data-lightbox="Resultado de la relación entre linderos y terrenos" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" title="Resultado de la relación entre linderos y terrenos" data-title="Resultado de la relación entre linderos y terrenos"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales10.gif" class="align-center" width="800px" alt="Resultado de la relación entre linderos y terrenos"/></a>
 
 ### Construcciones
 
