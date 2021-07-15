@@ -12,7 +12,11 @@ en "Herramientas LADM-COL" o como en el siguiente gif:
 
 ## Construir linderos
 
+<a class="" data-lightbox="Construir linderos" href="../_static/barra_de_herramientas/build_boudaries.gif" title="Construir linderos" data-title="Construir linderos"><img src="../_static/barra_de_herramientas/build_boudaries.gif" class="align-center" width="800px" alt="Construir linderos"/></a>
+
 ## Mover nodos
+
+<a class="" data-lightbox="Mover nodos" href="../_static/barra_de_herramientas/mover_nodos.gif" title="Mover nodos" data-title="Mover nodos"><img src="../_static/barra_de_herramientas/mover_nodos.gif" class="align-center" width="800px" alt="Mover nodos"/></a>
 
 ## Llenar PuntosCCL
 
