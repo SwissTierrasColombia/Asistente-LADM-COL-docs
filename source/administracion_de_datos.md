@@ -1,8 +1,11 @@
 # Administración de datos
 
-A través de este modulo los usuarios podrán importar y exportar los datos generados. Asi como crear la estructura inicial de trabajo conforme al modelo LADM-COL y sus modelos extendidos.
+A través de este modulo los usuarios podrán importar y exportar los datos generados. Así como crear la estructura inicial de trabajo conforme al modelo LADM-COL y sus modelos extendidos.
 
-
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>Cada vez que se gestionen datos que se manejan a traves de un modelo del estandar LADM-COL, se debe crear la estructura en una base de datos en PostgreSQL o en un archivo Geopackage  .</p>
+</div>
 
 ## Crear estructura LADM-COL
 
@@ -27,4 +30,3 @@ Esta funcionalidad permite realizar la importación de los datos en formato XTF 
 Esta funcionalidad permite realizar la exportación desde un esquema de base de datos conforme al LADM-COL a un archivo XTF.
 
 <img src="_static/administracion_de_datos/export_data_qgismodelbaker.gif" alt="Exportar datos a XTF" style="height:500px;width:800px" />
-
