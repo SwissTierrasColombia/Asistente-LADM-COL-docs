@@ -18,8 +18,10 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Asistente LADM-COL'
-copyright = '2017-hoy, SwissTierras Colombia'
-author = 'SwissTierras Colombia'
+# We overwrite the copyright note using a custom CSS,
+# since we want a custom license note.
+# copyright = '2017-hoy, SwissTierras Colombia'
+author = 'SwissTierras Colombia (2017-hoy)'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,13 +30,12 @@ author = 'SwissTierras Colombia'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_markdown_tables',
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-    'recommonmark'
+     'myst_parser'
 ]
 
 
