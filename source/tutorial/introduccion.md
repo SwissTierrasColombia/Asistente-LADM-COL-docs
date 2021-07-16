@@ -1,47 +1,47 @@
 # Introducción
 
-Este tutorial generó con el fin de brindar a los usuarios , una guía que permita hacer uso de las funcionalidades del *plugin* “Asistente LADM-COL”, que incluye herramientas para  para apoyar los procesos captura, revisión, validación y consolidación de datos resultado del barrido predial masivo "Levantamiento Catastral" en el marco de la política pública de catastro multipropósito en Colombia.
+Este tutorial te permite hacer uso de las funcionalidades del *plugin* “Asistente LADM-COL”, incluyendo herramientas para apoyar los procesos captura, revisión, validación y consolidación de datos resultado del barrido predial masivo (levantamiento catastral) en el marco de la política pública de catastro multipropósito en Colombia.
 
-En esta tutorial se muestra de forma práctica el uso funcionalidades del asistente LADM-COL utilizando un conjunto de datos de prueba en las siguientes secciones:
+Para ello, el tutorial utiliza un conjunto de datos de prueba y comprende las siguientes secciones:
 
-- [+ Crear Estructura LADM-COL](crear_estructura_ladm_col.html)
+- [Crear Estructura LADM-COL](crear_estructura_ladm_col.html)
 
-- [+ Captura y Estructuración de Datos](crear_estructura_ladm_col.html)
+- [Captura y Estructuración de Datos](crear_estructura_ladm_col.html)
 
-- [+ Uso de Reglas de Calidad](reglas_de_calidad.html)
+- [Reglas de Calidad](reglas_de_calidad.html)
 
-- [+ Consulta de Información](consulta_de_informacion.html)
+- [Consulta de Información](consulta_de_informacion.html)
 
-- [+ Exportar e Importar Datos](exportar_importar_datos.html)
+- [Exportar e Importar Datos](exportar_importar_datos.html)
 
-- [+ Gestión de Insumos](gestion_de_insumos.html)
+- [Gestión de Insumos](gestion_de_insumos.html)
 
 ## ¿Que se necesita para empezar?
 
-Para desarrollar la guía se necesitan los siguientes elementos:
+Para desarrollar el tutorial se requieren los siguientes insumos:
 
-**Software**:
+**Software**
 
-Versión del software SIG **QGIS 3.x** o superior instalado en el equipo de trabajo. (se puede descargar de forma libre en el siguiente [link](https://qgis.org/en/site/forusers/download.html)).
+Software **QGIS versión 3.14.x** o superior, instalado en el equipo de trabajo. QGIS es software libre y se puede descargar desde [este enlace](https://qgis.org/en/site/forusers/download.html).
 
-Asistente LADM-COL que se descarga y activa dentro del software QGIS en el módulo “Complementos” menú “Administrar e instalar complementos” del menú desplegable del programa en la barra superior, se busca en la caja superior y se activa dando clic en la caja de selección.
+Complemento **Asistente LADM-COL**, que se descarga y se activa dentro del software QGIS en el menú “Complementos”, opción “Administrar e instalar complementos”. Una vez allí, se busca por términos clave en el campo de búsquedas y se instala dando clic en el botón `Instalar complemento`.
 
-**Datos**:
+**Datos**
 
-*Repositorio de datos*:
+*Repositorio de datos*
 
- Se debe contar con una base de datos configurada en el software PosgreSQL 9.5 o superior en donde se podrá crear esquemas en una base de datos de trabajo con la estructura del modelo LADM_COL, lo cual se podrá realizar directamente desde el menú de administración de datos del Asistente LADM_COL lo cual se explica en la sección [Administración de datos](administracion_de_datos.html)
+Se debe contar con una base de datos configurada en el software PostgreSQL 9.5 o superior en la cual se tengan permisos de creación de esquemas. Durante la sección [Administración de datos](administracion_de_datos.html) del tutorial, se creará un esquema con la estructura del modelo LADM-COL.
 
- *Conjunto de datos de ejemplo*: 
+ *Conjunto de datos de ejemplo*
 
-En la siguiente [URL](http://nas-swissphoto.quickconnect.to/d/f/620702901595062139) se puede descargar un archivo comprimido en formato zip con el nombre “Datos”
+En la siguiente [URL](http://nas-swissphoto.quickconnect.to/d/f/620702901595062139) se puede descargar un archivo comprimido en formato ZIP con el nombre “Datos”.
 
 Este archivo contiene lo siguiente: 
 
-**Insumos_cobol.zip:** Datos en formato cobol utilizados para importación de insumos en el asistente LADM-COL.
+**Insumos_cobol.zip:** Datos en formato COBOL utilizados para importación de insumos en el Asistente LADM-COL.
 
-**Soportes:** Soportes para las fuentes administrativas. Esta carpeta contiene las escrituras públicas que soportan los derechos de dominio: 1. escritura_01.jpg, 2. escritura_02.jpg y 3. escritura_03.png.
+**Soportes:** Soportes para las fuentes administrativas. Esta carpeta contiene las escrituras públicas que soportan los derechos de dominio descritos durante el tutorial.
 
 **taller_asistente.gpkg:** Archivo de base de datos en formato GeoPackage que tiene la información entregada por un topógrafo al realizar un barrido predial masivo.
 
-**topo_punto_control.csv:** Archivo CSV que tiene la información asociada a los puntos control utilizados por el topógrafo para realizar su levantamiento predial masivo.
+**topo_punto_control.csv:** Archivo CSV que tiene la información asociada a los puntos de control utilizados por el topógrafo durante el levantamiento predial masivo.
