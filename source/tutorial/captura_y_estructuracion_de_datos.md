@@ -22,7 +22,7 @@
 
 ### Creación De Terrenos y Sus Relaciones
 
-#### Creación De Relacion Entre Los Linderos y Los Terrenos
+#### Creación De Relación Entre Los Linderos y Los Terrenos
 
 ### Creación De Construcciones
 
@@ -57,13 +57,13 @@ En el botón ``Crear objetos de Levantamiento`` selecciona la opción **Crear Fu
 
 ### Paso 2: Selección método de creación de la fuente administrativa
 
-Se desplegará un cuadro de diálogo con dos opciones para crear una fuente administrativa: *Ingresando datos manualmente en un formulario* o *Desde otra capa de QGIS*. Para este caso, selecciona la primera opción y presiona el botón ``Crear``.
+Se desplegará un cuadro de diálogo con dos opciones para crear una fuente administrativa: *Ingresando datos manualmente en un formulario* ó *Desde otra capa de QGIS*. Para este caso, selecciona la primera opción y presiona el botón ``Crear``.
 
 <a class="" data-lightbox="Paso 2: Selección método de creación de la Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.gif" title="Paso 2: Selección método de creación de la Fuente administrativa" data-title="Paso 2: Selección método de creación de la Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes2.gif" class="align-center" width="800px" alt="Paso 2: Selección método de creación de la Fuente administrativa"/></a>
 
 ### Paso 3: Diligenciamiento de formulario fuente administrativa
 
-Se despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [tabla](#tabla-fuentes-administrativas) que se encuentra al inicio de esta sección.
+Se despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo con los datos de referencia proporcionados en la [tabla](#tabla-fuentes-administrativas) que se encuentra al inicio de esta sección.
 
 <a class="" data-lightbox="Paso 3: Diligenciamiento de formulario Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.gif" title="Paso 3: Diligenciamiento de formulario Fuente administrativa" data-title="Paso 3: Diligenciamiento de formulario Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes3.gif" class="align-center" width="800px" alt="Paso 3: Diligenciamiento de formulario Fuente administrativa"/></a>
 
@@ -75,6 +75,7 @@ Debes dirigirte a la pestaña *extarchivo* y agregar el archivo correspondiente 
 <p class="admonition-title">TIP</p>
 <p>Los archivos los encuentras en la carpeta compartida al inicio del tutorial <i>Datos -> Soportes</i>.</p>
 </div>
+
 
 <a class="" data-lightbox="Paso 4: Adjuntar archivos en Fuente administrativa" href="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.gif" title="Paso 4: Adjuntar archivos en Fuente administrativa" data-title="Paso 4: Adjuntar archivos en Fuente administrativa"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap8fuentes4.gif" class="align-center" width="800px" alt="Paso 4: Adjuntar archivos en Fuente administrativa"/></a>
 
@@ -88,7 +89,7 @@ Repite este proceso para los tres (3) archivos relacionados a fuentes administra
 
 ## RRR
 
-Ya que se han creado los interesados y las fuentes administrativas, es necesario crear las relaciones entre estos, para esto es necesario crear los **derechos** correspondientes considerando:
+Ya que se han creado los interesados y las fuentes administrativas, es necesario crear las relaciones entre estos, para esto es necesario crear los **Derechos** correspondientes considerando:
 
 <a class="" data-lightbox="Información RRR" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" title="Información RRR" data-title="Información RRR"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" class="align-center" width="800px" alt="Información RRR"/></a>
 
@@ -112,6 +113,8 @@ Se desplegará un cuadro de diálogo con dos opciones para crear predios: *Ingre
 
 ### Paso 4: Diligenciamiento de formulario Derecho
 
-Esta acción despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo a los datos de referencia proporcionados en la [imagen](#rrr) anterior.
+Esta acción despliega un formulario que debe ser diligenciado con la información correspondiente de acuerdo con los datos de referencia proporcionados en la [imagen](#rrr) anterior.
 
 <a class="" data-lightbox="Paso 4: Diligenciamiento de formulario Derecho" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" title="Paso 4: Diligenciamiento de formulario Derecho" data-title="Paso 4: Diligenciamiento de formulario Derecho"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" class="align-center" width="800px" alt="Paso 4: Diligenciamiento de formulario Derecho"/></a>
+
+Repite este proceso para los tres (3) **Derechos** mencionados en [imagen](#rrr) y considerando lo descrito en [tabla](#tabla-fuentes-administrativas). 
