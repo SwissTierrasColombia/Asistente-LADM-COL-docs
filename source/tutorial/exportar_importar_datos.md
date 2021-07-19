@@ -1,12 +1,14 @@
 # Exportar e Importar Datos
 
-En esta sección se describe el procedimiento que se debe seguir para la exportación e importación de la información generada en el modelo de levantamiento catastral a lo largo de este tutorial.
+En esta sección se describe el procedimiento que se debe seguir para exportar e importar la información que se ha generado en el modelo de levantamiento catastral a lo largo de este tutorial.
 
 ## Exportar datos
 
+El objetivo de exportar datos es el de compartir o transferir los mismos con otra persona o suministrárselos a una entidad.
+
 ### Paso 1: Menú de Exportar Datos.
 
-Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Exportar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
+Para iniciar el proceso se debe seguir la ruta **Administración de Datos -> Exportar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
 
 - Fuente
 - Destino
@@ -16,14 +18,15 @@ Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Ex
 
 ### Paso 2: Selección de la Fuente.
 
-En primera medida, se debe validar que la *Base de datos* a la cual se hace referencia corresponde al archivo que se desea exportar en el formato de intercambio **.xtf**. 
+En primera medida, se debe validar que la base de datos a la cual se hace referencia corresponde al archivo que se desea exportar al formato de intercambio **.xtf**. 
 
 En caso de que ésta no sea correcta, puedes cambiar la conexión dando clic en `Configurar conexión`.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>En la interfaz que se despliega al dar clic en <code class="docutils literal notranslate">Configurar conexión</code>, es posible deshabilitar las validaciones ingresando a la pestaña <b>Modelos</b> y seleccionando la casilla de verificación de <i>Validar datos cuando se importa o exporta un archivo XTF</i>.</p>
+<p>En la interfaz que se despliega al dar clic en <code class="docutils literal notranslate">Configurar conexión</code>, es posible deshabilitar las validaciones ingresando a la pestaña <b>Modelos</b> y quitando la selección de la casilla de verificación llamada <i>Validar datos cuando se importa o exporta un archivo XTF</i>. Deshabilitar las validaciones es útil cuando se quieren compartir datos que aún están en proceso de estructuración.</p>
 </div>
+
 
 <a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" class="align-center" width="800px" alt="Paso2"/></a>
 
@@ -39,9 +42,13 @@ Una vez que termine el proceso de *Exportar Datos*, das clic en el botón `Cerra
 
 ## Importar datos
 
+El objetivo de importar datos es el de llevar datos de un archivo de transferencia (*.xtf*) a una base de datos sobre la que se tenga permiso de acceso y creación de objetos.
+
+Los datos *.xtf*  recibidos, pueden ser importados a cualquiera de las [bases de datos soportadas por el Asistente LADM-COL](../configuracion.html#conexion-a-base-de-datos), sin importar cuál fue el motor de base de datos en el cual estos fueron generados. Por ejemplo, es posible generar los datos en PostgreSQL/PostGIS, exportarlos, compartirlos a otra persona o entidad, y luego importarlos a una base de datos GeoPackage.
+
 ### Paso 1: Menú de Importar Datos.
 
-Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Importar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
+Para iniciar el proceso se debe seguir la ruta **Administración de Datos -> Importar Datos**. Esta acción despliega un cuadro de diálogo dividido en tres (3) secciones:
 
 - Fuente
 - Destino
@@ -57,7 +64,7 @@ En primera medida debes validar que el *Archivo XTF* que se va a importar sea el
 
 ### Paso 3: Importar XTF.
 
-En la sección de *Destino* debes verificar que la conexión sobre la cual se va a importar la información del archivo *.xtf* (seleccionado previamente) sea correcta. En caso contrario, debes modificar la conexión dando clic en el botón `Configurar conexión` y seleccionar la base de datos a la cual se desea importar la información. Una vez que termines de configurar la conexión debes dar clic en el botón `Importar datos`.
+En la sección de *Destino* debes verificar que la base de datos sobre la cual se va a importar la información del archivo *.xtf* (seleccionado previamente) sea correcta. En caso contrario, debes modificar la conexión dando clic en el botón `Configurar conexión` y seleccionar la base de datos a la cual se desea importar la información. Una vez que termines de configurar la conexión debes dar clic en el botón `Importar datos`.
 
 <a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" class="align-center" width="800px" alt="Paso3"/></a>
 
