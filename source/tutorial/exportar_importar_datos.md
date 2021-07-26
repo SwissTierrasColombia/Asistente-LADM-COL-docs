@@ -14,7 +14,7 @@ Para iniciar el proceso se debe seguir la ruta **Administración de Datos -> Exp
 - Destino
 - Mostrar detalles
 
-<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" class="align-center" width="800px" alt="Paso1"/></a>
+<a class="" data-lightbox="Paso 1: Menú de Exportar Datos" href="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" title="Paso 1: Menú de Exportar Datos" data-title="Paso 1: Menú de Exportar Datos"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport1.gif" class="align-center" width="800px" alt="Paso 1: Menú de Exportar Datos"/></a>
 
 ### Paso 2: Selección de la Fuente.
 
@@ -28,13 +28,13 @@ En caso de que ésta no sea correcta, puedes cambiar la conexión dando clic en 
 </div>
 
 
-<a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" class="align-center" width="800px" alt="Paso2"/></a>
+<a class="" data-lightbox="Paso 2: Selección de la Fuente" href="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" title="Paso 2: Selección de la Fuente" data-title="Paso 2: Selección de la Fuente"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport2.gif" class="align-center" width="800px" alt="Paso 2: Selección de la Fuente"/></a>
 
 ### Paso 3: Exportar XTF.
 
 En la sección *Destino*, en el campo de *Archivo XTF* debes dar clic en el botón `...`, con esta acción procedes a definir la carpeta y el nombre del archivo *.xtf* a exportar, luego das clic en `Guardar` y finalmente en el botón `Exportar datos`. 
 
-<a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" class="align-center" width="800px" alt="Paso3"/></a>
+<a class="" data-lightbox="Paso 3: Exportar XTF" href="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" title="Paso 3: Exportar XTF" data-title="Paso 3: Exportar XTF"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport3.gif" class="align-center" width="800px" alt="Paso 3: Exportar XTF"/></a>
 
 ### Paso 4: Verificación de la creación del XTF.
 
@@ -54,18 +54,18 @@ Para iniciar el proceso se debe seguir la ruta **Administración de Datos -> Imp
 - Destino
 - Mostrar detalles
 
-<a class="" data-lightbox="Paso1" href="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" title="Paso1" data-title="Paso1"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" class="align-center" width="800px" alt="Paso1"/></a>
+<a class="" data-lightbox="Paso 1: Menú de Importar Datos" href="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" title="Paso 1: Menú de Importar Datos" data-title="Paso 1: Menú de Importar Datos"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport5.gif" class="align-center" width="800px" alt="Paso 1: Menú de Importar Datos"/></a>
 
 ### Paso 2: Selección de la Fuente.
 
 En primera medida debes validar que el *Archivo XTF* que se va a importar sea el de tu interés. En caso de que desees modificarlo basta con cambiar la ruta del archivo *.xtf* dando clic en `...`.
 
-<a class="" data-lightbox="Paso2" href="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" title="Paso2" data-title="Paso2"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" class="align-center" width="800px" alt="Paso2"/></a>
+<a class="" data-lightbox="Paso 2: Selección de la Fuente" href="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" title="Paso 2: Selección de la Fuente" data-title="Paso 2: Selección de la Fuente"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport6.gif" class="align-center" width="800px" alt="Paso 2: Selección de la Fuente"/></a>
 
 ### Paso 3: Importar XTF.
 
 En la sección de *Destino* debes verificar que la base de datos sobre la cual se va a importar la información del archivo *.xtf* (seleccionado previamente) sea correcta. En caso contrario, debes modificar la conexión dando clic en el botón `Configurar conexión` y seleccionar la base de datos a la cual se desea importar la información. Una vez que termines de configurar la conexión debes dar clic en el botón `Importar datos`.
 
-<a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" class="align-center" width="800px" alt="Paso3"/></a>
+<a class="" data-lightbox="Paso 3: Importar XTF" href="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" title="Paso 3: Importar XTF" data-title="Paso 3: Importar XTF"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" class="align-center" width="800px" alt="Paso 3: Importar XTF"/></a>
 
 Al finalizar la importación aparecerá un aviso de confirmación en la ventana de *Importar Datos*, luego de su validación podrás dar clic en el botón `Cerrar`.
