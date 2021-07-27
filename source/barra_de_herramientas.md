@@ -10,15 +10,19 @@ en "Herramientas LADM-COL" o como en el siguiente gif:
 
 <a class="" data-lightbox="Mostrar barra de herramientas Asistente LADM-COL" href="../_static/barra_de_herramientas/show_ladm_col_toolbar.gif" title=" Mostrar barra de herramientas Asistente LADM-COL " data-title=" Mostrar barra de herramientas Asistente LADM-COL "><img src="../_static/barra_de_herramientas/show_ladm_col_toolbar.gif" class="align-center" width="800px" alt=" Mostrar barra de herramientas Asistente LADM-COL "/></a>
 
-## Construir linderos
+## Sistema de transición (1)
+## Crear objetos de levantamiento (2)
+## Cargar capas (3)
+
+## Construir linderos (4)
 
 <a class="" data-lightbox="Construir linderos" href="../_static/barra_de_herramientas/build_boudaries.gif" title="Construir linderos" data-title="Construir linderos"><img src="../_static/barra_de_herramientas/build_boudaries.gif" class="align-center" width="800px" alt="Construir linderos"/></a>
 
-## Mover nodos
+## Mover nodos (5)
 
 <a class="" data-lightbox="Mover nodos" href="../_static/barra_de_herramientas/mover_nodos.gif" title="Mover nodos" data-title="Mover nodos"><img src="../_static/barra_de_herramientas/mover_nodos.gif" class="align-center" width="800px" alt="Mover nodos"/></a>
 
-## Llenar PuntosCCL
+## Llenar PuntosCCL (6)
 
 Puedes llenar la tabla de topología PuntosCCL usando el botón Llenar PuntosCCL en la barra
 de herramientas de LADM_COL el cual hace este trabajo de forma automática y más rápido.
@@ -28,7 +32,7 @@ Estas son las tablas que se relacionan con esta función:
 
 <a class="" data-lightbox="Llenar puntos CCL" href="../_static/barra_de_herramientas/fill_points_bfs.gif" title="Llenar puntos CCL" data-title="Llenar puntos CCL"><img src="../_static/barra_de_herramientas/fill_points_bfs.gif" class="align-center" width="800px" alt="Llenar puntos CCL"/></a>
 
-## Llenar más y menos CCL
+## Llenar más y menos CCL (7)
 
 Puedes llenar la tabla de topología más CCL y menos usando el botón Llenar más CCL y menos
 usando la barra de herramientas de LADM_COL el cual hace este trabajo de forma automática y más rápido.
@@ -39,6 +43,8 @@ Estas son las tablas que se relacionan con esta función:
 - menos –> terreno y lindero (agujeros o anillos internos)
 
 <a class="" data-lightbox="Llenar más y menos CCL" href="../_static/barra_de_herramientas/fill_more_and_less_bfs.gif" title="Llenar más y menos CCL" data-title="Llenar más y menos CCL"><img src="../_static/barra_de_herramientas/fill_more_and_less_bfs.gif" class="align-center" width="800px" alt="Llenar más y menos CCL"/></a>
+
+## Configuración (8)
 
 ## Llenar relaciones de Servidumbre de paso
 
