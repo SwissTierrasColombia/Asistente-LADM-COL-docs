@@ -9,12 +9,13 @@ La captura en campo es un proceso que permite realizar el levantamiento predial 
 5. [Levantamiento en campo por parte de los reconocedores](#recoleccion-datos-en-campo)
 6.  [Sincronización de datos de campo por parte del Coordinador de Campo](#sincronizar-datos-de-campo)
 7.  [Sincronización de datos de campo por parte del Coordinador General](#id2)
-8.  ETL de Modelo de captura en campo a Modelo de aplicación Lev.Catastral 
+8.  ETL de Modelo de captura en campo a Modelo de aplicación Lev.Catastral
 
 El Asistente LADM-COL apoya en la realización de estas actividades y con la ayuda de algunas imágenes gif se orienta como llevarlas a cabo a partir de las funcionalidades asignadas a cada perfil.
 
 ***
-ETL (Submodelo Insumos - Modelo Captura en Campo) EN DESARROLLO
+ETL (Submodelo Insumos - Modelo Captura en Campo) ACTUALMENTE EN DESARROLLO.
+La ETL que lleva los datos del modelo de Insumos al modelo de Captura en Campo permite simplificar los datos y formularios que se utilizan en campo al cargarlos en dispositivos móviles, con ello los reconocedores y coordinadores se enfocan unicamente en los datos que se necesitan verificar y actualizar en campo.
 ***
 
 ## Asignar predios
@@ -51,31 +52,31 @@ Exportación de conjunto de datos (formato XTF) a coordinadores de campo.
 
 Selección de perfil de coordinador de campo.
 
-<a class="" data-lightbox="Creación de BD Coord.Campo" href="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" title="Creación de BD Coord.Campo" data-title="Creación de BD Coord.Campo"><img src="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" class="align-center" width="800px" alt="Creación de BD Coord.Campo"/></a>
+<a class="" data-lightbox="Selección perfil Coord.Campo" href="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" title="Selección perfil Coord.Campo" data-title="Selección perfil Coord.Campo"><img src="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" class="align-center" width="800px" alt="Selección perfil Coord.Campo"/></a>
 
 Creación de base de datos de zona asignada.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_1" href="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" title="Asignar predios Coord.Campo_1" data-title="Asignar predios Coord.Campo_1"><img src="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_1"/></a>
+<a class="" data-lightbox="Creación de BD Coord.Campo" href="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" title="Creación de BD Coord.Campo" data-title="Creación de BD Coord.Campo"><img src="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" class="align-center" width="800px" alt="Creación de BD Coord.Campo"/></a>
 
 Importación de datos insumos en el modelo de Captura en Campo.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_2" href="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" title="Asignar predios Coord.Campo_2" data-title="Asignar predios Coord.Campo_2"><img src="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_2"/></a>
+<a class="" data-lightbox="Importación de datos Coord.Campo" href="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" title="Importación de datos Coord.Campo" data-title="Importación de datos Coord.Campo"><img src="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" class="align-center" width="800px" alt="Importación de datos Coord.Campo"/></a>
 
 Cargue de datos zona asignada e imagen de referencia.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_3" href="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" title="Asignar predios Coord.Campo_3" data-title="Asignar predios Coord.Campo_3"><img src="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_3"/></a>
+<a class="" data-lightbox="Cargue de datos e imagen base" href="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" title="Cargue de datos e imagen base" data-title="Cargue de datos e imagen base"><img src="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" class="align-center" width="800px" alt="Cargue de datos e imagen base"/></a>
 
 Creación de reconocedores de campo a zona asignada.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Creación usuarios Coord.Campo" href="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" title="Creación usuarios Coord.Campo" data-title="Creación usuarios Coord.Campo"><img src="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" class="align-center" width="800px" alt="Creación usuarios Coord.Campo"/></a>
 
 Asignación de predios a reconocedores de campo.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Asignar predios Coord.Campo" href="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" title="Asignar predios Coord.Campo" data-title="Asignar predios Coord.Campo"><img src="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo"/></a>
 
 Generación de proyectos *QField* a reconocedores.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Exportar datos y proyectos QField" href="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" title="Exportar datos y proyectos QField" data-title="Exportar datos y proyectos QField"><img src="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" class="align-center" width="800px" alt="Exportar datos y proyectos QField"/></a>
 
 ## Recolección datos en Campo
 
@@ -91,15 +92,15 @@ El reconocedor con su dispositivo móvil puede agregara uno o varios proyectos *
 
 Almacenamiento y cargue del proyecto *QField* en el dispositivo móvil.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/12_reconocedor_campo_1.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/12_reconocedor_campo_1.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Cargue del proyecto QField Reconocedor" href="_static/captura_de_datos_en_campo/12_reconocedor_campo_1.gif" title="Cargue del proyecto QField Reconocedor" data-title="Cargue del proyecto QField Reconocedor"><img src="_static/captura_de_datos_en_campo/12_reconocedor_campo_1.gif" class="align-center" width="800px" alt="Cargue del proyecto QField Reconocedor"/></a>
 
 Digitalización de puntos en el dispositivo móvil.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/13_reconocedor_campo_2.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/13_reconocedor_campo_2.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Digitalización de puntos" href="_static/captura_de_datos_en_campo/13_reconocedor_campo_2.gif" title="Digitalización de puntos" data-title="Digitalización de puntos"><img src="_static/captura_de_datos_en_campo/13_reconocedor_campo_2.gif" class="align-center" width="800px" alt="Digitalización de puntos"/></a>
 
 Digitalización de polígonos y edición de formularios.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/14_reconocedor_campo_3.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/14_reconocedor_campo_3.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Digitalización de polígonos" href="_static/captura_de_datos_en_campo/14_reconocedor_campo_3.gif" title="Digitalización de polígonos" data-title="Digitalización de polígonos"><img src="_static/captura_de_datos_en_campo/14_reconocedor_campo_3.gif" class="align-center" width="800px" alt="Digitalización de polígonos"/></a>
 
 ## Sincronizar datos de campo
 
@@ -109,15 +110,15 @@ Después de capturar los datos de campo se debe realizar el proceso de sincroniz
 
 Selección de perfil y crear base de datos para importar datos de campo.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Creación de BD de campo Coord.Campo" href="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" title="Creación de BD de campo Coord.Campo" data-title="Creación de BD de campo Coord.Campo"><img src="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" class="align-center" width="800px" alt="Creación de BD de campo Coord.Campo"/></a>
 
 Importar y sincronizar los datos provenientes de los reconocedores (archivos GPKG).
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Importar y sincronizar Coord.Campo" href="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" title="Importar y sincronizar Coord.Campo" data-title="Importar y sincronizar Coord.Campo"><img src="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" class="align-center" width="800px" alt="Importar y sincronizar Coord.Campo"/></a>
 
 Verificar reglas de calidad, corregir y generar archivo XTF para entrega a coordinador general.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Reglas de calidad y generación de XTF Coord.Campo" href="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" title="Reglas de calidad y generación de XTF Coord.Campo" data-title="Reglas de calidad y generación de XTF Coord.Campo"><img src="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" class="align-center" width="800px" alt="Reglas de calidad y generación de XTF Coord.Campo"/></a>
 
 #### Coordinador General
 
@@ -127,8 +128,9 @@ Importar y sincronizar los datos provenientes de los coordinadores de campo (arc
 
 verificar reglas de calidad, y consolidar datos de levantamiento catastral.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo_4" href="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" title="Asignar predios Coord.Campo_4" data-title="Asignar predios Coord.Campo_4"><img src="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo_4"/></a>
+<a class="" data-lightbox="Recepción y sincronización datos de campo Coord.General" href="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" title="Recepción y sincronización datos de campo Coord.General" data-title="Recepción y sincronización datos de campo Coord.General"><img src="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" class="align-center" width="800px" alt="Recepción y sincronización datos de campo Coord.General"/></a>
 
 Al finalizar estas actividades el coordinador general obtiene un archivo XTF final del levantamiento catastral de la zona asignada, la cual se llevara al modelo de aplicación Lev. Catastral con su respectivo proceso de control de calidad y luego será entregada al gestor.
 ***
-ETL (Modelo Captura en Campo - Modelo de Aplicación Lev. Catastral)
+ETL (Modelo Captura en Campo - Modelo de Aplicación Lev. Catastral) ACTUALMENTE EN DESARROLLO.
+Una vez se tienen los datos ajustados y verificados provenientes de la visita a campo, se necesita esta ETL para llevar los datos al modelo de Levantamiento Catastral e incorporar la información estructurada en oficina con el fin de ser entregada al Gestor como producto del Levantamiento Catastral realizado por el Operador.
