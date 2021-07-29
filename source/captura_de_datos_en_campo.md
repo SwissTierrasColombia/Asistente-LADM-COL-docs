@@ -1,92 +1,99 @@
 # Captura de datos en campo
 
-La captura en campo es un proceso que permite realizar el levantamiento predial en terreno de una zona de interés por parte del Operador y entregada al Gestor. Se desarrolla en varias actividades entre las que se tienen:
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>El módulo de Captura de datos en campo del Asistente LADM-COL aún no se ha incluido en los lanzamientos oficiales, puesto que se trata de un módulo en desarrollo. Si estás interesado/a en este módulo, puedes contactarnos en <i>administracion [at] swisstierrascolombia [dot] com</i></p>
+</div>
 
-1. Alistamiento de insumos (ver <a href="https://swisstierrascolombia.github.io/st-docs/user-manual-doc/9-rol-operador.html#gestion-de-insumos" target="_blank">Gestión de insumos</a>)
-2. ETL de submodelo de insumos a Modelo de captura en campo
-3. [Asignación de zonas de trabajo y predios por parte del Coordinador General](#asignar-predios)
-4. [Asignación de zonas de trabajo y predios por parte del Coordinador de Campo](#coordinador-de-campo)
-5. [Levantamiento en campo por parte de los reconocedores](#recoleccion-datos-en-campo)
-6.  [Sincronización de datos de campo por parte del Coordinador de Campo](#sincronizar-datos-de-campo)
-7.  [Sincronización de datos de campo por parte del Coordinador General](#id2)
-8.  ETL de Modelo de captura en campo a Modelo de aplicación Lev.Catastral
+La captura en campo corresponde al levantamiento predial en terreno de una zona de interés por parte del Operador catastral. Comprende varias actividades, entre las que destacan:
 
-El Asistente LADM-COL apoya en la realización de estas actividades y con la ayuda de algunas imágenes gif se orienta como llevarlas a cabo a partir de las funcionalidades asignadas a cada perfil.
+1. Alistamiento de insumos (ver <a href="https://swisstierrascolombia.github.io/st-docs/user-manual-doc/9-rol-operador.html#gestion-de-insumos" target="_blank">Gestión de insumos en el Sistema de Transición</a>).
+2. ETL de Submodelo de Insumos a Modelo de Captura en Campo.
+3. [Asignación de zonas de trabajo y predios por parte del Coordinador General](#asignar-predios).
+4. [Asignación de zonas de trabajo y predios por parte del Coordinador de Campo](#asignar-predios-coordinador-de-campo).
+5. [Levantamiento en campo por parte de los reconocedores](#recoleccion-datos-en-campo).
+6. [Sincronización de datos de campo por parte del Coordinador de Campo](#sincronizar-datos-de-campo).
+7. [Sincronización de datos por parte del Coordinador General](#sincronizar-datos-coordinador-general).
+8. ETL de Modelo de Captura en Campo a Modelo de aplicación Levantamiento Catastral.
+
+El Asistente LADM-COL incluye un rol de Coordinador General y un rol de Coordinador de campo, los cuales permiten ejecutar las actividades mencionadas anteriormente. A continuación se muestra el proceso, ilustrándolo con animaciones.
 
 ***
-ETL (Submodelo Insumos - Modelo Captura en Campo) ACTUALMENTE EN DESARROLLO.
-La ETL que lleva los datos del modelo de Insumos al modelo de Captura en Campo permite simplificar los datos y formularios que se utilizan en campo al cargarlos en dispositivos móviles, con ello los reconocedores y coordinadores se enfocan unicamente en los datos que se necesitan verificar y actualizar en campo.
+## ETL (Submodelo Insumos - Modelo Captura en Campo) [Aún en desarrollo]
+
+La ETL que lleva los datos del submodelo de Insumos al modelo de Captura en Campo permite estructurar los datos buscando simplificar su actualización y/o captura en campo.
 ***
 
 ## Asignar predios
 
-La asignación de zonas de trabajo y predios por parte del Coordinador General, corresponde a asignar (entregar conjunto de datos) grupo de predios del municipio o zona de intervención a los coordinadores de campo para que ellos asignen la carga de trabajo a cada uno de sus reconocedores de campo y con ello se realice el levantamiento catastral del total de la zona de trabajo. A continuación se muestra en los gif cada uno de los pasos que realiza el Coordinador General y el Coordinador de Campo utilizando el Asistente LADM-COL.
+La asignación de zonas de trabajo y predios parte del Coordinador General, a quien corresponde asignar (o entregar) un grupo de predios del municipio o área de intervención a los Coordinadores de Campo. Estos, a su vez, deben asignar la carga de trabajo a cada uno de sus Reconocedores de Campo, quienes realizarán el levantamiento catastral del total de la zona de trabajo.
 
-#### Coordinador General
+#### Asignar predios (Coordinador General)
 
-*Perfil encargado de asignar a los coordinadores de campo la captura y gestión de los datos provenientes del Levantamiento Catastral*
+El Coordinador General está encargado de asignar a los Coordinadores de Campo la captura y gestión de los datos provenientes del Levantamiento Catastral. A continuación se ilustran sus actividades en el Asistente LADM-COL.
 
-Selección de perfil de coordinador general  y creación de base de datos maestra.
+Selección del rol Coordinador General  y creación de base de datos maestra.
 
-<a class="" data-lightbox="Creación de BD Coord.General" href="_static/captura_de_datos_en_campo/0_Coor_general_asignacion_12.gif" title="Creación de BD Coord.General" data-title="Creación de BD Coord.General"><img src="_static/captura_de_datos_en_campo/0_Coor_general_asignacion_12.gif" class="align-center" width="800px" alt="Creación de BD Coord.General"/></a>
+<a class="" data-lightbox="Creación de BD Coordinador General" href="_static/captura_de_datos_en_campo/0_Coor_general_asignacion_12.gif" title="Creación de BD Coordinador General" data-title="Creación de BD Coordinador General"><img src="_static/captura_de_datos_en_campo/0_Coor_general_asignacion_12.gif" class="align-center" width="800px" alt="Creación de BD Coordinador General"/></a>
 
- Importación archivo (formato XTF) de datos insumos en el modelo de Captura en Campo.
+Importación de datos insumos (en formato XTF) al modelo de Captura en Campo.
 
-<a class="" data-lightbox="Importación de datos Coord.General" href="_static/captura_de_datos_en_campo/1_Coor_general_asignacion_3.gif" title="Importación de datos Coord.General" data-title="Importación de datos Coord.General"><img src="_static/captura_de_datos_en_campo/1_Coor_general_asignacion_3.gif" class="align-center" width="800px" alt="Importación de datos Coord.General"/></a>
+<a class="" data-lightbox="Importación de datos Coordinador General" href="_static/captura_de_datos_en_campo/1_Coor_general_asignacion_3.gif" title="Importación de datos Coordinador General" data-title="Importación de datos Coordinador General"><img src="_static/captura_de_datos_en_campo/1_Coor_general_asignacion_3.gif" class="align-center" width="800px" alt="Importación de datos Coordinador General"/></a>
 
-Creación de coordinadores de campo.
+Creación de Coordinadores de Campo.
 
-<a class="" data-lightbox="Creación usuarios Coord.General" href="_static/captura_de_datos_en_campo/2_Coor_general_asignacion_45.gif" title="Creación usuarios Coord.General" data-title="Creación usuarios Coord.General"><img src="_static/captura_de_datos_en_campo/2_Coor_general_asignacion_45.gif" class="align-center" width="800px" alt="Creación usuarios Coord.General"/></a>
+<a class="" data-lightbox="Creación usuarios Coordinador General" href="_static/captura_de_datos_en_campo/2_Coor_general_asignacion_45.gif" title="Creación usuarios Coordinador General" data-title="Creación usuarios Coordinador General"><img src="_static/captura_de_datos_en_campo/2_Coor_general_asignacion_45.gif" class="align-center" width="800px" alt="Creación usuarios Coordinador General"/></a>
 
-Asignación de zonas y predios a coordinadores de campo.
+Asignación de áreas de intervennción y predios a Coordinadores de Campo.
 
-<a class="" data-lightbox="Asignar predios Coord.General" href="_static/captura_de_datos_en_campo/3_Coor_general_asignacion_6.gif" title="Asignar predios Coord.General" data-title="Asignar predios Coord.General"><img src="_static/captura_de_datos_en_campo/3_Coor_general_asignacion_6.gif" class="align-center" width="800px" alt="Asignar predios Coord.General"/></a>
+<a class="" data-lightbox="Asignar predios Coordinador General" href="_static/captura_de_datos_en_campo/3_Coor_general_asignacion_6.gif" title="Asignar predios Coordinador General" data-title="Asignar predios Coordinador General"><img src="_static/captura_de_datos_en_campo/3_Coor_general_asignacion_6.gif" class="align-center" width="800px" alt="Asignar predios Coordinador General"/></a>
 
-Exportación de conjunto de datos (formato XTF) a coordinadores de campo.
+Exportación de datos (formato XTF) para los Coordinadores de Campo.
 
-<a class="" data-lightbox="Exportar datos Coord.General" href="_static/captura_de_datos_en_campo/4_Coor_general_asignacion_7.gif" title="Exportar datos Coord.General" data-title="Exportar datos Coord.General"><img src="_static/captura_de_datos_en_campo/4_Coor_general_asignacion_7.gif" class="align-center" width="800px" alt="Exportar datos Coord.General"/></a>
+<a class="" data-lightbox="Exportar datos Coordinador General" href="_static/captura_de_datos_en_campo/4_Coor_general_asignacion_7.gif" title="Exportar datos Coordinador General" data-title="Exportar datos Coordinador General"><img src="_static/captura_de_datos_en_campo/4_Coor_general_asignacion_7.gif" class="align-center" width="800px" alt="Exportar datos Coordinador General"/></a>
 
-#### Coordinador de Campo
+#### Asignar predios (Coordinador de Campo)
 
-*Perfil encargado de gestionar la la captura de datos de campo provenientes del Levantamiento Catastral*.
+El Coordinador de Campo está encargado de gestionar la captura de datos de campo provenientes del Levantamiento Catastral. Tiene a su cargo reconocedores prediales. A continuación se ilustran sus actividades en el Asistente LADM-COL.
 
-Selección de perfil de coordinador de campo.
+Selección del rol Coordinador de Campo.
 
-<a class="" data-lightbox="Selección perfil Coord.Campo" href="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" title="Selección perfil Coord.Campo" data-title="Selección perfil Coord.Campo"><img src="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" class="align-center" width="800px" alt="Selección perfil Coord.Campo"/></a>
+<a class="" data-lightbox="Selección rol Coordinador de Campo" href="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" title="Selección rol Coordinador de Campo" data-title="Selección rol Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/5_Coor_campo_asignacion_1.gif" class="align-center" width="800px" alt="Selección rol Coordinador de Campo"/></a>
 
-Creación de base de datos de zona asignada.
+Creación de base de datos con estructura del modelo de Captura en Campo.
 
-<a class="" data-lightbox="Creación de BD Coord.Campo" href="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" title="Creación de BD Coord.Campo" data-title="Creación de BD Coord.Campo"><img src="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" class="align-center" width="800px" alt="Creación de BD Coord.Campo"/></a>
+<a class="" data-lightbox="Creación de BD Coordinador de Campo" href="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" title="Creación de BD Coordinador de Campo" data-title="Creación de BD Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/6_Coor_campo_asignacion_2.gif" class="align-center" width="800px" alt="Creación de BD Coordinador de Campo"/></a>
 
-Importación de datos insumos en el modelo de Captura en Campo.
+Importación de datos en formato XTF con la zona asignada por el Coordinador General.
 
-<a class="" data-lightbox="Importación de datos Coord.Campo" href="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" title="Importación de datos Coord.Campo" data-title="Importación de datos Coord.Campo"><img src="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" class="align-center" width="800px" alt="Importación de datos Coord.Campo"/></a>
+<a class="" data-lightbox="Importación de datos Coordinador de Campo" href="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" title="Importación de datos Coordinador de Campo" data-title="Importación de datos Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/7_Coor_campo_asignacion_3.gif" class="align-center" width="800px" alt="Importación de datos Coordinador de Campo"/></a>
 
-Cargue de datos zona asignada e imagen de referencia.
+Cargue de datos de la zona asignada e imagen de referencia al mapa.
 
 <a class="" data-lightbox="Cargue de datos e imagen base" href="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" title="Cargue de datos e imagen base" data-title="Cargue de datos e imagen base"><img src="_static/captura_de_datos_en_campo/8_Coor_campo_asignacion_45.gif" class="align-center" width="800px" alt="Cargue de datos e imagen base"/></a>
 
-Creación de reconocedores de campo a zona asignada.
+Creación de Reconocedores de Campo.
 
-<a class="" data-lightbox="Creación usuarios Coord.Campo" href="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" title="Creación usuarios Coord.Campo" data-title="Creación usuarios Coord.Campo"><img src="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" class="align-center" width="800px" alt="Creación usuarios Coord.Campo"/></a>
+<a class="" data-lightbox="Creación usuarios Coordinador de Campo" href="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" title="Creación usuarios Coordinador de Campo" data-title="Creación usuarios Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/9_Coor_campo_asignacion_6.gif" class="align-center" width="800px" alt="Creación usuarios Coordinador de Campo"/></a>
 
-Asignación de predios a reconocedores de campo.
+Asignación de predios a Reconocedores de Campo.
 
-<a class="" data-lightbox="Asignar predios Coord.Campo" href="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" title="Asignar predios Coord.Campo" data-title="Asignar predios Coord.Campo"><img src="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" class="align-center" width="800px" alt="Asignar predios Coord.Campo"/></a>
+<a class="" data-lightbox="Asignar predios Coordinador de Campo" href="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" title="Asignar predios Coordinador de Campo" data-title="Asignar predios Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/10_Coor_campo_asignacion_7.gif" class="align-center" width="800px" alt="Asignar predios Coordinador de Campo"/></a>
 
-Generación de proyectos *QField* a reconocedores.
+Generación de proyectos listos para cargar a *QField*, para cada uno de los Reconocedores de Campo.
 
 <a class="" data-lightbox="Exportar datos y proyectos QField" href="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" title="Exportar datos y proyectos QField" data-title="Exportar datos y proyectos QField"><img src="_static/captura_de_datos_en_campo/11_Coor_campo_asignacion_89.gif" class="align-center" width="800px" alt="Exportar datos y proyectos QField"/></a>
 
 ## Recolección datos en Campo
 
-El reconocedor con su dispositivo móvil puede agregara uno o varios proyectos *QField* que le ha entregado el coordinador de campo, en este proyecto lleva la configuración, formularios, imagen de referencia y simbología necesaria para orientarse e identificar los predios en el terreno y poder realizar el levantamiento catastral de forma eficiente.
+El Reconocedor carga a su dispositivo móvil uno o varios proyectos que le ha entregado el Coordinador de Campo. En dicho proyecto se incluye la configuración, formularios, imagen de referencia y simbología necesarios para orientarse, identificar predios en terreno y realizar el levantamiento catastral de forma eficiente.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>El reconocedor antes de ir a campo debe instalar y configurar en su dispositivo la última versión de <i>QField</i> para poder cargar y vizualizar correctamente los proyectos entregados por el coordinador de campo. (ver manual de <a href="https://swisstierrascolombia.github.io/QField-LADM-COL-docs/" target="_blank">QField para campo</a>)</p>
+<p>Antes de ir a campo, el Reconocedor debe instalar y configurar en su dispositivo la última versión de <i>QField</i>, para poder cargar y vizualizar correctamente los proyectos entregados por el Coordinador de Campo (ver manual de <a href="https://swisstierrascolombia.github.io/QField-LADM-COL-docs/" target="_blank">QField para campo</a>)</p>
 </div>
 
+Cabe aclarar que el uso del Asistente LADM-COL es totalmente opcional para el Reconocedor, quien realizará su trabajo enteramente con QField.
 
 #### Reconocedor
 
@@ -104,33 +111,33 @@ Digitalización de polígonos y edición de formularios.
 
 ## Sincronizar datos de campo
 
-Después de capturar los datos de campo se debe realizar el proceso de sincronización que permite la consolidación de los datos obtenidos por cada uno de los reconocedores para un coordinador de campo y a su vez la consolidación de los datos de los coordinadores de campo al coordinador general. A continuación los pasos que se realizan para estas actividades.
+Después de capturar los datos de campo se debe realizar el proceso de sincronización, que permite la consolidación de los datos obtenidos por cada uno de los Reconocedores en la base de datos del Coordinador de Campo. Luego de que los datos son consolidados y posiblemente editados por el Coordinador de Campo, este envía los mismos al Coordinador General, quien ejecuta un proceso de sincronización para consolidar los datos de todos sus Coordinadores de Campo. 
 
-#### Coordinador de Campo
+A continuación se muestran los pasos que se realizan en el Asistente LADM-COL para la ejecución de estas actividades.
 
-Selección de perfil y crear base de datos para importar datos de campo.
+#### Sincronizar datos de campo (Coordinador de Campo)
 
-<a class="" data-lightbox="Creación de BD de campo Coord.Campo" href="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" title="Creación de BD de campo Coord.Campo" data-title="Creación de BD de campo Coord.Campo"><img src="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" class="align-center" width="800px" alt="Creación de BD de campo Coord.Campo"/></a>
+Selección de rol y selección de base de datos existente para sincronizar datos de campo.
 
-Importar y sincronizar los datos provenientes de los reconocedores (archivos GPKG).
+<a class="" data-lightbox="Selección de BD Coordinador de Campo" href="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" title="Selección de BD Coordinador de Campo" data-title="Selección de BD Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/15_Coor_campo_sincronizacion_1.gif" class="align-center" width="800px" alt="Selección de BD Coordinador de Campo"/></a>
 
-<a class="" data-lightbox="Importar y sincronizar Coord.Campo" href="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" title="Importar y sincronizar Coord.Campo" data-title="Importar y sincronizar Coord.Campo"><img src="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" class="align-center" width="800px" alt="Importar y sincronizar Coord.Campo"/></a>
+Sincronizar los datos provenientes de los Reconocedores (archivos GPKG).
 
-Verificar reglas de calidad, corregir y generar archivo XTF para entrega a coordinador general.
+<a class="" data-lightbox="Sincronizar Coordinador de Campo" href="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" title="Sincronizar Coordinador de Campo" data-title="Sincronizar Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/16_Coor_campo_sincronizacion_2.gif" class="align-center" width="800px" alt="Sincronizar Coordinador de Campo"/></a>
 
-<a class="" data-lightbox="Reglas de calidad y generación de XTF Coord.Campo" href="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" title="Reglas de calidad y generación de XTF Coord.Campo" data-title="Reglas de calidad y generación de XTF Coord.Campo"><img src="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" class="align-center" width="800px" alt="Reglas de calidad y generación de XTF Coord.Campo"/></a>
+Verificar reglas de calidad, corregir y generar archivo XTF para entrega a Coordinador General.
 
-#### Coordinador General
+<a class="" data-lightbox="Reglas de calidad y generación de XTF Coordinador de Campo" href="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" title="Reglas de calidad y generación de XTF Coordinador de Campo" data-title="Reglas de calidad y generación de XTF Coordinador de Campo"><img src="_static/captura_de_datos_en_campo/17_Coor_campo_sincronizacion_34.gif" class="align-center" width="800px" alt="Reglas de calidad y generación de XTF Coordinador de Campo"/></a>
 
-Selección de perfil, crear base de datos para importar datos de coordinadores de campo, 
+#### Sincronizar datos (Coordinador General)
 
-Importar y sincronizar los datos provenientes de los coordinadores de campo (archivos XTF)
+Selección de rol y de BD maestra para sincronizar datos de Coordinadores de Campo (archivos XTF).
 
-verificar reglas de calidad, y consolidar datos de levantamiento catastral.
+<a class="" data-lightbox="Recepción y sincronización datos de campo Coordinador General" href="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" title="Recepción y sincronización datos de campo Coordinador General" data-title="Recepción y sincronización datos de campo Coordinador General"><img src="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" class="align-center" width="800px" alt="Recepción y sincronización datos de campo Coordinador General"/></a>
 
-<a class="" data-lightbox="Recepción y sincronización datos de campo Coord.General" href="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" title="Recepción y sincronización datos de campo Coord.General" data-title="Recepción y sincronización datos de campo Coord.General"><img src="_static/captura_de_datos_en_campo/18_Coor_general_sincronizacion_34.gif" class="align-center" width="800px" alt="Recepción y sincronización datos de campo Coord.General"/></a>
+Al finalizar esta actividad el Coordinador General obtiene un archivo XTF final del levantamiento catastral de la zona asignada aún en la estructura del modelo de Captura en Campo, la cual se llevara al modelo de aplicación Levantamiento Catastral con su respectivo proceso de control de calidad, para luego ser entregada al Gestor.
 
-Al finalizar estas actividades el coordinador general obtiene un archivo XTF final del levantamiento catastral de la zona asignada, la cual se llevara al modelo de aplicación Lev. Catastral con su respectivo proceso de control de calidad y luego será entregada al gestor.
 ***
-ETL (Modelo Captura en Campo - Modelo de Aplicación Lev. Catastral) ACTUALMENTE EN DESARROLLO.
-Una vez se tienen los datos ajustados y verificados provenientes de la visita a campo, se necesita esta ETL para llevar los datos al modelo de Levantamiento Catastral e incorporar la información estructurada en oficina con el fin de ser entregada al Gestor como producto del Levantamiento Catastral realizado por el Operador.
+## ETL (Modelo Captura en Campo - Modelo de Aplicación Lev. Catastral) [Aún en desarrollo]
+
+Una vez se tienen consolidados los datos de los diferentes coordinadores de campo, se utiliza esta ETL para llevar los datos al modelo de aplicación Levantamiento Catastral, con el fin de incorporar la información estructurada en oficina y poder ser entregada al Gestor como producto del Levantamiento Catastral realizado por el Operador.
