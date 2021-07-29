@@ -52,6 +52,7 @@ Se desplegará un diálogo con el listado de los valores del dominio seleccionad
 
 ### Puntos de lindero
 
+<<<<<<< HEAD
 #### Paso 1: Cargue de insumos Punto lindero
 
 Inicialmente, se arrastra la capa de insumo llamada **topo_puntos_lindero** al mapa de QGIS.
@@ -447,6 +448,27 @@ Una vez que termines la digitalización del polígono, se desplegará un formula
 Finalmente, al cerrar el cuadro de diálogo podrás visualizar un polígono que representa la Servidumbre de tránsito.
 
 <a class="" data-lightbox="Paso 3: Resultado de la Servidumbre de tránsito" href="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" title="Paso 3: Resultado de la Servidumbre de tránsito" data-title="Paso 3: Resultado de la Servidumbre de tránsito"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap5undespaciales25.png" class="align-center" width="800px" alt="Paso 3: Resultado de la Servidumbre de tránsito"/></a>
+=======
+### Puntos de levantamiento
+
+### Puntos de Control
+
+### Linderos
+
+### Construcción De Linderos
+
+### Relación Entre Puntos y Linderos
+
+## Unidad Espacial
+
+### Creación De Terrenos y Sus Relaciones
+
+#### Creación De Relacion Entre Los Linderos y Los Terrenos
+
+### Creación De Construcciones
+
+### Creación De Unidades De Construcción
+>>>>>>> c389b5bf7b5e615755558aaca236a0ec2d7d93b5
 
 ## Unidad Básica Administrativa
 
@@ -553,6 +575,7 @@ Repite el paso 4 para los tres (3) archivos relacionados a fuentes administrativ
 
 ## RRR
 
+<<<<<<< HEAD
 Luego de haber creado interesados y fuentes administrativas, es necesario crear las relaciones entre estos. Para ello se deben **Derechos**, considerando la siguiente información:
 
 <a class="" data-lightbox="Información RRR" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" title="Información RRR" data-title="Información RRR"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos1.png" class="align-center" width="800px" alt="Información RRR"/></a>
@@ -588,3 +611,6 @@ Esta acción despliega un formulario que debe ser diligenciado con la informaci�
 <a class="" data-lightbox="Paso 4: Diligenciamiento de formulario Derecho" href="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" title="Paso 4: Diligenciamiento de formulario Derecho" data-title="Paso 4: Diligenciamiento de formulario Derecho"><img src="../_static/tutorial/captura_y_estructura_de_datos/cap9derechos5.gif" class="align-center" width="800px" alt="Paso 4: Diligenciamiento de formulario Derecho"/></a>
 
 Repite este proceso para los tres (3) **Derechos** mencionados en la [imagen](#rrr) y considerando lo descrito en la [tabla](#tabla-fuentes-administrativas). 
+=======
+### Crear Derecho
+>>>>>>> c389b5bf7b5e615755558aaca236a0ec2d7d93b5
