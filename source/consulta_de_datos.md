@@ -1,5 +1,4 @@
 # Consulta de datos
-(EN REVISIÓN DE REDACCIÓN)
 
 Una vez se tengan cargadas las capas y tablas de la base de datos en el panel de capas de QGIS se puede acceder al menú “Consultar datos”, para acceder a este menú vaya al módulo del Asistente LADM-COL en la parte superior del programa QGIS y seleccione el menú; si el proyecto de QGIS es abierto recientemente y en el “Panel de capas” no hay datos desplegados, el asistente cargara automáticamente las capas y tablas asociadas para realizar la consulta de los datos como se muestra en la imagen.
 
