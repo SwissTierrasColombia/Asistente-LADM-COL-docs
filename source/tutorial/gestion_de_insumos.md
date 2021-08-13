@@ -1,5 +1,14 @@
 # Gestión de Insumos
 
+Para ejecutar esta sección es necesario que cambies al rol de Proveedor de insumos, para esto debes seguir la ruta: LADM-COL -> Configuración -> Pestaña Avanzado -> Rol Proveedor de insumos.
+
+<a class="" data-lightbox="Configuración rol de Proveedor de insumos" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos0.gif" title="Configuración rol de Proveedor de insumos" data-title="Configuración rol de Proveedor de insumos"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos0.gif" class="align-center" width="800px" alt="Configuración rol de Proveedor de insumos"/></a>
+
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>Si es la primera vez que utilizas el Asistente LADM-COL, será necesario configurar una nueva base de datos como se menciona en el siguiente <a href="https://swisstierrascolombia.github.io/Asistente-LADM-COL/administracion_de_datos.html#crear-estructura-ladm-col">enlace</a>. En caso de que ya esté configurada, es importante que te encuentres en el rol de <b>proveedor de insumos</b> y verifiques que la base de datos que creaste sea la misma en el momento que ejecutes el ETL.</p>
+</div>
+
 ## Ejecutar ETL de insumos COBOL
 
 Esta sección tiene por objetivo ejecutar la *ETL de COBOL* para transferir los datos en la estructura de COBOL a la estructura del submodelo de insumos de levantamiento catastral.
@@ -38,9 +47,11 @@ Al dar clic en el botón `Ejecutar ETL` se despliega un cuadro de diálogo en el
 
 Finalmente, se despliega un cuadro de diálogo donde se muestra el resultado de la ejecución de la ETL, listando las tablas principales del submodelo de insumos y el número de registros que se cargaron en cada una de esas tablas. Haz clic en el botón `Finalizar` para terminar el proceso.
 
-<a class="" data-lightbox="Paso 5: Resultados de la ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" title="Paso 5: Resultados de la ETL para datos de Cobol" data-title="Paso 5: Resultados de la ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" class="align-center" width="800px" alt="Paso 5: Resultados de la ETL para datos de Cobol"/></a>
+<a class="" data-lightbox="Paso 5: Resultados de la ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" title="Paso 5: Resultados de la ETL para datos de Cobol" data-title="Paso 5: Resultados de la ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" class="align-center" width="400px" alt="Paso 5: Resultados de la ETL para datos de Cobol"/></a>
 
 ## Identificación de novedades
+
+Esta sección facilitará a los usuarios identificar los cambios entre la base de datos del barrido predial (la cual está asociada a los datos adquiridos en campo) y la base de datos de los insumos (corresponde a la base de datos suministrada por el administrador catastral). Estos cambios van a facilitar el reconocimiento de las novedades obtenidas en la captura de información.
 
 ### Paso 1: Configurar identificación de novedades
 
