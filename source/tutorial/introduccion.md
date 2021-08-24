@@ -18,20 +18,6 @@ Para ello, el tutorial utiliza un conjunto de datos de prueba y comprende las si
 
 - [Gestión de Insumos](gestion_de_insumos.html#gestion-de-insumos)
 
-## Roles para llevar a cabo el tutorial
-
-A lo largo de esta tutorial, es necesario emplear el rol de básico y el rol de proveedor de insumos al interior del Asistente LADM-COL, esto con el objetivo de facilitar el acceso a cada una de las funcionalidades que tiene cada rol.
-
-**Secciones del Rol Básico:** Crear estructura LADM-COL, Captura y estructuración de datos, Reglas de calidad, Consulta de información, Generación de reportes, Exportar e Importar datos.
-
-**Secciones del Rol Proveedor de insumos:** Gestión de insumos.
-
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>Para más información sobre los roles del Asistente LADM-COL puedes visitar la siguiente <a href="https://swisstierrascolombia.github.io/Asistente-LADM-COL/configuracion.html#avanzado">sección</a>.</p>
-</div>
-
-
 ## ¿Que se necesita para empezar?
 
 Para desarrollar el tutorial se requieren los siguientes insumos:

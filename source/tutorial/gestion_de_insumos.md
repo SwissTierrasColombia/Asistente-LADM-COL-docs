@@ -6,8 +6,9 @@ Para ejecutar esta sección es necesario que cambies al rol de Proveedor de insu
 
 <div class="note">
 <p class="admonition-title">IMPORTANTE</p>
-<p>Si es la primera vez que utilizas el Asistente LADM-COL, será necesario configurar una nueva base de datos como se menciona en el siguiente <a href="https://swisstierrascolombia.github.io/Asistente-LADM-COL/administracion_de_datos.html#crear-estructura-ladm-col">enlace</a>. En caso de que ya esté configurada, es importante que te encuentres en el rol de <b>proveedor de insumos</b> y verifiques que la base de datos que creaste sea la misma en el momento que ejecutes el ETL.</p>
+<p>Si es la primera vez que utilizas el Asistente LADM-COL, será necesario configurar una nueva base de datos como se menciona en el siguiente <a href="https://swisstierrascolombia.github.io/Asistente-LADM-COL/administracion_de_datos.html#crear-estructura-ladm-col">enlace</a>, pero en este caso, seleccionando los submodelos de insumos catastrales y registrales.</p>
 </div>
+
 
 ## Ejecutar ETL de insumos COBOL
 
@@ -37,13 +38,22 @@ En la ventana que se despliega se habilitan las opciones para configurar los dat
 
 <a class="" data-lightbox="Paso 3: Seleccionar archivos para ejecutar la ETL para datos Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" title="Paso 3: Seleccionar archivos para ejecutar la ETL para datos Cobol" data-title="Paso 3: Seleccionar archivos para ejecutar la ETL para datos Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" class="align-center" width="800px" alt="Paso 3: Seleccionar archivos para ejecutar la ETL para datos Cobol"/></a>
 
-### Paso 4: Ejecutar ETL para datos de COBOL
+### Paso 4: Definir la conexión a la base de datos de insumos
+
+Antes de ejecutar la ETL, es importante que verifiques que la base de datos de destino sea la correcta. Para ello puedes leer el nombre de la base de datos de destino y en caso de que no corresponda, puedes definir la conexión dando clic al botón `Configurar conexión`.
+
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>Recuerda que la base de datos destino debe tener la estructura LADM-COL correspondiente a los submodelos de insumos catastrales y registrales.</p>
+</div>
+
+### Paso 5: Ejecutar ETL para datos de COBOL
 
 Al dar clic en el botón `Ejecutar ETL` se despliega un cuadro de diálogo en el que se te advierte que si la base de datos que seleccionaste ya tiene datos, podrían generarse datos inválidos al importarle datos nuevos. Si tu base de datos aún no tiene datos, puedes continuar con la operación dando clic en el botón **Sí**. Una vez que la ETL finalice su ejecución, debes dar clic en el botón `Siguiente`.
 
 <a class="" data-lightbox="Paso 4: Ejecutar ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" title="Paso 4: Ejecutar ETL para datos de Cobol" data-title="Paso 4: Ejecutar ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" class="align-center" width="800px" alt="Paso 4: Ejecutar ETL para datos de Cobol"/></a>
 
-### Paso 5: Resultados de la ETL para datos Cobol
+### Paso 6: Resultados de la ETL para datos Cobol
 
 Finalmente, se despliega un cuadro de diálogo donde se muestra el resultado de la ejecución de la ETL, listando las tablas principales del submodelo de insumos y el número de registros que se cargaron en cada una de esas tablas. Haz clic en el botón `Finalizar` para terminar el proceso.
 
@@ -51,7 +61,7 @@ Finalmente, se despliega un cuadro de diálogo donde se muestra el resultado de 
 
 ## Identificación de novedades
 
-Esta sección facilitará a los usuarios identificar los cambios entre la base de datos del barrido predial (la cual está asociada a los datos adquiridos en campo) y la base de datos de los insumos (corresponde a la base de datos suministrada por el administrador catastral). Estos cambios van a facilitar el reconocimiento de las novedades obtenidas en la captura de información.
+Esta sección permite identificar los cambios entre la base de datos de los insumos (eso es, la base de datos suministrada por el gestor catastral) y la base de datos del levantamiento catastral (la cual corresponde a los datos adquiridos en campo). Estos cambios facilitan el reconocimiento de las novedades obtenidas en la captura de información.
 
 ### Paso 1: Configurar identificación de novedades
 
