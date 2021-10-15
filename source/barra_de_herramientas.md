@@ -18,7 +18,7 @@ Si la barra de herramientas no aparece en la interfaz de QGIS, puedes hacer que 
 
 Los grupos de funcionalidades son los siguientes:
 ## Sistema de transición (1)
-<a class="" data-lightbox="Sistema de Transición" href="/_static/barra_de_herramientas/ladm_col_toolbar_ST.png" title="Sistema de Transición" data-title="Sistema de Transición"><img src="/_static/barra_de_herramientas/ladm_col_toolbar_ST.png" class="align-center" width="200px" alt="Sistema de Transición"/></a>
+<a class="" data-lightbox="Sistema de Transición" href="/_static/barra_de_herramientas/toolbar_ST.png" title="Sistema de Transición" data-title="Sistema de Transición"><img src="/_static/barra_de_herramientas/toolbar_ST.png" class="align-center" width="200px" alt="Sistema de Transición"/></a>
 ## Crear objetos de levantamiento (2)
 <a class="" data-lightbox="Crear objetos Levantamiento" href="/_static/barra_de_herramientas/crear_objetos_lev.png" title="Crear objetos Levantamiento" data-title="Crear objetos Levantamiento"><img src="/_static/barra_de_herramientas/crear_objetos_lev.png" class="align-center" width="200px" alt="Crear objetos Levantamiento"/></a>
 ## Cargar capas (3)
