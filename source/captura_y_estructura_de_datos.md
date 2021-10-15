@@ -161,14 +161,18 @@ Si la estructura de campos de las capas de entrada y salida difiere, puedes defi
 
 Para usar esta función revisa [¿Cómo usar el mapeo de campos?](#como-usar-el-mapeo-de-campos)
 
-### Llenar relaciones de servidumbre de paso
+### Llenar relaciones de servidumbre de tránsito
 
-Debes seleccionar una **Servidumbre de paso**, uno o más **Terreno(s)** que serán beneficiados con la servidumbre de paso, y una o más **Fuentes Administrativa(s)** que soporte(n) la servidumbre de paso.
+Debes seleccionar una **Servidumbre de tránsito**, uno o más **Terreno(s)** que se benefician con la servidumbre de tránsito, y una o más **Fuentes Administrativas** que soporten la servidumbre de tránsito.
 
-El plugin automáticamente crea la relación entre los predios beneficiados y las relaciones.
-Es importante saber que debes tener las relaciones entre los predios y los terrenos para evitar inconvenientes con esta función.
+El `Asistente LADM-COL` automáticamente creará las relaciones entre los predios beneficiados, las servidumbres de tránsito y las fuentes administrativas. Dichas relaciones corresponden a las tablas `col_uebaunit` (predio-servidumbre de tránsito) y `col_rrrfuente` (restricción-fuente administrativa) del modelo de aplicación de Levantamiento Catastral.
 
-<a class="" data-lightbox="Llenar relaciones de Servidumbre de paso" href="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" title="Llenar relaciones de Servidumbre de paso" data-title="Llenar relaciones de Servidumbre de paso"><img src="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de Servidumbre de paso"/></a>
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>Antes de llenar relaciones de servidumbre de tránsito, las relaciones entre predios y terrenos deben estar correctamente diligenciadas (tabla col_uebaunit). De lo contrario, la herramienta lo advertirá y no podrá continuar con el proceso.</p>
+</div>
+
+<a class="" data-lightbox="Llenar relaciones de servidumbre de tránsito" href="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" title="Llenar relaciones de servidumbre de tránsito" data-title="Llenar relaciones de servidumbre de tránsito"><img src="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de servidumbre de tránsito"/></a>
 
 ### Relacionar dirección
 
