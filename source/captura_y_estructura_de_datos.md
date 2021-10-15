@@ -161,9 +161,14 @@ Si la estructura de campos de las capas de entrada y salida difiere, puedes defi
 
 Para usar esta función revisa [¿Cómo usar el mapeo de campos?](#como-usar-el-mapeo-de-campos)
 
-### Llenar relaciones de servidumbre de tránsito
+### Llenar relaciones de servidumbre de paso
 
-Ver [Barra de herramientas](barra_de_herramientas.html#llenar-relaciones-de-servidumbre-de-paso).
+Debes seleccionar una **Servidumbre de paso**, uno o más **Terreno(s)** que serán beneficiados con la servidumbre de paso, y una o más **Fuentes Administrativa(s)** que soporte(n) la servidumbre de paso.
+
+El plugin automáticamente crea la relación entre los predios beneficiados y las relaciones.
+Es importante saber que debes tener las relaciones entre los predios y los terrenos para evitar inconvenientes con esta función.
+
+<a class="" data-lightbox="Llenar relaciones de Servidumbre de paso" href="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" title="Llenar relaciones de Servidumbre de paso" data-title="Llenar relaciones de Servidumbre de paso"><img src="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de Servidumbre de paso"/></a>
 
 ### Relacionar dirección
 
