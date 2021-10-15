@@ -1,6 +1,8 @@
 # Barra de herramientas
 
-La barra de herramientas del Asistente LADM-COL Así es como se ve la barra de herramientas:
+La barra de herramientas del Asistente LADM-COL esta compuesta de varios grupos de funcionalidades que se ordenan de acuerdo a las actividades a realizar.
+
+Así es como se ve la barra de herramientas:
 
 ![Barra de herramientas Asistente LADM-COL](/_static/barra_de_herramientas/ladm_col_toolbar.png)
 
@@ -8,10 +10,19 @@ Si la barra de herramientas no aparece en la interfaz de QGIS, puedes hacer que 
 
 <a class="" data-lightbox="Mostrar barra de herramientas Asistente LADM-COL" href="/_static/barra_de_herramientas/show_ladm_col_toolbar.gif" title=" Mostrar barra de herramientas Asistente LADM-COL " data-title=" Mostrar barra de herramientas Asistente LADM-COL "><img src="/_static/barra_de_herramientas/show_ladm_col_toolbar.gif" class="align-center" width="800px" alt=" Mostrar barra de herramientas Asistente LADM-COL "/></a>
 
-## Sistema de transición (1)
-## Crear objetos de levantamiento (2)
-## Cargar capas (3)
 
+<div class="warning">
+<p class="admonition-title">ADVERTENCIA</p>
+<p>La barrade herramientas no es visible en la interfaz de QGIS si el Asistente LADM-COL no tiene una conexión válidaa una base de datos, esto sucede apenas es instalado el plugin . Esto puede ocurrir incluso después de instalado el plugin. Por ejemplo, si nos conectamos a una GPKG, cerramos QGIS, borramos o movemos la GPKG y volvemos a abrir QGIS. El Asistente reconocerá que no hay conexión válida y borrará la barra de herramientas.</p>
+</div>
+
+Los grupos de funcionalidades son los siguientes:
+## Sistema de transición (1)
+<a class="" data-lightbox="Sistema de Transición" href="/_static/barra_de_herramientas/ladm_col_toolbar_ST.png" title="Sistema de Transición" data-title="Sistema de Transición"><img src="/_static/barra_de_herramientas/ladm_col_toolbar_ST.png" class="align-center" width="200px" alt="Sistema de Transición"/></a>
+## Crear objetos de levantamiento (2)
+<a class="" data-lightbox="Crear objetos Levantamiento" href="/_static/barra_de_herramientas/crear_objetos_lev.png" title="Crear objetos Levantamiento" data-title="Crear objetos Levantamiento"><img src="/_static/barra_de_herramientas/crear_objetos_lev.png" class="align-center" width="200px" alt="Crear objetos Levantamiento"/></a>
+## Cargar capas (3)
+<a class="" data-lightbox="Cargar capas" href="/_static/barra_de_herramientas/cargar_capas.png" title="Cargar capas" data-title="Cargar capas"><img src="/_static/barra_de_herramientas/cargar_capas.png" class="align-center" width="60px" alt="Cargar capas"/></a>
 ## Construir linderos (4)
 
 <a class="" data-lightbox="Construir linderos" href="/_static/barra_de_herramientas/build_boudaries.gif" title="Construir linderos" data-title="Construir linderos"><img src="/_static/barra_de_herramientas/build_boudaries.gif" class="align-center" width="800px" alt="Construir linderos"/></a>
@@ -43,11 +54,11 @@ Estas son las tablas que se relacionan con esta función:
 <a class="" data-lightbox="Llenar más y menos CCL" href="/_static/barra_de_herramientas/fill_more_and_less_bfs.gif" title="Llenar más y menos CCL" data-title="Llenar más y menos CCL"><img src="/_static/barra_de_herramientas/fill_more_and_less_bfs.gif" class="align-center" width="800px" alt="Llenar más y menos CCL"/></a>
 
 ## Configuración (8)
+<a class="" data-lightbox="Configuración" href="/_static/barra_de_herramientas/configuracion.png" title="Configuración" data-title="Configuración"><img src="/_static/barra_de_herramientas/configuracion.png" class="align-center" width="60px" alt="Configuración"/></a>
 
-## Llenar relaciones de Servidumbre de paso
+Debes dar clic en este icono para tener acceso a la ventana de configuración del Asistente, mas información puedes ir a la sección [Configuración](configuracion.html).
 
-Debes seleccionar una **Servidumbre de Paso**, uno o más **Terreno(s)** que serán beneficiados con la servidumbre de paso, y una o más **Fuentes Administrativa(s)** que soporte(n) la servidumbre de paso.
-El plugin automáticamente crea la relación entre los predios beneficiados y las relaciones.
-Es importante saber que debes tener las relaciones entre los predios y los terrenos para evitar inconvenientes con esta función.
-
-<a class="" data-lightbox="Llenar relaciones de Servidumbre de paso" href="/_static/barra_de_herramientas/fill_relations_right_of_way.gif" title="Llenar relaciones de Servidumbre de paso" data-title="Llenar relaciones de Servidumbre de paso"><img src="/_static/barra_de_herramientas/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de Servidumbre de paso"/></a>
+<div class="note">
+<p class="admonition-title">IMPORTANTE</p>
+<p>De acuerdo al rol que elijas en la pestaña "Avanzado" de la ventana de configuración definirá el conjunto de barra de herramientas que vizualizas y tendrás a disposición desde la interfaz del Asistente LADM-COL.</p>
+</div>
