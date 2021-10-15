@@ -172,7 +172,7 @@ El `Asistente LADM-COL` automáticamente creará las relaciones entre los predio
 <p>Antes de llenar relaciones de servidumbre de tránsito, las relaciones entre predios y terrenos deben estar correctamente diligenciadas (tabla col_uebaunit). De lo contrario, la herramienta lo advertirá y no podrá continuar con el proceso.</p>
 </div>
 
-<a class="" data-lightbox="Llenar relaciones de servidumbre de tránsito" href="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" title="Llenar relaciones de servidumbre de tránsito" data-title="Llenar relaciones de servidumbre de tránsito"><img src="/_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de servidumbre de tránsito"/></a>
+<a class="" data-lightbox="Llenar relaciones de servidumbre de tránsito" href="_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" title="Llenar relaciones de servidumbre de tránsito" data-title="Llenar relaciones de servidumbre de tránsito"><img src="_static/captura_y_estructura_de_datos/fill_relations_right_of_way.gif" class="align-center" width="800px" alt="Llenar relaciones de servidumbre de tránsito"/></a>
 
 ### Relacionar dirección
 
