@@ -1,22 +1,30 @@
 # Consulta de datos
 
-Para acceder a este menú vaya al módulo del Asistente LADM-COL en la parte superior del programa QGIS y seleccione el menú; si el proyecto de QGIS es abierto recientemente y en el “Panel de capas” no hay datos desplegados, el asistente cargara automáticamente las capas y tablas asociadas para realizar la consulta de los datos como se muestra en la imagen.
+El Asistente LADM-COL permite consultar bases de datos conformes con el modelo LADM-COL. Las consultas pueden realizarse de dos maneras:
 
++ [Consulta alfanumérica](#consulta-alfanumerica): Por número predial, número predial anterior o folio de matrícula inmobiliaria (FMI).
++ [Consulta espacial](#consulta-espacial): Seleccionando un terreno en el mapa.
 
-El Asistente LADM_COL permite a través de este menú consultar datos cargados en bases de datos conformes con el modelo LADM_COL , esto es muy útil ya que se carga la capa terreno y las tablas relacionadas al predio en el panel de capas y permite realizar una consulta sobre la capa terreno o a través de un identificador especifico (número predial, número predial anterior, folio de matrícula inmobiliaria) y retorna toda la información relacionada que se encuentre en la estructura del modelo LADM-COL la cual está en diferentes tablas en un único formulario consolidado.
+El resultado de las consultas es un árbol interactivo de datos relacionados, correspondientes a cuatro componentes temáticos:
+
++ [Consulta básica](#consulta-basica).
++ [Consulta jurídica](#consulta-juridica).
++ [Consulta física](#consulta-fisica).
++ [Consulta económica](#consulta-economica).
+
+En la siguiente animación se puede observar la manera de activar el módulo de consultas. Nótese que al activar este módulo, el Asistente LADM-COL automátcamente carga las capas requeridas para llevar a cabo las consultas.
 
 <a class="" data-lightbox="Consulta de datos" href="_static/consulta_de_datos/Consulta_información_ladm.gif" title="Consulta de datos" data-title="Consulta de datos"><img src="_static/consulta_de_datos/Consulta_información_ladm.gif" class="align-center" width="800px" alt="Consulta de datos">
 </a>
 
-Donde se elige el tipo de consulta y está compuesto por dos pestañas que se describen a continuación.
 ## Consulta alfanumérica
-Se escoge el atributo a consultar del menú de selección y se ingresa el valor.
+Para realizar una consulta alfanumérica se debe activar la pestaña `Consulta alfanumérica` del panel de consultas, elegir el criterio o atributo por el cuál se realizará la consulta, e ingresar el valor a buscar.
 
 <a class="" data-lightbox="Consulta alfanúmerica" href="_static/consulta_de_datos/Consulta_información_alfanúmerica_ladm.gif" title="Consulta alfanúmerica" data-title="Consulta alfanúmerica"><img src="_static/consulta_de_datos/Consulta_información_alfanúmerica_ladm.gif" class="align-center" width="800px" alt="Consulta alfanúmerica">
 </a>
 
 ## Consulta espacial
-Se utiliza la herramienta "identificador espacial" para seleccionar algún elemento de la capa terreno para su consulta.
+Para realizar una consulta espacial se debe activar la pestaña `Consulta espacial` del panel de consultas, dar clic sobre el botón `Identificar` y finalmente dar clic sobre uno de los terrenos desplegados en el mapa.
 
 <a class="" data-lightbox="Consulta espacial" href="_static/consulta_de_datos/Consulta_información_espacial_ladm.gif" title="Consulta espacial" data-title="Consulta espacial"><img src="_static/consulta_de_datos/Consulta_información_espacial_ladm.gif" class="align-center" width="800px" alt="Consulta espacial">
 </a>
@@ -24,48 +32,50 @@ Se utiliza la herramienta "identificador espacial" para seleccionar algún eleme
 ## Resultados de las consultas
 
 ### Consulta básica
-Muestra los datos básicos de los objetos relacionados con el terreno como predios, construcciones y unidades de construcción.
+Muestra los datos básicos de los objetos relacionados con el terreno, como predios, construcciones y unidades de construcción.
 
 <a class="" data-lightbox="Consulta básica" href="_static/consulta_de_datos/Consulta_basica.png" title="Consulta básica" data-title="Consulta básica"><img src="_static/consulta_de_datos/Consulta_basica.png" class="align-center" width="400px" alt="Consulta básica">
 </a>
 
 ### Consulta jurídica
 
-Muestra los datos Jurídicos asociados al terreno como los derechos, fuentes administrativas, interesados, restricciones, responsabilidades y gravámenes a la propiedad como hipotecas, servidumbres, usufructos, etc.
+Muestra los datos jurídicos asociados al terreno como los predios, derechos, fuentes administrativas, interesados, restricciones, responsabilidades y gravámenes a la propiedad como hipotecas, servidumbres, usufructos, etc.
 
 <a class="" data-lightbox="Consulta jurídica" href="_static/consulta_de_datos/Consulta_juridica.png" title="Consulta jurídica" data-title="Consulta jurídica"><img src="_static/consulta_de_datos/Consulta_juridica.png" class="align-center" width="400px" alt="Consulta jurídica">
 </a>
 
-### Consulta ficha predial
-Muestra toda la información relacionada al (los) predio(s) de la ficha predial del modelo extendido de LADM_COL.
-
-<a class="" data-lightbox="Consulta ficha predial" href="_static/consulta_de_datos/Consulta_ficha_predial.png" title="Consulta ficha predial" data-title="Consulta ficha predial"><img src="_static/consulta_de_datos/Consulta_ficha_predial.png" class="align-center" width="400px" alt="Consulta ficha predial">
-</a>
-
 ### Consulta física
-Muestra información más detallada sobre los elementos descritos en la pestaña "Básica", adicional muestra linderos y puntos de linderos asociados al terreno, así como puntos de levantamiento y fuentes espaciales si están almacenadas en el modelo LADM_COL.
+Muestra los datos físicos del predio, como linderos y puntos de linderos que están asociados al terreno correspondiente, así como puntos de levantamiento y fuentes espaciales si están disponibles en el modelo LADM-COL.
 
 <a class="" data-lightbox="Consulta física" href="_static/consulta_de_datos/Consulta_fisica.png" title="Consulta física" data-title="Consulta física"><img src="_static/consulta_de_datos/Consulta_fisica.png" class="align-center" width="400px" alt="Consulta física">
 </a>
 
 ### Consulta económica
-Muestra la información económica (avalúos, zonas homogéneas, etc.) de los objetos relacionados al terreno como predios, construcciones y unidades de construcción, así como datos del modelo extendido de avalúos de LADM_COL para estos objetos. 
+Muestra la información económica (avalúos, zonas homogéneas, etc.) de los objetos relacionados al terreno como predios, construcciones y unidades de construcción, así como datos del modelo extendido de avalúos de LADM-COL para estos objetos. 
 
 <a class="" data-lightbox="Consulta económica" href="_static/consulta_de_datos/Consulta_economica.png" title="Consulta económica" data-title="Consulta económica"><img src="_static/consulta_de_datos/Consulta_economica.png" class="align-center" width="400px" alt="Consulta económica">
 </a>
 
-<div class="note">
-<p class="admonition-title">IMPORTANTE</p>
-<p>Los datos desplegados en el formulario "Resultados" se encuentran organizados (anidados) de acuerdo a sus relaciones. Ejemplo: un terreno puede tener un predio relacionado, que a su vez puede estar relacionado con uno o más construcciones que a su vez puede estar relacionado con uno o más unidades constructivas.</p>
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Los datos desplegados en el panel de resultados, se encuentran organizados (anidados) de acuerdo a sus relaciones. Por ejemplo, un terreno puede tener un predio relacionado, que a su vez puede estar relacionado con una o más construcciones, que a su vez pueden estar relacionadas con una o más unidades constructivas.</p>
 </div>
 
-### Despliegue de menú contextual en un resultado
-Una vez se han desplegado los datos de una consulta en la sección "Resultados" se puede utilizar el menú contextual al dar clic derecho sobre el identificador (t_id), con lo cual se activarán tres opciones de menú como se ve en la siguiente imagen.
+
+### Resultados interactivos
+Una vez desplegados los resultados de una consulta, los objetos listados ofrecen un menú contextual, que se activa al dar clic derecho sobre los mismos (por ejemplo, sobre los registros en negrita `t_id`), permitiendo acceder a funcionalidades específicas para esos objetos de la base de datos, como se aprecia en la siguiente animación.
 
 <a class="" data-lightbox="Consulta de datos" href="_static/consulta_de_datos/despliegue_menu_contextual.gif" title="Consulta de datos" data-title="Consulta de datos"><img src="_static/consulta_de_datos/despliegue_menu_contextual.gif" class="align-center" width="800px" alt="Consulta de datos"></a>
 
-* Copiar valor: Copia el atributo-valor (t_id) para realizar otras consultas.
-* Zoom a terreno asociado (solo para un elemento geográfico): Hace un acercamiento del terreno seleccionado en la vista de mapa.
-* Abrir formulario para predio: Muestra el formulario del (t_id) seleccionado en donde se visualiza todos los datos guardados como se muestra en la imagen.
+Las herramientas que se ofrecen son:
 
-En la ventana que se despliega se pueden editar los datos almacenados para el elemento seleccionado, teniendo en cuenta que ciertos campos requieren de validación, pueden tener asociados dominios o relaciones que no permitan cambiar el dato almacenado directamente, pero en otros campos si es posible editarlos y guardarlos en la base de datos.
+* **Copiar valor**: Copia el valor del atributo al portapapeles.
+* **Zoom a objeto geográfico**: Hace un acercamiento en el mapa encuadrando el objeto de interés.
+* **Zoom a terreno asociado** (solo para objetos tipo predio): Hace un acercamiento en el mapa encuadrando el terreno asociado al predio de interés.
+* **Abrir formulario para el objeto**: despliega el formulario del objeto seleccionado para visualizar todos sus atributos.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+    Al abrir el formulario de un objeto desde el menú contextual del panel de resultados, los valores de los atributos del objeto pueden ser editados, siempre y cuando la sesión de edición de la capa correspondiente esté iniciada. Dicha edición estará sujeta al cumplimiento de <i>constraints</i> de la base de datos, que se validan al ingresar/editar atributos o al guardar la edición.
+</div>
+
