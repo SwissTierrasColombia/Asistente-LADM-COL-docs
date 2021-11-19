@@ -1,18 +1,14 @@
 # Consulta de datos
 
-Una vez se tengan cargadas las capas y tablas de la base de datos en el panel de capas de QGIS se puede acceder al menú “Consultar datos”, para acceder a este menú vaya al módulo del Asistente LADM-COL en la parte superior del programa QGIS y seleccione el menú; si el proyecto de QGIS es abierto recientemente y en el “Panel de capas” no hay datos desplegados, el asistente cargara automáticamente las capas y tablas asociadas para realizar la consulta de los datos como se muestra en la imagen.
+Para acceder a este menú vaya al módulo del Asistente LADM-COL en la parte superior del programa QGIS y seleccione el menú; si el proyecto de QGIS es abierto recientemente y en el “Panel de capas” no hay datos desplegados, el asistente cargara automáticamente las capas y tablas asociadas para realizar la consulta de los datos como se muestra en la imagen.
 
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>En caso de no cargar los datos automáticamente se pueden agregar los datos desde el menú “Cargar capas” como se explicó en la sección</p>
-</div>
 
 El Asistente LADM_COL permite a través de este menú consultar datos cargados en bases de datos conformes con el modelo LADM_COL , esto es muy útil ya que se carga la capa terreno y las tablas relacionadas al predio en el panel de capas y permite realizar una consulta sobre la capa terreno o a través de un identificador especifico (número predial, número predial anterior, folio de matrícula inmobiliaria) y retorna toda la información relacionada que se encuentre en la estructura del modelo LADM-COL la cual está en diferentes tablas en un único formulario consolidado.
 
 <a class="" data-lightbox="Consulta de datos" href="_static/consulta_de_datos/Consulta_información_ladm.gif" title="Consulta de datos" data-title="Consulta de datos"><img src="_static/consulta_de_datos/Consulta_información_ladm.gif" class="align-center" width="800px" alt="Consulta de datos">
 </a>
 
-Donde se elige el tipo de consulta y está compuesto por dos pestañas.
+Donde se elige el tipo de consulta y está compuesto por dos pestañas que se describen a continuación.
 ## Consulta alfanumérica
 Se escoge el atributo a consultar del menú de selección y se ingresa el valor.
 
@@ -20,7 +16,7 @@ Se escoge el atributo a consultar del menú de selección y se ingresa el valor.
 </a>
 
 ## Consulta espacial
-Se utiliza el identificador para seleccionar algún elemento de la capa terreno para su consulta.
+Se utiliza la herramienta "identificador espacial" para seleccionar algún elemento de la capa terreno para su consulta.
 
 <a class="" data-lightbox="Consulta espacial" href="_static/consulta_de_datos/Consulta_información_espacial_ladm.gif" title="Consulta espacial" data-title="Consulta espacial"><img src="_static/consulta_de_datos/Consulta_información_espacial_ladm.gif" class="align-center" width="800px" alt="Consulta espacial">
 </a>
@@ -70,6 +66,6 @@ Una vez se han desplegado los datos de una consulta en la sección "Resultados" 
 
 * Copiar valor: Copia el atributo-valor (t_id) para realizar otras consultas.
 * Zoom a terreno asociado (solo para un elemento geográfico): Hace un acercamiento del terreno seleccionado en la vista de mapa.
-* Abrir formulario para predio: Muestra el formulario del (t_id) seleccionado en donde se visualiza todos los datos guardados; permite editarlos si la capa se encuentra en modo de edición, como se muestra en la imagen.
+* Abrir formulario para predio: Muestra el formulario del (t_id) seleccionado en donde se visualiza todos los datos guardados como se muestra en la imagen.
 
 En la ventana que se despliega se pueden editar los datos almacenados para el elemento seleccionado, teniendo en cuenta que ciertos campos requieren de validación, pueden tener asociados dominios o relaciones que no permitan cambiar el dato almacenado directamente, pero en otros campos si es posible editarlos y guardarlos en la base de datos.
