@@ -65,7 +65,7 @@ Muestra la información económica (avalúos, zonas homogéneas, etc.) de los ob
 ### Resultados interactivos
 Una vez desplegados los resultados de una consulta, los objetos listados ofrecen un menú contextual, que se activa al dar clic derecho sobre los mismos (por ejemplo, sobre los registros en negrita `t_id`), permitiendo acceder a funcionalidades específicas para esos objetos de la base de datos, como se aprecia en la siguiente animación.
 
-<a class="" data-lightbox="Consulta de datos" href="_static/consulta_de_datos/despliegue_menu_contextual.gif" title="Consulta de datos" data-title="Consulta de datos"><img src="_static/consulta_de_datos/despliegue_menu_contextual.gif" class="align-center" width="800px" alt="Consulta de datos"></a>
+<a class="" data-lightbox="Resultados interactivos" href="_static/consulta_de_datos/despliegue_menu_contextual.gif" title="Resultados interactivos" data-title="Resultados interactivos"><img src="_static/consulta_de_datos/despliegue_menu_contextual.gif" class="align-center" width="800px" alt="Resultados interactivos"></a>
 
 Las herramientas que se ofrecen son:
 
