@@ -13,7 +13,7 @@ Si la barra de herramientas no aparece en la interfaz de QGIS, puedes hacer que 
 
 <div class="warning">
 <p class="admonition-title">ADVERTENCIA</p>
-<p>La barrade herramientas no es visible en la interfaz de QGIS si el Asistente LADM-COL no tiene una conexión válidaa una base de datos, esto sucede apenas es instalado el plugin . Esto puede ocurrir incluso después de instalado el plugin. Por ejemplo, si nos conectamos a una GPKG, cerramos QGIS, borramos o movemos la GPKG y volvemos a abrir QGIS. El Asistente reconocerá que no hay conexión válida y borrará la barra de herramientas.</p>
+<p>La barra de herramientas no es visible en la interfaz de QGIS si el Asistente LADM-COL no tiene una conexión válida a una base de datos, esto sucede apenas es instalado el plugin, e incluso después de instalado. Por ejemplo, si nos conectamos a una GPKG, cerramos QGIS, borramos o movemos la GPKG y volvemos a abrir QGIS. El Asistente reconocerá que no hay conexión válida y borrará la barra de herramientas.</p>
 </div>
 
 Los grupos de funcionalidades son los siguientes:
